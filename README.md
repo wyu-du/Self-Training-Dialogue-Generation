@@ -1,8 +1,11 @@
 # Self-Training-Dialogue-Generation
 This repository contains the data and code for the paper:
-> [Self-training with Two-phase Self-augmentation for Few-shot Dialogue Generation](arxiv.org/abs/2205.09661) 
-> Wanyu Du, Hanjie Chen and Yangfeng Ji
+> [Self-training with Two-phase Self-augmentation for Few-shot Dialogue Generation](arxiv.org/abs/2205.09661) <br>
+> Wanyu Du, Hanjie Chen and Yangfeng Ji <br>
 > Findings of EMNLP 2022
+
+![framework](img/framework.png)
+![data](img/data.png)
 
 ## Environment Setup
 1. Install and setup the environment:
@@ -19,10 +22,10 @@ mv scgpt src/
 
 ## Datasets
 1. Data statistics for **FewShotWoz**
-
+![woz](img/fewshotwoz.png)
 
 2. Data statistics for **FewShotSGD**
-
+![sgd](img/fewshotsgd.png)
 
 ## Models
 ### Inference Only
@@ -32,8 +35,8 @@ mv scgpt src/
 ```
 bash sa2_infer.sh {DATASET} {DOMAIN} {CUDA}
 ```
-`{DATASET}` indicates the dataset, including FewShotWoz, FewShotSGD.
-`{DOMAIN}` indicates the domain, including attraction, hotel, laptop, ....
+`{DATASET}` indicates the dataset, including FewShotWoz, FewShotSGD.<br>
+`{DOMAIN}` indicates the domain, including attraction, hotel, laptop, ....<br>
 `{CUDA}` indicates the index of the GPU (e.g. 0, 1, 2, 3, ...).
 
 
@@ -42,10 +45,10 @@ If you want to train the model from scratch, you can run the following script:
 ```
 bash sa2_woz.sh {DOMAIN} {FLAG} {LR} {EPOCH} {CUDA}
 ```
-`{DOMAIN}` indicates the domain, including attraction, hotel, laptop, ...
-`{FLAG}` indicates the model checkpoint name flag.
-`{LR}` indicates the learning rate.
-`{EPOCH}` indicates the training epoch.
+`{DOMAIN}` indicates the domain, including attraction, hotel, laptop, ...<br>
+`{FLAG}` indicates the model checkpoint name flag.<br>
+`{LR}` indicates the learning rate.<br>
+`{EPOCH}` indicates the training epoch.<br>
 `{CUDA}` indicates the index of the GPU (e.g. 0, 1, 2, 3, ...).
 
 
