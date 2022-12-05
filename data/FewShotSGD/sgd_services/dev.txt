@@ -1,0 +1,793 @@
+NOTIFY_SUCCESS ( none = none ) & appointment is confirmed .
+OFFER ( stylist_name = cosmo's barber shop ; city = pleasanton ) @ INFORM_COUNT ( count = 9 ) & i searched and found 9 salons for you . cosmo 's barber shop at pleasanton .
+REQ_MORE ( none = none ) & may i be of further assistance ?
+REQUEST ( appointment_time = ? ) & do you have a time preference ?
+REQUEST ( city = ? ) & where ?
+NOTIFY_SUCCESS ( none = none ) & your appointment is booked , thank you . is there anything else i can help you with ?
+NOTIFY_SUCCESS ( none = none ) & excellent , i have the appointment scheduled for you .
+OFFER ( doctor_name = dr. vilasini m. ganesh, md ; city = saratoga ; type = general practitioner ) @ INFORM_COUNT ( count = 2 ) & got 2 results . what about a dr. vilasini m. ganesh , md in saratoga who is also a general practitioner .
+REQUEST ( city = ? ) & sure . in which city ?
+INFORM ( offers_cosmetic_services = false ) @ NOTIFY_SUCCESS ( none = none ) & they do n't offer that service .
+INFORM ( offers_cosmetic_services = false ) @ OFFER ( dentist_name = dr. christopher j. bennett ; appointment_date = march 13th ; appointment_time = 2:30 pm ) @ NOTIFY_FAILURE ( none = none ) & sorry , i was unable to book the appointment you requested . unfortunately , they do not offer cosmet services . how about 2:30 pm on march 13th . with dr. christopher j. bennett ?
+REQUEST ( appointment_time = ? ) & what time are you looking at ?
+REQUEST ( city = ? ) & which city should i search in ?
+NOTIFY_SUCCESS ( none = none ) & i 've completed your appointment .
+REQUEST ( appointment_time = ? ) & when do you want to set the salon appointment ?
+CONFIRM ( dentist_name = cosmetic dentist in los gatos - moradi signature smiles - sedation dentistry ; appointment_time = 4:45 pm ; appointment_date = march 12th ) & please confirm the following details : booking an appointment with cosmetic dentist in los gatos - moradi signature smiles - sedation dentistry on march 12th at 4:45 pm .
+REQUEST ( appointment_date = ? ) & what date do you want the appointment for ?
+NOTIFY_SUCCESS ( none = none ) & ok , i made that appointment
+REQ_MORE ( none = none ) & can i do anything else for you today ?
+REQUEST ( appointment_time = ? ) & what time do you want for the appointment ?
+OFFER ( stylist_name = 20th salon and barber ; city = san francisco ) & 20th salon and barber is great in san francisco .
+REQUEST ( appointment_time = ? ) & at what time you need to visit there , inform me your convenient time , so that i can make the appointment accordingly .
+INFORM ( address = 2664 berryessa road # 206 ) & it is located at 2664 berryessa road # 206 .
+INFORM ( offers_cosmetic_services = false ) @ OFFER ( dentist_name = access dental - santa rosa ; appointment_date = march 4th ; appointment_time = 11:30 am ) @ NOTIFY_FAILURE ( none = none ) & no , they do n't . i was not able to book the visit . would an appointment with access dental - santa rosa on march 4th at 11:30 am be suitable ?
+NOTIFY_SUCCESS ( none = none ) & very good , your requested appointment has been reserved .
+OFFER ( doctor_name = dr. clark rosen, md ; city = san francisco ; type = ent specialist ) & how about an ent specialist in san francisco called dr. clark rosen , md ?
+REQUEST ( city = ? ) & i 'd be happy to help . where should i begin the search ?
+INFORM ( offers_cosmetic_services = false ; address = 2143 springs road # 51 ) & as far as i can see they do not do cosmetic services . their location is 2143 springs road # 51 .
+OFFER ( doctor_name = anne han, m.d. ; city = san francisco ; type = dermatologist ) & how about dermatologist anne han , m.d . in san francisco ?
+OFFER ( doctor_name = abazari mina md ; city = san francisco ; type = general practitioner ) @ INFORM_COUNT ( count = 10 ) & i found 10 of those in san francisco . one general practitioner i recommend is abazari mina md .
+REQUEST ( appointment_time = ? ) & great , what time would you like .
+NOTIFY_SUCCESS ( none = none ) & your appointment has been made .
+OFFER ( doctor_name = aaron tward, m.d. ; city = san francisco ; type = ent specialist ) & sure , how about aaron tward , m.d. , an ent specialist lcoated in san francisco ?
+OFFER ( doctor_name = anne han, m.d. ; city = san francisco ; type = dermatologist ) @ INFORM_COUNT ( count = 10 ) & there are 10 results . there is anne han , m.d . in san francisco , a dermatologist .
+OFFER ( doctor_name = anne han, m.d. ; city = san francisco ; type = dermatologist ) @ INFORM_COUNT ( count = 10 ) & there are 10 dermatologist . in san francisco i suggest you anne han , m.d .
+OFFER ( doctor_name = bernard recht, ph.d. m.d. ; city = sunnyvale ; type = dermatologist ) @ INFORM_COUNT ( count = 2 ) & i found 2 results for you . what about bernard recht , ph.d. m.d . in sunnyvale ? he 's a dermatologist .
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) @ INFORM_COUNT ( count = 10 ) & i have 10 salons for you to consider . 1512 barber shop is a nice one in san francisco .
+REQUEST ( appointment_time = ? ) & is there any convenient time for you to visit there . if you let me know the same then i can make the appointment accurately .
+REQUEST ( city = ? ) & any particular city i should search in ?
+OFFER ( stylist_name = great clips ; city = cupertino ) @ INFORM_COUNT ( count = 6 ) & sure , there are 6 salons in the cupertino area , one of which is called great clips .
+OFFER ( doctor_name = dr. james n. cohn, md ; city = fremont ; type = ophthalmologist ) @ INFORM_COUNT ( count = 1 ) & i have found 1 ophthalmologist in fremont . i recomment dr. james n. cohn , md .
+OFFER ( doctor_name = arthur h coleman medical center: dickey jan v md ; city = san francisco ; type = general practitioner ) & how about arthur h coleman medical center : dickey jan v md , a general practitioner based in san francisco ?
+REQUEST ( appointment_date = ? ) & sure , what date ?
+OFFER ( stylist_name = great clips ; city = windsor ) & how about the one named great clips at windsor ?
+INFORM ( street_address = 1532 20th street ) @ NOTIFY_SUCCESS ( none = none ) & i 've made the appointment and their address is 1532 20th street .
+REQUEST ( city = dublin ) & do you want me to look for salons in dublin ?
+REQUEST ( appointment_date = ? ) & on what day would you like the appointment ?
+OFFER ( stylist_name = leading edge salon ; city = santa rosa ) & what do you think about leading edge salon at santa rosa ?
+REQ_MORE ( none = none ) & is there anything else thet i can help you wiht
+REQUEST ( city = ? ) & which city would you like me to search for one ?
+REQUEST ( city = san jose ) & you want me to search san jose ?
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) & 1512 barber shop is in san francisco .
+REQUEST ( appointment_date = ? ) & what day should i make it for ?
+NOTIFY_SUCCESS ( none = none ) & great . i 've made your appointment .
+OFFER ( stylist_name = cosmo's barber shop ; city = pleasanton ) @ INFORM_COUNT ( count = 9 ) & there are 9 salons i think you would like . the best one is cosmo 's barber shop and it is in pleasanton .
+CONFIRM ( stylist_name = concept barbershop ; appointment_time = 3 pm ) & please confirm ; appointment at concept barbershop at 3 pm .
+NOTIFY_SUCCESS ( none = none ) & i have successfully scheduled your visit .
+REQUEST ( city = ? ) & in what city should i look in ?
+CONFIRM ( dentist_name = chen jiangkai ; appointment_time = 11:30 am ; appointment_date = march 13th ) & please confirm these details : you want to book an appointment with chen jiangkai on march 13th at 11:30 am .
+OFFER ( doctor_name = muir family physicians ; city = brentwood ; type = general practitioner ) & what do you think of muir family physicians who is a general practitioner located in brentwood .
+OFFER ( stylist_name = 17 jewels salon ; city = oakland ) & there is the 17 jewels salon in oakland .
+NOTIFY_SUCCESS ( none = none ) & you appointment is booked .
+OFFER ( doctor_name = anne han, m.d. ; city = san francisco ; type = dermatologist ) @ INFORM_COUNT ( count = 10 ) & 10 results were found . doctor anne han , m.d . in san francisco who is a dermatologist . what do you think about this doctor ?
+INFORM ( offers_cosmetic_services = false ) @ NOTIFY_SUCCESS ( none = none ) & you are confirmed and they do not do cosmetic .
+REQUEST ( city = ? ) & what city should i look in ?
+REQUEST ( city = ? ) & what is your city preference ?
+REQUEST ( city = ? ) & what city should i look in ?
+CONFIRM ( doctor_name = claudio a bet inc ; appointment_time = 3 pm ) & confirming an appointment at 3 pm with claudio a bet inc .
+CONFIRM ( doctor_name = anne han, m.d. ; appointment_time = 11 am ) & ok , new appointment at 11 am with anne han , m.d .
+OFFER ( doctor_name = dr. arthur c. o'brien jr, md ; city = castro valley ; type = general practitioner ) & i found a general practitioner in castro valley , dr. arthur c. o'brien jr , md .
+REQUEST ( appointment_time = ? ) & and what time would you like your appointment ?
+OFFER ( doctor_name = amita kachru, md ; city = san francisco ; type = gynecologist ) & there is amita kachru , md in san francisco . this is a gynecologist .
+REQ_MORE ( none = none ) & can i help you with something else ?
+OFFER ( stylist_name = best coast cuts ; city = san rafael ) @ INFORM_COUNT ( count = 2 ) & i have found 2 salons which you may like . the best solon in san rafael is best coast cuts
+NOTIFY_SUCCESS ( none = none ) & i have successfully booked your appointment .
+REQUEST ( city = ? ) & what city should i look in ?
+REQUEST ( city = ? ) & do you have a specific city , where you would like for the doctor to be ?
+OFFER ( doctor_name = alan b. scott, m.d. ; city = san francisco ; type = ophthalmologist ) @ INFORM_COUNT ( count = 10 ) & search revealed 10 results . alan b. scott , m.d . is an ophthalmologist in san francisco .
+REQUEST ( appointment_date = ? ; appointment_time = ? ) & when will you visit and what time is best ?
+REQUEST ( city = ? ) & in which city ?
+REQUEST ( appointment_date = ? ) & for what date please ?
+OFFER ( doctor_name = marc h. levin, md, phd. ; city = san carlos ; type = ophthalmologist ) & there 's an ophthalmologist in san carlos called marc h. levin , md , phd . how 's he sound ?
+OFFER ( stylist_name = christine's salon ; city = mountain view ) & yup , the christine 's salon in mountain view is a nice one and the man leo working there will take care good needs of you .
+CONFIRM ( dentist_name = dental oakland san francisco tong woo lee ; appointment_time = 1:30 pm ; appointment_date = march 2nd ) & you 'd like to visit dental oakland san francisco tong woo lee on march 2nd at 1:30 pm . is this correct ?
+REQUEST ( city = los gatos ) & you want me to look in los gatos ?
+INFORM ( phone_number = 669-258-9601 ; street_address = 1775 park avenue ) & they 're located at 1775 park avenue . their direct line is 669-258-9601 .
+NOTIFY_SUCCESS ( none = none ) & i have confirmed your appointment .
+NOTIFY_SUCCESS ( none = none ) & i have booked the appointment successfully .
+OFFER ( doctor_name = abazari mina md ; city = san francisco ; type = general practitioner ) @ INFORM_COUNT ( count = 10 ) & i found 10 of those in san francisco . a great general practitioner is abazari mina md .
+NOTIFY_SUCCESS ( none = none ) & your appointment has successfully been scheduled .
+NOTIFY_SUCCESS ( none = none ) & your appointment has been made !
+OFFER ( stylist_name = benny adem grooming parlor ; city = oakland ) & benny adem grooming parlor is also highly rated in oakland .
+REQUEST ( appointment_date = ? ) & i can check for you , what day would you need the appointment for ?
+NOTIFY_SUCCESS ( none = none ) & your appointment is set .
+OFFER ( stylist_name = 18/8 fine men's salons - palo alto ; city = palo alto ) & i hear 18/8 fine men 's salons - palo alto is a really nice salon in palo alto .
+NOTIFY_SUCCESS ( none = none ) & okay , your doctor appointment is confirmed .
+REQUEST ( appointment_date = ? ) & when would you like me to make the appointment ?
+OFFER ( doctor_name = alchemy john md ; city = santa rosa ; type = general practitioner ) @ INFORM_COUNT ( count = 10 ) & there are 10 matches . alchemy john md is a general practitioner in santa rosa .
+OFFER ( stylist_name = 17 jewels salon ; city = oakland ) & 17 jewels salon is in oakland .
+INFORM ( phone_number = 925-837-2990 ; street_address = 1639 north california boulevard ) & the phone number is 925-837-2990 and the address is 1639 north california boulevard .
+NOTIFY_SUCCESS ( none = none ) & congratulations , your appointment is booked !
+REQUEST ( appointment_time = ? ) & what time would you need ?
+INFORM ( street_address = 2950 whipple avenue ) @ NOTIFY_SUCCESS ( none = none ) & the address is 2950 whipple avenue . your appointment has been booked .
+REQUEST ( city = ? ) & what city do you prefer ?
+REQUEST ( city = palo alto ) & should i look in palo alto ?
+REQUEST ( appointment_time = ? ) & give me a time that suits you .
+OFFER ( doctor_name = napa dermatology associates ; city = napa ; type = dermatologist ) & how about napa dermatology associates in napa , they are a dermatologist .
+INFORM ( is_unisex = false ) @ NOTIFY_SUCCESS ( none = none ) & no it is not . i have scheduled the appointment for you .
+CONFIRM ( dentist_name = bay area kids dentist ; appointment_time = 3:30 pm ; appointment_date = march 1st ) & please confirm that you 'd like an appointment at bay area kids dentist for 3:30 pm on march 1st .
+REQUEST ( city = ? ) & what city do you want to search ?
+INFORM ( street_address = 2120 mckee road ; average_rating = 4.2 ) & they have a 4.2 rating and are located at 2120 mckee road .
+REQUEST ( city = ? ) & do you have a city in mind where to look for one ?
+REQUEST ( appointment_time = ? ) & what time do you prefer ?
+OFFER ( doctor_name = access health ; city = san jose ; type = general practitioner ) @ INFORM_COUNT ( count = 10 ) & there are 10 matches . access health is a general practitioner in san jose you might like .
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) & okay , 1512 barber shop is a good unisex salon in san francisco .
+INFORM ( address = 990 west fremont avenue ) & their address is 990 west fremont avenue .
+OFFER ( stylist_name = great clips ; city = los gatos ) @ INFORM_COUNT ( count = 6 ) & there are 6 restaurants available . great clips is a wonderful salon in los gatos .
+REQUEST ( appointment_date = ? ; appointment_time = ? ) & when should i book you your appointment , specifically the date and time ?
+INFORM ( street_address = 5050 west el camino real # 110 ; phone_number = 949-916-9100 ) & you can call them at 949-916-9100 , and they are located at 5050 west el camino real # 110 .
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) & atelier salon willow glen is in san jose .
+OFFER ( doctor_name = carla stelling, md ; city = oakland ; type = gynecologist ) & carla stelling , md is gynecologist in oakland .
+NOTIFY_SUCCESS ( none = none ) & your appointment is set up .
+REQUEST ( appointment_time = ? ) & what is your preferred time ?
+INFORM ( address = 2664 berryessa road # 206 ; offers_cosmetic_services = false ) & they do n't do cosmetics and they are located at 2664 berryessa road # 206 .
+INFORM ( street_address = 4501 rosewood drive ) & their address is 4501 rosewood drive .
+REQ_MORE ( none = none ) & is there anything else that i can help you with ?
+INFORM ( offers_cosmetic_services = false ; address = 2664 berryessa road # 206 ) & the address is 2664 berryessa road # 206 and they are not offering cosmetic services .
+INFORM ( street_address = 138 e el camino real ste b ) @ NOTIFY_SUCCESS ( none = none ) & it 's booked , just head over to 138 e el camino real ste b on the day of your appointment
+OFFER ( doctor_name = bay area retina associates ; city = oakland ; type = ophthalmologist ) & bay area retina associates is an ophthalmologist in oakland .
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) @ INFORM_COUNT ( count = 10 ) & there are 10 salons in the san francisco area , how about 1512 barber shop ?
+CONFIRM ( dentist_name = dr. susana m. chou ; appointment_time = 10:45 am ; appointment_date = march 10th ) & you would like to make an appointment with dr. susana m. chou on march 10th at 10:45 am , is that correct ?
+INFORM ( is_unisex = true ) @ NOTIFY_SUCCESS ( none = none ) & your appointment has been confirmed ! and yes , it is a unisex salon .
+INFORM ( street_address = 1502 1/2 webster st ; phone_number = 510-473-7869 ) & you can contact them at 510-473-7869 and visit them at 1502 1/2 webster st .
+NOTIFY_SUCCESS ( none = none ) & your appointment was booked successfully .
+REQUEST ( appointment_date = ? ) & and when do you intend to head down ?
+NOTIFY_SUCCESS ( none = none ) & you 're all set .
+CONFIRM ( dentist_name = arroyo park family dental ; appointment_time = 2 pm ; appointment_date = march 9th ) & i 'll book you an appointment at arroyo park family dental for march 9th at 2 pm . is that correct ?
+CONFIRM ( dentist_name = amazing smile dental ; appointment_time = 10:45 am ; appointment_date = march 11th ) & just to confirm you would like an appointment with amazing smile dental at 10:45 am on march 11th .
+REQUEST ( city = ? ) & sure , do you have any preference for the location of the salon ?
+CONFIRM ( dentist_name = samaritan dental aesthetics ; appointment_time = 2:30 pm ; appointment_date = next tuesday ) & alright , thank you , and please confirm the following details for me . you would like an appointment with samaritan dental aesthetics at 2:30 pm next tuesday . is this correct ?
+REQUEST ( appointment_time = ? ) & for what time .
+REQUEST ( city = ? ) & absolutely ! where are you looking for a dentist ?
+REQUEST ( city = los gatos ) & in los gatos ?
+CONFIRM ( dentist_name = ahmed sameena ; appointment_time = 2 pm ; appointment_date = march 5th ) & you want to see ahmed sameena on march 5th at 2 pm ?
+REQUEST ( appointment_time = ? ) & at what time ?
+REQ_MORE ( none = none ) & do you need anything else today ?
+CONFIRM ( dentist_name = apple dental practice ; appointment_time = 11:45 am ) & to confirm change : you wish to book a dental appointment with apple dental practice at 11:45 am on march 10th . is this correct ?
+REQUEST ( appointment_time = ? ) & what time would you like to make the appointment for ?
+INFORM ( address = 343 gellert boulevard # c ) & they are located on 343 gellert boulevard # c .
+REQUEST ( city = ? ) & in what location .
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) & in san francisco you can go to 1512 barber shop
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) @ INFORM_COUNT ( count = 10 ) & i found 10 salons for you . 1512 barber shop in san francisco looks nice
+INFORM ( is_unisex = true ) & yes , it is .
+REQUEST ( appointment_time = ? ) & what time is good for you ?
+REQ_MORE ( none = none ) & do you need anything else ?
+REQUEST ( city = ? ) & what city should you go to ?
+REQUEST ( appointment_time = ? ) & what time would you like the appointment to be ?
+REQ_MORE ( none = none ) & is there anything else ?
+OFFER ( doctor_name = anne han, m.d. ; city = san francisco ; type = dermatologist ) & i found a dermatologist in san francisco for you , anne han , m.d .
+REQUEST ( city = los gatos ) & still in los gatos ?
+REQ_MORE ( none = none ) & how can i help you now ?
+INFORM ( offers_cosmetic_services = false ) & they do not offer cosmetic services .
+REQUEST ( appointment_time = ? ) & what time works for you ?
+NOTIFY_SUCCESS ( none = none ) & your appointment is booked
+OFFER ( doctor_name = bruce m. saal md ; city = los gatos ; type = dermatologist ) @ INFORM_COUNT ( count = 7 ) & i have 7 doctors in my search results . would bruce m. saal md , a dermatologist , in los gatos work for you ?
+OFFER ( doctor_name = blossom ridge medical group: zimmer j kirk md ; city = los gatos ; type = general practitioner ) @ INFORM_COUNT ( count = 10 ) & i have selected 10 doctors of your choice . what is your opinion about blossom ridge medical group : zimmer j kirk md who is a general practitioner in los gatos ?
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & what date and time would you like the appointment to be ?
+NOTIFY_SUCCESS ( none = none ) & the appointment has been set .
+REQUEST ( appointment_date = ? ) & when will you visit ?
+INFORM ( street_address = 995 county highway g4 #111 ; average_rating = 3.2 ) & thee address is 995 county highway g4 # 111 and it has a rating of 3.2 .
+CONFIRM ( dentist_name = dr. svetlana naret ; appointment_time = 2:45 pm ; appointment_date = next wednesday ) & please confirm : you would like to book an appointment with dr. svetlana naret at 2:45 pm next wednesday ?
+REQUEST ( appointment_time = ? ) & what time would be ok ?
+REQUEST ( appointment_date = ? ) & he does take appointments at 4 p.m. , yes . what date would you like the appointment to be ?
+REQUEST ( appointment_date = ? ) & what day would you like ?
+OFFER ( doctor_name = access health ; city = san jose ; type = general practitioner ) @ INFORM_COUNT ( count = 10 ) & okay . in san jose , there is a general practitioner at access health , among 10 other options .
+OFFER ( doctor_name = dr. gregory p. rosa, md ; city = sebastopol ; type = general practitioner ) & what about dr. gregory p. rosa , md in sebastopol a general practitioner .
+OFFER ( stylist_name = barberia salon ; city = foster city ) & there is a nice salon called barberia salon in foster city .
+REQUEST ( city = ? ) & any particular city i should search in ?
+REQUEST ( city = walnut creek ) & also in walnut creek ?
+REQUEST ( city = dublin ) & sure , so do you wish to search in dublin ?
+CONFIRM ( dentist_name = balboa dental care ; appointment_time = 12:30 pm ) & please confirm your appointment with balboa dental care at 12:30 pm on march 9th .
+CONFIRM ( dentist_name = balboa dental care ; appointment_time = 9:30 am ; appointment_date = march 13th ) & you would like to schedule and appointment at balboa dental care for 9:30 am on march 13th ?
+OFFER ( doctor_name = dr. robert r. anderson, md ; appointment_date = march 1st ; appointment_time = 3:30 pm ) @ NOTIFY_FAILURE ( none = none ) & i could n't book that time . sorry . want to instead see dr. robert r. anderson , md at 3:30 pm on march 1st ?
+NOTIFY_SUCCESS ( none = none ) & your appointment is set .
+REQUEST ( city = ? ) & which city ?
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & can you tell me the time for when you want the appointment to be for ? what date do you want the appointment to be reserved for ?
+REQUEST ( city = ? ) & where would you like me to find a dentist ?
+NOTIFY_SUCCESS ( none = none ) & the appointment is confirmed .
+REQUEST ( city = san francisco ) & do you want to go to a salon in san francisco ?
+OFFER ( stylist_name = great clips ; city = cupertino ) @ INFORM_COUNT ( count = 6 ) & i found 6 salons in cupertino that might interest you . i personally recommend great clips .
+CONFIRM ( dentist_name = burr ; appointment_time = 4:45 pm ; appointment_date = march 14th ) & please confirm : you 'd like an appointment with burr on march 14th at 4:45 pm .
+OFFER ( stylist_name = 18/8 fine men's salons - palo alto ; city = palo alto ) & there 's a wonderful salon in palo alto called 18/8 fine men 's salons - palo alto .
+REQUEST ( appointment_time = ? ) & what time should i schedule it for ?
+OFFER ( stylist_name = blow dry bar ; city = walnut creek ) @ INFORM_COUNT ( count = 10 ) & i found 10 in walnut creek . how about blow dry bar
+OFFER ( doctor_name = makela women's health: sandra makela, m.d. ; city = campbell ; type = gynecologist ) & try makela women 's health : sandra makela , m.d . she is a gynecologist located in campbell .
+OFFER ( stylist_name = al's barber shop ; city = alameda ) & alameda has al 's barber shop . does that appeal to you ?
+OFFER ( stylist_name = 20th salon and barber ; city = san francisco ) & there 's 20th salon and barber in san francisco .
+OFFER ( stylist_name = about time barber shop ; city = santa clara ) & there is a good one called about time barber shop in santa clara .
+OFFER ( doctor_name = carla stelling, md ; city = oakland ; type = gynecologist ) & do you wish to have consultation with carla stelling , md , a gynecologist in oakland ?
+REQ_MORE ( none = none ) & is they anything else i can help you with ?
+REQUEST ( appointment_date = ? ; appointment_time = ? ) & what date and time works best for your to book ?
+CONFIRM ( dentist_name = gerald e. dixon scott e. dixon ; appointment_time = 10:15 am ; appointment_date = march 4th ) & a visit with gerald e. dixon scott e. dixon at 10:15 am on march 4th . is it correct ?
+OFFER ( stylist_name = olive hill salon ; city = woodside ) @ INFORM_COUNT ( count = 1 ) & i found 1 salon names olive hill salon which is a good one in woodside
+INFORM ( street_address = 320 lennon lane ) & they are located at 320 lennon lane .
+REQUEST ( appointment_time = ? ) & what time would you like ?
+OFFER ( stylist_name = edge hair salon ; city = berkeley ) & edge hair salon is another place you could go in berkeley .
+REQ_MORE ( none = none ) & you are very welcome . can i be of further assistance ?
+CONFIRM ( dentist_name = cofield marianne ; appointment_time = 2 pm ; appointment_date = march 13th ) & please confirm that you want to book an appointment with cofield marianne at 2 pm on march 13th .
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & what time and date works best for you ?
+CONFIRM ( dentist_name = cosmetic dentist in los gatos - moradi signature smiles - sedation dentistry ; appointment_time = 11 am ; appointment_date = march 13th ) & please confirm : booking an appointment with cosmetic dentist in los gatos - moradi signature smiles - sedation dentistry on march 13th at 11 am .
+OFFER ( stylist_name = supercuts ; city = napa ) & a nice salon in napa is supercuts .
+CONFIRM ( dentist_name = astra dental ; appointment_time = 5 pm ; appointment_date = march 10th ) & please confirm your appointment with astra dental on march 10th at 5 pm
+REQUEST ( appointment_date = ? ) & sure , and which date do you intend to visit them ?
+OFFER ( doctor_name = dr. elaine r. sumaquial, md ; city = pleasanton ; type = general practitioner ) & what about dr. elaine r. sumaquial , md in pleasanton a general practitioner ?
+INFORM ( offers_cosmetic_services = false ) & it does n't appear that cosmetic services are offered there .
+NOTIFY_SUCCESS ( none = none ) & i 've scheduled your appointment .
+REQUEST ( city = ? ) & what city are you in ?
+REQUEST ( appointment_time = ? ) & at what time ?
+REQUEST ( appointment_time = ? ) & what time would suit you best ?
+CONFIRM ( dentist_name = apple dental practice ; appointment_time = 3:30 pm ) & please confirm the following appointment : march 11th at 3:30 pm with apple dental practice
+REQUEST ( city = ? ) & what city should the salon be in ?
+REQUEST ( appointment_time = ? ) & at what time ?
+REQUEST ( appointment_date = ? ) & tell me the date of youe visit
+OFFER ( stylist_name = sofia african hair braiding ; city = san leandro ) @ INFORM_COUNT ( count = 2 ) & okay , i 've found 2 salons that might work . one is sofia african hair braiding , in san leandro .
+REQUEST ( city = san francisco ) & are you referring to the san francisco area ?
+REQUEST ( appointment_date = ? ) & when do you want to book it for ?
+OFFER ( doctor_name = catherine jiam-seagren, m.d. ; appointment_date = march 6th ; appointment_time = 4:30 pm ) @ NOTIFY_FAILURE ( none = none ) & sorry , i could n't book that . would you like to try catherine jiam-seagren , m.d . at 4:30 pm on march 6th ?
+OFFER ( doctor_name = arthur h coleman medical center: dickey jan v md ; city = san francisco ; type = general practitioner ) & arthur h coleman medical center : dickey jan v md is a general practitioner in san francisco .
+NOTIFY_SUCCESS ( none = none ) & your appointment has been made .
+OFFER ( stylist_name = dukes and dolls salon ; city = petaluma ) @ INFORM_COUNT ( count = 7 ) & absolutely ! i found 7 salons you may like . i suggest dukes and dolls salon in petaluma .
+INFORM ( offers_cosmetic_services = false ) @ NOTIFY_SUCCESS ( none = none ) & i have booked your dentist appointment successfully . they do n't have any cosmetic services .
+INFORM ( street_address = 1532 20th street ) @ NOTIFY_SUCCESS ( none = none ) & you can visit them at 1532 20th street . your reservation has been made !
+OFFER ( doctor_name = anne han, m.d. ; city = san francisco ; type = dermatologist ) @ INFORM_COUNT ( count = 10 ) & there are at least 10 by my count . try anne han , m.d . she is a recommended dermatologist in san francisco .
+CONFIRM ( dentist_name = cofield marianne ; appointment_time = 4:15 pm ; appointment_date = next tuesday ) & please confirm your details : appointment with cofield marianne at 4:15 pm next tuesday .
+INFORM ( street_address = 3000 colby street #201 ; phone_number = 510-841-1647 ) & their address is 3000 colby street # 201 and phone number 510-841-1647
+OFFER ( doctor_name = dr. robert r. anderson, md ; city = larkspur ; type = ophthalmologist ) & there 's a great ophthalmologist in larkspur called dr. robert r. anderson , md .
+NOTIFY_SUCCESS ( none = none ) & the appointment is successfully booked .
+REQUEST ( city = ? ) & where should i search ?
+INFORM ( street_address = 2211 post street #404 ) & the appointment will be at 2211 post street # 404 .
+NOTIFY_SUCCESS ( none = none ) & alright , your salon appointment has been made .
+OFFER ( doctor_name = bay area cosmetic dermatology ; city = san francisco ; type = dermatologist ) & you could also try a dermatologist based in san francisco called bay area cosmetic dermatology
+REQUEST ( appointment_date = march 1st ) & on march 1st ?
+NOTIFY_SUCCESS ( none = none ) & it is done
+CONFIRM ( dentist_name = sunrise dental ; appointment_date = march 11th ) & confirm please : book appointment in march 11th at sunrise dental .
+OFFER ( stylist_name = dipietro todd salon ; city = walnut creek ) @ INFORM_COUNT ( count = 9 ) & i found 9 salons you may like . there 's a nice salon in walnut creek called dipietro todd salon .
+NOTIFY_SUCCESS ( none = none ) & your appointment has been made .
+OFFER ( stylist_name = tommy cuts ; city = richmond ) & i have found a good salon in richmond , the salon is tommy cuts .
+NOTIFY_SUCCESS ( none = none ) & your appointment has now been successfully booked .
+CONFIRM ( dentist_name = access dental - santa rosa ; appointment_time = 11:15 am ; appointment_date = march 12th ) & sure , i have appointment at 11:15 am , march 12th at access dental - santa rosa .
+INFORM ( street_address = 2100 webster street suite 214 ; phone_number = 415-923-3120 ) & the address is 2100 webster street suite 214 and you can reach them at 415-923-3120 .
+INFORM ( street_address = 1047 lincoln highway suite 101 ; phone_number = 408-293-3494 ) & they are located at 1047 lincoln highway suite 101 and the contact number is 408-293-3494 .
+REQUEST ( appointment_time = ? ) & what time do you want to shoot for ?
+REQ_MORE ( none = none ) & is there anything else i can help with ?
+NOTIFY_SUCCESS ( none = none ) & your appointment is confirmed .
+REQUEST ( appointment_time = ? ; dentist_name = ? ) & what time are you looking to make a booking ? which dentist would you like to see ?
+REQUEST ( city = ? ) & what 's your preferred city
+OFFER ( doctor_name = audrey koh, md (associates in obstetrics and gynecology) ; city = san francisco ; type = gynecologist ) & audrey koh , md ( associates in obstetrics and gynecology ) is a gynecologist in san francisco
+REQUEST ( city = ? ) & which city do you want the dentist to be located in ?
+NOTIFY_SUCCESS ( none = none ) & your dental appointment is confirmed .
+NOTIFY_SUCCESS ( none = none ) & very good , your requested reservation with the dentist has been made .
+CONFIRM ( dentist_name = dr. eugene h. burton iii ; appointment_time = 5 pm ; appointment_date = march 12th ) & please review and confirm back to me if the details about the appointment are correct such as that the appointment is with dr. eugene h. burton iii at 5 pm on march 12th .
+REQUEST ( city = pleasanton ) & would you like the appointment in pleasanton also ?
+REQUEST ( city = ? ) & any preference on the salon 's location ?
+NOTIFY_SUCCESS ( none = none ) & congratulations , your reservation has been made .
+REQUEST ( appointment_date = ? ) & when do you plan to go ?
+CONFIRM ( dentist_name = amazing smile dental ; appointment_time = 4 pm ) & yes . would you like to confirm booking an appointment with amazing smile dental at 4 pm ?
+REQ_MORE ( none = none ) & do you need help with anything else ?
+NOTIFY_SUCCESS ( none = none ) & ok , your appointment has been booked .
+OFFER ( stylist_name = best hair ; city = novato ) & best hair is a really good salon in novato .
+REQUEST ( appointment_time = ? ) & what time would you like the appointment ?
+INFORM ( street_address = 1532 20th street ; average_rating = 4.8 ) & yup , the address is 1532 20th street and their average rating is 4.8 , which is very good .
+REQUEST ( appointment_date = ? ) & what date would you like to schedule the appointment for ?
+CONFIRM ( dentist_name = a j dental lab ; appointment_time = 2:45 pm ; appointment_date = march 4th ) & thanks ! can you confirm the following details , please ? you 're going to a j dental lab at 2:45 pm on march 4th .
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) & atelier salon willow glen is a nice salon located in san jose .
+CONFIRM ( dentist_name = access dental - santa rosa ; appointment_time = 12 pm ; appointment_date = march 4th ) & you would like to book an appointment at access dental - santa rosa for 12 pm on march 4th ?
+REQ_MORE ( none = none ) & is there anything else ?
+INFORM ( street_address = 1450 treat boulevard suite 120b ; phone_number = 925-296-7490 ) & their location is 1450 treat boulevard suite 120b . their number is 925-296-7490 .
+REQUEST ( city = fremont ) & also in fremont ?
+REQUEST ( appointment_time = ? ) & what time would you like ?
+NOTIFY_SUCCESS ( none = none ) & i have made the appointment .
+OFFER ( doctor_name = berkeley family practice medical: zaman aysha md ; city = berkeley ; type = general practitioner ) & what about general practitioner berkeley family practice medical : zaman aysha md in berkeley
+OFFER ( stylist_name = great clips ; city = windsor ) & there 's a great clips in windsor .
+INFORM ( offers_cosmetic_services = false ) @ NOTIFY_SUCCESS ( none = none ) & your appointment is successfully booked . unfortunately , they do not offer cosmetic services .
+CONFIRM ( dentist_name = burr ; appointment_time = 1:15 pm ; appointment_date = march 8th ) & please confirm your appointment with burr at 1:15 pm on march 8th .
+CONFIRM ( stylist_name = great clips ; appointment_time = 1 pm ) & i need your confirmation for the following : the name of the hair salon is great clips , and your appointment is at 1 pm .
+INFORM ( street_address = 2040 ralston avenue ste b ) & the salon is located at 2040 ralston avenue ste b .
+OFFER ( stylist_name = blow dry bar ; city = walnut creek ) & blow dry bar is located in walnut creek .
+CONFIRM ( dentist_name = castro valley health ; appointment_time = 2 pm ; appointment_date = march 12th ) & so you want an appointment at castro valley health on march 12th at 2 pm . is that correct ?
+REQUEST ( city = ? ) & which city ?
+OFFER ( stylist_name = dipietro todd salon ; city = walnut creek ) & in walnut creek , i have dipietro todd salon .
+REQUEST ( city = ? ) & in which city , please .
+CONFIRM ( dentist_name = drysdale christine ; appointment_time = 3 pm ; appointment_date = tomorrow ) & please confirm : dentist appointment tomorrow at 3 pm with drysdale christine .
+REQUEST ( appointment_time = ? ) & what time do you want to visit ?
+CONFIRM ( dentist_name = gerald e. dixon scott e. dixon ; appointment_time = 10:30 am ; appointment_date = march 1st ) & please make sure this is correct , i 'll make an appointment with gerald e. dixon scott e. dixon for march 1st at 10:30 am ?
+REQUEST ( appointment_date = ? ; appointment_time = ? ) & what is the date and time you would like to visit ?
+NOTIFY_SUCCESS ( none = none ) & i have confirmed and scheduled your appointment .
+NOTIFY_SUCCESS ( none = none ) & your appointment has been confirmed .
+NOTIFY_SUCCESS ( none = none ) & this appointment is booked .
+REQUEST ( appointment_date = ? ) & on what day ?
+INFORM ( is_unisex = true ) & yes , it 's a unisex salon .
+OFFER ( doctor_name = anne han, m.d. ; city = san francisco ; type = dermatologist ) & there is a good dermatologist there in san francisco - anne han , m.d .
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) & atelier salon willow glen is located in san jose .
+REQUEST ( city = vallejo, pleasanton ) & you need to look in vallejo or pleasanton ?
+REQUEST ( appointment_time = ? ) & sure , and what time will you be visiting them .
+OFFER ( stylist_name = bushwacker barbers ; city = belmont ) & bushwacker barbers , in belmont .
+REQUEST ( appointment_time = ? ) & at what time do you want an appointment ?
+OFFER ( doctor_name = cynthia s. chiu, md, facs, inc. ; city = oakland ; type = ophthalmologist ) & cynthia s. chiu , md , facs , inc. is another ophthalmologist in oakland .
+REQUEST ( city = ? ) & which city would like to go to ?
+REQ_MORE ( none = none ) & can i assist you with anything else ?
+CONFIRM ( doctor_name = dale pearlman md ; appointment_time = 2:45 pm ) & confirm the new data then : you want to see dale pearlman md at 2:45 pm
+NOTIFY_SUCCESS ( none = none ) & your appointment has successfully been booked .
+CONFIRM ( dentist_name = kahn sandra ; appointment_time = 12:45 pm ; appointment_date = next wednesday ) & please confirm the details : booking an appoitment with kahn sandra next wednesday at 12:45 pm .
+OFFER ( stylist_name = olive hill salon ; city = woodside ) @ INFORM_COUNT ( count = 1 ) & i found 1 salon . one nice salon in woodside is olive hill salon .
+INFORM ( is_unisex = true ; phone_number = 707-765-6300 ) & it is 707-765-6300 and the salon is unisex .
+OFFER ( doctor_name = dr. dina t. nguyen, md ; city = fairfield ; type = general practitioner ) @ INFORM_COUNT ( count = 6 ) & okay ! i found 6 results for you . do you wish to consult dr. dina t. nguyen , md for she is a general practitioner located in fairfield ?
+OFFER ( doctor_name = access health ; city = san jose ; type = general practitioner ) & how about access health in san jose ? they 're a general practitioner .
+CONFIRM ( stylist_name = sport clips haircuts of brentwood ; appointment_time = 10 am ) & sure . just confirm that i 'll book the appointment for 10 am at sport clips haircuts of brentwood ?
+REQUEST ( appointment_time = ? ) & what is a good time ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+CONFIRM ( dentist_name = dr. pascuala geraldine t. ocampo ; appointment_time = 5:45 pm ; appointment_date = march 4th ) & please confirm : booking an appointment with dr. pascuala geraldine t. ocampo at 5:45 pm on march 4th .
+INFORM ( phone_number = 650-592-6075 ; street_address = 1321 laurel street a ) @ NOTIFY_SUCCESS ( none = none ) & your appointment was successfully booked . they 're located at 1321 laurel street a . their phone number is 650-592-6075 .
+OFFER ( stylist_name = cool tops ; city = pleasant hill ) @ INFORM_COUNT ( count = 4 ) & i found 4 salons nearby . one you may like is cool tops in pleasant hill
+REQUEST ( appointment_time = ? ) & okay , please tell me at what time would you like your appointment ?
+CONFIRM ( dentist_name = balboa dental care ; appointment_time = 10:15 am ; appointment_date = march 10th ) & please review the following : you 'd like an appointment at 10:15 am on march 10th with balboa dental care .
+INFORM ( is_unisex = true ) @ NOTIFY_SUCCESS ( none = none ) & your appointment is confirmed . yes the salon is unisex .
+REQUEST ( doctor_name = ? ; appointment_time = ? ) & what doctor would you like to see ? when would you like to make an appointment ?
+REQUEST ( city = ? ) & in what city should i begin searching ?
+CONFIRM ( stylist_name = great clips ; appointment_time = 3 pm ) & you want to visit great clips at 3 pm ?
+NOTIFY_SUCCESS ( none = none ) & your appointment has been made .
+INFORM ( street_address = 1532 20th street ) @ NOTIFY_SUCCESS ( none = none ) & the address is 1532 20th street and the appointment is confirmed .
+OFFER ( stylist_name = alpha barbershop ; city = sunnyvale ) & another in sunnyvale is alpha barbershop .
+NOTIFY_SUCCESS ( none = none ) & great , your appointment has been scheduled
+INFORM ( offers_cosmetic_services = false ) & no they do n't have cosmetic services .
+CONFIRM ( dentist_name = dr. eugene h. burton iii ; appointment_time = 12:45 pm ; appointment_date = march 6th ) & please give confirmation details : your appintment with dentist dr. eugene h. burton iii at 12:45 pm on march 6th .
+REQUEST ( city = sebastopol ) & you want someone in sebastopol ?
+NOTIFY_SUCCESS ( none = none ) & i 've booked your appointment .
+REQUEST ( appointment_date = ? ) & what date would you like your appointment ?
+REQUEST ( city = walnut creek ) & are your referring to the walnut creek area ?
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) & a nice salon in san francisco is 1512 barber shop .
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) & there is a lovely salon in san jose called atelier salon willow glen .
+OFFER ( stylist_name = 20th salon and barber ; city = san francisco ) & there is 20th salon and barber in san francisco which is a nice choice .
+NOTIFY_SUCCESS ( none = none ) & your appointment is booked
+INFORM ( street_address = 1532 20th street ; average_rating = 4.8 ) & rating is 4.8 , its address is 1532 20th street
+REQ_MORE ( none = none ) & is there anything else today ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+INFORM ( street_address = 1806 soscol avenue b ; average_rating = 3.8 ) & the address is 1806 soscol avenue b and the rating is 3.8 .
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & i would work on saturday
+REQUEST ( city = ? ) & where do you want me to look ?
+OFFER ( stylist_name = reframe hair gallery ; city = sebastopol ) @ INFORM_COUNT ( count = 1 ) & i found 1 in sebastopol . reframe hair gallery .
+CONFIRM ( dentist_name = centerville dental care ; appointment_time = 3 pm ; appointment_date = tomorrow ) & alright , so you would like to book an appointment with centerville dental care for tomorrow at 3 pm ?
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) & there is a nice salon called 1512 barber shop in san francisco .
+CONFIRM ( dentist_name = lee myoung ; appointment_time = 10 am ; appointment_date = march 14th ) & so would you like to confirm that you like an appointment with lee myoung at 10 am on march 14th ?
+CONFIRM ( stylist_name = tommy cuts ; appointment_time = 5 pm ) & okay , please confirm the following details : the salon is tommy cuts and the appointment is on march 1st at 5 pm
+INFORM ( street_address = 979 broadway ave ste 108 ; phone_number = 650-552-9316 ) & it 's at 979 broadway ave ste 108 , and the number i 650-552-9316 .
+REQUEST ( appointment_time = ? ) & at what time ?
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & what time do you want your appointment to be ? what date do you want your appointment to be ?
+REQUEST ( city = ? ) & where are you searching for ?
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) @ INFORM_COUNT ( count = 10 ) & search revealed 10 results . 1512 barber shop is a unisex salon in san francisco .
+REQUEST ( city = ? ) & sure , in which city .
+CONFIRM ( dentist_name = dr. michael e. bahlinger ; appointment_time = 2 pm ; appointment_date = march 12th ) & dr. michael e. bahlinger at 2 pm on march 12th
+REQUEST ( appointment_time = ? ) & for what time ?
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & what is the time and date of your visit ?
+REQUEST ( city = ? ) & where do you prefer ?
+OFFER ( stylist_name = galaxy barber shop ; city = milpitas ) & there is a salon in milpitas called galaxy barber shop .
+CONFIRM ( dentist_name = lim jae ; appointment_time = 4 pm ; appointment_date = march 11th ) & confirmed for march 11th with the dentist lim jae at 4 pm .
+CONFIRM ( dentist_name = bay area kids dentist ; appointment_time = 2:15 pm ; appointment_date = march 5th ) & please confirm you want me to book an appointment at bay area kids dentist on march 5th at at 2:15 pm .
+OFFER ( doctor_name = access health ; city = san jose ; type = general practitioner ) & there is a good general practitioner at access health in san jose .
+INFORM ( street_address = 2725 mendocino avenue ; phone_number = 707-545-4537 ) @ NOTIFY_SUCCESS ( none = none ) & i 've booked your appointment . their phone number is 707-545-4537 and their address is 2725 mendocino avenue .
+OFFER ( stylist_name = great clips ; city = sonoma ) @ INFORM_COUNT ( count = 1 ) & i have 1 possibility . how about great clips in sonoma ?
+INFORM ( phone_number = 707-935-0100 ; street_address = 19217 sonoma highway ) & the salon is located at 19217 sonoma highway and may be reached at 707-935-0100 .
+REQ_MORE ( none = none ) & what else may i help you with ?
+OFFER ( doctor_name = dr. julianne g. o'callahan, md ; city = redwood city ; type = gynecologist ) & i found a gynecologist in redwood city by the name of dr. julianne g. o'callahan , md .
+REQUEST ( appointment_time = ? ) & what time would you like to book the appointment ?
+REQUEST ( appointment_date = ? ) & what date do you want ?
+OFFER ( stylist_name = citrus salon ; city = martinez ) @ INFORM_COUNT ( count = 2 ) & got 2 salons and what about the one name citrus salon in martinez ?
+OFFER ( stylist_name = citrus salon ; city = martinez ) @ INFORM_COUNT ( count = 2 ) & i found 2 salons in martinez , one is citrus salon .
+OFFER ( doctor_name = brian honbo, md ; city = concord ; type = general practitioner ) & another general practitioner in concord is listed as brian honbo , md .
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+NOTIFY_SUCCESS ( none = none ) & your dentist appointment has been successfully booked .
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) @ INFORM_COUNT ( count = 10 ) & i found 10 salons there . i 'd recommend 1512 barber shop at san francisco
+OFFER ( doctor_name = berman skin institute ; city = pleasanton ; type = dermatologist ) @ INFORM_COUNT ( count = 5 ) & i found 5 results . what about berman skin institute ? it 's a dermatologist in pleasanton .
+REQUEST ( appointment_date = ? ) & what day do you want to go to the salon ?
+REQ_MORE ( none = none ) & is there something else you 'd like help with ?
+OFFER ( stylist_name = about time barber shop ; city = santa clara ) & sure . there 's a salon named about time barber shop in santa clara that 's really nice .
+CONFIRM ( dentist_name = gerald e. dixon scott e. dixon ; appointment_time = 9:45 am ) & sure , please confirm your appointment with gerald e. dixon scott e. dixon at 9:45 am on march 6th .
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) @ INFORM_COUNT ( count = 10 ) & i found 10 matches . 1512 barber shop is in san francisco .
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) @ INFORM_COUNT ( count = 10 ) & there are 10 salons that might suit you . atelier salon willow glen is a lovely salon in san jose .
+CONFIRM ( dentist_name = hillcrest family dental care ; appointment_time = 4:45 pm ; appointment_date = march 8th ) & you want an appointment at hillcrest family dental care at 4:45 pm on march 8th , correct ?
+CONFIRM ( doctor_name = alan b. scott, m.d. ; appointment_time = 11:30 am ) & please confirm : appointment with alan b. scott , m.d . at 11:30 am .
+REQUEST ( city = ? ) & where would you like me to look for one ?
+CONFIRM ( dentist_name = carhuamaca lat arturo ; appointment_time = 3:30 pm ; appointment_date = march 5th ) & ok , i have 3:30 pm march 5th appointment at carhuamaca lat arturo .
+OFFER ( stylist_name = august barbershop ; city = redwood city ) & august barbershop is in redwood city .
+OFFER ( doctor_name = alchemy john md ; city = santa rosa ; type = general practitioner ) @ INFORM_COUNT ( count = 10 ) & there are 10 possible doctors for you . there is alchemy john md . they are a general practitioner in santa rosa .
+INFORM ( street_address = 55 east julian street ; phone_number = 408-871-9105 ) @ NOTIFY_SUCCESS ( none = none ) & your appointment has been booked . they 're located at 55 east julian street , and can be reached at 408-871-9105 .
+OFFER ( doctor_name = aesthetic dermatology and skin cancer: jeffrey h. binstock, m.d. ; city = mill valley ; type = dermatologist ) @ INFORM_COUNT ( count = 4 ) & i 'm in , looking for a dermatologist in mill valley . one of the 4 choices i show is aesthetic dermatology and skin cancer : jeffrey h. binstock , m.d .
+INFORM ( street_address = 1010 laurel street ; phone_number = 650-591-8501 ) & the address is 1010 laurel street and their phone number is 650-591-8501 .
+INFORM ( street_address = 5050 west el camino real # 110 ) & the address is 5050 west el camino real # 110 .
+REQ_MORE ( none = none ) & anything else i can do for you ?
+REQUEST ( city = petaluma ) & in petaluma ?
+REQUEST ( appointment_time = ? ) & what time do you have in mind ?
+INFORM ( offers_cosmetic_services = false ; address = 689 east remington drive ste a ) @ NOTIFY_SUCCESS ( none = none ) & unfortunately they do n't . it is at 689 east remington drive ste a .
+REQUEST ( appointment_date = ? ) & what day do you want to go ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQUEST ( city = ? ) & in which city ?
+NOTIFY_SUCCESS ( none = none ) & your appointment is confirmed .
+REQUEST ( appointment_time = ? ) & okay . what is the time you want for your exam ?
+REQUEST ( appointment_time = ? ) & what time should it be set for ?
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) @ INFORM_COUNT ( count = 10 ) & there are 10 available in san jose . atelier salon willow glen is a nice choice .
+REQUEST ( city = los gatos ) & in los gatos ?
+NOTIFY_SUCCESS ( none = none ) & congrats on the appointment
+REQUEST ( appointment_date = ? ) & when do you want your appointment ?
+OFFER ( doctor_name = dr. john d. pendleton, md ; city = petaluma ; type = general practitioner ) & dr. john d. pendleton , md is a general practitioner in petaluma . would you like to go there ?
+REQUEST ( appointment_time = ? ) & when would you like the appointment ?
+NOTIFY_SUCCESS ( none = none ) & your appointment is set .
+INFORM ( address = 90 woodacre drive # 108 ; offers_cosmetic_services = false ) & they will be located at 90 woodacre drive # 108 . unfortunately , they do not offer cosmetic services .
+INFORM ( street_address = 5050 west el camino real # 110 ; average_rating = 3.7 ) & you can reach her at 5050 west el camino real # 110 . she has a rating of 3.7 .
+REQ_MORE ( none = none ) & can i help you with something else ?
+REQ_MORE ( none = none ) & can i assist you futher ?
+NOTIFY_SUCCESS ( none = none ) & i 've successfully booked your appointment .
+INFORM ( street_address = 2301 camino ramon ) & she 's at 2301 camino ramon .
+REQUEST ( appointment_time = ? ) & at what time ?
+INFORM ( offers_cosmetic_services = false ) @ NOTIFY_SUCCESS ( none = none ) & your dentist appointment is successfully booked . unfortunately , they do n't offer any cosmetic services .
+OFFER ( stylist_name = breds barbershop ; city = concord ) @ INFORM_COUNT ( count = 6 ) & there are 6 salons in concord . breds barbershop looks to be the best option so far .
+OFFER ( stylist_name = first class barber shop ; city = concord ) & first class barber shop is another nice salon . it it also located in concord .
+OFFER ( stylist_name = elle lui hair salon ; city = santa rosa ) & elle lui hair salon in santa rosa is nice .
+REQ_MORE ( none = none ) & do you require my assistance with something else ?
+CONFIRM ( dentist_name = growing smiles pediatric dentistry ; appointment_time = 11 am ; appointment_date = march 10th ) & you want an appointment to see a dentist at growing smiles pediatric dentistry on march 10th at 11 am . please confirm .
+NOTIFY_SUCCESS ( none = none ) & alright , the appointment is booked .
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) & how about the atelier salon willow glen in san jose ?
+REQUEST ( appointment_date = ? ) & what date would you like ?
+CONFIRM ( dentist_name = a j dental lab ; appointment_time = 2:30 pm ; appointment_date = tomorrow ) & can you confirm the details making an appointment with a j dental lab on tomorrow at 2:30 pm
+REQUEST ( appointment_time = ? ) & what time would you like ?
+CONFIRM ( dentist_name = cho benjamin ; appointment_time = 6 pm ; appointment_date = march 6th ) & please confirm that you want to book an appointment with cho benjamin for 6 pm on march 6th .
+REQUEST ( city = ? ) & in which city ?
+NOTIFY_SUCCESS ( none = none ) & i have successfully booked your appointment .
+REQUEST ( city = ? ) & which city should i look in ?
+CONFIRM ( dentist_name = a-1 dental care ; appointment_time = 9:30 am ; appointment_date = march 11th ) & you would like to schedule an appointment at a-1 dental care for 9:30 am on march 11th ?
+INFORM ( average_rating = 3.7 ; phone_number = 415-663-8666 ) @ OFFER ( doctor_name = point reyes medical clinic: hamblin basil c md ; appointment_date = next tuesday ; appointment_time = 5:30 pm ) @ NOTIFY_FAILURE ( none = none ) & their rating is 3.7 and you can reach them at 415-663-8666 . sorry , there are no appointments available at that specific time . how about next tuesday at 5:30 pm , to see point reyes medical clinic : hamblin basil c md ?
+OFFER ( doctor_name = jennifer isaacs, md ; city = union city ; type = gynecologist ) & how about a gynecologist called jennifer isaacs , md in union city ?
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & what time and what day ?
+INFORM ( offers_cosmetic_services = true ; phone_number = 510-797-6000 ) & yes they do , and their number is 510-797-6000
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & what time do you want your appointment to be and on what date ?
+NOTIFY_SUCCESS ( none = none ) & your doctor appointment is confirmed .
+REQUEST ( appointment_date = ? ) & what date is the appointment on ?
+NOTIFY_SUCCESS ( none = none ) & your requested appointment is booked .
+INFORM ( phone_number = 925-822-9826 ; street_address = 1634 bonanza street ) @ NOTIFY_SUCCESS ( none = none ) & your appointment has been confirmed . the address is 1634 bonanza street and the number is 925-822-9826 .
+REQUEST ( appointment_time = ? ) & what time is best for you ?
+CONFIRM ( dentist_name = north bay radiology ; appointment_time = 4:30 pm ) & confirm the details of appointment , with north bay radiology at 4:30 pm
+OFFER ( doctor_name = access health ; city = san jose ; type = general practitioner ) & access health has a general practitioner and is located in san jose .
+REQUEST ( appointment_date = ? ) & what about the date ?
+OFFER ( stylist_name = natalie's salon ; city = redwood city ) & natalie 's salon is also found in redwood city .
+CONFIRM ( dentist_name = steven c fong ; appointment_time = 4 pm ) & okay , so you want an appointment with steven c fong at 4 pm ?
+INFORM ( street_address = 5575 west las positas boulevard ; average_rating = 3.5 ) & it 's at 5575 west las positas boulevard and it 's rating is 3.5
+REQUEST ( appointment_date = ? ) & what is the date of your appointment ?
+REQUEST ( appointment_date = ? ) & what day do you want the appointment ?
+NOTIFY_SUCCESS ( none = none ) & your appointment has been made .
+REQUEST ( city = ? ) & what city should i look ?
+OFFER ( stylist_name = colour bar ; city = corte madera ) & a good salon in corte madera is colour bar .
+NOTIFY_SUCCESS ( none = none ) & your appointment is booked
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) @ INFORM_COUNT ( count = 10 ) & there are 10 salons matching your criteria in san francisco . how about 1512 barber shop ?
+CONFIRM ( dentist_name = solage dental ; appointment_date = march 12th ) & please confirm the following appointment is on march 12th at solage dental .
+NOTIFY_SUCCESS ( none = none ) & done , it is booked !
+REQUEST ( appointment_time = ? ) & at what time you want the appointment ?
+NOTIFY_SUCCESS ( none = none ) & i 've booked that in for you .
+CONFIRM ( dentist_name = amazing smile dental ; appointment_time = 12:30 pm ; appointment_date = march 10th ) & confirm details whit amazing smile dental appointment 12:30 pm on march 10th .
+NOTIFY_SUCCESS ( none = none ) & the appointment was booked .
+INFORM ( street_address = 1047 lincoln highway suite 101 ; average_rating = 4.3 ) & it is located at 1047 lincoln highway suite 101 and has an average rating of 4.3
+REQUEST ( city = ? ) & what city would you like it in ?
+OFFER ( doctor_name = andrew ness, md ; city = antioch ; type = dermatologist ) @ INFORM_COUNT ( count = 3 ) & i found 3 dermatologist in antioch . would you like to see andrew ness , md .
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & sure , what date and time ?
+INFORM ( street_address = 555 knowles drive #203 ) @ NOTIFY_SUCCESS ( none = none ) & your appointment has been booked . the address is 555 knowles drive # 203 .
+REQUEST ( city = ? ) & great , what city are you looking for ?
+INFORM ( is_unisex = true ) & yes , it is a unisex salon .
+NOTIFY_SUCCESS ( none = none ) & your appointment has been confirmed .
+OFFER ( stylist_name = 20th salon and barber ; city = san francisco ) & there is another one in san francisco called 20th salon and barber .
+REQUEST ( appointment_date = ? ) & what is the desired date ?
+INFORM ( address = 1785 san carlos ave # 3 ; offers_cosmetic_services = false ) & 1785 san carlos ave # 3 and no they do n't offer cosmetics services
+REQUEST ( city = ? ) & which city would you like me to search in ?
+REQ_MORE ( none = none ) & do you need anything else ?
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & for what time and on what day ?
+CONFIRM ( dentist_name = amy n. tran and eric r. nagareda ; appointment_time = 3:15 pm ; appointment_date = march 4th ) & sure . please can you confirm that you wish to book an appointment with amy n. tran and eric r. nagareda on march 4th at 3:15 pm , right ?
+REQ_MORE ( none = none ) & can i do anything else .
+REQUEST ( city = santa rosa ) & in santa rosa or anywhere else ?
+REQUEST ( appointment_time = ? ) & what time ?
+OFFER ( stylist_name = 17 jewels salon ; city = oakland ) @ INFORM_COUNT ( count = 10 ) & ok , i found 10 in oakland . how about 17 jewels salon ?
+REQ_MORE ( none = none ) & do you need me to do anything else ?
+REQUEST ( appointment_time = ? ; dentist_name = ? ) & what dentist would you like to book your appointment with and what time would be best for you ?
+REQ_MORE ( none = none ) & is there anything else ?
+OFFER ( doctor_name = abazari mina md ; city = san francisco ; type = general practitioner ) & what is your opinion about abazari mina md situated at san francisco ? they are a general practitioner .
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & what day and time would you like that ?
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & what time and on what date do you prefer to visit it ?
+REQUEST ( city = ? ) & in which city would you like ?
+INFORM ( offers_cosmetic_services = false ; phone_number = 650-591-0995 ) & i 'm sorry , they do not have cosmetic services . their number is 650-591-0995 .
+INFORM ( street_address = sonoma ave, # 44, 1820 doctors park drive ) @ NOTIFY_SUCCESS ( none = none ) & their address is sonoma ave , # 44 , 1820 doctors park drive and your appointment has been successfully made .
+REQUEST ( appointment_time = ? ; dentist_name = ? ) & what time would be best for you ? and have you thought about a particular dentist ?
+REQUEST ( appointment_date = ? ; appointment_time = ? ) & what date and time would you like ?
+OFFER ( doctor_name = dr. arthur c. o'brien jr, md ; city = castro valley ; type = general practitioner ) & a general practitioner in castro valley is dr. arthur c. o'brien jr , md . would he do ?
+CONFIRM ( dentist_name = pineda lady f ; appointment_time = 1 pm ; appointment_date = next monday ) & please confirm book appointment at 1 pm next monday with pineda lady f
+CONFIRM ( dentist_name = hasaimoto family dentistry ; appointment_time = 5:30 pm ; appointment_date = march 10th ) & hasaimoto family dentistry . 5:30 pm . march 10th . correct ?
+CONFIRM ( dentist_name = access dental - santa rosa ; appointment_time = 2:45 pm ; appointment_date = march 2nd ) & please confirm your appointment with access dental - santa rosa at 2:45 pm on march 2nd .
+OFFER ( doctor_name = audrey koh, md (associates in obstetrics and gynecology) ; city = san francisco ; type = gynecologist ) & there is a gynecologist audrey koh , md ( associates in obstetrics and gynecology ) in san francisco .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+OFFER ( doctor_name = alchemy john, md ; appointment_date = march 9th ; appointment_time = 12 pm ) @ NOTIFY_FAILURE ( none = none ) & sorry , i could n't book that either . how about alchemy john , md on march 9th at 12 pm ?
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) @ INFORM_COUNT ( count = 10 ) & okay , i found 10 salons there that might work . here 's a nice one , atelier salon willow glen . it 's in san jose .
+OFFER ( stylist_name = 3sixty salon and boutique ; city = fremont ) @ INFORM_COUNT ( count = 10 ) & there are 10 salons in fremont you may like . 3sixty salon and boutique is one of them .
+INFORM ( street_address = 1532 20th street ) & 1532 20th street
+CONFIRM ( dentist_name = dr. john y. park ; appointment_time = 3:30 pm ; appointment_date = march 3rd ) & can you please confirm that you want an appointment to see dr. john y . park at 3:30 pm on march 3rd ?
+REQUEST ( city = ? ) & yes , you should , your health is important . where do you want him to be ?
+REQUEST ( appointment_time = ? ) & what time then ?
+OFFER ( doctor_name = bay area retina associates ; city = walnut creek ; type = ophthalmologist ) & i 've found bay area retina associates , an ophthalmologist in walnut creek . will that work for you ?
+NOTIFY_SUCCESS ( none = none ) & got it , i 've booked it for you !
+REQ_MORE ( none = none ) & may i help you with something else ?
+OFFER ( stylist_name = exclusive spa ; city = santa rosa ) & how about exclusive spa in santa rosa ?
+REQUEST ( appointment_date = ? ; appointment_time = ? ) & for what date and time do you want to book the appointment ?
+OFFER ( doctor_name = dalal sapna md ; city = menlo park ; type = general practitioner ) @ INFORM_COUNT ( count = 2 ) & i have got 2 doctors result and one among them is dalal sapna md located in menlo park working as a general practitioner
+REQ_MORE ( none = none ) & what else may i accomplish for you ?
+REQUEST ( appointment_time = ? ) & is there a certain time of day you 'd prefer ?
+CONFIRM ( dentist_name = family dental care ; appointment_time = 10 am ; appointment_date = march 7th ) & you want to visit family dental care at 10 am on march 7th , correct ?
+OFFER ( doctor_name = dr. roger n. morrison, md ; city = richmond ; type = general practitioner ) & how about dr. roger n. morrison , md ? they are a general practitioner in richmond .
+INFORM ( street_address = 3807 lone tree way ) & the address is 3807 lone tree way .
+CONFIRM ( dentist_name = apple dental practice ; appointment_date = march 3rd ) & an appointment with apple dental practice on march 3rd . is this right ?
+OFFER ( stylist_name = fusion 3 salon livermore ; city = livermore ) & okay the first one i see listed in livermore is a nice salon called fusion 3 salon livermore .
+OFFER ( doctor_name = dr. elaine r. sumaquial, md ; city = pleasanton ; type = general practitioner ) & i have a general practitioner in pleasanton named dr. elaine r. sumaquial , md .
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) & atelier salon willow glen is a nice salon in san jose .
+REQUEST ( appointment_time = ? ) & what time would you like to book the appointment for ?
+INFORM ( average_rating = 5.0 ; phone_number = 415-552-1013 ) @ OFFER ( doctor_name = dr. david r. pepper, md ; appointment_date = march 12th ; appointment_time = 1:30 pm ) @ NOTIFY_FAILURE ( none = none ) & the office has a 5.0 rating and the phone number is 415-552-1013 . unfortunately , there are no available appointments at that time . there is an opening at 1:30 pm on march 12th with dr. david r. pepper , md . would that work for you ?
+REQ_MORE ( none = none ) & would you like assistance with anything else ?
+REQUEST ( appointment_time = ? ) & what time do you want to make the appointment ?
+REQUEST ( appointment_date = ? ; appointment_time = ? ) & what day and time would you like to make an appointment ?
+OFFER ( doctor_name = alex de moraes, md ; city = napa ; type = general practitioner ) & alex de moraes , md in napa is a general practitioner .
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & when would you like to go ?
+REQ_MORE ( none = none ) & what else could i do ?
+INFORM ( street_address = 1956 union street ; phone_number = 415-892-3300 ) @ NOTIFY_SUCCESS ( none = none ) & you 're booked . they 're at 1956 union street and the number is 415-892-3300 .
+INFORM ( address = 689 east remington drive ste a ) & 689 east remington drive ste a. is the location address .
+REQUEST ( appointment_date = ? ) & what day are you going ?
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & what time and what day ?
+OFFER ( doctor_name = anjali tate, m.d. ; city = san jose ; type = gynecologist ) & what do you think about anjali tate , m.d . which is situated in san jose and is a gynecologist .
+CONFIRM ( dentist_name = daniel sullivan ; appointment_time = 4:45 pm ; appointment_date = march 1st ) & yup , please can you confirm that you wish to schedule an appointment with daniel sullivan on march 1st at 4:45 pm , right ?
+OFFER ( doctor_name = access health ; city = san jose ; type = general practitioner ) & what do you say to access health in san jose ? they have general practitioner .
+REQ_MORE ( none = none ) & may i help yo with anything else ?
+INFORM ( street_address = 2700 grant street #104 ; average_rating = 5.0 ) & their address is 2700 grant street # 104 and they have a rating of 5.0 .
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) @ INFORM_COUNT ( count = 10 ) & there are 10 salons . how about 1512 barber shop in san francisco
+REQUEST ( city = ? ) & in which city are you located ?
+CONFIRM ( dentist_name = lee myoung ; appointment_time = 9:45 am ) & please verify the following information : reserve an appointment with lee myoung at 9:45 am .
+REQUEST ( city = ? ) & in which city should i search ?
+REQUEST ( appointment_date = ? ) & on which date you want to visit ?
+REQUEST ( city = ? ) & in which city ?
+REQUEST ( appointment_date = ? ) & can you tell me the date when you want to have the appointmnet ?
+REQUEST ( city = ? ) & please give me a moment . can i have the zipcode of the city in which you are looking for the salon ?
+OFFER ( doctor_name = dr. david paslin ; city = oakland ; type = dermatologist ) & there 's another dermatologist in oakland called dr. david paslin .
+NOTIFY_SUCCESS ( none = none ) & this appointment is now complete
+CONFIRM ( dentist_name = gerald e. dixon scott e. dixon ; appointment_time = 5:15 pm ; appointment_date = march 14th ) & please confirm , appointment with gerald e. dixon scott e. dixon on march 14th at 5:15 pm .
+REQUEST ( appointment_date = ? ; appointment_time = ? ) & no problem , could you tell me the date and time you would like for your appointment ?
+NOTIFY_SUCCESS ( none = none ) & it is now confirmed !
+REQ_MORE ( none = none ) & is there anything else i may assist you with today ?
+INFORM ( offers_cosmetic_services = false ) & i 'm sorry , they do not .
+OFFER ( stylist_name = sofia african hair braiding ; city = san leandro ) @ INFORM_COUNT ( count = 2 ) & sofia african hair braiding is one of 2 salons in san leandro .
+OFFER ( doctor_name = california skin institute ; city = dublin ; type = dermatologist ) & there 's the california skin institute , which is in dublin . they have a dermatologist .
+INFORM ( street_address = 300 pasteur drive ) & the address is 300 pasteur drive .
+REQUEST ( city = ? ) & what area should i search ?
+OFFER ( stylist_name = 20th salon and barber ; city = san francisco ) & 20th salon and barber is a very nice salon in san francisco .
+REQUEST ( appointment_date = ? ; appointment_time = ? ) & what date and what time would you like ?
+INFORM ( offers_cosmetic_services = false ; phone_number = 408-739-6520 ) & the phone number is 408-739-6520
+REQUEST ( city = ? ) & what city would you like me to search in ?
+NOTIFY_SUCCESS ( none = none ) & congratulations ; your dentist reservation is complete .
+CONFIRM ( dentist_name = dr. timothy m. gallagher ; appointment_time = 11:15 am ; appointment_date = march 9th ) & sure , i can book you an appointment at 11:15 am on march 9th with dr. timothy m. gallagher
+REQUEST ( appointment_time = ? ) & what time do you require the appointment ?
+REQUEST ( appointment_time = ? ) & at what time should the appointment be made ?
+OFFER ( doctor_name = dr. patricia w. kulawiak, md ; city = healdsburg ; type = general practitioner ) & let 's see , i have a general practitioner , dr. patricia w. kulawiak , md located in healdsburg .
+REQUEST ( appointment_time = ? ) & which time would you like ?
+OFFER ( stylist_name = berkeley hair studio ; city = berkeley ) @ INFORM_COUNT ( count = 10 ) & there are 10 salons in berkeley . one nice salon is the berkeley hair studio .
+REQUEST ( city = ? ) & i can help with that . what city should i search in ?
+OFFER ( doctor_name = alex de moraes, md ; city = napa ; type = general practitioner ) @ INFORM_COUNT ( count = 9 ) & your search has yielded 9 suitable results . would alex de moraes , md , a general practitioner in napa work for you ?
+OFFER ( doctor_name = anthony e jones md ; city = oakland ; type = general practitioner ) & anthony e jones md is a general practitioner in oakland .
+REQUEST ( appointment_time = ? ) & when do you want to go ?
+OFFER ( stylist_name = 3sixty salon and boutique ; city = fremont ) & there 's a nice place in fremont called 3sixty salon and boutique .
+OFFER ( doctor_name = dr. ali a. zaki, md ; city = san jose ; type = gynecologist ) & how about gynecologist dr. ali a. zaki , md in san jose ?
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & what date and time did you have in mind ?
+NOTIFY_SUCCESS ( none = none ) & your reservation is done .
+CONFIRM ( doctor_name = dr. edward e. manche, md ; appointment_time = 5:15 pm ) & let 's cofirm . appointment with dr. edward e. manche , md at 5:15 pm .
+REQ_MORE ( none = none ) & is there anything else you need ?
+OFFER ( doctor_name = california skin institute ; city = dublin ; type = dermatologist ) & the california skin institute dublin has a dermatologist .
+OFFER ( stylist_name = albany hair salon ; city = albany ) & i found an albany hair salon in albany .
+NOTIFY_SUCCESS ( none = none ) & the appointment has been set .
+REQ_MORE ( none = none ) & is there anything else ?
+NOTIFY_SUCCESS ( none = none ) & your appointment is booked .
+NOTIFY_SUCCESS ( none = none ) & your appointment is now confirmed .
+NOTIFY_SUCCESS ( none = none ) & snagged ! you have an appointment .
+REQ_MORE ( none = none ) & anything else i can do for you ?
+REQ_MORE ( none = none ) & can i help you out with something else ?
+NOTIFY_SUCCESS ( none = none ) & great , the appointment was made for you on march 4th .
+REQUEST ( appointment_date = ? ) & please tell me your preferred appointment date .
+REQ_MORE ( none = none ) & can i assist you with anything else today ?
+REQUEST ( city = ? ) & which city should i search in ?
+INFORM ( street_address = 1181 boulevard way b ) & the office is located at 1181 boulevard way b .
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) & how about 1512 barber shop in san francisco
+OFFER ( stylist_name = a+ haircuts for men ; city = sunnyvale ) @ INFORM_COUNT ( count = 8 ) & there ate 8 in sunnyvale . how about a+ haircuts for men ?
+NOTIFY_SUCCESS ( none = none ) & i booked your appointment there .
+REQUEST ( appointment_time = ? ) & can you tell me the time when you want to have the appointment ?
+NOTIFY_SUCCESS ( none = none ) & it was booked
+REQUEST ( city = ? ) & where should i search for a dentist nearby ?
+REQUEST ( city = ? ) & what city do you want them to be located in ?
+REQUEST ( city = ? ) & in what city ?
+REQUEST ( appointment_date = ? ; appointment_time = ? ) & at what time and date would you like to make an appointment ?
+OFFER ( stylist_name = 18/8 fine men's salons - palo alto ; city = palo alto ) & 18/8 fine men 's salons - palo alto is in palo alto .
+NOTIFY_SUCCESS ( none = none ) & the appointment has been set .
+INFORM ( address = 4646 el camino real ) & it 's at 4646 el camino real .
+NOTIFY_SUCCESS ( none = none ) & i 've successfully booked your appointment .
+OFFER ( doctor_name = diablo family physicians ; city = san ramon ; type = general practitioner ) & there is a general practitioner clinic called diablo family physicians in san ramon .
+REQUEST ( city = ? ) & what city do you want me to look into ?
+OFFER ( doctor_name = dermatology: ucsf benioff children's hospital oakland ; city = oakland ; type = dermatologist ) & how about the dermatologist in oakland dermatology : ucsf benioff children 's hospital oakland ?
+INFORM ( offers_cosmetic_services = false ; phone_number = 925-947-2529 ) & you can call them at 925-947-2529 and unfortunately , they do not offer cosmetic services .
+OFFER ( stylist_name = burlingame barber shop ; city = burlingame ) & how does burlingame barber shop , a nice salon in burlingame , sound ?
+INFORM ( street_address = 1111 sonoma avenue #214 ; phone_number = 707-575-5831 ) & you 'll find them at 1111 sonoma avenue # 214 . their phone number is 707-575-5831 .
+OFFER ( doctor_name = family practice associates: davidson nancy a md ; city = sebastopol ; type = general practitioner ) & what is your opinion about family practice associates : davidson nancy a md situated at sebastopol ? they are a general practitioner .
+REQUEST ( appointment_date = ? ) & when do you intend to visit them ?
+OFFER ( stylist_name = elite hair design ; city = san mateo ) @ INFORM_COUNT ( count = 10 ) & okay , i found 10 for you . what about elite hair design in san mateo ? it 's really nice .
+CONFIRM ( dentist_name = hillcrest family dental care ; appointment_time = 5:15 pm ; appointment_date = march 13th ) & please confirm that you 'd like an appointment with hillcrest family dental care at 5:15 pm on march 13th .
+OFFER ( doctor_name = dr. sunil s. dhawan ; city = milpitas ; type = dermatologist ) & there is another dermatologist in milpitas . there is dr. sunil s. dhawan .
+OFFER ( doctor_name = david quincy, m.d., mph ; city = santa clara ; type = general practitioner ) & david quincy , m.d. , mph is a good general practitioner located in santa clara .
+INFORM ( street_address = 12221 san pablo avenue ) @ NOTIFY_SUCCESS ( none = none ) & it is located at 12221 san pablo avenue . your appointment has been successfully booked .
+REQ_MORE ( none = none ) & is there anything else ?
+INFORM ( address = 2664 berryessa road # 206 ; offers_cosmetic_services = false ) & their address is 2664 berryessa road # 206 , but they do n't have cosmetic services .
+REQUEST ( appointment_date = ? ) & on what day ?
+CONFIRM ( dentist_name = balboa dental care ; appointment_time = 12:15 pm ; appointment_date = march 13th ) & you would like an appointment with balboa dental care for 12:15 pm on march 13th ?
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) @ INFORM_COUNT ( count = 10 ) & i found 10 salons in that area you may like.1512 barber shop is a very nice salon in san francisco .
+OFFER ( doctor_name = avis e. logan, m.d. ; city = berkeley ; type = general practitioner ) & avis e. logan , m.d . is a berkeley general practitioner .
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) @ INFORM_COUNT ( count = 10 ) & great , i found 10 salons that would be good for you . atelier salon willow glen is a good one in san jose .
+OFFER ( doctor_name = dr. robert greenberg ; city = san ramon ; type = dermatologist ) & yes , this dermatologist in san ramon : dr. robert greenberg
+CONFIRM ( dentist_name = amazing smile dental ; appointment_time = 10:45 am ; appointment_date = march 13th ) & okay , you want to set an appointment to amazing smile dental on march 13th at 10:45 am . please confirm .
+REQ_MORE ( none = none ) & anything else i can help with ?
+NOTIFY_SUCCESS ( none = none ) & it is good to go
+OFFER ( doctor_name = andolsen richard j md ; city = healdsburg ; type = general practitioner ) @ INFORM_COUNT ( count = 5 ) & i have located 5 doctors whom are all a general practitioner in healdsburg . would you like to try andolsen richard j md ?
+INFORM ( street_address = 2400 samaritan drive #105 ; phone_number = 510-845-8035 ) & 2400 samaritan drive # 105 . reach them at 510-845-8035 .
+REQUEST ( city = ? ) & sure , which area are you looking in ?
+NOTIFY_SUCCESS ( none = none ) & i 've made the appointment .
+NOTIFY_SUCCESS ( none = none ) & your appointment has been successfully booked .
+INFORM ( offers_cosmetic_services = false ) & unfortunately , they do not offer cosmetic services .
+REQ_MORE ( none = none ) & what can i do then ? how can i help you with your situation ?
+CONFIRM ( dentist_name = albert lee ; appointment_time = 4:30 pm ; appointment_date = march 1st ) & let me see if i got everything correctly : you 'd like to book an appointment with albert lee , for 4:30 pm on march 1st .
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & sure . what date and time do you want it at ?
+OFFER ( doctor_name = california sinus centers ; city = atherton ; type = ent specialist ) & i have found a great ent specialist in atherton , would you be interested in california sinus centers ?
+REQUEST ( city = ? ) & what city do you want ?
+REQUEST ( appointment_time = ? ) & what is your preferred time ?
+REQUEST ( appointment_date = ? ) & what day would you like to book ?
+REQUEST ( city = napa ) & a salon in napa
+NOTIFY_SUCCESS ( none = none ) & your appointment is confirmed .
+INFORM ( street_address = 1532 20th street ; average_rating = 4.8 ) & they 're located at 1532 20th street and they have a 4.8 rating .
+INFORM ( street_address = 1532 20th street ) & it 's 1532 20th street .
+OFFER ( stylist_name = berkeley hair studio ; city = berkeley ) & berkeley hair studio is a lovely salon in berkeley .
+OFFER ( doctor_name = babak edraki md ; appointment_date = march 6th ; appointment_time = 12:30 pm ) @ NOTIFY_FAILURE ( none = none ) & sorry the appointment did n't work . how about 12:30 pm at march 6th with babak edraki md .
+REQ_MORE ( none = none ) & anything else i do for you
+REQUEST ( city = mountain view ) & in mountain view ?
+OFFER ( doctor_name = neil fruman, md - retired ; city = lafayette ; type = general practitioner ) @ INFORM_COUNT ( count = 1 ) & neil fruman , md - retired general practitioner in lafayette is the 1 result .
+NOTIFY_SUCCESS ( none = none ) & your doctor 's visit is booked .
+NOTIFY_SUCCESS ( none = none ) & your appointment is set .
+REQUEST ( appointment_time = ? ) & what time on march 8th works for you ?
+OFFER ( doctor_name = cheney tamara md ; city = fremont ; type = general practitioner ) @ INFORM_COUNT ( count = 7 ) & i found 7 matches . cheney tamara md is a general practitioner in fremont .
+REQUEST ( appointment_date = ? ) & what date do you want the appointment on ?
+INFORM ( is_unisex = true ) & yes . it is a unisex salon .
+OFFER ( doctor_name = elloway john md ; city = novato ; type = general practitioner ) @ INFORM_COUNT ( count = 3 ) & alright , i found 3 results . how about elloway john md ? they 're a general practitioner in novato
+OFFER ( doctor_name = blossom ridge medical group: zimmer j kirk md ; city = los gatos ; type = general practitioner ) @ INFORM_COUNT ( count = 10 ) & okay , i found 10 results for a general practitioner in los gatos . how about blossom ridge medical group : zimmer j kirk md ?
+INFORM ( street_address = 2700 grant street #104 ; average_rating = 5.0 ) @ NOTIFY_SUCCESS ( none = none ) & your appointment has been made . they are rated at 5.0 and located at 2700 grant street # 104 .
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) @ INFORM_COUNT ( count = 10 ) & i found 10 salon for you . what about 1512 barber shop in san francisco
+NOTIFY_SUCCESS ( none = none ) & your appointment went through !
+OFFER ( stylist_name = august barbershop ; city = redwood city ) & august barbershop is in redwood city .
+REQUEST ( city = san jose ) & in san jose ?
+REQUEST ( city = ? ) & what city do you want ?
+NOTIFY_SUCCESS ( none = none ) & i 've successfully booked your appointment with the dentist .
+REQUEST ( city = ? ) & what metropolis ought i look in ?
+REQUEST ( appointment_time = ? ) & ok , at what time ?
+REQUEST ( city = ? ) & can you tell me the city where i should look for the salon ?
+REQUEST ( appointment_time = ? ) & what time is best ?
+NOTIFY_SUCCESS ( none = none ) & dentist appointment is confirmed .
+INFORM ( street_address = 1479 ygnacio valley road ; average_rating = 4.6 ) & their address is 1479 ygnacio valley road and are rated 4.6 .
+OFFER ( doctor_name = lewis may, ii, md ; city = napa ; type = dermatologist ) & what about a dermatologist in napa called lewis may , ii , md
+REQUEST ( appointment_date = ? ) & which date would you prefer to visit on ?
+INFORM ( offers_cosmetic_services = false ; phone_number = 415-387-8802 ) @ NOTIFY_SUCCESS ( none = none ) & success . your dental appointment is confirmed . however , i 'm showing that no cosmetic procedures are offered , but you can call their office eat 415-387-8802 .
+NOTIFY_SUCCESS ( none = none ) & your appointment has been successfully booked .
+INFORM ( street_address = 4330 clayton road suite j ) @ NOTIFY_SUCCESS ( none = none ) & i 've made the appointment . they 're located at 4330 clayton road suite j .
+CONFIRM ( dentist_name = a j dental lab ; appointment_time = 5:30 pm ; appointment_date = march 5th ) & okay , confirm me what i am about to do for you . you want me to book an appointment with a j dental lab on march 5th at 5:30 pm
+INFORM ( address = 2664 berryessa road # 206 ) & their address is 2664 berryessa road # 206 .
+INFORM ( is_unisex = false ; phone_number = 925-560-8569 ) & sure , the number is 925-560-8569 . i 've had a look and it 's not unisex .
+OFFER ( doctor_name = benson frederick p md ; city = san jose ; type = general practitioner ) & benson frederick p md is also a general practitioner in san jose .
+OFFER ( doctor_name = julie clark, md ; city = petaluma ; type = gynecologist ) @ INFORM_COUNT ( count = 1 ) & sure , there is 1 doctor , julie clark , md , who is a gynecologist located in petaluma .
+OFFER ( doctor_name = dr. lloyd c ford, md - contra costa ent a division of bass medical group ; city = walnut creek ; type = ent specialist ) & dr. lloyd c ford , md - contra costa ent a division of bass medical group in walnut creek which is an ent specialist
+INFORM ( street_address = 555 knowles drive #203 ; phone_number = 408-377-9180 ) & sure , their number is 408-377-9180 and they 're at 555 knowles drive # 203
+OFFER ( stylist_name = kenny le salon ; city = vallejo ) @ INFORM_COUNT ( count = 2 ) & thhere are 2 in vallejo you may like . how about kenny le salon ?
+NOTIFY_SUCCESS ( none = none ) & the appointment has been successfully confirmed .
+REQUEST ( appointment_time = ? ) & what timeframe were you thinking of booking one ?
+INFORM ( offers_cosmetic_services = false ) & i 'm sorry , they do not offer cosmetics services .
+OFFER ( doctor_name = dr. robert greenberg ; city = san ramon ; type = dermatologist ) & there is a dermatologist called dr. robert greenberg in san ramon .
+OFFER ( doctor_name = abazari mina md ; city = san francisco ; type = general practitioner ) @ INFORM_COUNT ( count = 10 ) & i found 10 in san francisco . i have a general practitioner named abazari mina md .
+REQ_MORE ( none = none ) & anything else ?
+OFFER ( doctor_name = dr. fasih a. hameed, md ; city = petaluma ; type = general practitioner ) & dr. fasih a. hameed , md is a general practitioner in petaluma .
+REQUEST ( city = san francisco ) & are you referring to the san francisco area ?
+OFFER ( doctor_name = brenda manfredi, md ; city = windsor ; type = general practitioner ) & there is a general practitioner is windsor named brenda manfredi , md .
+NOTIFY_SUCCESS ( none = none ) & you 're booked .
+CONFIRM ( dentist_name = dr. sethi and dr. virdi ; appointment_time = 5 pm ; appointment_date = march 14th ) & please confirm the following : you want an appointment with dr. sethi and dr. virdi at 5 pm on march 14th .
+REQUEST ( appointment_time = ? ) & okay , what time ?
+REQUEST ( appointment_date = ? ) & i can make that appointment for you , what day did you want to schedule it on ?
+OFFER ( doctor_name = alphaeus wise, md ; city = walnut creek ; type = general practitioner ) & you would like to visit a general practitioner in walnut creek by the name of alphaeus wise , md ?
+OFFER ( stylist_name = c c beauty salon ; city = sonoma ) @ INFORM_COUNT ( count = 3 ) & there are 3 salons in sonoma . one of them is c c beauty salon .
+INFORM ( offers_cosmetic_services = false ; phone_number = 510-223-3337 ) & they can not do cosmetic surgery . their number is 510-223-3337 .
+REQUEST ( appointment_date = ? ) & what is the date for the appointment , please ?
+CONFIRM ( doctor_name = dr. dan r. lightfoot, md ; appointment_time = 11:30 am ) & you 're scheduling an appointment with dr. dan r. lightfoot , md at 11:30 am . are these details correct ?
+REQ_MORE ( none = none ) & any thing else ?
+REQUEST ( appointment_date = ? ) & what date would you like to book ?
+REQUEST ( city = ? ) & in what city ?
+CONFIRM ( doctor_name = anne han, m.d. ; appointment_time = 12:30 pm ) & please confirm you would like a 12:30 pm appointment with anne han , m.d .
+REQUEST ( appointment_date = ? ) & what date do you prefer ?
+OFFER ( doctor_name = anjali tate, m.d. ; city = san jose ; type = gynecologist ) & anjali tate , m.d . is a gynecologist in san jose .
+OFFER ( doctor_name = john chiu, m.d. ; city = cupertino ; type = general practitioner ) @ INFORM_COUNT ( count = 4 ) & i found 4 results for a general practitioner . how about john chiu , m.d . in cupertino .
+CONFIRM ( dentist_name = dr. christopher j. bennett ; appointment_time = 2 pm ; appointment_date = march 1st ) & please confirm , appointment with dr. christopher j. bennett on march 1st at 2 pm .
+REQ_MORE ( none = none ) & will i be able to assist with anything else ?
+REQUEST ( appointment_time = ? ) & yes , for what time ?
+NOTIFY_SUCCESS ( none = none ) & your appointment has been made successfully .
+OFFER ( stylist_name = dukes and dolls salon ; city = petaluma ) @ INFORM_COUNT ( count = 7 ) & there are 7 options . dukes and dolls salon is located in petaluma .
+REQUEST ( appointment_time = ? ) & what time would you like your appointment ?
+REQ_MORE ( none = none ) & can i help you with anything else ?
+REQUEST ( appointment_date = ? ) & as for the date ?
+NOTIFY_SUCCESS ( none = none ) & ding ding ding , you won . your dental appointment is booked .
+CONFIRM ( dentist_name = a j dental lab ; appointment_time = 3 pm ; appointment_date = march 3rd ) & please confirm : appointment with a j dental lab at 3 pm on march 3rd .
+OFFER ( stylist_name = didi salon ; city = burlingame ) & ok , what about didi salon in burlingame .
+OFFER ( stylist_name = christine's salon ; city = mountain view ) & another nice salon is christine 's salon in mountain view .
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) @ INFORM_COUNT ( count = 10 ) & there are 10 salons which apply to what you are looking for . atelier salon willow glen is a favorable salon in san jose .
+NOTIFY_SUCCESS ( none = none ) & okay , i have successfully scheduled your appointment .
+INFORM ( street_address = 211 quarry road ; average_rating = 5.0 ) & they have 5.0 stars on the system . they are located at 211 quarry road .
+REQ_MORE ( none = none ) & can i help you further ?
+REQUEST ( city = ? ) & what city do you want ?
+INFORM ( is_unisex = false ) & it is not .
+INFORM ( street_address = 2737 20th street ; average_rating = 4.5 ) & they are rated 4.5 and are at 2737 20th street
+OFFER ( doctor_name = anne han, m.d. ; city = san francisco ; type = dermatologist ) & i have found a dermatologist is name is anne han , m.d . and she is located in san francisco city .
+NOTIFY_SUCCESS ( none = none ) & your appointment is now confirmed !
+REQUEST ( city = walnut creek ) & is walnut creek the location ?
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) & 1512 barber shop is in san francisco .
+REQ_MORE ( none = none ) & no worries , anything else ?
+NOTIFY_SUCCESS ( none = none ) & it has been done
+REQUEST ( city = ? ) & which city to look in ?
+REQUEST ( appointment_date = ? ) & what date is good for you ?
+OFFER ( doctor_name = alan b. scott, m.d. ; city = san francisco ; type = ophthalmologist ) & alan b. scott , m.d . is an ophthalmologist in san francisco .
+REQUEST ( appointment_date = ? ) & what date works for you ?
+REQ_MORE ( none = none ) & can i help you do anything else today ?
+REQUEST ( appointment_time = ? ) & what time works best for you ?
+REQUEST ( appointment_date = ? ; appointment_time = ? ) & when would you like your appointment ? time and date ?
+INFORM ( street_address = 2556 telegraph avenue #4 ) @ NOTIFY_SUCCESS ( none = none ) & the address is 2556 telegraph avenue # 4 .
+OFFER ( stylist_name = great clips ; city = morgan hill ) & there 's a nice salon called great clips in morgan hill .
+INFORM ( address = 1040 grant road #103 ) @ NOTIFY_SUCCESS ( none = none ) & the address is 1040 grant road # 103 . your appointment is booked
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) & 1512 barber shop is a good salon in san francisco
+REQUEST ( appointment_date = ? ) & on what date ?
+REQ_MORE ( none = none ) & do you need any other help ?
+REQUEST ( appointment_time = ? ) & what time would you like it at ?
+REQUEST ( appointment_time = ? ) & what time do you wan na make the appointment ?
+NOTIFY_SUCCESS ( none = none ) & appointment successfully booked
+REQUEST ( city = ? ) & what city are you looking into ?
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) & 1512 barber shop in san francisco
+NOTIFY_SUCCESS ( none = none ) & your appointment has been made .
+OFFER ( stylist_name = blow dry bar ; city = danville ) @ INFORM_COUNT ( count = 3 ) & there are 3 salons that may interest you . one is called blow dry bar located in danville .
+REQUEST ( appointment_date = ? ) & what date do you want to book for ?
+NOTIFY_SUCCESS ( none = none ) & your appointment is scheduled .
+REQUEST ( appointment_time = ? ) & what 's the best time for you ?
+INFORM ( street_address = 301 old san francisco road level 2 ; phone_number = 408-729-7690 ) & they are at 301 old san francisco road level 2 and their phone number is 408-729-7690
+OFFER ( doctor_name = anne han, m.d. ; city = san francisco ; type = dermatologist ) @ INFORM_COUNT ( count = 10 ) & there are 10 options . anne han , m.d . is a dermatologist located in san francisco .
+REQUEST ( appointment_time = ? ) & at what time ?
+INFORM ( address = 9260 alcosta boulevard # d30 ) @ NOTIFY_SUCCESS ( none = none ) & at 9260 alcosta boulevard # d30 and your appointment has been made !
+CONFIRM ( dentist_name = a j dental lab ; appointment_time = 2:45 pm ; appointment_date = tomorrow ) & okay . so to confirm , you want an appointment with a j dental lab , at 2:45 pm tomorrow ?
+OFFER ( stylist_name = 1512 barber shop ; city = san francisco ) & 1512 barber shop is a nice place in san francisco .
+REQUEST ( appointment_time = ? ) & sure , what time would be best for you ?
+REQUEST ( appointment_time = ? ) & what time would you like to go ?
+CONFIRM ( dentist_name = a j dental lab ; appointment_time = 3:30 pm ; appointment_date = march 5th ) & please confirm the following : booking appointment with a j dental lab , for march 5th at 3:30 pm .
+OFFER ( doctor_name = cheney tamara md ; city = fremont ; type = general practitioner ) @ INFORM_COUNT ( count = 7 ) & sure , there are 7 general practitioner located in fremont , would you like to visit cheney tamara md ?
+REQ_MORE ( none = none ) & is the anything else i can help you with ?
+INFORM ( offers_cosmetic_services = false ; phone_number = 707-265-9440 ) @ NOTIFY_SUCCESS ( none = none ) & it 's booked ! they do n't offer cosmetic service unfortunately . their number is 707-265-9440
+OFFER ( doctor_name = cheney tamara md ; city = fremont ; type = general practitioner ) & there 's a general practitioner in fremont named cheney tamara md .
+REQUEST ( appointment_date = ? ) & what day would like to go ?
+REQUEST ( appointment_time = ? ; appointment_date = ? ) & when would you like to reserve on , and at what day ?
+REQUEST ( appointment_time = ? ) & what time works best ?
+OFFER ( stylist_name = reframe hair gallery ; city = sebastopol ) @ INFORM_COUNT ( count = 1 ) & i found 1 option including reframe hair gallery in sebastopol .
+NOTIFY_SUCCESS ( none = none ) & okay , i have successfully booked your appointment .
+REQUEST ( appointment_time = ? ) & sure , what time should i make the appointment for ?
+NOTIFY_SUCCESS ( none = none ) & ok , your dentist appointment has been confirmed .
+REQ_MORE ( none = none ) & can i help you with anything else ?
+OFFER ( doctor_name = balfour dermatology robert e. beer, md ; city = brentwood ; type = dermatologist ) & i found balfour dermatology robert e. beer , md is a dermatologist in brentwood .
+NOTIFY_SUCCESS ( none = none ) & i have made the appointment .
+OFFER ( stylist_name = atelier salon willow glen ; city = san jose ) & how about atelier salon willow glen in san jose
+OFFER ( stylist_name = 18|8 fine men's salons - lafayette ; city = lafayette ) & 18|8 fine men 's salons - lafayette in lafayette is nice .
+REQUEST ( appointment_date = ? ) & when would you like to visit them ?
+REQ_MORE ( none = none ) & do you need anything else from me ?
+CONFIRM ( dentist_name = dr. yuan tao ; appointment_time = 4 pm ; appointment_date = march 8th ) & please confirm the appointment details : seeing dr. yuan tao on march 8th at 4 pm .
+NOTIFY_SUCCESS ( none = none ) & i have successfully made your appointment .
+OFFER ( doctor_name = dr. ben l. littlejohn iii, md ; city = emeryville ; type = general practitioner ) @ INFORM_COUNT ( count = 2 ) & okay ! here you go ! 2 of them are available . do you wish to book your appointment with dr. ben l. littlejohn iii , md located in emeryville , for he is a general practitioner ?
+CONFIRM ( dentist_name = thomas p farris ; appointment_time = 2 pm ; appointment_date = march 10th ) & please confirm the following appointment on march 10th and 2 pm with thomas p farris .
+NOTIFY_SUCCESS ( none = none ) & i booked it for you .

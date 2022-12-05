@@ -1,0 +1,12 @@
+confirm ( near = potrero hill ) & are you wondering if it is near potrero hill
+inform ( name = assab eritrean restaurant ; pricerange = cheap ; address = 2845 geary blvd ) & assab eritrean restaurant is cheap and the address is 2845 geary blvd
+inform ( name = spruce ; goodformeal = dinner ; near = presidio heights ) & spruce is good for dinner and it is near presidio heights
+inform ( name = chow ; address = 215 church street ; price = 22 euro ) & chow food is located at 215 church street . it costs 22 euro
+inform ( name = arabian nights restaurant ; pricerange = moderate ; area = hayes valley or noma ) & arabian nights restaurant has moderate price -s and is in hayes valley or noma
+inform ( name = marnee thai ; near = outer sunset ; pricerange = moderate ; goodformeal = dinner ) & marnee thai is near outer sunset , with a moderate price for dinner
+inform_count ( type = restaurant ; count = 4 ; food = japanese ; pricerange = expensive ) & there are 4 other restaurant -s that are expensive japanese restaurant -s
+inform ( name = thai time restaurant ; kidsallowed = yes ; near = inner richmond ) & thai time restaurant is a nice restaurant that allows child -s near inner richmond
+inform ( name = enjoy vegetarian restaurant ; food = chinese ; near = chinatown ; goodformeal = dinner ; kidsallowed = yes ) & enjoy vegetarian restaurant serves chinese food for dinner and allows kid -s . it is near to chinatown
+inform ( name = house of nanking ; goodformeal = lunch ; kidsallowed = no ) & house of nanking is good for lunch and does not allow child -s
+inform_only_match ( name = red door cafe ; pricerange = cheap ; goodformeal = brunch ) & i apologize , the red door cafe is the only available restaurant that serves brunch in your cheap price range
+request ( pricerange = ? ) & would you like restaurant -s in a particular price range

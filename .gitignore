@@ -1,3 +1,9 @@
+src/scgpt/
+src/hf_caching_downloads/
+data/augmented/
+hf_caching_downloads/
+models/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,819 @@
+REQUEST ( ride_type = regular, pool ) & would you like a regular , pool or some other ride ?
+INFORM ( wait_time = 6 ) & it will reach you in 6 minutes .
+CONFIRM ( destination = sushi island ; number_of_seats = 1 ; ride_type = regular ) & 1 sets in a regular ride to sushi island . is it correct ?
+GOODBYE ( none = none ) & have a fantastic day .
+GOODBYE ( none = none ) & have a terrific day !
+CONFIRM ( destination = 3268 grand avenue ; number_of_seats = 2 ; ride_type = luxury ) & please confirm your booking of a luxury ride for 2 seats to 3268 grand avenue .
+REQUEST ( ride_type = luxury, pool ) & no problem . would you like a luxury , pool , other other kind of ride ?
+REQ_MORE ( none = none ) & is there anything else ?
+NOTIFY_SUCCESS ( none = none ) & i have booked the cab and it 's on its way .
+REQUEST ( number_of_riders = ? ) & how many people will be travelling ?
+REQ_MORE ( none = none ) & is there anything else i can assist you with today ?
+REQ_MORE ( none = none ) & is there anything else ?
+CONFIRM ( destination = 2664 berryessa road # 206 ; number_of_riders = 1 ; shared_ride = true ) & could you confirm that you want to go to 2664 berryessa road # 206 in a shared cab for 1 person ?
+INFORM ( ride_fare = $31.99 ; wait_time = 8 ) @ NOTIFY_SUCCESS ( none = none ) & the cost is $ 31.99 and eta is 8 minutes
+REQUEST ( number_of_seats = ? ; ride_type = pool, regular ) & how many people are going and do you want a pool , a regular , or another type of ride ?
+REQUEST ( number_of_seats = ? ) & how many seats do you require ?
+GOODBYE ( none = none ) & have a excellent day !
+GOODBYE ( none = none ) & have a nice day .
+REQUEST ( number_of_seats = ? ; ride_type = ? ) & do you have a preference on the type of ride and how many people will be traveling ?
+REQUEST ( shared_ride = ? ) & do you want a shared ride ?
+CONFIRM ( number_of_seats = 1 ; ride_type = luxury ) & you want a luxury ride for 1 person . is that right ?
+NOTIFY_SUCCESS ( none = none ) & okay . i booked the ride for you , and the cab will be here soon .
+GOODBYE ( none = none ) & have a great day .
+CONFIRM ( destination = 3111 mission college boulevard ; number_of_seats = 1 ; ride_type = regular ) & okay , i 'll do that as soon as you confirm you 'd like me to book a regular ride for 1 to 3111 mission college boulevard .
+GOODBYE ( none = none ) & you 're welcome . please enjoy your day .
+GOODBYE ( none = none ) & have a super day .
+INFORM ( approximate_ride_duration = 23 ) @ NOTIFY_SUCCESS ( none = none ) & it will be about 23 minutes and your ride is booked and on the way .
+CONFIRM ( destination = 7788 dublin boulevard ; number_of_seats = 1 ; ride_type = pool ) & please confirm you want 1 seat of pool ride to go to 7788 dublin boulevard
+REQ_MORE ( none = none ) & no problem . is there anything else i can do for you ?
+CONFIRM ( destination = val's ; number_of_seats = 1 ; ride_type = luxury ) & confirm val 's with 1 seat and a luxury ride .
+NOTIFY_SUCCESS ( none = none ) & your cab is on the way .
+NOTIFY_SUCCESS ( none = none ) & i booked you a cab and it is on the way .
+CONFIRM ( destination = 2664 berryessa road # 206 ; number_of_seats = 1 ; ride_type = pool ) & you want a seat for 1 for a pool ride to 2664 berryessa road # 206 , is that correct ?
+CONFIRM ( destination = skates on the bay ; number_of_riders = 1 ; shared_ride = true ) & please confirm the following : you want a ride share for 1 person going to skates on the bay .
+GOODBYE ( none = none ) & have a splendid day .
+GOODBYE ( none = none ) & have an amazing day .
+CONFIRM ( destination = 85 west portal avenue ; number_of_riders = 3 ; shared_ride = true ) & cab for 3 people to 85 west portal avenue .
+REQ_MORE ( none = none ) & is there anything else .
+CONFIRM ( destination = miyabi ; number_of_riders = 2 ; shared_ride = true ) & please confirm you 're getting a cab for 2 going to miyabi and you want a shared ride .
+CONFIRM ( destination = 659 merchant street ; ride_type = regular ) & please confirm : you want a ride to 659 merchant street , regular ride .
+NOTIFY_SUCCESS ( none = none ) & ok , i 've made your reservation . it 's on its way .
+REQUEST ( ride_type = regular, luxury ) & sure , do you have a ride preference ? i can get you a regular , luxury or other type of ride if you 'd like .
+CONFIRM ( destination = 611 east 18th street ; number_of_seats = 3 ; ride_type = luxury ) & please confirm : you need a luxury ride for 3 to 611 east 18th street .
+CONFIRM ( destination = darda seafood ; number_of_riders = 2 ; shared_ride = true ) & okay , please confirm : calling a shared cab for 2 people going to darda seafood .
+CONFIRM ( destination = la vie ; number_of_seats = 1 ; ride_type = pool ) & you want 1 seat for a pool ride at la vie is true ?
+CONFIRM ( destination = 1845 willow pass road ; number_of_seats = 1 ; ride_type = regular ) & confirm 1845 willow pass road and 1 regular ride .
+NOTIFY_SUCCESS ( none = none ) & the ride has been booked , and is on route to your location .
+CONFIRM ( destination = 620 3rd street ; number_of_seats = 1 ; ride_type = regular ) & please confirm : you need a regular ride for 1 to 620 3rd street .
+CONFIRM ( destination = 302 easy street ; number_of_seats = 4 ; ride_type = pool ) & okay , please confirm you 'd like a pool cab for 4 people to 302 easy street .
+REQUEST ( destination = 1181 boulevard way b ; ride_type = ? ) & are you going to 1181 boulevard way b and also which ride will you prefer ?
+INFORM ( ride_fare = $49.59 ) @ NOTIFY_SUCCESS ( none = none ) & the cost is $ 49.59 . the cab is booked and it 's heading to your location .
+CONFIRM ( destination = 1000 claudia court ; number_of_seats = 4 ; ride_type = luxury ) & please confirm the following : you would like to ride to 1000 claudia court in a luxury ride for 4 people .
+NOTIFY_SUCCESS ( none = none ) & your ride is booked and is coming right now .
+REQUEST ( number_of_seats = ? ) & how many people will be traveling in the cab ?
+NOTIFY_SUCCESS ( none = none ) & your ride is on the way .
+CONFIRM ( destination = 1585 marburg way # 4 ; number_of_seats = 1 ; ride_type = regular ) & okay , you want a 1 regular ride going to 1585 marburg way # 4 . please confirm .
+INFORM ( ride_fare = $9.78 ) @ NOTIFY_SUCCESS ( none = none ) & your ride is booked and the cab is coming . it costs $ 9.78 .
+INFORM ( approximate_ride_duration = 25 ; ride_fare = $30.40 ) @ NOTIFY_SUCCESS ( none = none ) & the ride will be $ 30.40 and is about 25 minutes .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+GOODBYE ( none = none ) & thank you very much .
+INFORM ( ride_fare = $10.15 ; wait_time = 9 ) @ NOTIFY_SUCCESS ( none = none ) & i 've reserve a ride for $ 10.15 to arrive in 9 minutes .
+INFORM ( ride_fare = $40.14 ) @ NOTIFY_SUCCESS ( none = none ) & the cost will be $ 40.14 and your cab is booked and its on the way .
+REQUEST ( destination = ? ; number_of_seats = ? ) & where do you need to go and how many people are with you .
+CONFIRM ( destination = 18478 prospect road ; number_of_seats = 2 ; ride_type = regular ) & a regular ride for 2 to 18478 prospect road . is this what you want ?
+REQUEST ( destination = 2305 camino ramon suite 100 ) & you would like to go to 2305 camino ramon suite 100 ?
+GOODBYE ( none = none ) & have an amazing day .
+NOTIFY_SUCCESS ( none = none ) & your cab is booked and on the way .
+CONFIRM ( destination = 343 rheem boulevard ; number_of_seats = 2 ; ride_type = luxury ) & please give confirmation details : you require luxury ride to 343 rheem boulevard with 2 seats
+CONFIRM ( destination = 350 park street ; number_of_seats = 3 ; ride_type = pool ) & okay . please confirm that you 'd like 3 seats in a pool cab to 350 park street .
+REQUEST ( shared_ride = ? ) & is a shared ride okay ?
+GOODBYE ( none = none ) & happy hunting boss .
+NOTIFY_SUCCESS ( none = none ) & i booked your ride and the cab will be here soon .
+GOODBYE ( none = none ) & i am glad i could help . have a nice day .
+REQ_MORE ( none = none ) & do you need help with anything else ?
+INFORM ( ride_fare = $18.60 ; wait_time = 5 ) & it will reach you within 5 minutes and the cost for that ride is $ 18.60 .
+REQUEST ( number_of_riders = ? ; destination = ? ; shared_ride = ? ) & sure , i need a few details : where are you headed , how many passengers , and will this be a shared ride ?
+INFORM ( wait_time = 8 ; ride_fare = $12.28 ) @ NOTIFY_SUCCESS ( none = none ) & in 8 minutes you can get in the cab and you have to pay $ 12.28 .
+REQUEST ( shared_ride = ? ; number_of_riders = ? ) & how many people are in your party and do you mind ride sharing
+GOODBYE ( none = none ) & have a wonderful day .
+NOTIFY_SUCCESS ( none = none ) & the cab is on the way .
+INFORM ( wait_time = 6 ) & it arrives in 6 minutes .
+CONFIRM ( destination = 2340 chestnut street ; number_of_riders = 2 ; shared_ride = true ) & please make confirmation of the following details : you are wanting a shared ride for 2 people to go to 2340 chestnut street .
+REQUEST ( destination = 211 quarry road ; number_of_seats = ? ) & for your trip to 211 quarry road ? for how many passengers ?
+REQUEST ( destination = 15555 east 14th street ) & will you be going to 15555 east 14th street ?
+CONFIRM ( destination = 1107 porter street ; number_of_seats = 1 ; ride_type = pool ) & please confirm : you want me to book a pool ride for 1 people to 1107 porter street .
+NOTIFY_SUCCESS ( none = none ) & the cab is booked and is on its way
+REQ_MORE ( none = none ) & is there any other help from me ?
+REQUEST ( number_of_seats = ? ) & how many seats should i get you ?
+NOTIFY_SUCCESS ( none = none ) & your ride is booked and on its way .
+CONFIRM ( destination = 3200 kearney street bldg 1 ; number_of_seats = 1 ; ride_type = luxury ) & confirm 1 seat for luxury ride to 3200 kearney street bldg 1 .
+GOODBYE ( none = none ) & good luck and have a good day !
+INFORM ( ride_fare = $24.33 ) @ NOTIFY_SUCCESS ( none = none ) & your cab is booked and it is enroute . you will have to pay $ 24.33 .
+GOODBYE ( none = none ) & have a good day !
+CONFIRM ( destination = 1115 solano avenue ; number_of_seats = 1 ; ride_type = luxury ) & pleas confirm the following details : booking a luxury ride for 1 at 1115 solano avenue .
+INFORM ( ride_fare = $21.10 ; approximate_ride_duration = 23 ) & the total is $ 21.10 and it will be a 23 minute ride
+REQUEST ( shared_ride = ? ) & do you mid a shared ride ?
+CONFIRM ( destination = 955 escalon avenue ; number_of_riders = 3 ; shared_ride = true ) & please confirm : a shared ride for 3 people to 955 escalon avenue
+REQUEST ( number_of_seats = ? ) & how many passengers are travelling with you ?
+GOODBYE ( none = none ) & thank you ! have a wonderful day .
+GOODBYE ( none = none ) & have a great day .
+REQUEST ( number_of_seats = ? ) & how many people is it for ?
+CONFIRM ( destination = 383 miller avenue ; number_of_seats = 3 ; ride_type = pool ) & i 'll book that as soon as you confirm you 'd like a pool for 3 to 383 miller avenue .
+REQUEST ( destination = ? ; number_of_riders = ? ; shared_ride = ? ) & to which place shall i book and for how many people ? is shared ride is convenient to you ?
+CONFIRM ( destination = 2585 samaritan drive ; number_of_riders = 1 ; shared_ride = true ) & please confirm : you want to book a shared ride for 1 people in a cab to 2585 samaritan drive .
+INFORM ( wait_time = 5 ) @ NOTIFY_SUCCESS ( none = none ) & your cab is on the way . it should be there in 5 minutes .
+CONFIRM ( destination = 360 chicago ; number_of_seats = 1 ; ride_type = regular ) & to confirm , you want a regular ride to 360 chicago for just 1 seat .
+NOTIFY_SUCCESS ( none = none ) & i booked you a ride and it is on the way .
+INFORM ( wait_time = 9 ) @ NOTIFY_SUCCESS ( none = none ) & i 've booked the cab and it 's on its way . it should be there in about 9 minutes .
+REQUEST ( shared_ride = ? ) & yes , how about a shared ride ?
+INFORM ( wait_time = 2 ) @ NOTIFY_SUCCESS ( none = none ) & i have booked the cab and it will reach you in 2 minutes .
+REQ_MORE ( none = none ) & do you need any other help ?
+REQUEST ( number_of_riders = ? ) & how many people is that for ?
+CONFIRM ( number_of_seats = 2 ; ride_type = luxury ) & please confirm your booking for 2 on a luxury ride to 350 park street .
+CONFIRM ( destination = 1520 lakeside drive ; number_of_riders = 3 ; shared_ride = true ) & you want a shared ride for 3 to 1520 lakeside drive ?
+CONFIRM ( destination = 2505 samaritan drive ; number_of_riders = 1 ; shared_ride = true ) & sure , confirm 1 person to 2505 samaritan drive , any type ok .
+NOTIFY_SUCCESS ( none = none ) & i booked the cab and they 're en route .
+CONFIRM ( destination = 1 baywood ave # 6 ; number_of_seats = 1 ; ride_type = regular ) & ok , to confirm , you want a regular cab ride for 1 person to 1 baywood ave # 6 . is that right ?
+GOODBYE ( none = none ) & have a most rewarding day .
+NOTIFY_SUCCESS ( none = none ) & the cab would arrive shortly .
+INFORM ( wait_time = 13 ) @ NOTIFY_SUCCESS ( none = none ) & your cab will be there in 13 minutes .
+CONFIRM ( destination = 1115 solano avenue ; number_of_riders = 1 ; shared_ride = true ) & please confirm : you need a shared cab for 1 to 1115 solano avenue .
+REQUEST ( number_of_riders = ? ) & for how many people ?
+NOTIFY_SUCCESS ( none = none ) & the ride has successfully been booked and has been reported as being on the way .
+GOODBYE ( none = none ) & enjoy your day .
+GOODBYE ( none = none ) & have a good day .
+NOTIFY_SUCCESS ( none = none ) & your cab has been booked and will be with you shortly .
+NOTIFY_SUCCESS ( none = none ) & the cab is on its way and the ride is booked .
+GOODBYE ( none = none ) & have a good time !
+CONFIRM ( destination = 5305 almaden expressway ; number_of_seats = 2 ; ride_type = pool ) & you want a pool ride for 2 heading to 5305 almaden expressway ?
+REQUEST ( destination = 3195 north main street ) & are you headed to 3195 north main street ?
+CONFIRM ( destination = 261 north 2nd street ; number_of_seats = 2 ; ride_type = regular ) & please confirm you 're booking a ride for 2 to 261 north 2nd street and you prefer a regular ride .
+CONFIRM ( destination = 2525 sand creek road ; number_of_seats = 1 ; ride_type = pool ) & okay ! please can you confirm me that you wish to have a pool ride to 2525 sand creek road for 1 person . is that right ?
+NOTIFY_SUCCESS ( none = none ) & the cab will be there shortly .
+CONFIRM ( destination = alexandra palace ice rink ; number_of_riders = 2 ; shared_ride = true ) & i 'll get you a shared cab for 2 passengers to alexandra palace ice rink , is that correct ?
+NOTIFY_SUCCESS ( none = none ) & your cab is booked and should be with you shortly .
+REQUEST ( number_of_riders = ? ) & for how many people is the ride ?
+GOODBYE ( none = none ) & have a good day !
+REQUEST ( number_of_seats = ? ) & how many seats ?
+GOODBYE ( none = none ) & you 're very welcome .
+CONFIRM ( destination = 1333 north california boulevard ; number_of_riders = 1 ; shared_ride = true ) & please confirm you want a shared ride going to 1333 north california boulevard for 1 .
+CONFIRM ( destination = 1100 market street ; number_of_seats = 4 ; ride_type = luxury ) & need your confirmation to book a cab with luxury ride for 4 persons to 1100 market street .
+INFORM ( ride_fare = $13.65 ) @ NOTIFY_SUCCESS ( none = none ) & $ 13.65 . the car is on the way .
+NOTIFY_SUCCESS ( none = none ) & the cab will arrive shortly .
+CONFIRM ( destination = alexandra palace ; number_of_riders = 1 ; shared_ride = true ) & you are reserving a cab for 1 person . you 're getting a shared ride to alexandra palace . please confirm that 's right ?
+CONFIRM ( destination = 2589 mission street ; number_of_seats = 3 ; ride_type = luxury ) & booking a luxury ride for 3 to 2589 mission street .
+INFORM ( wait_time = 8 ; ride_fare = $15.66 ) & it should get to you in 8 minutes and will cost $ 15.66 .
+INFORM ( wait_time = 3 ; ride_fare = $12.19 ) @ NOTIFY_SUCCESS ( none = none ) & it arrives in 3 minutes and costs $ 12.19 .
+REQ_MORE ( none = none ) & is there anything else you need today ?
+REQUEST ( shared_ride = ? ) & are you interested in shared ride ?
+INFORM ( ride_fare = $24.04 ; approximate_ride_duration = 28 ) @ NOTIFY_SUCCESS ( none = none ) & it will last for 28 minutes and will cost $ 24.04 .
+GOODBYE ( none = none ) & have a great day , bye
+GOODBYE ( none = none ) & have a good time !
+CONFIRM ( destination = 701 e el camino real 2nd floor ; number_of_seats = 1 ; ride_type = regular ) & so a regular ride for 1 to 701 e el camino real 2nd floor .
+GOODBYE ( none = none ) & have a great day .
+INFORM ( ride_fare = $40.00 ; wait_time = 11 ) @ NOTIFY_SUCCESS ( none = none ) & i have booked your ride . the cab costs $ 40.00 and will arrive in 11 minutes .
+INFORM ( ride_fare = $8.75 ; wait_time = 9 ) @ NOTIFY_SUCCESS ( none = none ) & your ride has been booked and is on its way . the cab should be here in 9 minutes and it will be $ 8.75 .
+REQ_MORE ( none = none ) & do you need help with anything else ?
+REQUEST ( ride_type = ? ) & what type of ride do you want to get ?
+REQUEST ( destination = 301 sycamore valley road ; shared_ride = ? ) & whether you are going to 301 sycamore valley road ? are you willing to have a shared ride ?
+CONFIRM ( destination = 375 40th street ; number_of_seats = 1 ; ride_type = luxury ) & can you please confirm that you want a ride to 375 40th street and need 1 seat on a luxury ride ?
+REQUEST ( ride_type = pool, regular ) & pool or regular ?
+GOODBYE ( none = none ) & have a great day .
+CONFIRM ( destination = desert botanical garden ; number_of_seats = 1 ; ride_type = pool ) & you want a pool ride for 1 person to desert botanical garden , correct ?
+REQUEST ( ride_type = ? ; destination = 4175 blackhawk plaza circle ) & which type of ride ? the address is 4175 blackhawk plaza circle ?
+GOODBYE ( none = none ) & enjoy your day !
+NOTIFY_SUCCESS ( none = none ) & i have booked the ride and the cab is on the way .
+NOTIFY_SUCCESS ( none = none ) & the taxi is on the way .
+CONFIRM ( destination = 750 north king road ; number_of_riders = 1 ; shared_ride = true ) & ok , you are going to 750 north king road , 1 person . you require a shared ride .
+CONFIRM ( destination = 2500 milvia street ; number_of_seats = 3 ; ride_type = pool ) & okay , no problem . please confirm that you 'd like a pool ride to 2500 milvia street , for 3 people .
+NOTIFY_SUCCESS ( none = none ) & i 've booked the cab and it 's in transit now .
+NOTIFY_SUCCESS ( none = none ) & i have book the ride and the cab is on the way .
+REQ_MORE ( none = none ) & anything else ?
+REQUEST ( destination = 6950 santa teresa boulevard ) & you are heading to 6950 santa teresa boulevard ?
+NOTIFY_SUCCESS ( none = none ) & the ride has been booked and the cab is coming
+REQ_MORE ( none = none ) & anything else you need ?
+REQUEST ( ride_type = pool, luxury ) & what type of cab : you can say pool , luxury or something else .
+GOODBYE ( none = none ) & have a good day .
+CONFIRM ( destination = 9025 old redwood highway d ; number_of_seats = 3 ; ride_type = luxury ) & okay . you want a luxury ride for 3 to 9025 old redwood highway d ?
+REQ_MORE ( none = none ) & is there anything else i can assist you with
+GOODBYE ( none = none ) & have an amazing day .
+REQUEST ( ride_type = luxury, regular ) & do you want a luxury or regular ride ? you can choose any other type of ride .
+CONFIRM ( destination = arc de triomphe ; number_of_seats = 2 ; ride_type = luxury ) & please confirm : you want 2 seat on a luxury ride to arc de triomphe .
+REQUEST ( shared_ride = ? ; number_of_riders = ? ) & is a shared ride ok ? and for how many people ?
+REQ_MORE ( none = none ) & did you need anything else ?
+CONFIRM ( destination = 375 oaktree drive ; number_of_seats = 4 ; ride_type = pool ) & confirm that you want a pool ride for 4 to 375 oaktree drive ?
+CONFIRM ( destination = 1785 san carlos ave # 3 ; number_of_riders = 1 ; shared_ride = true ) & confirming a cab for 1 passenger , a shared ride to 1785 san carlos ave # 3 .
+REQ_MORE ( none = none ) & do you need help with anything else ?
+CONFIRM ( number_of_seats = 1 ; ride_type = pool ) & please confirm to book a cab for 1 seat with pool ride .
+REQUEST ( destination = 531 davis street ; number_of_riders = ? ; shared_ride = ? ) & sure , the address for the movie is 531 davis street ? will you be riding alone and do you want a shared ride ?
+INFORM ( ride_fare = $29.05 ) & the total cost is $ 29.05 .
+GOODBYE ( none = none ) & have a good day .
+REQUEST ( shared_ride = ? ; number_of_riders = ? ) & for a shared ride ? number of passengers ?
+GOODBYE ( none = none ) & have a wonderful time in london !
+NOTIFY_SUCCESS ( none = none ) & your booking has been made and is on its way .
+INFORM ( approximate_ride_duration = 8 ) @ NOTIFY_SUCCESS ( none = none ) & your booking has been made , and this ride will take you about 8 minutes to reach .
+GOODBYE ( none = none ) & have a great day !
+REQUEST ( destination = 655 redwood highway suite 100 ) & is the destination 655 redwood highway suite 100 ?
+REQ_MORE ( none = none ) & is there anything else ?
+INFORM ( approximate_ride_duration = 10 ) @ NOTIFY_SUCCESS ( none = none ) & the cab is on the way and duration is 10 minutes .
+INFORM ( ride_fare = $19.03 ) @ NOTIFY_SUCCESS ( none = none ) & your cab ride is confirmed for a total of $ 19.03 , and should arrive shortly .
+CONFIRM ( destination = 56 signers of the declaration of independence memorial ; number_of_seats = 4 ; ride_type = luxury ) & please confirm a luxury ride for 4 to 56 signers of the declaration of independence memorial .
+REQUEST ( destination = 949 el camino real ) & is 949 el camino real ok ?
+CONFIRM ( destination = 344 east hamilton avenue ; number_of_seats = 2 ; ride_type = regular ) & you want a regular ride for 2 people to get to 344 east hamilton avenue . is that right ?
+GOODBYE ( none = none ) & let me know if i can be of any further service .
+REQUEST ( ride_type = pool, regular ; destination = 1027 oliver road ) & what type of ride do you like pool or regular ? will you be going to 1027 oliver road .
+CONFIRM ( destination = 1115 solano avenue ; number_of_seats = 4 ; ride_type = luxury ) & please give confirmation details : your luxury ride with 4 seats to 1115 solano avenue .
+REQUEST ( destination = 2101 camino ramon #100, 1603 ; ride_type = luxury, pool ) & sure . please may i know if you are interested in visiting 2101 camino ramon # 100 or 1603 ? do you look for a pool or luxury ride ?
+CONFIRM ( destination = 1760 polk street ; number_of_seats = 2 ; ride_type = regular ) & please confirm your regular ride for 2 to 1760 polk street .
+NOTIFY_SUCCESS ( none = none ) & your ride has been reserved and it is on its way .
+REQUEST ( number_of_seats = ? ) & how many seats ?
+INFORM ( ride_fare = $11.37 ) @ NOTIFY_SUCCESS ( none = none ) & your ride has been booked and is on the way . the total cost will be $ 11.37 .
+INFORM ( wait_time = 11 ) & it will arrive within 11 minutes .
+REQUEST ( ride_type = ? ) & what type of ride do you prefer ?
+REQUEST ( ride_type = luxury, pool ) & sure . do you prefer luxury , pool or anything else ?
+GOODBYE ( none = none ) & have a great one !
+REQUEST ( destination = 460 san mateo avenue ; shared_ride = ? ) & do you want a shared ride to go to 460 san mateo avenue ?
+NOTIFY_SUCCESS ( none = none ) & i booked your ride and it 's on the way .
+NOTIFY_SUCCESS ( none = none ) & your cab is booked and on the way
+REQUEST ( number_of_riders = ? ) & how many people are in your group ?
+REQUEST ( ride_type = luxury, regular ) & what type of ride do you want to take ? there 's luxury , regular , and other types .
+INFORM ( approximate_ride_duration = 19 ) @ NOTIFY_SUCCESS ( none = none ) & i have booked the cab and it will reach you soon and the same will take you to the place within 19 minutes .
+GOODBYE ( none = none ) & good luck and have a great day !
+REQUEST ( number_of_riders = ? ) & how many people should i book the cab for ?
+CONFIRM ( destination = 2605 haste street ; number_of_seats = 3 ; ride_type = luxury ) & please confirm : a luxury ride for 3 to 2605 haste street .
+INFORM ( approximate_ride_duration = 27 ) & your ride with the cab is expected to last 27 minutes .
+GOODBYE ( none = none ) & i wish you a nice day .
+INFORM ( approximate_ride_duration = 17 ) @ NOTIFY_SUCCESS ( none = none ) & your cab is booked and on the way . the ride should last 17 minutes .
+INFORM ( ride_fare = $9.93 ; approximate_ride_duration = 22 ) @ NOTIFY_SUCCESS ( none = none ) & your ride is complete . the total is $ 9.93 and it will be 22 minutes long
+CONFIRM ( destination = 30 st mary axe (the gherkin) ; number_of_riders = 2 ) & ok , please confirm : 2 people for a cab to 30 st mary axe ( the gherkin ) . is this correct ?
+GOODBYE ( none = none ) & have a nice day .
+CONFIRM ( destination = 2217 market street ; number_of_seats = 1 ; ride_type = luxury ) & so you want a ride to 2217 market street for 1 in a luxury ride ?
+INFORM ( ride_fare = $17.94 ; approximate_ride_duration = 32 ) @ NOTIFY_SUCCESS ( none = none ) & the cab is en route to pick you up it will take 32 minutes to get there at a cost of $ 17.94 .
+REQUEST ( number_of_riders = ? ) & for how many people ?
+CONFIRM ( destination = 1621 travis boulevard #300 ; ride_type = regular ) & please confirm the following changes . you want a regular ride to 1621 travis boulevard # 300 .
+REQ_MORE ( none = none ) & is there something else .
+GOODBYE ( none = none ) & have a fantastic day .
+REQ_MORE ( none = none ) & do you need something more ?
+REQ_MORE ( none = none ) & shall i do anything for you ?
+NOTIFY_SUCCESS ( none = none ) & congrats , your cab booking has been made and it s on its way . shall i help you with anything more ?
+INFORM ( ride_fare = $37.76 ) @ NOTIFY_SUCCESS ( none = none ) & the cab is arranged an will be there is short time . you have to pay $ 37.76 .
+REQUEST ( ride_type = ? ) & which type of ride you prefer ?
+CONFIRM ( destination = 1888 solano avenue ; number_of_seats = 2 ; ride_type = regular ) & please confirm a regular ride for 2 to 1888 solano avenue .
+GOODBYE ( none = none ) & have an amazing day .
+INFORM ( ride_fare = $24.47 ; wait_time = 11 ) & the total cost of the ride should be $ 24.47 and it should be there in exactly 11 minutes .
+REQUEST ( ride_type = regular, luxury ) & regular , luxury ?
+REQUEST ( number_of_riders = ? ) & how many people will be riding in the cab ?
+REQUEST ( destination = 3117 16th st ; shared_ride = ? ; number_of_riders = ? ) & is the movie at 3117 16th st ? is a shared ride fine ? for how many people will it be ?
+REQ_MORE ( none = none ) & do you need something more ?
+INFORM ( wait_time = 6 ; ride_fare = $17.82 ) @ NOTIFY_SUCCESS ( none = none ) & the cab is booked and it is arriving in 6 minutes . you will be charged $ 17.82
+CONFIRM ( destination = 10 woodland road ; number_of_seats = 2 ) & you would like a ride for 2 to 10 woodland road , correct ?
+INFORM ( wait_time = 9 ) @ NOTIFY_SUCCESS ( none = none ) & your booking is confirmed and your cab will be with you in around 9 minutes .
+CONFIRM ( destination = 5000 hartnett avenue ; number_of_riders = 1 ; shared_ride = true ) & to confirm : you require a cab to 5000 hartnett avenue for 1 person . correct ?
+INFORM ( approximate_ride_duration = 14 ) & the trip is about 14 minutes .
+INFORM ( ride_fare = $13.19 ) & it will be $ 13.19
+REQUEST ( number_of_riders = ? ) & for how many people ?
+GOODBYE ( none = none ) & enjoy your day .
+NOTIFY_SUCCESS ( none = none ) & your cab will arrive shortly .
+INFORM ( ride_fare = $27.74 ; wait_time = 10 ) @ NOTIFY_SUCCESS ( none = none ) & this ride will cost $ 27.74 . i have hailed your ride an it will arrive in approximately 10 minutes .
+GOODBYE ( none = none ) & i 'm here if you need me .
+REQ_MORE ( none = none ) & is there anything else you need ?
+NOTIFY_SUCCESS ( none = none ) & your booking was confirmed and the cab will reach you at any time .
+GOODBYE ( none = none ) & enjoy your day .
+INFORM ( approximate_ride_duration = 23 ) & the ride will be approximately 23 minutes .
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+REQ_MORE ( none = none ) & is there anything else you want ?
+INFORM ( wait_time = 3 ) & it will reach you within 3 minutes . what else you want me to do now ?
+NOTIFY_SUCCESS ( none = none ) & i got the ride and the cab is coming
+GOODBYE ( none = none ) & enjoy your day .
+INFORM ( ride_fare = $15.68 ) & it will cost $ 15.68 .
+GOODBYE ( none = none ) & have a fun time !
+CONFIRM ( number_of_seats = 3 ; ride_type = regular ) & please verify , 3 seats in regular ride .
+GOODBYE ( none = none ) & have a happy day .
+INFORM ( ride_fare = $17.89 ) @ NOTIFY_SUCCESS ( none = none ) & the price is $ 17.89 and your ride has been confirmed . it is coming right now .
+REQUEST ( number_of_seats = ? ) & how many people will be in the car ?
+CONFIRM ( destination = 411 east el camino real ; number_of_seats = 3 ; ride_type = pool ) & would you like to go to 411 east el camino real with 3 people on a pool ride
+INFORM ( ride_fare = $28.97 ; wait_time = 11 ) @ NOTIFY_SUCCESS ( none = none ) & your requested cab has been booked , and is already on the way . this cab will cost you $ 28.97 , and it should arrive in your location in 11 minutes .
+REQUEST ( number_of_riders = ? ) & a cab for how many ?
+GOODBYE ( none = none ) & have a good day .
+CONFIRM ( destination = 360 chicago ; number_of_seats = 1 ; ride_type = regular ) & please confirm : i am booking a ride to 360 chicago for 1 person . you prefer a regular ride .
+CONFIRM ( destination = 1419 moraga way ; number_of_seats = 2 ; ride_type = luxury ) & please confirm : luxury ride for 2 to 1419 moraga way .
+REQUEST ( number_of_riders = ? ) & how many people will be going ?
+REQUEST ( destination = 16130 juan hernandez drive #108 ) & is the address 16130 juan hernandez drive # 108 ?
+GOODBYE ( none = none ) & have a great day !
+INFORM ( ride_fare = $28.24 ) @ NOTIFY_SUCCESS ( none = none ) & your cab is on its way . the ride came to $ 28.24 .
+INFORM ( approximate_ride_duration = 15 ) @ NOTIFY_SUCCESS ( none = none ) & your ride is booked and is on it 's way . the ride will be about 15 minutes .
+REQ_MORE ( none = none ) & no problem . anything else i can do ?
+NOTIFY_SUCCESS ( none = none ) & the cab has been booked and it 's on its way .
+REQ_MORE ( none = none ) & is there anything else ?
+INFORM ( wait_time = 10 ) @ NOTIFY_SUCCESS ( none = none ) & your booking is successful and will be there in 10 minutes .
+INFORM ( wait_time = 8 ) & the cab will be there in 8 minutes
+REQ_MORE ( none = none ) & do you need something more ?
+INFORM ( ride_fare = $13.06 ; wait_time = 9 ) @ NOTIFY_SUCCESS ( none = none ) & the cab has been booked and it should arrive in 9 minutes . the cab fare is $ 13.06 .
+CONFIRM ( destination = 3141 crow canyon place ; number_of_seats = 2 ; ride_type = regular ) & please confirm for a ride to 3141 crow canyon place 2 seats regular ride .
+REQUEST ( shared_ride = ? ) & do you mind shared ride ?
+REQUEST ( ride_type = regular, pool ; number_of_seats = ? ) & how many people are going and do you want a regular , pool , or another type of cab ?
+NOTIFY_SUCCESS ( none = none ) & your ride is booked and the cab is on its way .
+GOODBYE ( none = none ) & have a great day , good luck at your meeting !
+GOODBYE ( none = none ) & cool , enjoy the property visit !
+CONFIRM ( destination = 30 st mary axe (the gherkin) ; number_of_seats = 1 ; ride_type = luxury ) & please verify the following information : you require 1 seat for a luxury taxi to go to 30 st mary axe ( the gherkin ) .
+INFORM ( approximate_ride_duration = 24 ) & it will take 24 minutes to reach your destination .
+INFORM ( ride_fare = $8.75 ; approximate_ride_duration = 25 ) @ NOTIFY_SUCCESS ( none = none ) & the cab is booked and it 's on its way . the ride lasts around 25 minute and has a cost of $ 8.75
+GOODBYE ( none = none ) & you 're welcome . have a great day .
+INFORM ( wait_time = 9 ) @ NOTIFY_SUCCESS ( none = none ) & it 's on it 's way and will get here is 9 minutes .
+CONFIRM ( destination = musee des arts forains ; number_of_riders = 2 ; shared_ride = true ) & so you would like me to get you a shared cap rid for 2 people going to musee des arts forains ?
+REQ_MORE ( none = none ) & is there anything else ?
+REQUEST ( number_of_seats = ? ; destination = ? ) & where do you want to go and for how many people .
+REQUEST ( shared_ride = ? ) & are you okay with a shared ride ?
+NOTIFY_SUCCESS ( none = none ) & i have booked the cab and the same will reach you soon .
+INFORM ( approximate_ride_duration = 16 ) & it should take about 16 minutes .
+CONFIRM ( destination = autry museum of the american west ; number_of_seats = 2 ; ride_type = luxury ) & 2 seats on luxury ride to autry museum of the american west .
+GOODBYE ( none = none ) & have a nice day !
+GOODBYE ( none = none ) & you 're welcome . have a wonderful day .
+CONFIRM ( destination = 3100 san pablo avenue suite 310 ; number_of_seats = 1 ; ride_type = regular ) & to confirm : you need a regular cab for 1 at 3100 san pablo avenue suite 310 .
+NOTIFY_SUCCESS ( none = none ) & ride is booked and cab is on it 's way !
+GOODBYE ( none = none ) & have a good day .
+CONFIRM ( destination = all saints, margaret street ; ride_type = regular ) & so 1 regular ride to all saints , margaret street ?
+CONFIRM ( destination = 20400 lake chabot road #202 ; number_of_seats = 2 ; ride_type = pool ) & you will ride in a pool ride with a group of 2 to 20400 lake chabot road # 202 correct ?
+REQ_MORE ( none = none ) & do you need me to help with something else ?
+GOODBYE ( none = none ) & no problem , have a wonderful day .
+CONFIRM ( number_of_seats = 2 ; ride_type = luxury ) & sure . to confirm , you want to book a luxury ride for 2 people . is that right ?
+GOODBYE ( none = none ) & have a great day !
+GOODBYE ( none = none ) & have a wonderful day .
+CONFIRM ( destination = penang garden restaurant ; ride_type = luxury ) & alright , to confirm , that 's a luxury ride to penang garden restaurant ?
+REQUEST ( destination = 1201 locust street ) & sure . is your destination 1201 locust street ?
+CONFIRM ( destination = adventure island ; number_of_seats = 1 ; ride_type = regular ) & please confirm your booking for 1 person on a regular ride to adventure island .
+CONFIRM ( destination = 591 redwood highway # 2235 ; ride_type = luxury ) & can you please confirm that you need a luxury ride to 591 redwood highway # 2235 ?
+INFORM ( ride_fare = $33.96 ) & the ride total is $ 33.96 .
+INFORM ( wait_time = 3 ) @ NOTIFY_SUCCESS ( none = none ) & your cab is on the way and it will be there in 3 min .
+CONFIRM ( destination = 1388 locust street ; ride_type = regular ) & ok. to confirm , you want to book a regular ride to 1388 locust street . is that right ?
+CONFIRM ( destination = 1580 clayton road # 1 ; number_of_seats = 2 ; ride_type = pool ) & make sure i got it right . you want 2 seats pool ride to 1580 clayton road # 1 .
+CONFIRM ( destination = art gallery of new south wales ; number_of_riders = 3 ; shared_ride = true ) & please confirm , shared ride for 3 to art gallery of new south wales .
+REQ_MORE ( none = none ) & anything else ?
+REQUEST ( ride_type = ? ) & what 's your preferred type of ride ?
+INFORM ( ride_fare = $43.95 ) & it 'll cost $ 43.95 .
+REQUEST ( shared_ride = ? ; number_of_riders = ? ; destination = 599 tomales road ) & okay . first i 'll need to ask you a few questions . is 599 tomales road the correct destination ? how many people is the cab for , and would you be okay with a shared ride ?
+CONFIRM ( destination = lincoln park zoo ; number_of_seats = 2 ; ride_type = pool ) & you want a pool ride for 2 to lincoln park zoo ?
+GOODBYE ( none = none ) & have a great day .
+CONFIRM ( destination = 2241 first street ; ride_type = pool ) & sure . so , that 's a pool ride to 2241 first street .
+REQUEST ( destination = 1785 san carlos ave # 3 ) & do you want to go to 1785 san carlos ave # 3 ?
+CONFIRM ( destination = 655 redwood highway suite 100 ; number_of_seats = 4 ; ride_type = luxury ) & just to confirm , you are heading to 655 redwood highway suite 100 with 4 people in a luxury ride ?
+REQUEST ( destination = 3410 stevens creek boulevard #101 ; number_of_riders = ? ) & i will presume your destination is 3410 stevens creek boulevard # 101 . will anyone be going with you ?
+REQ_MORE ( none = none ) & do you need anything else ?
+CONFIRM ( destination = 4400 central place ; number_of_seats = 2 ; ride_type = luxury ) & please confirm the following information : you would like a ride to 4400 central place . you would like 2 seats and prefer a luxury ride .
+REQUEST ( destination = 4680 tassajara road ) & are you traveling to 4680 tassajara road ?
+INFORM ( wait_time = 9 ) & it should be there in 9 minutes .
+REQUEST ( ride_type = ? ) & is there a sort of taxi you prefer ?
+NOTIFY_SUCCESS ( none = none ) & your ride has been confirmed and is now on its way .
+NOTIFY_SUCCESS ( none = none ) & i booked it
+CONFIRM ( destination = 409 aviation boulevard ; number_of_riders = 1 ; shared_ride = true ) & 1 to 409 aviation boulevard ?
+CONFIRM ( destination = 2149 chestnut street ; number_of_seats = 3 ; ride_type = luxury ) & okay , confirm these details : you would like a luxury ride with 3 seats going to 2149 chestnut street .
+GOODBYE ( none = none ) & thank you , and have a great day !
+GOODBYE ( none = none ) & have a good time .
+CONFIRM ( destination = art gallery of new south wales ; number_of_riders = 2 ; shared_ride = true ) & kindly ensure that , you wish to go to art gallery of new south wales . the shared ride has been booked for 2 persons .
+REQ_MORE ( none = none ) & is there anything else i can help with ?
+GOODBYE ( none = none ) & great . you take care now .
+REQUEST ( shared_ride = ? ) & is a shared ride ok for you ?
+INFORM ( ride_fare = $12.75 ) @ NOTIFY_SUCCESS ( none = none ) & i booked your ride , it is $ 12.75 .
+GOODBYE ( none = none ) & ok , have a great day .
+GOODBYE ( none = none ) & sure , have a great day ahead !
+CONFIRM ( destination = karura forest ; number_of_seats = 1 ; ride_type = pool ) & to confirm : you like a cab for 1 person to the karura forest and prefer a pool ride , correct ?
+GOODBYE ( none = none ) & enjoy the rest of your day !
+REQUEST ( destination = ? ; ride_type = ? ) & which place would you be going to and what type of cab ride do you want ?
+REQUEST ( number_of_riders = ? ) & how many people will need a ride ?
+CONFIRM ( destination = arab world institute ; number_of_riders = 1 ; shared_ride = true ) & if i have it right you want to go to the arab world institute and you need a cab for 1 to get there , correct ?
+REQUEST ( destination = ? ; number_of_riders = ? ) & sure , i can help . where are you heading ? how many people need a ride ?
+GOODBYE ( none = none ) & have a great day .
+INFORM ( approximate_ride_duration = 11 ) @ NOTIFY_SUCCESS ( none = none ) & the ride has been booked and the cab is on its way . it will take about 11 minutes .
+REQ_MORE ( none = none ) & no worries , do you need any further assistance ?
+CONFIRM ( destination = 104 lynch creek way ; number_of_riders = 2 ; shared_ride = true ) & confirm 104 lynch creek way and the cab is for 2 people .
+REQ_MORE ( none = none ) & any more help you need ?
+GOODBYE ( none = none ) & no problem , have a great day !
+REQUEST ( number_of_riders = ? ; shared_ride = ? ) & how many people were you getting the cab for and did you want a shared ride ?
+NOTIFY_SUCCESS ( none = none ) & your cab is booked and on the way .
+REQ_MORE ( none = none ) & may i help you with other tasks ?
+NOTIFY_SUCCESS ( none = none ) & your cab has been booked and is on its way .
+REQUEST ( destination = 2190 eastridge loop ) & will you be arriving at 2190 eastridge loop ?
+NOTIFY_SUCCESS ( none = none ) & i have booked the ride and the cab is on its way .
+CONFIRM ( destination = alexandra palace ; number_of_seats = 3 ; ride_type = regular ) & please confirm you want a regular ride for 3 going to alexandra palace .
+INFORM ( ride_fare = $12.67 ; wait_time = 4 ) & the ride will cost $ 12.67 and the cab will take 4 minutes .
+CONFIRM ( destination = reading terminal market ; number_of_seats = 1 ; ride_type = pool ) & sure . to confirm , you want to book 1 seat in a pool ride to reading terminal market . is that right ?
+REQUEST ( ride_type = ? ) & what type of ride do you want ?
+GOODBYE ( none = none ) & have a great day .
+REQUEST ( destination = 1580 east washington street # 107 ; number_of_seats = ? ) & for how many persons , you want to book the cab and please confirm you destination address 1580 east washington street # 107 .
+REQUEST ( ride_type = ? ) & is any type of preferred type of ride ?
+INFORM ( ride_fare = $13.05 ) @ NOTIFY_SUCCESS ( none = none ) & your cab is on the way . the fare will be $ 13.05 .
+CONFIRM ( destination = chase center experience ; number_of_riders = 2 ; shared_ride = true ) & so you would like me to book a shared cab ride for 2 people to go to thee chase center experience ?
+REQUEST ( destination = ? ; shared_ride = ? ) & where would you like to go and can it be a shared ride
+REQUEST ( shared_ride = ? ) & is a shared ride ok ?
+NOTIFY_SUCCESS ( none = none ) & your ride is complete and on the way
+INFORM ( wait_time = 8 ; ride_fare = $22.68 ) @ NOTIFY_SUCCESS ( none = none ) & the cab is on its way ; i just booked it . it will be there in 8 minutes , and will cost $ 22.68 .
+REQUEST ( ride_type = luxury, regular ; destination = ? ; number_of_seats = ? ) & what type of vehicle would you like and how many passengers should it fit . there 's luxury , regular , any type that you want . what 's your destination ?
+NOTIFY_SUCCESS ( none = none ) & your cab is booked and on its way to you .
+NOTIFY_SUCCESS ( none = none ) & your ride has been booked and it 's on its way .
+CONFIRM ( destination = perfect chinese food ; number_of_seats = 4 ; ride_type = luxury ) & please confirm the luxury ride for 4 to perfect chinese food .
+REQ_MORE ( none = none ) & is there something else i can do to help you ?
+INFORM ( ride_fare = $16.68 ) @ NOTIFY_SUCCESS ( none = none ) & the ride is $ 16.68
+GOODBYE ( none = none ) & thank you so much .
+GOODBYE ( none = none ) & have a nice meal .
+CONFIRM ( destination = forestiere underground gardens ; number_of_seats = 1 ; ride_type = regular ) & ok so a regular ride for 1 to forestiere underground gardens ?
+GOODBYE ( none = none ) & enjoy !
+REQUEST ( number_of_riders = ? ; shared_ride = ? ) & how many passengers will there be ? and would you like a shared ride ?
+REQ_MORE ( none = none ) & could i help with something else ?
+INFORM ( approximate_ride_duration = 15 ) @ NOTIFY_SUCCESS ( none = none ) & your ride is on its way . the trip is around 15 minutes .
+INFORM ( ride_fare = $25.74 ; approximate_ride_duration = 31 ) @ NOTIFY_SUCCESS ( none = none ) & the total for the ride is $ 25.74 . it will take 31 minutes to arrive .
+NOTIFY_SUCCESS ( none = none ) & your booking is confirmed and cab is on its way
+NOTIFY_SUCCESS ( none = none ) & i have the ride booked and on its way .
+CONFIRM ( destination = 360 chicago ; number_of_seats = 3 ; ride_type = luxury ) & okay , i have a luxury cab ride for 3 people going to 360 chicago , right ?
+NOTIFY_SUCCESS ( none = none ) & your ride has been booked , the cab is coming
+CONFIRM ( destination = 820 east el camino real ; number_of_seats = 1 ; ride_type = pool ) & please confirm that you want 1 seat via a pool ride to 820 east el camino real ?
+CONFIRM ( destination = 6493 portola drive ; number_of_seats = 1 ; ride_type = luxury ) & could you confirm that you want a ride to 6493 portola drive and that you need 1 seat in a luxury ride ?
+REQUEST ( number_of_riders = ? ; shared_ride = ? ) & do you want shared ride and how many ?
+INFORM ( wait_time = 8 ; ride_fare = $43.95 ) & the total cost is $ 43.95 and it should show up in 8 minutes .
+REQUEST ( ride_type = ? ) & do you have a preference for the type of ride ?
+NOTIFY_SUCCESS ( none = none ) & you cab is booked and on the way .
+CONFIRM ( destination = 3440 hillcrest avenue suite 150 ; number_of_seats = 1 ; ride_type = pool ) & can you please confirm that you want to have 1 seat in a pool ride to go to 3440 hillcrest avenue suite 150 ?
+CONFIRM ( destination = anz stadium ; number_of_riders = 1 ; shared_ride = true ) & let me review your itinerary . you will need a shared ride for 1 to anz stadium . is this correct ?
+CONFIRM ( destination = strawberry fields ; number_of_seats = 1 ; ride_type = pool ) & please can you confirm me that you wish to have a pool ride for 1 person to strawberry fields , right ?
+CONFIRM ( destination = 474 24th street ; number_of_riders = 1 ; shared_ride = true ) & please confirm the following : a cab for 1 , going to 474 24th street . you 're okay sharing a ride .
+REQUEST ( ride_type = pool, regular ) & tell me which type of ride you need whether it is pool or regular or any other ?
+GOODBYE ( none = none ) & have a good time !
+NOTIFY_SUCCESS ( none = none ) & confirmed . your cab is on the way .
+INFORM ( approximate_ride_duration = 10 ; ride_fare = $16.09 ) & 10 minutes for $ 16.09 .
+NOTIFY_SUCCESS ( none = none ) & i booked a ride for you in the cab is coming
+NOTIFY_SUCCESS ( none = none ) & your ride is coming to get you now .
+GOODBYE ( none = none ) & have a good day .
+CONFIRM ( destination = 545 san antonio road suite 31 ; number_of_seats = 3 ; ride_type = regular ) & please confirm you want me to book a regular ride to 545 san antonio road suite 31 for 3 .
+REQ_MORE ( none = none ) & no problem , anything else ?
+INFORM ( ride_fare = $23.93 ) & the ride is $ 23.93 .
+NOTIFY_SUCCESS ( none = none ) & your cab is on the way .
+REQUEST ( number_of_seats = ? ) & of course : how many seats ?
+CONFIRM ( destination = 211 quarry road ; ride_type = regular ) & confirming a regular ride to 211 quarry road .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+CONFIRM ( number_of_riders = 1 ; shared_ride = true ) & please confirm the following . a shared cab for 1 .
+REQUEST ( shared_ride = ? ) & sure . is a shared ride ok ?
+REQUEST ( ride_type = regular, pool ; number_of_seats = ? ; destination = ? ) & do you prefer a regular or a pool cab ? how many seats do you need and where are you looking to go ?
+NOTIFY_SUCCESS ( none = none ) & okay your cab is on the way .
+GOODBYE ( none = none ) & you are welcome , enjoy your meal .
+REQUEST ( number_of_riders = ? ) & which is the number of people that you need the cab for ?
+REQUEST ( destination = 717 east el camino real #4 ; number_of_riders = ? ; shared_ride = ? ) & are you going to 717 east el camino real # 4 ? how many people ?
+CONFIRM ( destination = 1501 decoto road ; number_of_riders = 1 ; shared_ride = true ) & please confirm : you want me to book a shared ride for 1 people in a cab to 1501 decoto road .
+INFORM ( ride_fare = $14.24 ) @ NOTIFY_SUCCESS ( none = none ) & the cost is $ 14.24 and the vehicle is on its way .
+REQUEST ( shared_ride = ? ; destination = 1201 locust street ) & do you need a shared ride ? is the location is 1201 locust street ?
+NOTIFY_SUCCESS ( none = none ) & your cab is booked and on the way .
+CONFIRM ( destination = 2331 el camino real ; number_of_riders = 1 ; shared_ride = true ) & please confirm you want to book a shared ride for 1 to 2331 el camino real .
+REQ_MORE ( none = none ) & anymore help you need ?
+CONFIRM ( destination = 127 clement street ; number_of_seats = 2 ; ride_type = pool ) & please confirm a pool ride for 2 to 127 clement street .
+GOODBYE ( none = none ) & have a good time .
+CONFIRM ( destination = 2700 grant street suite 200 ; number_of_seats = 4 ; ride_type = luxury ) & please confirm : you want me to book 4 seats for a luxury ride in a cab going to 2700 grant street suite 200 .
+INFORM ( ride_fare = $44.04 ; wait_time = 12 ) @ NOTIFY_SUCCESS ( none = none ) & the ride costs $ 44.04 and will arrive in 12 minutes . i have booked your ride and the cab is on its way .
+REQUEST ( ride_type = ? ; number_of_seats = ? ; destination = 501 buckingham way ) & what type of ride to go to 501 buckingham way ? how many seats ?
+CONFIRM ( destination = 131 west a street ; number_of_seats = 1 ; ride_type = pool ) & please confirm your pool ride for 1 people going to 131 west a street
+NOTIFY_SUCCESS ( none = none ) & your ride is booked !
+REQ_MORE ( none = none ) & need help with anything else ?
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+REQ_MORE ( none = none ) & can i help you with something else ?
+REQUEST ( ride_type = ? ; destination = 528 7th street ) & is your destination 528 7th street and what is your preferred ride type ?
+NOTIFY_SUCCESS ( none = none ) & okay , i 've booked your cab and it 's on the way .
+REQUEST ( number_of_seats = ? ; destination = 2219 buchanan road #6 ) & how many seats do you need ? and are you going to 2219 buchanan road # 6 ?
+CONFIRM ( destination = royal geographical society ; shared_ride = true ) & okay . i 'm ordering the shared-ride taxicab for your ride to the royal geographical society . shall i confirm that ?
+GOODBYE ( none = none ) & have a nice day .
+GOODBYE ( none = none ) & have a nice day
+REQUEST ( ride_type = pool, regular ) & what kind of ride ? pool or regular ?
+INFORM ( ride_fare = $17.63 ) & you will be charged $ 17.63 .
+CONFIRM ( destination = 87 fenton street suite 210 ; number_of_seats = 3 ; ride_type = pool ) & 3 for a pool ride to 87 fenton street suite 210 ?
+REQUEST ( ride_type = pool, luxury ; number_of_seats = ? ) & which type of ride like pool or luxury or anything else do you prefer ?
+REQ_MORE ( none = none ) & is there something else i can help you out with ?
+INFORM ( ride_fare = $33.10 ) & it will cost $ 33.10 .
+INFORM ( ride_fare = $8.41 ) & it 's $ 8.41
+GOODBYE ( none = none ) & have a good day !
+REQUEST ( number_of_seats = ? ) & how many persons are there in your team ?
+NOTIFY_SUCCESS ( none = none ) & i have booked your ride and the cab is coming .
+GOODBYE ( none = none ) & have an awesome day !
+GOODBYE ( none = none ) & i am glad i could help . have a great day !
+REQUEST ( ride_type = ? ) & no problem . do you have a preferred type of ride ?
+GOODBYE ( none = none ) & have a lovely day .
+INFORM ( wait_time = 5 ) @ NOTIFY_SUCCESS ( none = none ) & your ride is booked and is in route . your ride will arrive within 5 minutes .
+REQUEST ( ride_type = pool, luxury ; destination = 1047 lincoln highway suite 101 ) & there 's a pool and luxury option . are you going to be heading to 1047 lincoln highway suite 101 ?
+CONFIRM ( destination = 9501 duvander lane ; number_of_seats = 2 ; ride_type = pool ) & please give confirmation details : you are riding to 9501 duvander lane with 2 seats and want pool ride .
+INFORM ( wait_time = 11 ) @ NOTIFY_SUCCESS ( none = none ) & i booked your cab and they are in the way . it should arrive in 11 minutes .
+GOODBYE ( none = none ) & enjoy your day ! i hope the apartment is a great fit for you .
+REQUEST ( destination = ? ; ride_type = regular, luxury ) & you can have a regular or luxury or anything else ?
+CONFIRM ( destination = 115 hartz avenue ; number_of_seats = 2 ; ride_type = pool ) & booking a pool ride for 2 to 115 hartz avenue
+CONFIRM ( destination = 3111 mission college boulevard ; number_of_riders = 1 ; shared_ride = true ) & to confirm : you need a cab for 1 person to 3111 mission college boulevard . is this correct ?
+NOTIFY_SUCCESS ( none = none ) & i have successfully booked the ride and the cab is on the way here .
+INFORM ( approximate_ride_duration = 17 ) & the ride will take approximately 17 minutes .
+INFORM ( wait_time = 4 ) & 4 minutes .
+CONFIRM ( destination = 329 tennessee street ; ride_type = pool ) & please can you confirm me that you wish to have a pool ride to 329 tennessee street , right ?
+REQUEST ( ride_type = luxury, pool ) & do you prefer a luxury , pool , or another type of ride ?
+REQUEST ( number_of_seats = ? ) & can you tell me the number of seats you need in your cab ?
+REQUEST ( shared_ride = ? ) & is a shared ride okay with you ?
+REQUEST ( destination = 825 middlefield road ; number_of_riders = ? ) & how many people and are you going to 825 middlefield road ?
+NOTIFY_SUCCESS ( none = none ) & your ride has been booked and is on the way .
+REQUEST ( number_of_riders = ? ) & can you confirm me the number of people ?
+REQUEST ( destination = 750 tennant station ) & so you want to go to 750 tennant station ?
+GOODBYE ( none = none ) & have a good day
+INFORM ( approximate_ride_duration = 19 ) & it 'll take 19 minutes to get to your destination .
+CONFIRM ( destination = 2575 sir francis drake boulevard # 20 ; number_of_riders = 2 ; shared_ride = true ) & please confirm the following details : you want a cab for 2 people and to go to 2575 sir francis drake boulevard # 20 . you are okay with a shared ride .
+GOODBYE ( none = none ) & have a nice day .
+REQUEST ( number_of_seats = ? ; destination = 560 divisadero street ) & great , how many seats ? also will you be going to 560 divisadero street ?
+GOODBYE ( none = none ) & you 're welcome . have a good day .
+NOTIFY_SUCCESS ( none = none ) & your cab is on the way .
+REQ_MORE ( none = none ) & sure , can i help with anything else ?
+GOODBYE ( none = none ) & have a nice day !
+GOODBYE ( none = none ) & have a good one
+CONFIRM ( number_of_riders = 2 ; shared_ride = true ) & just to confirm you want a share cab for 2 people .
+REQUEST ( shared_ride = ? ; number_of_riders = ? ) & how many people will be riding and would you like a shared ride ?
+CONFIRM ( destination = 1282 mattox road ; number_of_seats = 3 ; ride_type = pool ) & please give confirmation details : you need a pool ride to 1282 mattox road with 3 seats .
+INFORM ( ride_fare = $20.34 ; wait_time = 6 ) @ NOTIFY_SUCCESS ( none = none ) & the total comes out to $ 20.34 . i was able to confirm the ride and it should be arriving in about 6 minutes .
+NOTIFY_SUCCESS ( none = none ) & your ride is on its way .
+GOODBYE ( none = none ) & enjoy your day .
+REQUEST ( ride_type = ? ) & any preference on the type of ride .
+INFORM ( wait_time = 7 ) & it should get there in about 7 minutes .
+INFORM ( ride_fare = $15.07 ; approximate_ride_duration = 18 ) & the trip is about 18 minutes and it will cost $ 15.07 .
+CONFIRM ( destination = 1027 oliver road ; number_of_seats = 2 ; ride_type = pool ) & please confirm you want a ride for 1027 oliver road with 2 seats pool ride .
+REQUEST ( ride_type = luxury, pool ; number_of_seats = ? ) & for your ride , would prefer to have our luxury or pool option ? it all depends on how many seats you need .
+CONFIRM ( destination = 1188 el camino real 4th floor ; number_of_riders = 2 ; shared_ride = true ) & please confirm : getting a shared ride cab for 2 people to go to 1188 el camino real 4th floor .
+CONFIRM ( destination = 2505 samaritan drive suite 510 ; number_of_seats = 1 ; ride_type = luxury ) & alright , so you 'd like a luxury ride for 1 person to 2505 samaritan drive suite 510 ?
+INFORM ( ride_fare = $7.29 ) @ NOTIFY_SUCCESS ( none = none ) & okay , i booked your ride and its on the way . it 'll cost about $ 7.29 .
+CONFIRM ( destination = 200 greenbriar circle ; number_of_riders = 4 ; shared_ride = true ) & please confirm : a cab for 4 people to the destination of 200 greenbriar circle
+CONFIRM ( destination = 1475 167th avenue ; number_of_seats = 1 ; ride_type = luxury ) & please confirm : luxury cab for 1 to 1475 167th avenue .
+GOODBYE ( none = none ) & have yourself a wonderful day !
+REQUEST ( number_of_riders = ? ; shared_ride = ? ) & for how many and would you like a shared ride ?
+NOTIFY_SUCCESS ( none = none ) & it 's booked and on its way now .
+CONFIRM ( destination = parliament hill viewpoint ; number_of_riders = 1 ) & confirm change destination to parliament hill viewpoint for 1 .
+REQ_MORE ( none = none ) & any more help you need ?
+INFORM ( approximate_ride_duration = 11 ) & about 11 minutes .
+NOTIFY_SUCCESS ( none = none ) & it has been booked and the ride should be at your location within 15 minutes .
+CONFIRM ( destination = 3630 hillcap avenue ; number_of_riders = 4 ; shared_ride = true ) & sure , to confirm , you want a shared cab for 4 people to 3630 hillcap avenue . is that right ?
+INFORM ( ride_fare = $25.48 ; wait_time = 11 ) @ NOTIFY_SUCCESS ( none = none ) & yes , the ride is for 11 minutes , will cost $ 25.48 and it is confirmed .
+CONFIRM ( destination = 400 newpark mall ; number_of_seats = 3 ; ride_type = regular ) & that 's no problem . so you want a regular cab for 3 people going to 400 newpark mall .
+GOODBYE ( none = none ) & great , just buzz me if you need something else
+CONFIRM ( destination = 3455 homestead road ; ride_type = luxury ) & to re confirm , you are looking for a luxury ride to 3455 homestead road for 3 passengers
+INFORM ( wait_time = 8 ; ride_fare = $11.34 ) @ NOTIFY_SUCCESS ( none = none ) & you 've to wait just 8 minutes and the cost of the ride will be $ 11.34 . your cab is booked and its on the way .
+CONFIRM ( destination = 6000 bollinger canyon road suite 2300 ; number_of_seats = 3 ; ride_type = luxury ) & you want a luxury ride for 3 to 6000 bollinger canyon road suite 2300 .
+CONFIRM ( destination = 4757 snyder lane ; number_of_riders = 2 ; shared_ride = true ) & please confirm : you need a cab for 2 people to 4757 snyder lane . you prefer a shared ride .
+CONFIRM ( destination = national science centre ; number_of_riders = 1 ; shared_ride = true ) & i would like to confirm the following : a shared ride for 1 person at the national science centre .
+CONFIRM ( destination = 1599 sanchez street ; number_of_riders = 2 ; shared_ride = true ) & booking a shared ride for 2 to 1599 sanchez street .
+CONFIRM ( destination = 1107 porter street ; number_of_seats = 1 ; ride_type = pool ) & please confirm : you want me to book a pool ride for 1 people to 1107 porter street .
+NOTIFY_SUCCESS ( none = none ) & your ride is booked and the cab is on your way .
+GOODBYE ( none = none ) & have a great day .
+REQUEST ( number_of_riders = ? ) & how many people is the cab for
+CONFIRM ( destination = 3133 frontera way ; number_of_riders = 1 ; shared_ride = true ) & please confirm you want me to book a shared ride for 1 to 3133 frontera way .
+GOODBYE ( none = none ) & have a great day .
+INFORM ( wait_time = 6 ) & for about 6 minutes .
+INFORM ( ride_fare = $18.16 ) & it costs $ 18.16 .
+NOTIFY_SUCCESS ( none = none ) & you 're all set with a cab on the way .
+CONFIRM ( destination = 221 university avenue ; number_of_seats = 3 ; ride_type = luxury ) & please confirm : a luxury ride for 3 to 221 university avenue .
+REQ_MORE ( none = none ) & is there anything else you need ?
+INFORM ( approximate_ride_duration = 8 ) @ NOTIFY_SUCCESS ( none = none ) & i have successfully booked your ride and cab is on the way . it will take 8 minutes to reach there .
+NOTIFY_SUCCESS ( none = none ) & your ride is booked and on its way .
+REQ_MORE ( none = none ) & would you like help with anything else ?
+INFORM ( wait_time = 10 ; ride_fare = $45.17 ) & the vehicle will be here in 10 minutes and it will cost $ 45.17 .
+GOODBYE ( none = none ) & have a great day .
+INFORM ( wait_time = 11 ; ride_fare = $47.25 ) @ NOTIFY_SUCCESS ( none = none ) & okay , your ride is on its way and should be there in 11 minutes . it will cost $ 47.25 .
+REQ_MORE ( none = none ) & anything else ?
+REQUEST ( ride_type = ? ) & what kind of cab are you looking for
+REQUEST ( shared_ride = ? ) & are you ok with shared rides ?
+NOTIFY_SUCCESS ( none = none ) & your cab is on the way .
+REQUEST ( ride_type = ? ) & what type of cab would you like .
+CONFIRM ( destination = wayfare tavern ; number_of_riders = 2 ; shared_ride = true ) & i 'll get you a shared cab for 2 to wayfare tavern , is that correct ?
+INFORM ( wait_time = 7 ) & in about 7 minutes .
+INFORM ( ride_fare = $9.93 ; approximate_ride_duration = 22 ) @ NOTIFY_SUCCESS ( none = none ) & your $ 9.93 ride is all set and will take about 22 minutes .
+REQ_MORE ( none = none ) & can i help with anything more ?
+NOTIFY_SUCCESS ( none = none ) & your ride is booked . the cab is on its way .
+REQ_MORE ( none = none ) & can i help with something else ?
+REQ_MORE ( none = none ) & do you want help with something else ?
+GOODBYE ( none = none ) & have a great day !
+INFORM ( ride_fare = $45.03 ; wait_time = 14 ) @ NOTIFY_SUCCESS ( none = none ) & i booked your ride . the total is $ 45.03 and it arrives in 14 minutes .
+GOODBYE ( none = none ) & great ! enjoy your day .
+REQUEST ( ride_type = luxury, regular ) & would you prefer a luxury , regular or other type of ride ?
+CONFIRM ( destination = 373 main street ; number_of_seats = 2 ; ride_type = luxury ) & please confirm your booking for 2 seats on a luxury ride to 373 main street .
+NOTIFY_SUCCESS ( none = none ) & your ride is booked and cab is on the way .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+INFORM ( ride_fare = $36.53 ) & the cost for the ride is $ 36.53 .
+CONFIRM ( destination = 1118 4th street ; number_of_riders = 1 ; shared_ride = true ) & confirming a shared cab for 1 to 1118 4th street .
+REQUEST ( number_of_riders = ? ) & how many passengers ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+INFORM ( ride_fare = $14.42 ; approximate_ride_duration = 25 ) @ NOTIFY_SUCCESS ( none = none ) & it 's $ 14.42 and will last about 25 minutes . your cab is en route .
+GOODBYE ( none = none ) & have a fantastic day .
+REQUEST ( shared_ride = ? ; number_of_riders = ? ) & how many people will be going ? do you want a shared ride ?
+REQUEST ( destination = ? ; ride_type = ? ) & where are you traveling to ? and is there a specific type of car that you 'd like ?
+REQUEST ( destination = 4204 lone tree way ) & to 4204 lone tree way ?
+GOODBYE ( none = none ) & have a wonderful day ahead
+REQUEST ( number_of_riders = ? ) & how many people is the ride for ?
+INFORM ( ride_fare = $27.81 ) @ NOTIFY_SUCCESS ( none = none ) & your ride is booked and it costs $ 27.81 .
+REQUEST ( number_of_riders = ? ) & how many people ?
+REQ_MORE ( none = none ) & is there anything else i can help with ?
+INFORM ( approximate_ride_duration = 25 ) & it should last 25 minutes .
+REQUEST ( shared_ride = ? ) & can you have a shared ride ?
+CONFIRM ( destination = 211 quarry road ; number_of_seats = 1 ; ride_type = luxury ) & confirming a luxury ride for 1 to 211 quarry road .
+CONFIRM ( destination = 2130 ascot drive ; number_of_riders = 1 ; shared_ride = true ) & okay , you want to go to 2130 ascot drive and you booked a shared ride for 1 people .
+NOTIFY_SUCCESS ( none = none ) & the ride is booked
+REQUEST ( shared_ride = ? ) & would you like a shared ride ?
+GOODBYE ( none = none ) & have a great time .
+CONFIRM ( destination = 3127 fillmore street ; number_of_riders = 2 ; shared_ride = true ) & you need a shared ride for 2 to 3127 fillmore street , correct ?
+REQUEST ( number_of_riders = ? ; shared_ride = ? ) & for how many people do you want the cab for ? and do you want a shared rode ?
+NOTIFY_SUCCESS ( none = none ) & your ride has been booked and the taxi is on its way .
+CONFIRM ( destination = 32100 union landing boulevard ; number_of_seats = 2 ; ride_type = luxury ) & please confirm : luxury ride for 2 to 32100 union landing boulevard .
+REQUEST ( shared_ride = ? ) & do you want a shared ride ?
+GOODBYE ( none = none ) & have a fantastic day
+REQUEST ( number_of_seats = ? ) & how many people are there in your party
+CONFIRM ( destination = 1201 locust street ; number_of_seats = 2 ; ride_type = luxury ) & okay , you want a 2 seat luxury ride to 1201 locust street ?
+REQUEST ( shared_ride = ? ) & want a shared ride ?
+CONFIRM ( destination = 5133 ; number_of_riders = 3 ; shared_ride = true ) & okay so to confirm : you would like to book a cab for 3 people to go to 5133 and are ok with a shared ride .
+REQ_MORE ( none = none ) & do you want any other help ?
+NOTIFY_SUCCESS ( none = none ) & you cab booking is confirmed and your cab is on the way .
+GOODBYE ( none = none ) & have a nice day .
+CONFIRM ( destination = cable car museum ; number_of_seats = 1 ; ride_type = regular ) & can you please confirm that you want to have 1 seat for a regular ride , to go to cable car museum ?
+NOTIFY_SUCCESS ( none = none ) & your ride is on the way
+REQUEST ( ride_type = ? ) & what type of ride do you prefer ?
+REQ_MORE ( none = none ) & do you need more assistance ?
+REQUEST ( number_of_seats = ? ; ride_type = ? ) & yes , how many passengers and is there a ride preference ?
+REQ_MORE ( none = none ) & any more help you need from me ?
+CONFIRM ( destination = 727 laurel street ; number_of_seats = 4 ; ride_type = luxury ) & confirming a luxury ride for 4 to 727 laurel street .
+INFORM ( approximate_ride_duration = 32 ) @ NOTIFY_SUCCESS ( none = none ) & ride confirmed and cab is enroute . it will take 32 minutes to arrive .
+INFORM ( wait_time = 14 ) & it should arrive in 14 minutes .
+NOTIFY_SUCCESS ( none = none ) & your ride has been confirmed and the cab is on the way .
+INFORM ( ride_fare = $26.50 ; wait_time = 3 ) @ NOTIFY_SUCCESS ( none = none ) & your booked cab will be here in 3 minutes and the ride costs $ 26.50 .
+NOTIFY_SUCCESS ( none = none ) & your cab is on the way .
+CONFIRM ( destination = 1016 santa rosa plaza ; number_of_seats = 3 ; ride_type = pool ) & please confirm the following : you want a pool ride for 3 and you 're headed to 1016 santa rosa plaza .
+CONFIRM ( destination = 3540 blackhawk plaza circle ; number_of_seats = 2 ) & please verify the following order : you require 2 seats for a ride to 3540 blackhawk plaza circle .
+REQUEST ( number_of_riders = ? ) & for how many people ?
+NOTIFY_SUCCESS ( none = none ) & the cab has been booked an it 's on its way .
+GOODBYE ( none = none ) & enjoy your day !
+REQ_MORE ( none = none ) & did you need help with anything else ?
+CONFIRM ( destination = 1181 boulevard way b ; number_of_seats = 1 ; ride_type = regular ) & please confirm : a regular ride for 1 to 1181 boulevard way b .
+GOODBYE ( none = none ) & have a fantastic time there !
+INFORM ( ride_fare = $16.42 ; approximate_ride_duration = 14 ) @ NOTIFY_SUCCESS ( none = none ) & ride booked and cab is on it 's way ! ride costs $ 16.42 and ride will last for about 14 minutes .
+GOODBYE ( none = none ) & ok , have a nice day .
+GOODBYE ( none = none ) & no problem , enjoy the day .
+INFORM ( wait_time = 13 ; ride_fare = $32.99 ) @ NOTIFY_SUCCESS ( none = none ) & your ride is booked and on its way , arriving in 13 minutes . the total is $ 32.99 .
+REQUEST ( number_of_riders = ? ) & how many people will be needing the cab ?
+INFORM ( approximate_ride_duration = 22 ) @ NOTIFY_SUCCESS ( none = none ) & your shared cab has been booked and it is on its way . the right is expected to take 22 minutes .
+INFORM ( wait_time = 3 ; ride_fare = $11.00 ) & it 'll take about 3 minutes , and will cost $ 11.00
+INFORM ( approximate_ride_duration = 15 ) & it 's about 15 minutes last
+INFORM ( approximate_ride_duration = 31 ) @ NOTIFY_SUCCESS ( none = none ) & i have successfully booked the ride and the cab is on the way here and it will reach here in 31 minutes .
+CONFIRM ( destination = 1441 polk street ; number_of_seats = 2 ; ride_type = pool ) & you want a pool ride with 2 seats to 1441 polk street , correct ?
+REQUEST ( shared_ride = ? ) & so , can you confirm that you want a shared ride ?
+REQUEST ( number_of_riders = ? ) & how many of you are going ?
+CONFIRM ( destination = 900 pepper tree lane ; number_of_riders = 1 ; shared_ride = true ) & can you please confirm that you want a shared cab ride for 1 person , and that you want to go to 900 pepper tree lane ?
+REQUEST ( number_of_seats = ? ) & for how many people ?
+REQUEST ( destination = 1118 4th street ) & your are going to the imax address at 1118 4th street , right ?
+REQUEST ( ride_type = ? ) & do you have a preference for a type of cab ?
+REQUEST ( shared_ride = ? ) & would you like a shared ride ?
+REQUEST ( ride_type = ? ) & do you prefer any type ?
+GOODBYE ( none = none ) & have a nice day .
+CONFIRM ( destination = 301 industrial road level 3 ; number_of_seats = 3 ; ride_type = luxury ) & please confirm you want a luxury ride for 3 headed to 301 industrial road level 3
+REQUEST ( ride_type = ? ; number_of_seats = ? ) & how many seats will you need and what is your ride preference .
+REQUEST ( shared_ride = ? ) & would you like a shared ride ?
+REQUEST ( destination = 2190 eastridge loop ; ride_type = ? ) & i have the address as 2190 eastridge loop , is that correct ? also , what type of ride you would like ?
+REQUEST ( shared_ride = ? ) & would you like a shared cab ?
+REQUEST ( destination = 400 29th street #315 ) & is this to go to 400 29th street # 315 ?
+CONFIRM ( destination = 16130 juan hernandez drive #108 ; number_of_seats = 1 ; ride_type = pool ) & booking 1 seat on a pool ride to 16130 juan hernandez drive # 108
+INFORM ( approximate_ride_duration = 13 ) & the ride is approximately 13 minutes .
+CONFIRM ( destination = 17705 hale ave # e3 ; number_of_riders = 3 ; shared_ride = true ) & sure , i have : 3 people cab going to 17705 hale ave # e3 . shared is fine .
+CONFIRM ( destination = 2490 first street ; number_of_seats = 4 ; ride_type = regular ) & please give confirmation details : your riding to 2490 first street with 4 seats and a regular ride .
+CONFIRM ( destination = 92nd street y ; number_of_riders = 2 ; shared_ride = true ) & please confirm the following : you want a cab for 2 to 92nd street y and are okay with a shared ride .
+GOODBYE ( none = none ) & please enjoy your day .
+CONFIRM ( number_of_riders = 2 ; shared_ride = true ) & to confirm : you need a cab for 2 people to a j dental lab is located at 2664 berryessa road # 206 . is this correct ?
+INFORM ( ride_fare = $14.71 ) @ NOTIFY_SUCCESS ( none = none ) & $ 14.71 . your ride is on its way .
+REQ_MORE ( none = none ) & is there anything else ?
+CONFIRM ( destination = chef's wok ; number_of_riders = 1 ; shared_ride = true ) & please confirm : getting a shared ride cab for 1 person to go to chef 's wok .
+NOTIFY_SUCCESS ( none = none ) & your ride has been booked successfully .
+GOODBYE ( none = none ) & have a very wonderful day !
+REQUEST ( number_of_seats = ? ; ride_type = pool, luxury ) & how many seats are needed and what sort of ride do you want ? you can take luxury or pool or something else .
+REQ_MORE ( none = none ) & would i be able to help with anything else ?
+NOTIFY_SUCCESS ( none = none ) & i have successfully booked your cab and it 's already on it 's way .
+REQUEST ( ride_type = ? ) & what kind of ride would you like ?
+NOTIFY_SUCCESS ( none = none ) & your cab is on the way .
+GOODBYE ( none = none ) & enjoy your day .
+NOTIFY_SUCCESS ( none = none ) & i booked it
+INFORM ( wait_time = 4 ) & it will arrive in 4 minutes .
+REQUEST ( number_of_riders = ? ) & for how many persons .
+CONFIRM ( number_of_seats = 1 ; ride_type = luxury ) & sure . to confirm , you want to book a luxury cab ride for 1 person .
+GOODBYE ( none = none ) & have a nice day
+GOODBYE ( none = none ) & have a good day .
+REQ_MORE ( none = none ) & do you need any more help ?
+CONFIRM ( destination = 601 van ness avenue ; number_of_seats = 1 ; ride_type = luxury ) & is this correct - a 1 fare luxury cab to 601 van ness avenue ?
+CONFIRM ( destination = park hill apartments ; number_of_riders = 1 ; shared_ride = true ) & booking a shared ride for 1 to park hill apartments .
+GOODBYE ( none = none ) & have a fantastic day .
+CONFIRM ( destination = 4119 el camino real ; number_of_seats = 2 ; ride_type = pool ) & please confirm the travel details : you want a pool ride for 2 and to arrive at 4119 el camino real .
+REQUEST ( destination = 1525 webster street # c ) & is the address 1525 webster street # c ?
+INFORM ( ride_fare = $9.04 ; approximate_ride_duration = 23 ) @ NOTIFY_SUCCESS ( none = none ) & you 've to pay $ 9.04 for the ride and it will take about 23 minutes to reach the destination . your cab is booked and its on your way .
+REQUEST ( ride_type = pool, luxury ) & sure . any preference for ride type , such as a pool or luxury ?
+GOODBYE ( none = none ) & have a wonderful time !
+CONFIRM ( destination = 910 lincoln rd e ; ride_type = regular ) & okay , confirming a regular ride to 910 lincoln rd e .
+REQUEST ( ride_type = regular, pool ) & would you prefer to ride regular or pool ?
+REQUEST ( ride_type = ? ; number_of_seats = ? ) & sure thing ! what type of ride would you like ? and how many seats will you need ?
+REQUEST ( ride_type = ? ; number_of_seats = ? ) & do you have a preferred ride type ? how many seats do i book ?
+REQUEST ( ride_type = ? ; number_of_seats = ? ) & how many seats do you need ? do you have a preferred type of ride ?
+REQUEST ( number_of_seats = ? ) & how many seats ?
+CONFIRM ( destination = 1422 southwest 11th avenue ; number_of_riders = 1 ; shared_ride = true ) & please confirm : booking a cab with shared ride for 1 person to 1422 southwest 11th avenue .
+INFORM ( ride_fare = $11.33 ; wait_time = 9 ) @ NOTIFY_SUCCESS ( none = none ) & i 've booked a cab for you . it will cost $ 11.33 , and it should arrive in 9 minutes .
+CONFIRM ( number_of_seats = 3 ; ride_type = regular ) & please confirm 3 seats on a regular ride .
+REQUEST ( destination = 121 east 1st street ; ride_type = luxury, pool ; number_of_seats = ? ) & will you be going to 121 east 1st street . which ride would you like to choose ? you may take luxury , pool or anything else . how many seats would you like ?
+CONFIRM ( destination = 1622 palm avenue ; number_of_riders = 3 ; shared_ride = true ) & could you confirm that you are going to 1622 palm avenue and do you need a shared ride for 3 ?
+REQUEST ( number_of_seats = ? ) & how many seats ?
+CONFIRM ( destination = 2550 mission street ; number_of_seats = 1 ; ride_type = luxury ) & just to make sure , you want a luxury ride for 1 to 2550 mission street ?
+NOTIFY_SUCCESS ( none = none ) & your requested cab has been booked , and is already on the way .
+REQUEST ( number_of_seats = ? ) & how many people are travelling with you ?
+CONFIRM ( destination = 9360 north name uno ; number_of_seats = 1 ; ride_type = luxury ) & can you please confirm that you want to have a luxury ride for 1 person to go to 9360 north name uno ?
+CONFIRM ( destination = 2149 chestnut street ; number_of_riders = 2 ; shared_ride = true ) & please confirm you want to book a shared ride for 2 going to 2149 chestnut street .
+GOODBYE ( none = none ) & have a nice day .
+REQUEST ( destination = 474 24th street ) & and the address is 474 24th street ?
+NOTIFY_SUCCESS ( none = none ) & your booking is confirmed and it 's on its way to you
+GOODBYE ( none = none ) & have a good one !
+CONFIRM ( destination = 150 sierra drive ; number_of_riders = 1 ; shared_ride = true ) & okay , so you want to get a shared ride for 1 to travel to 150 sierra drive ?
+REQUEST ( shared_ride = ? ) & would you like to have a shared ride ?
+REQUEST ( shared_ride = ? ) & would you like a shared ride ?
+REQ_MORE ( none = none ) & do you need more information ?
+REQUEST ( number_of_riders = ? ; shared_ride = ? ; destination = ? ) & where would you like to go ? how many people is the ride for and are you ok with a shared ride ?
+REQ_MORE ( none = none ) & do you need something more ?
+CONFIRM ( destination = arc de triomphe ; number_of_riders = 2 ; shared_ride = true ) & so a shared ride for 2 to the arc de triomphe ?
+NOTIFY_SUCCESS ( none = none ) & it 's booked an on the way
+INFORM ( approximate_ride_duration = 19 ) @ NOTIFY_SUCCESS ( none = none ) & your ride has been booked and the can is heading your way . the ride will take 19 minutes to reach your destination .
+INFORM ( approximate_ride_duration = 28 ) @ NOTIFY_SUCCESS ( none = none ) & it is a 28 minute ride and the cab is on it 's way .
+GOODBYE ( none = none ) & have a great day !
+REQUEST ( ride_type = pool, regular ) & do you prefer pool , regular or another ?
+REQUEST ( number_of_seats = ? ) & how many seats ?
+CONFIRM ( destination = 2316 dwight way ; number_of_seats = 2 ; ride_type = regular ) & sure , please confirm your booking for a regular cab ride for 2 to 2316 dwight way .
+GOODBYE ( none = none ) & have a nice day .
+CONFIRM ( destination = 360 chicago ; number_of_riders = 2 ; shared_ride = true ) & please give confirmation details : the cab for 2 people to go to 360 chicago in a shared ride
+NOTIFY_SUCCESS ( none = none ) & i 've booked your cab and it should be on the way .
+CONFIRM ( destination = aga khan museum ; number_of_riders = 1 ; shared_ride = true ) & please confirm the details : 1 shared ride cab headed for aga khan museum .
+INFORM ( wait_time = 8 ; ride_fare = $33.20 ) @ NOTIFY_SUCCESS ( none = none ) & your ride is on the way and will be here in 8 minutes . it 'll cost $ 33.20 .
+CONFIRM ( destination = jalisco's restaurant ; number_of_riders = 3 ) & okay i have a cab for 3 to jalisco 's restaurant .
+REQUEST ( ride_type = regular, luxury ) & do you prefer regular or luxury ride ?
+REQUEST ( shared_ride = ? ; destination = ? ; number_of_riders = ? ) & would you prefer a shared ride ? where does the ride need to go and for how many people ?
+CONFIRM ( destination = 2320 central avenue ; number_of_riders = 4 ; shared_ride = true ) & wan na go to 2320 central avenue for 4 people
+INFORM ( approximate_ride_duration = 18 ) @ NOTIFY_SUCCESS ( none = none ) & its booked , it will take about 18 minutes
+NOTIFY_SUCCESS ( none = none ) & your cab has been booked and should be with you shortly .
+GOODBYE ( none = none ) & have a great time
+REQUEST ( destination = 820 east el camino real ) & you are going to 820 east el camino real ?
+CONFIRM ( destination = 24660 amador street ; number_of_seats = 1 ; ride_type = luxury ) & please confirm the following : schedule a luxury ride for 1 to 24660 amador street .
+REQUEST ( number_of_seats = ? ) & okay , how many seats ?
+INFORM ( ride_fare = $14.41 ) & it costs $ 14.41 .
+NOTIFY_SUCCESS ( none = none ) & the cab will arrive shortly .
+REQUEST ( ride_type = regular, luxury ) & what type of a ride do you prefer , a regular or luxury ?
+REQUEST ( ride_type = ? ; number_of_seats = ? ) & sure , how many seats in what kind of cab ?
+REQ_MORE ( none = none ) & anything else i can do for you ?
+GOODBYE ( none = none ) & have a nice day .
+CONFIRM ( destination = 211 quarry road #107 ; number_of_riders = 1 ; shared_ride = true ) & please confirm the following : you want a shared cab ride to 211 quarry road # 107 for 1 person .
+NOTIFY_SUCCESS ( none = none ) & your cab is coming !
+REQUEST ( shared_ride = ? ) & for a shared ride ?
+REQ_MORE ( none = none ) & shall i be of any other help ?
+INFORM ( approximate_ride_duration = 26 ) @ NOTIFY_SUCCESS ( none = none ) & the ride is estimated to be 26 minutes . it has been booked and should be there shortly .
+CONFIRM ( destination = 40900 fremont boulevard ; number_of_riders = 2 ; shared_ride = true ) & okay , so you 'll be riding a shared cab for 2 to 40900 fremont boulevard ?
+NOTIFY_SUCCESS ( none = none ) & your cab is on its way .
+GOODBYE ( none = none ) & have a good one
+GOODBYE ( none = none ) & have a nice day
+REQ_MORE ( none = none ) & do you need anything else ?
+INFORM ( approximate_ride_duration = 12 ) & the ride should take approximately 12 minutes .
+INFORM ( ride_fare = $22.01 ; wait_time = 3 ) @ NOTIFY_SUCCESS ( none = none ) & your booking is confirmed . the cab is on the way and come within 3 minutes . $ 22.01 is the ride cost .
+GOODBYE ( none = none ) & have a wonderful day .
+REQUEST ( ride_type = ? ) & what type of cab ride would you prefer ?
+CONFIRM ( destination = christmas tree lane ; number_of_seats = 2 ; ride_type = luxury ) & please confirm : you 'd like a luxury cab ride for 2 to go to the christmas tree lane ?
+REQUEST ( ride_type = regular, pool ; number_of_seats = ? ) & which kind of ride would you like better , regular , or pool ? also , how many seats do you want ?
+REQUEST ( ride_type = pool, luxury ; number_of_seats = ? ) & what type of ride would you like ? you can say pool , luxury , or something else . how many seats will you need ?
+REQUEST ( destination = 655 redwood highway suite 100 ) & going to 655 redwood highway suite 100 ?
+REQ_MORE ( none = none ) & do you need anything more ?
+GOODBYE ( none = none ) & have a great day !
+REQUEST ( number_of_seats = ? ) & how many seats do you need ?
+GOODBYE ( none = none ) & enjoy your day .
+CONFIRM ( destination = 101 brentwood drive ; number_of_seats = 3 ; ride_type = pool ) & pool ride to 101 brentwood drive for 3 people ?
+GOODBYE ( none = none ) & please enjoy your day .
+INFORM ( ride_fare = $15.38 ; wait_time = 5 ) @ NOTIFY_SUCCESS ( none = none ) & your booking has been made . the taxi will cost you $ 15.38 and will reach you in 5 minutes .
+REQUEST ( number_of_seats = ? ) & how many people will be going ?
+CONFIRM ( destination = 836 alturas avenue # 7 ; number_of_seats = 1 ; ride_type = regular ) & please confirm a regular ride for 1 to 836 alturas avenue # 7 .
+GOODBYE ( none = none ) & you are welcome .
+CONFIRM ( destination = ume sushi japanese restaurant ; number_of_riders = 2 ; shared_ride = true ) & confirming a shared ride for 2 to ume sushi japanese restaurant
+CONFIRM ( destination = 2229 clement street ; number_of_riders = 2 ; shared_ride = true ) & please confirm the following details : you would like to go to 2229 clement street . you would like a cab for a party of 2 , and a shared ride . is this correct ?
+GOODBYE ( none = none ) & have a nice day !
+NOTIFY_SUCCESS ( none = none ) & your cab is on the way .
+INFORM ( approximate_ride_duration = 26 ) & the ride will take about 26 minutes .
+REQUEST ( number_of_seats = ? ) & how many seats ?
+CONFIRM ( destination = 1331 medical center drive ; number_of_seats = 1 ; ride_type = pool ) & confirm you want a ride to 1331 medical center drive . you need 1 seat and i prefer a pool ride .
+GOODBYE ( none = none ) & thank you ! have a wonderful day .
+CONFIRM ( destination = 34420 fremont boulevard ; number_of_riders = 3 ; shared_ride = true ) & please give confirmation details : your ride to 34420 fremont boulevard and cab reservation is for 3 people . prefer a shared ride .
+INFORM ( ride_fare = $17.51 ; approximate_ride_duration = 31 ) @ NOTIFY_SUCCESS ( none = none ) & you cab is booked . the ride will be about 31 minutes and the cost is $ 17.51 .
+INFORM ( wait_time = 5 ; ride_fare = $27.73 ) @ NOTIFY_SUCCESS ( none = none ) & your cab is booked and on route to your location . it should be here in 5 minutes . total ride price si $ 27.73 .
+INFORM ( ride_fare = $18.76 ) & the total ride cost is $ 18.76 .
+INFORM ( approximate_ride_duration = 26 ; ride_fare = $17.64 ) @ NOTIFY_SUCCESS ( none = none ) & your cab has been booked and it is on its way . the ride is expected to take 26 minutes and it will cost you $ 17.64 .
+INFORM ( ride_fare = $21.30 ; approximate_ride_duration = 28 ) @ NOTIFY_SUCCESS ( none = none ) & the cab is booked and on its way . it will take about 28 minutes to get there and it costs $ 21.30 .
+CONFIRM ( destination = vaucluse house ; number_of_seats = 2 ) & so i 've amended the booking to take 2 people to vaucluse house , okay ?
+CONFIRM ( destination = 1722 first street ; number_of_riders = 3 ; shared_ride = true ) & please confirm you want to go to 1722 first street for 3 people on a shared ride
+GOODBYE ( none = none ) & you are welcome .
+NOTIFY_SUCCESS ( none = none ) & your cab has been booked , and will arrive shortly .
+REQ_MORE ( none = none ) & anything else for you ?
+REQUEST ( ride_type = ? ) & so , do you have any preference for your ride ?
+INFORM ( ride_fare = $25.24 ) & the cost will be around $ 25.24 .
+REQUEST ( shared_ride = ? ) & do you want shared ride option ?
+CONFIRM ( destination = 45 camino alto #106 ; number_of_riders = 4 ; shared_ride = true ) & alright , please confirm you would like to schedule a shared ride for 4 people to 45 camino alto # 106 .
+REQ_MORE ( none = none ) & what else can i do ?
+CONFIRM ( destination = 1429 san mateo avenue ; number_of_seats = 1 ; ride_type = luxury ) & so you would like my help finding 1 seat on a luxury ride , going to 1429 san mateo avenue ?
+CONFIRM ( destination = 2301 camino ramon ; number_of_seats = 1 ; ride_type = pool ) & i 'll get you a pool cab for 1 to 2301 camino ramon , is that correct ?
+REQUEST ( ride_type = luxury, pool ) & what sort of ride do you want , luxury or pool , or something else ?
+GOODBYE ( none = none ) & have a nice day .
+GOODBYE ( none = none ) & have a good day .
+CONFIRM ( destination = christmas tree lane ; number_of_seats = 4 ; ride_type = regular ) & alright , so you 'd like a regular ride for 4 people to christmas tree lane ?
+CONFIRM ( destination = 1815 market street ; number_of_riders = 2 ; shared_ride = true ) & you want a shared ride for 2 to destino at 1815 market street in time for your 1 pm reservation . is that correct ?
+REQUEST ( destination = 2505 samaritan drive suite 510 ) & so you would be going to 2505 samaritan drive suite 510 ?
+REQUEST ( shared_ride = ? ) & is a shared ride ok ?
+GOODBYE ( none = none ) & have a great day .
+GOODBYE ( none = none ) & you 're welcome , have a great day .
+REQ_MORE ( none = none ) & is there anything else i can do ?
+REQUEST ( ride_type = ? ) & do you have any preferred type of ride ?
+CONFIRM ( destination = 2340 chestnut street ; number_of_riders = 3 ; shared_ride = true ) & please confirm you 're getting a cab for 3 people going to 2340 chestnut street and you 'd like a shared ride .
+INFORM ( ride_fare = $20.73 ; approximate_ride_duration = 28 ) @ NOTIFY_SUCCESS ( none = none ) & you should pay $ 20.73 . the cab started and will soon reach you . it will take you there in 28 minutes .
+NOTIFY_SUCCESS ( none = none ) & i have booked your ride and the cab is heading your way .
+INFORM ( wait_time = 2 ; ride_fare = $48.46 ) @ NOTIFY_SUCCESS ( none = none ) & your cab is on its way . it 'll be there in 2 minutes and costs $ 48.46 .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQUEST ( shared_ride = ? ) & would you be okay with a shared ride ?
+GOODBYE ( none = none ) & alright , good bye .
+CONFIRM ( destination = 2100 webster street suite 411 ; number_of_riders = 3 ; shared_ride = true ) & you want a shared ride for 3 people and you are going to 2100 webster street suite 411 . is that right ?
+REQ_MORE ( none = none ) & do you need me to do anything else ?
+GOODBYE ( none = none ) & have a wonderful day .
+NOTIFY_SUCCESS ( none = none ) & your cab was booked as per your requirement and it will reach you soon .
+GOODBYE ( none = none ) & have a nice day !
+REQUEST ( shared_ride = ? ) & would you like a shared ride ?

@@ -1,0 +1,7 @@
+inform ( name = inn at the presidio ; area = presidio ; dogsallowed = yes ; hasinternet = yes ) & the inn at the presidio in presidio area allows dogs and has internet service
+request ( area = ? ) & where are you looking
+inform ( name = the tuscan best western plus ; hasinternet = yes ; phone = 4155611100 ) & the tuscan best western plus has internet . the phone number is 4155611100
+inform ( name = inn at the presidio ; hasinternet = yes ; address = 42 moraga avenue and presidio main post ; phone = 4158007356 ) & inn at the presidio has internet . the address is 42 moraga avenue and presidio main post , and the phone number is 4158007356
+inform ( name = red victorian bed breakfast and arts cafe ; near = haight ; hasinternet = yes ) & the red victorian bed breakfast and arts cafe is near haight and has internet
+inform_count ( type = hotel ; count = 2 ; acceptscreditcards = yes ; pricerange = pricey ; area = nob hill ) & 2 nob hill hotel -s are pricey and accept credit card -s
+inform_count ( type = hotel ; count = 105 ; pricerange = moderate ) & 105 hotel -s are moderate -ly priced

@@ -1,0 +1,737 @@
+REQ_MORE ( none = none ) & is there anything else ?
+OFFER ( movie_name = after, breakthrough, captain marvel ) @ INFORM_COUNT ( count = 6 ) & i found 6 , how about after , breakthrough or captain marvel ?
+OFFER ( show_time = 7:30 pm ; theater_name = stanford theatre ) & at stanford theatre is one show at 7:30 pm .
+OFFER ( movie_name = ash is purest white ) & ash is purest white .
+OFFER ( show_time = 9:30 pm ; theater_name = landmark's opera plaza cinema ) @ INFORM_COUNT ( count = 1 ) & there is 1 showing at 9:30 pm at landmark 's opera plaza cinema .
+OFFER ( movie_name = citizen kane, dogman, long shot ) @ INFORM_COUNT ( count = 10 ) & i found 10 movies for you . how about long shot , citizen kane , or dogman ?
+OFFER ( movie_name = the curse of la llorona ) & i have found the curse of la llorona , is that a movie you are interested in ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & sorry , i ca n't find any other movies that match your requirements . is there anything else you would like help with ?
+REQ_MORE ( none = none ) & anything else i can help you with
+REQUEST ( location = ? ) & where do you want me to look ?
+OFFER ( movie_name = ash is purest white, body double, captain marvel ) & i found ash is purest white , body double , and captain marvel . do they interest you ?
+REQUEST ( show_date = ? ) & what date should i search ?
+OFFER ( movie_name = dumbo, hellboy ) @ INFORM_COUNT ( count = 2 ) & there are 2 movies . what do think of dumbo or hellboy ?
+REQ_MORE ( none = none ) & great ! is there anything else i can do for you right now ?
+REQUEST ( location = ? ) & sure . what city are you in ?
+OFFER ( show_time = 4:30 pm ; theater_name = showplace icon valley fair ) & i have a showing at 4:30 pm at showplace icon valley fair .
+OFFER ( show_time = 11 am ; theater_name = amc mercado 20 ) @ INFORM_COUNT ( count = 1 ) & there is 1 show at 11 am at amc mercado 20 .
+OFFER ( show_time = 3 pm ; theater_name = amc mercado 20 ) & there 's a 3 pm at amc mercado 20 .
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets to shazam ! ?
+OFFER ( movie_name = captain marvel, dumbo, hellboy ) & are you interested in captain marvel , dumbo , or hellboy ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to purchase your tickets now ?
+REQUEST ( location = ? ) & where would you like to search ?
+REQUEST ( show_date = ? ) & what date are you interested in seeing it ?
+OFFER ( movie_name = captain marvel, little, missing link ) @ INFORM_COUNT ( count = 5 ) & there 's 5 movies playing near there . how about captain marvel , little , or missing link ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & i 'm sorry , there 's nothing else that matches . do you need any further help ?
+OFFER ( movie_name = supa modo, the innocent, the mustang ) & what about supa modo , the innocent of the mustang ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to get tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want me to buy tickets for you ?
+INFORM ( price = $25 ) & it is priced at $ 25 per head .
+OFFER_INTENT ( intent = buymovietickets ) & shall i buy tickets ?
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+OFFER_INTENT ( intent = buymovietickets ) & okay , perfect ! would you like me to purchase tickets for you ?
+REQ_MORE ( none = none ) & anything else i can do ?
+OFFER ( movie_name = breakthrough ) & what about breakthrough ?
+GOODBYE ( none = none ) & have a great day !
+OFFER ( movie_name = shazam! ) & how about shazam ! ?
+OFFER ( show_time = 8 pm ; theater_name = the lot city center ) @ INFORM_COUNT ( count = 1 ) & i see 1 . 8 pm at the lot city center .
+REQUEST ( location = ? ) & where are you ?
+GOODBYE ( none = none ) & enjoy your day !
+INFORM ( genre = comedy ; street_address = 1500 north shoreline boulevard ) & this is a comedy movie and you can visit them at 1500 north shoreline boulevard .
+OFFER_INTENT ( intent = buymovietickets ) & will i buy you tickets now ?
+GOODBYE ( none = none ) & have a great day !
+OFFER ( movie_name = captain marvel ) @ INFORM_COUNT ( count = 1 ) & i searched 1 movie for you . what about captain marvel ?
+INFORM ( genre = drama ; price = $13 ) & the movie is a drama and it costs $ 13 .
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) & what about ash is purest white , captain marvel , or citizen kane ?
+REQUEST ( location = ? ) & where are you located ?
+REQUEST ( movie_name = ? ) & what movie are you interested in ?
+INFORM ( genre = mystery ; street_address = 3290 sacramento street ) & it is a mystery one and the theatre is at 3290 sacramento street .
+OFFER ( show_time = 9:30 pm ; theater_name = century vallejo 14 ) @ INFORM_COUNT ( count = 1 ) & there 's 1 playing at 9:30 pm in century vallejo 14
+INFORM ( price = $16 ; genre = biographical ) & they 're $ 16 per person , and it 's labeled as a biographical movie .
+REQ_MORE ( none = none ) & is there anything else you need ?
+INFORM ( street_address = 700 el paseo de saratoga ) & the address is 700 el paseo de saratoga .
+OFFER ( movie_name = dogman, dumbo, family ) & there is also dogman , dumbo and family .
+OFFER ( movie_name = jt leroy ) & do you like jt leroy ?
+REQUEST ( show_date = ? ) & any particular date you 'd like to watch it on ?
+INFORM ( street_address = 501 buckingham way ) & it 's at 501 buckingham way .
+OFFER ( movie_name = penguin highway ) & penguin highway then
+REQUEST ( location = ? ) & can you tell me the location where you want to watch the movie ?
+REQUEST ( show_date = ? ) & what date though ?
+OFFER ( movie_name = after, dumbo, hellboy ) & i found hellboy , dumbo and after .
+REQ_MORE ( none = none ) & is there something else i can do for you ?
+INFORM ( genre = fantasy ) & it 's a fantasy .
+REQ_MORE ( none = none ) & do you need anything else today ?
+REQUEST ( location = ? ) & where are you located ?
+GOODBYE ( none = none ) & have a lovely day .
+OFFER ( show_time = 7 pm ; theater_name = brenden vacaville 16 ) & you can watch it at 7 pm in brenden vacaville 16 .
+OFFER ( show_time = 5:30 pm ; theater_name = cinelux tennant station stadium 11 ) @ INFORM_COUNT ( count = 1 ) & i found 1 showtime for that movie . it is at 5:30 pm at cinelux tennant station stadium 11 .
+INFORM ( street_address = 3630 balboa street ) & sure . they 're located at 3630 balboa street .
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets now ?
+GOODBYE ( none = none ) & have a great day .
+INFORM ( price = $17 ) & the cost is $ 17 a person .
+REQUEST ( show_date = march 2nd ) & do you want to go on march 2nd ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & there are no other show times for that movie , would like to see something else ?
+REQ_MORE ( none = none ) & is there anything else that i may help you with ?
+REQ_MORE ( none = none ) & okay , is there anything else ?
+OFFER ( movie_name = penguin highway ) & there is also penguin highway .
+OFFER ( movie_name = dogman, ramen shop, red joan ) @ INFORM_COUNT ( count = 6 ) & 6 movies dogman ramen shop or red joan
+OFFER ( movie_name = ash is purest white, body double, captain marvel ) & how about your opinion on ash is purest white , body double or captain marvel ?
+REQ_MORE ( none = none ) & can i help you with anything else ?
+REQ_MORE ( none = none ) & anything else you need from me ?
+REQUEST ( show_date = ? ) & what date would you like to watch it ?
+REQUEST ( location = ? ) & what location ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy some tickets ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & no . is there anything else i can assist you with ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want tickets ?
+OFFER ( show_time = 3 pm ; theater_name = amc mercado 20 ) @ INFORM_COUNT ( count = 1 ) & i found 1 showtime for the movie . it 's showing at 3 pm at the amc mercado 20 .
+REQ_MORE ( none = none ) & what else can i help you with today ?
+GOODBYE ( none = none ) & have a good day ,
+OFFER ( show_time = 7 pm ; theater_name = landmark's california theatre ) @ INFORM_COUNT ( count = 1 ) & i located 1 , landmark 's california theatre lists a 7 pm showtime .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+OFFER ( show_time = 10 pm ; theater_name = century 16 downtown ) & there is one show at 10 pm in century 16 downtown .
+OFFER ( movie_name = family ) @ INFORM_COUNT ( count = 1 ) & i 've found 1 in the family genre .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & no other show time . any other help you need ?
+REQ_MORE ( none = none ) & is there anything else i can help with ?
+OFFER ( movie_name = the best of enemies ) @ INFORM_COUNT ( count = 1 ) & sure . i found 1 movie , the best of enemies . how does that sound ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets ?
+REQ_MORE ( none = none ) & do you need anymore assistance ?
+OFFER ( show_time = 7:30 pm ; theater_name = century blackhawk plaza ) @ INFORM_COUNT ( count = 1 ) & there is 1 showing at the century blackhawk plaza at 7:30 pm .
+GOODBYE ( none = none ) & have a great day !
+OFFER ( show_time = 6:30 pm ; theater_name = boulevard 14 cinema ) @ INFORM_COUNT ( count = 1 ) & there is 1 showtime at 6:30 pm for the movie at boulevard 14 cinema .
+OFFER ( movie_name = after, dumbo, little ) & what do you think of after , dumbo or little ?
+REQUEST ( location = ? ) & please can i have your location ?
+INFORM ( price = $16 ; street_address = 2306 almaden road ) & $ 16 per person . their address is 2306 almaden road .
+OFFER_INTENT ( intent = buymovietickets ) & shall i book the tickets to this movie now ?
+OFFER ( movie_name = captain marvel, shazam ) & try to check out either captain marvel or shazam ?
+INFORM ( price = $23 ) & $ 23 .
+REQUEST ( show_date = ? ) & what is your preferred date to watch the movie ?
+OFFER ( show_time = 10:30 pm ; theater_name = century 16 downtown ) & there 's one show at 10:30 pm in century 16 downtown .
+INFORM ( street_address = 949 el camino real ) & the address is 949 el camino real
+OFFER ( movie_name = after, breakthrough, captain marvel ) @ INFORM_COUNT ( count = 7 ) & alright , there are 7 movies playing . a few i found are after , breakthrough , and captain marvel .
+INFORM ( street_address = 2306 almaden road ; price = $16 ) & it will cost $ 16 a person , and the theater is at 2306 almaden road .
+GOODBYE ( none = none ) & have yourself a wonderful day .
+INFORM ( street_address = 555 center avenue ) & the address is 555 center avenue .
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets ?
+GOODBYE ( none = none ) & have a nice day !
+REQUEST ( location = ? ) & what city shall i look in ?
+INFORM ( street_address = 221 university avenue ; price = $10 ) & the theater is at 221 university avenue . a ticket costs $ 10 a person .
+OFFER ( movie_name = ash is purest white, body double, captain marvel ) & do you like ash is purest white , body double , or captain marvel ?
+OFFER ( show_time = 3 pm ; theater_name = pruneyard dine-in cinemas ) @ INFORM_COUNT ( count = 1 ) & there is 1 showtime at 3 pm in pruneyard dine-in cinemas .
+OFFER ( show_time = 6:30 pm ; theater_name = regal cinemas jack london 9 ) @ INFORM_COUNT ( count = 1 ) & there is 1 showtime for this movie at 6:30 pm at regal cinemas jack london 9 .
+REQUEST ( location = ? ) & please tell me your exact location
+INFORM ( genre = adventure ) & it is an adventure kind of movie
+REQ_MORE ( none = none ) & what more might you need ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want me to get you tickets for this movie ?
+GOODBYE ( none = none ) & have a nice day !
+OFFER ( movie_name = dogman, ramen shop, red joan ) @ INFORM_COUNT ( count = 7 ) & there are 7 movies . do you prefer dogman , ramen shop or red joan ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets now ?
+REQUEST ( location = ? ) & where are you right now ?
+OFFER ( movie_name = the poseidon adventure ) & what about the poseidon adventure ?
+OFFER ( show_time = 7 pm ; theater_name = landmark's albany twin ) & i found one showing at 7 pm at landmark 's albany twin .
+REQUEST ( show_date = ? ) & the time will vary upon the date you want to go see it .
+REQUEST ( show_date = ? ) & sure , for which date ?
+OFFER ( movie_name = hotel mumbai, how to train your dragon: the hidden world, little ) & okay , what do you think about hotel mumbai , how to train your dragon : the hidden world , or little ?
+GOODBYE ( none = none ) & no issues , have a great day ahead .
+OFFER_INTENT ( intent = buymovietickets ) & can i purchase tickets on your behalf ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to purchase tickets ?
+GOODBYE ( none = none ) & have a great day .
+REQ_MORE ( none = none ) & anything else for you ?
+OFFER ( movie_name = ash is purest white, body double, captain marvel ) @ INFORM_COUNT ( count = 10 ) & there are 10 movies matching you criteria . do you think you 'd like either ash is purest white , body double or captain marvel .
+OFFER_INTENT ( intent = buymovietickets ) & should i purchase tickets
+GOODBYE ( none = none ) & have a wonderful day and thank you for calling .
+REQ_MORE ( none = none ) & ok , is there anything else i can do for you ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like me to make a reservation for you ?
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) & what do you think of these movies : ash is purest white , captain marvel or citizen kane ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) & how about breakthrough , captain marvel , or dumbo ?
+REQUEST ( show_date = ? ) & when will you be watching it ?
+REQ_MORE ( none = none ) & can i help you with anything else ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to buy tickets ?
+INFORM ( price = $15 ) & $ 15 per person .
+OFFER ( show_time = 3:30 pm ; theater_name = regal cinemas crow canyon 6 ) & there is 1 showtime for hellboy at 3:30 pm at the regal cinemas crow canyon 6 .
+OFFER ( show_time = 4 pm ; theater_name = amc bay street 16 ) @ INFORM_COUNT ( count = 1 ) & amc bay street 16 has 1 showing at 4 pm . that 's the only time slot available .
+OFFER ( show_time = 5:30 pm ; theater_name = cinelux tennant station stadium 11 ) @ INFORM_COUNT ( count = 1 ) & there is 1 show at 5:30 pm in cinelux tennant station stadium 11 .
+OFFER ( movie_name = supa modo ) @ INFORM_COUNT ( count = 1 ) & i found 1 movie called supa modo .
+OFFER ( show_time = 7 pm ; theater_name = roxie theater ) & i see one at roxie theater at 7 pm .
+GOODBYE ( none = none ) & see you soon !
+GOODBYE ( none = none ) & have a great day .
+OFFER_INTENT ( intent = buymovietickets ) & you would like to get tickets ?
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) & sure , some popular movies playing are ash is purest white , captain marvel , and citizen kane .
+REQ_MORE ( none = none ) & is there anything else you need at this time ?
+INFORM ( price = $16 ) & it is $ 16 per person .
+REQ_MORE ( none = none ) & anything else you need help with ?
+OFFER ( show_time = 2:30 pm ; theater_name = the lot city center ) & there is one show in the lot city center at 2:30 pm .
+OFFER_INTENT ( intent = buymovietickets ) & would you like me to buy missing link tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & shall i get tickets for the movie ?
+REQUEST ( location = ? ) & in what town ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to buy tickets ?
+OFFER ( show_time = 9 pm ; theater_name = contra costa stadium cinemas ) & contra costa stadium cinemas has a showing at 9 pm .
+REQ_MORE ( none = none ) & anything else today ?
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) & ok no problem . do you like ash is purest white , captain marvel or citizen kane ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to buy tickets ?
+OFFER ( movie_name = wild nights with emily ) @ INFORM_COUNT ( count = 1 ) & only 1 movie -- wild nights with emily .
+REQUEST ( location = ? ) & where should i look .
+REQUEST ( show_date = ? ) & please tell me the date you 'd like to watch it .
+REQ_MORE ( none = none ) & can i do anything else for you ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) & would you be interested in seeing breakthrough , captain marvel or dumbo ?
+OFFER ( movie_name = after, hotel mumbai, little ) @ INFORM_COUNT ( count = 5 ) & i found 5 movies . what do you think about after , hotel mumbai or little ?
+REQ_MORE ( none = none ) & anything else ?
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) & what is your opinion of ash is purest white or captain marvel or even citizen kane ?
+OFFER ( show_time = 9:30 pm ; theater_name = cinelux gilroy cafe and lounge ) & it is playing at 9:30 pm at cinelux gilroy cafe and lounge .
+REQUEST ( location = ? ) & yes of course . in what location please ?
+GOODBYE ( none = none ) & have a good day !
+INFORM ( genre = adventure ) & it 's an adventure movie .
+OFFER_INTENT ( intent = buymovietickets ) & should i order some tickets ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) & i found breakthrough , dumbo and captain marvel .
+REQUEST ( show_date = ? ) & what date would you like to see it first ?
+REQ_MORE ( none = none ) & can i help you with something else ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) & would you be interested in dumbo , captain marvel , or breakthrough ?
+OFFER ( movie_name = shazam! ) & yes , how about shazam !
+OFFER ( show_time = 5 pm ; theater_name = the lot city center ) @ INFORM_COUNT ( count = 1 ) & i search 1 showtime for the movie . the show is at 5 pm in the lot city center .
+REQ_MORE ( none = none ) & may i assist you with another task ?
+REQUEST ( show_date = ? ) & on which date do you want to watch the show ?
+INFORM ( genre = drama ) & it is under the drama category .
+REQ_MORE ( none = none ) & may i help you with something else ?
+REQ_MORE ( none = none ) & anything else for you ?
+REQ_MORE ( none = none ) & do you need something more ?
+REQUEST ( show_date = ? ) & what date should i look for ?
+REQUEST ( location = ? ) & where are you located ?
+INFORM ( price = $22 ) & it costs is $ 22 per person
+INFORM ( genre = biographical ) & the movie is biographical .
+INFORM ( street_address = 474 24th street ) & the theater is located at 474 24th street .
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) @ INFORM_COUNT ( count = 10 ) & i found 10 movies for you . what about breakthrough , captain marvel or dumbo ?
+OFFER ( movie_name = a madea family funeral, after, breakthrough ) @ INFORM_COUNT ( count = 10 ) & i found 10 movies that are playing . does a madea family funeral , after , or breakthrough sound good ?
+OFFER ( show_time = 9:30 pm ; theater_name = boulevard 14 cinema ) @ INFORM_COUNT ( count = 1 ) & i see 1 now . a 9:30 pm at boulevard 14 cinema .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & i apologize , but unfortunately there is no other options available . can i do another search for you ?
+INFORM ( price = $25 ) & $ 25 per person .
+GOODBYE ( none = none ) & your welcome ! have a good day .
+OFFER ( movie_name = pet sematary ) @ INFORM_COUNT ( count = 1 ) & i am able to find 1 show . the title of the movie that i found is pet sematary . would you be interested ?
+OFFER ( show_time = 8:30 pm ; theater_name = smith rafael film center ) & there is an 8:30 pm showing at the smith rafael film center .
+GOODBYE ( none = none ) & understood , have a good day .
+GOODBYE ( none = none ) & have a good day .
+OFFER ( movie_name = little, long shot, missing link ) @ INFORM_COUNT ( count = 3 ) & yes , found 3 movies suit your taste . little , long shot and missing link , which one is interested to you ?
+OFFER ( show_time = 7 pm ; theater_name = sonoma cinema ) @ INFORM_COUNT ( count = 1 ) & i found 1 showtime for shazam ! on that day in that area , at 7 pm in sonoma cinema .
+REQUEST ( location = ? ) & which city are you in ?
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) @ INFORM_COUNT ( count = 10 ) & sure , it looks like there are 10 movies playing . people seem to like ash is purest white , captain marvel , and citizen kane .
+REQUEST ( show_date = ? ) & what date are you wanting to watch it ?
+GOODBYE ( none = none ) & you 're welcome !
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets right now ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQ_MORE ( none = none ) & can i do something else for you ?
+INFORM ( street_address = 3630 balboa street ) & it is located at 3630 balboa street .
+OFFER ( movie_name = citizen kane, dogman, dumbo ) & what about citizen kane , dogman , or dumbo ?
+OFFER ( show_time = 7 pm ; theater_name = tiburon playhouse ) & there is a showtime at 7 pm at tiburon playhouse .
+REQUEST ( show_date = ? ) & when would you like to watch it ?
+OFFER ( movie_name = captain marvel ) @ INFORM_COUNT ( count = 1 ) & i found 1 such movie , how aout captain marvel ?
+OFFER ( movie_name = breakthrough, dr. strangelove, fighting with my family ) & there is breakthrough , dr. strangelove and fighting with my family .
+INFORM ( street_address = 1010 great mall drive ) & the address for the theater is 1010 great mall drive .
+OFFER ( movie_name = the best of enemies ) @ INFORM_COUNT ( count = 1 ) & i have 1 option . what do you think of the best of enemies ?
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) & ash is purest white , captain marvel and citizen kane are all playing .
+INFORM ( street_address = 4451 ) & the address of the theater is 4451 .
+GOODBYE ( none = none ) & have a wonderful day
+GOODBYE ( none = none ) & have a great day .
+REQ_MORE ( none = none ) & is there anything else ?
+INFORM ( genre = comedy ) & that 's a comedy
+GOODBYE ( none = none ) & enjoy the movie and have a wonderful day !
+OFFER ( movie_name = breakthrough, dr. strangelove, fighting with my family ) & i found breakthrough , dr. strangelove , and fighting with my family .
+OFFER_INTENT ( intent = buymovietickets ) & would you like the tickets reserved ?
+REQ_MORE ( none = none ) & do you need anything else ?
+OFFER ( movie_name = the curse of la llorona ) & the curse of la llorona
+OFFER ( movie_name = high life, missing link, shazam! ) & also , you can see high life , missing link , or shazam !
+REQ_MORE ( none = none ) & do you want me to assist you with anything else ?
+GOODBYE ( none = none ) & have a nice day .
+OFFER ( movie_name = a madea family funeral, after, breakthrough ) @ INFORM_COUNT ( count = 10 ) & i found 10 movies . what about after , breakthrough , or a madea family funeral ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to order tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & okay , should i buy the tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to buy the tickets for it ?
+OFFER ( movie_name = red joan ) @ INFORM_COUNT ( count = 1 ) & what about 1 movie red joan ?
+OFFER ( show_time = 3:30 pm ; theater_name = livermore 13 cinema ) & livermore 13 cinema has a showing at 3:30 pm .
+OFFER_INTENT ( intent = buymovietickets ) & would you like to go ahead and buy tickets ?
+OFFER ( movie_name = the mustang ) & are you interested in the mustang ?
+OFFER ( movie_name = dumbo ) @ INFORM_COUNT ( count = 1 ) & i want 1 movie for dumbo
+GOODBYE ( none = none ) & no worries , have a great day ahead !
+OFFER ( show_time = 11 pm ; theater_name = amc bay street 16 ) @ INFORM_COUNT ( count = 1 ) & i found 1 showtime . 11 pm in amc bay street 16 .
+OFFER ( show_time = 11 pm ; theater_name = amc newpark 12 ) & it is playing at 11 pm at amc newpark 12 .
+OFFER ( movie_name = say anything, the visitor ) @ INFORM_COUNT ( count = 2 ) & the 2 movies i found are say anything and the visitor .
+GOODBYE ( none = none ) & have a wonderful time
+OFFER ( movie_name = citizen kane, dogman, long shot ) @ INFORM_COUNT ( count = 10 ) & i found 10 movies . would you like to see citizen kane , long shot , or dogman ?
+OFFER ( movie_name = breakthrough, how to train your dragon: the hidden world, little ) @ INFORM_COUNT ( count = 7 ) & i found 7 movies you could go to . some of them are how to train your dragon : the hidden world , little , or breakthrough .
+OFFER ( movie_name = after, dumbo, hellboy ) & alright , are you interested in after , dumbo , or hellboy ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to book tickets ?
+REQUEST ( show_date = ? ) & on which date ?
+OFFER_INTENT ( intent = buymovietickets ) & can i buy tickets for you ?
+OFFER ( movie_name = dr. strangelove, fighting with my family, gloria bell ) & how would you consider watching dr. strangelove , fighting with my family or gloria bell ?
+REQ_MORE ( none = none ) & anything else ?
+OFFER ( movie_name = hellboy, how to train your dragon: the hidden world, the upside ) @ INFORM_COUNT ( count = 3 ) & i found 3 movies . does hellboy , how to train your dragon : the hidden world or the upside interest you ?
+OFFER ( movie_name = captain marvel, dogman, dumbo ) & do you want to watch captain marvel , dogman or dumbo ?
+OFFER ( movie_name = missing link ) & missing link is playing there , you 'd probably like it .
+REQUEST ( movie_name = ? ) & what movie are you interested in seeing ?
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) @ INFORM_COUNT ( count = 10 ) & i have found 10 movies . what do you think of ash is purest white , captain marvel or citizen kane ?
+OFFER ( show_time = 9 pm ; theater_name = landmark's embarcadero center cinema ) & there 's one showing at 9 pm at the landmark 's embarcadero center cinema .
+INFORM ( street_address = 3200 grand avenue ; price = $13 ) & the address is 3200 grand avenue and it will cost you $ 13 per person .
+OFFER_INTENT ( intent = buymovietickets ) & will you be purchasing the tickets now ?
+OFFER ( show_time = 9 pm ; theater_name = landmark's embarcadero center cinema ) @ INFORM_COUNT ( count = 1 ) & there is 1 showtime at 9 pm in landmark 's embarcadero center cinema
+OFFER ( movie_name = jt leroy, searching for sugar man ) & how about the movies jt leroy or searching for sugar man ?
+OFFER ( movie_name = the last dragon ) @ INFORM_COUNT ( count = 1 ) & i did locate 1 movie called the last dragon .
+OFFER ( show_time = 7 pm ; theater_name = landmark's guild theatre ) @ INFORM_COUNT ( count = 1 ) & there is 1 show at 7 pm at the landmark 's guild theatre .
+OFFER ( show_time = 7 pm ; theater_name = sonoma cinema ) @ INFORM_COUNT ( count = 1 ) & i found 1 time at 7 pm in sonoma cinema .
+OFFER ( movie_name = pillow talk ) & how about pillow talk ? it has great reviews .
+OFFER ( show_time = 3 pm ; theater_name = amc mercado 20 ) & yup , there is a noon show at 3 pm in amc mercado 20 . do you prefer this one ?
+REQUEST ( location = san francisco ) & want to see what 's in san francisco ?
+REQ_MORE ( none = none ) & is there something else i can help you with ?
+REQUEST ( movie_name = ? ) & what movie do you want to see ?
+REQUEST ( location = ? ) & what movie theaters are in your area ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & at the moment , there are no other showtimes for shazam ! at this theatre , may i help you with anything else ?
+OFFER ( show_time = 4:30 pm ; theater_name = cinelux almaden cinema ) @ INFORM_COUNT ( count = 1 ) & the cinelux almaden cinema has 1 show at 4:30 pm .
+OFFER ( movie_name = dogman, red joan ) @ INFORM_COUNT ( count = 2 ) & sure , would you like dogman or red joan ? there are only 2 movies available ?
+OFFER ( movie_name = the best of enemies, wild nights with emily ) & sure , how about the best of enemies or wild nights with emily ?
+INFORM ( street_address = 125 crescent drive ) & 125 crescent drive .
+OFFER ( movie_name = breakthrough, dumbo, hellboy ) & i found breakthrough , dumbo , and hellboy .
+INFORM ( genre = adventure ) & it would fall in the adventure category .
+OFFER_INTENT ( intent = buymovietickets ) & should i buy tickets ?
+REQUEST ( location = ? ) & where are you located ?
+OFFER ( show_time = 8 pm ; theater_name = lark theater ) & there is one show at 8 pm at lark theater .
+OFFER ( movie_name = dumbo, hellboy, hotel mumbai ) & would you be interested in hotel mumbai , hellboy , or dumbo ?
+REQUEST ( show_date = march 9th ) & want to see it on march 9th ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like me to purchase tickets for you ?
+OFFER_INTENT ( intent = buymovietickets ) & wan na get tickets ?
+REQUEST ( location = ? ) & where are you located ?
+OFFER ( movie_name = ash is purest white, body double, captain marvel ) @ INFORM_COUNT ( count = 10 ) & yes , i found 10 you might like . how about ash is purest white , body double , or captain marvel ?
+REQ_MORE ( none = none ) & do you want any more assistance ?
+REQUEST ( location = ? ) & tell me your location .
+OFFER_INTENT ( intent = buymovietickets ) & want to get tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & want to get tickets ?
+REQUEST ( location = ? ) & what is your location ?
+INFORM ( price = $23 ; street_address = 2035 diamond boulevard ) & their address is 2035 diamond boulevard and the ticket price is $ 23 .
+OFFER_INTENT ( intent = buymovietickets ) & does that mean you want tickets .
+REQUEST ( show_date = ? ) & what day do you want to see it ?
+REQUEST ( show_date = ? ) & what day do wish to watch it on ?
+OFFER ( show_time = 3:30 pm ; theater_name = sonoma cinema ) & the movie is playing at 3:30 pm at sonoma cinema .
+REQUEST ( location = ? ) & where should i look ?
+OFFER ( movie_name = dumbo, hellboy ) & how about movies like dumbo and hellboy ? pick your choice .
+REQUEST ( show_date = ? ) & is there a specific date you want to search for ?
+OFFER ( movie_name = little, shazam!, the curse of la llorona ) @ INFORM_COUNT ( count = 3 ) & there are 3 - little , shazam ! and the curse of la llorona .
+REQUEST ( location = san francisco ) & in san francisco ?
+REQ_MORE ( none = none ) & do you need help with anything else ?
+REQ_MORE ( none = none ) & is there anything else i can assist you with ?
+OFFER ( movie_name = breakthrough, dumbo, missing link ) & i found breakthrough , dumbo , and missing link .
+REQ_MORE ( none = none ) & anything else i can do for you
+OFFER ( movie_name = dumbo, hellboy ) @ INFORM_COUNT ( count = 2 ) & there are 2 available movies , how about dumbo or hellboy ?
+OFFER_INTENT ( intent = buymovietickets ) & can i help you to buy the tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets for this movie ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to pre-purchase your tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & shall i book the tickets to you ?
+OFFER ( show_time = 3:30 pm ; theater_name = amc metreon 16 ) @ INFORM_COUNT ( count = 1 ) & there is 1 show at 3:30 pm in amc metreon 16 .
+INFORM ( street_address = 700 el paseo de saratoga ) & it is at 700 el paseo de saratoga .
+REQUEST ( show_date = ? ) & what date would you like me to check ?
+GOODBYE ( none = none ) & have a great one
+OFFER ( show_time = 9:30 pm ; theater_name = airport stadium 12 ) & there 's only one showing at 9:30 pm in airport stadium 12 .
+REQ_MORE ( none = none ) & can i help you with another task ?
+OFFER ( show_time = 3:30 pm ; theater_name = amc saratoga 14 ) @ INFORM_COUNT ( count = 1 ) & found 1 show time at 3:30 pm in amc saratoga 14 . what about your opinion ?
+OFFER ( show_time = 9:30 pm ; theater_name = century cinema 16 ) @ INFORM_COUNT ( count = 1 ) & i found 1 showtime for you at 9:30 pm at century cinema 16 .
+OFFER ( movie_name = shazam! ) @ INFORM_COUNT ( count = 1 ) & there is 1 movie : shazam !
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) @ INFORM_COUNT ( count = 10 ) & there are 10 movies which match your request . how would you like to watch ash is purest white , captain marvel or citizen kane ?
+REQUEST ( show_date = march 6th ) & will you be attending on march 6th ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) @ INFORM_COUNT ( count = 9 ) & i got 9 for you . breakthrough , captain marvel , and dumbo , to start out .
+REQUEST ( location = ? ) & what area do you want to search in ?
+OFFER ( show_time = 10 pm ; theater_name = cinelux tennant station stadium 11 ) & there 's one show at 10 pm at cinelux tennant station stadium 11 .
+REQUEST ( show_date = ? ) & on what day would you like to see this movie ?
+OFFER ( show_time = 11 am ; theater_name = the lot city center ) @ INFORM_COUNT ( count = 1 ) & there 's 1 showing at that date . it 's 11 am at the lot city center .
+REQUEST ( show_date = ? ) & on what day do you want to see the movie ?
+REQUEST ( location = ? ) & yes , where would you like for me to search ?
+GOODBYE ( none = none ) & have a great day .
+OFFER ( show_time = 8:30 pm ; theater_name = boulevard 14 cinema ) & there is one show in boulevard 14 cinema at 8:30 pm .
+OFFER ( movie_name = dogman, red joan ) @ INFORM_COUNT ( count = 2 ) & i found 2 movies dogman and red joan .
+OFFER ( movie_name = missing link ) @ INFORM_COUNT ( count = 1 ) & i found 1 movie . would you like to see the missing link ?
+REQUEST ( location = ? ) & where would you like to see one ?
+OFFER ( show_time = 11:30 am ; theater_name = boulevard 14 cinema ) & there is one show at 11:30 am in boulevard 14 cinema .
+OFFER ( movie_name = pillow talk, the man who knew too much ) @ INFORM_COUNT ( count = 2 ) & the 2 movies i found are either pillow talk or the man who knew too much .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & sorry , there 's nothing else . is there something else i can help with ?
+INFORM ( street_address = 125 crescent drive ) & 125 crescent drive .
+REQUEST ( show_date = ? ) & when would you like to see it ?
+OFFER ( show_time = 9:30 pm ; theater_name = cinelux almaden cinema ) @ INFORM_COUNT ( count = 1 ) & there is 1 showing at 9:30 pm at the cinelux almaden cinema .
+INFORM ( price = $23 ; street_address = 1201 locust street ) & $ 23 dollars at 1201 locust street
+OFFER ( show_time = 9 pm ; theater_name = amc brentwood 14 ) & the amc brentwood 14 has one showing of the movie at 9 pm
+OFFER ( movie_name = breakthrough, dumbo, hellboy ) & how does one of breakthrough , dumbo , or hellboy sound ?
+REQ_MORE ( none = none ) & did you need help with anything else ?
+OFFER_INTENT ( intent = buymovietickets ) & do you wish to buy tickets for the movie ?
+REQ_MORE ( none = none ) & can i assist you with anything else ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to book tickets ?
+OFFER ( movie_name = captain marvel, dumbo, hellboy ) & captain marvel , dumbo , and hellboy are all playing .
+OFFER ( movie_name = dumbo, little, long shot ) @ INFORM_COUNT ( count = 4 ) & i have 4 movies for you . the titles are dumbo , little , or long shot .
+REQ_MORE ( none = none ) & whether i need to help you for some other thing ?
+GOODBYE ( none = none ) & enjoy your day .
+REQUEST ( location = ? ) & what city do you want me to look in ?
+OFFER ( movie_name = blackmail - cinemix par chloe, captain marvel, high life ) & what about blackmail - cinemix par chloe , captain marvel , or high life ?
+OFFER ( movie_name = dumbo, hotel mumbai, shazam! ) @ INFORM_COUNT ( count = 4 ) & i found 4 movies . dumbo , hotel mumbai or shazam ! ?
+OFFER ( movie_name = dogman, dumbo, family ) & maybe you would enjoy dogman , dumbo or family ?
+OFFER ( movie_name = breakthrough ) & what about breakthrough ?
+REQUEST ( location = ? ) & where are you located ?
+OFFER ( movie_name = dumbo, hellboy ) @ INFORM_COUNT ( count = 2 ) & okay , here 's 2 that might work , dumbo or hellboy .
+REQUEST ( show_date = march 3rd ) & will you see it on march 3rd ?
+OFFER ( movie_name = little, long shot, pet sematary ) & little , long shot , and pet sematary are all playing right now .
+OFFER ( movie_name = dumbo, hellboy, hotel mumbai ) @ INFORM_COUNT ( count = 10 ) & i found 10 movies . what about dumbo , hellboy , or hotel mumbai ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets for it ?
+OFFER_INTENT ( intent = buymovietickets ) & would you need me to make a reservation for you ?
+GOODBYE ( none = none ) & have a nice day .
+OFFER ( movie_name = missing link, teen spirit, the mustang ) & are you interested in missing link , teen spirit , or the mustang .
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy some tickets ?
+OFFER ( movie_name = a madea family funeral, after, breakthrough ) & what do you think of a madea family funeral , after or breakthrough ?
+REQUEST ( show_date = ? ) & what day would you like to see it on ?
+REQUEST ( location = ? ) & i can help you with that . where are you located ?
+OFFER ( show_time = 8 pm ; theater_name = amc brentwood 14 ) @ INFORM_COUNT ( count = 1 ) & there 's only 1 showing time - it 's on at 8 pm in amc brentwood 14 .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to purchase tickets ?
+OFFER ( show_time = 10:30 pm ; theater_name = century cinema 16 ) @ INFORM_COUNT ( count = 1 ) & i found 1 showtime . it 's playing at 10:30 pm in century cinema 16 .
+OFFER_INTENT ( intent = buymovietickets ) & i can buy you tickets now , would you like to do it ?
+OFFER ( movie_name = dumbo, little, pet sematary ) @ INFORM_COUNT ( count = 4 ) & i have for you 4 movies.what do you think about dumbo , little or pet sematary ?
+REQ_MORE ( none = none ) & do you want help with anything else ?
+GOODBYE ( none = none ) & have a nice day .
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) @ INFORM_COUNT ( count = 10 ) & i located 10 movies . what do you think of the movie ash is purest white , captain marvel , or citizen kane ?
+OFFER ( show_time = 1:30 pm ; theater_name = century vallejo 14 ) & how about 1:30 pm at century vallejo 14 ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to buy these tickets ?
+REQUEST ( location = ? ) & in which location you wish to watch a movie ?
+REQ_MORE ( none = none ) & is there anything else you need ?
+OFFER ( movie_name = the curse of la llorona ) @ INFORM_COUNT ( count = 1 ) & great ! i found you 1 . it 's the curse of la llorona .
+INFORM ( price = $14 ; street_address = 1 embarcadero center ) & it 's $ 14 per person , you can find it at 1 embarcadero center .
+INFORM ( price = $23 ; street_address = 2317 central avenue ) & the address is 2317 central avenue . the cost is $ 23 per person .
+OFFER ( movie_name = long shot, pet sematary, shazam! ) & here 's some that are playing : long shot , pet sematary and shazam ! .
+INFORM ( genre = fantasy ; price = $8 ) & the movie is a fantasy movie and it will be $ 8 a ticket .
+OFFER ( movie_name = after, breakthrough, captain marvel ) @ INFORM_COUNT ( count = 7 ) & i was able to find 7 movies . how about after , breakthrough or captain marvel ?
+OFFER ( show_time = 4 pm ; theater_name = raven film center ) & sure , how about the 4 pm show at raven film center ?
+REQUEST ( location = ? ) & where would you like to see it ?
+OFFER ( movie_name = hotel mumbai ) & how about hotel mumbai ?
+INFORM ( price = $15 ) & tickets are $ 15 each .
+REQUEST ( location = ? ) & sure , where you wish to search ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy a ticket
+OFFER_INTENT ( intent = buymovietickets ) & shall i book tickets ?
+INFORM ( genre = fantasy ) & it is under the fantasy genre .
+REQUEST ( location = ? ) & where are you located ?
+INFORM ( genre = fantasy ; price = $15 ) & fantasy at $ 15 a person
+OFFER ( movie_name = captain marvel, dumbo, little ) & would you be interested in seeing captain marvel , dumbo , or little ?
+INFORM ( street_address = 2035 diamond boulevard ) & they are located at 2035 diamond boulevard .
+REQUEST ( location = ? ) & where do you want to look for a movie ?
+OFFER ( movie_name = dumbo, hellboy, hotel mumbai ) & how about the movies dumbo , hellboy , or hotel mumbai ?
+OFFER ( movie_name = breakthrough, dr. strangelove, fighting with my family ) @ INFORM_COUNT ( count = 10 ) & i found 10 movies you may like . how about breakthrough , dr. strangelove or fighting with my family ?
+GOODBYE ( none = none ) & see you around then .
+GOODBYE ( none = none ) & see you later .
+REQUEST ( location = ? ) & sure , what location should i seach ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) & would dumbo , captain marvel or breakthrough interest you ?
+GOODBYE ( none = none ) & thanks have a good one
+REQ_MORE ( none = none ) & ok. whats next ?
+REQ_MORE ( none = none ) & could i further assist you ?
+OFFER ( movie_name = little, long shot, missing link ) @ INFORM_COUNT ( count = 3 ) & i have 3 movies you could go with , which are little , long shot , and missing link .
+REQ_MORE ( none = none ) & is there something else i can help you with ?
+OFFER ( movie_name = captain marvel, hellboy, missing link ) @ INFORM_COUNT ( count = 4 ) & i 've found 4 movies for you . what do you think about captain marvel , hellboy , or missing link ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want tickets ?
+OFFER ( movie_name = captain marvel, little, missing link ) @ INFORM_COUNT ( count = 5 ) & there are 5 options for you , there is captain marvel or little or missing link ?
+OFFER ( movie_name = after, breakthrough, captain marvel ) & i found a few options for you . do after , breakthrough or captain marvel look like something you would want to watch ?
+OFFER ( movie_name = ash is purest white, body double, captain marvel ) @ INFORM_COUNT ( count = 10 ) & i have 10 movies including ash is purest white , body double , or captain marvel .
+OFFER ( movie_name = breakthrough, dr. strangelove, fighting with my family ) & sure , how do you feel about breakthrough , dr. strangelove or fighting with my family ?
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) @ INFORM_COUNT ( count = 10 ) & i found 10 . would you enjoy ash is purest white , captain marvel , or citizen kane ?
+GOODBYE ( none = none ) & my pleasure , make it a clean and happy day ?
+INFORM ( price = $18 ; street_address = 6868 mckinley street ) & the theater is located in 6868 mckinley street and the ticket will be $ 18 per person .
+GOODBYE ( none = none ) & goodbye , you have a good one .
+REQUEST ( show_date = ? ) & what date do you want to watch it on ?
+OFFER ( movie_name = hellboy, little, missing link ) & i have hellboy , little , and missing link .
+OFFER ( movie_name = captain marvel, dogman, dumbo ) & what do you think about captain marvel , dogman or dumbo ?
+REQUEST ( location = ? ) & where are you ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to purchase a ticket ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) & what about breakthrough , captain marvel , or dumbo ?
+INFORM ( street_address = 221 university avenue ; price = $10 ) & the movie is shown at 221 university avenue and will cost $ 10 per person .
+OFFER ( movie_name = hellboy, missing link, the curse of la llorona ) @ INFORM_COUNT ( count = 3 ) & i found 3 more movies , which are hellboy , missing link , and the curse of la llorona .
+OFFER ( movie_name = hellboy, shazam! ) @ INFORM_COUNT ( count = 2 ) & there are 2 available movies , would you like to watch hellboy or shazam ! ?
+REQ_MORE ( none = none ) & anything else i can do to help ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) & how about breakthrough , captain marvel or dumbo ?
+REQ_MORE ( none = none ) & is there something else i can help you with ?
+OFFER ( movie_name = how to train your dragon: the hidden world ) & in this case , i recommend how to train your dragon : the hidden world .
+REQUEST ( location = ? ) & sure , please can i have the zip code of your location ?
+OFFER ( show_time = 9:30 pm ; theater_name = cinelux almaden cinema ) & great . there 's a showing at cinelux almaden cinema at 9:30 pm ont he 3rd .
+REQ_MORE ( none = none ) & can i help with anything further ?
+GOODBYE ( none = none ) & great , have a wonderful day
+REQ_MORE ( none = none ) & is there something else i can do to help you ?
+REQUEST ( location = ? ) & where do yo want to watch ?
+GOODBYE ( none = none ) & have a good day .
+REQUEST ( show_date = ? ) & what date are you planning on watching this movie ?
+OFFER ( show_time = 3:30 pm ; theater_name = united artists berkeley 7 ) @ INFORM_COUNT ( count = 1 ) & i found 1 show at 3:30 pm in united artists berkeley 7 .
+REQUEST ( show_date = ? ; movie_name = ? ) & what movie do you want to see and on what date ?
+REQUEST ( location = ? ) & tell me your current location
+OFFER_INTENT ( intent = buymovietickets ) & would you like to buy tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want tickets for it ?
+REQ_MORE ( none = none ) & is there anything else you need ?
+OFFER ( movie_name = dumbo, long shot, missing link ) @ INFORM_COUNT ( count = 6 ) & i found 6 . do you want to see dumbo , long shot , or missing link ?
+REQ_MORE ( none = none ) & could i assist you with something else ?
+INFORM ( genre = fantasy ) & hellboy is a fantasy movie .
+REQUEST ( show_date = ? ) & in which date ?
+OFFER ( movie_name = hellboy, hotel mumbai, little woods ) & what do you think about hellboy , hotel mumbai or little woods ?
+REQUEST ( location = ? ) & what city do you want ?
+INFORM ( price = $13 ) & $ 13 per person .
+OFFER ( show_time = 4 pm ; theater_name = lark theater ) & there is a show at 4 pm in lark theater .
+OFFER ( movie_name = dumbo, hellboy ) @ INFORM_COUNT ( count = 2 ) & i found 2 . would you enjoy hellboy or dumbo ?
+INFORM ( street_address = 6000 bollinger canyon road suite 2300 ) & the address is 6000 bollinger canyon road suite 2300 .
+REQUEST ( location = ? ) & where is your current location ?
+REQUEST ( show_date = ? ) & for which date are you looking for the movie ?
+OFFER ( movie_name = jt leroy, searching for sugar man ) & you should check out jt leroy or searching for sugar man .
+REQUEST ( location = ? ) & what is your current location ?
+OFFER ( movie_name = captain marvel, dumbo, hellboy ) @ INFORM_COUNT ( count = 5 ) & i have 5 movies . what about captain marvel , dumbo or hellboy ?
+OFFER ( show_time = 9:30 pm ; theater_name = landmark's embarcadero center cinema ) @ INFORM_COUNT ( count = 1 ) & i have located 1 showtime for the movie at landmark 's embarcadero center cinema at 9:30 pm .
+REQ_MORE ( none = none ) & cool . anything else i can help with ?
+OFFER ( movie_name = captain marvel, shazam!, the poseidon adventure ) & perhaps you 'd be interested in captain marvel , shazam ! or that the poseidon adventure .
+OFFER_INTENT ( intent = buymovietickets ) & do you wish to get tickets for this movie ?
+REQUEST ( location = ? ) & sure , i can suggest you some good movies for you . in which location , do you wish to watch the movie ?
+REQUEST ( location = ? ) & where are you located ?
+OFFER ( movie_name = hellboy ) @ INFORM_COUNT ( count = 1 ) & i found 1 . would you enjoy hellboy ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to go ahead and purchase tickets ?
+OFFER ( show_time = 7 pm ; theater_name = roxie theater ) @ INFORM_COUNT ( count = 1 ) & there is 1 movie showtime at the roxie theater at 7 pm .
+REQUEST ( location = ? ) & where are you located ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to purchase tickets for the movie ?
+OFFER ( movie_name = gloria bell, how to train your dragon: the hidden world, little ) & how about little , or how to train your dragon : the hidden world ? i 've also heard some great things about gloria bell . that is showing in oakland .
+OFFER_INTENT ( intent = buymovietickets ) & good . do you wish for me to purchase the tickets for you now ?
+OFFER_INTENT ( intent = buymovietickets ) & shall i get tickets for you ?
+OFFER ( movie_name = shazam! ) @ INFORM_COUNT ( count = 1 ) & sure . i found 1 result . how about the movie shazam ! ?
+OFFER_INTENT ( intent = buymovietickets ) & great , shall i purchase the tickets ?
+OFFER ( movie_name = the curse of la llorona ) & the curse of la llorona ?
+GOODBYE ( none = none ) & have a nice day !
+OFFER ( movie_name = captain marvel, dogman, dumbo ) & try captain marvel , dogman , or dumbo .
+OFFER ( show_time = 7:30 pm ; theater_name = the lot city center ) & there is only on showing an it is for 7:30 pm at the lot city center .
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) @ INFORM_COUNT ( count = 10 ) & there are 10 movies that i found , would you like ash is purest white , captain marvel or citizen kane ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to purchase a ticket ?
+REQ_MORE ( none = none ) & is there anything else i can help with ?
+REQUEST ( show_date = ? ) & when would you like to see it ?
+REQUEST ( location = ? ) & where are you ?
+GOODBYE ( none = none ) & enjoy your day .
+OFFER ( movie_name = citizen kane, dogman, dumbo ) & i found citizen kane , dogman , and dumbo . do those work ?
+OFFER ( movie_name = hellboy, pet sematary, shazam! ) & they are also showing hellboy , pet sematary and shazam ! .
+REQUEST ( show_date = ? ) & what date would you like to see it ?
+REQUEST ( location = ? ) & where are you ?
+OFFER ( show_time = 10 pm ; theater_name = amc bay street 16 ) @ INFORM_COUNT ( count = 1 ) & ok , there is 1 showing at the amc bay street 16 theater at 10 pm .
+INFORM ( street_address = 5614 bay street suite 220 ) & the theater is located at 5614 bay street suite 220 .
+INFORM ( street_address = 221 university avenue ) & the address of the theater is 221 university avenue .
+GOODBYE ( none = none ) & have a lovely day .
+REQUEST ( location = ? ) & where are you located ?
+OFFER ( movie_name = dogman ) @ INFORM_COUNT ( count = 1 ) & i found 1 movie , dogman .
+GOODBYE ( none = none ) & have a wonderful day !
+INFORM ( street_address = 43917 pacific commons boulevard ) & it 's at 43917 pacific commons boulevard .
+INFORM ( genre = drama ; price = $21 ) & sure thing ! it is a drama movie . the ticket prices are $ 21 a person .
+REQUEST ( location = ? ) & can you tell me the location where you want to watch the movie ?
+REQUEST ( show_date = march 5th ) & which is your convenient date to watch the movie ? shall i try it for march 5th ?
+OFFER ( movie_name = ash is purest white, body double, captain marvel ) @ INFORM_COUNT ( count = 10 ) & sure , i found 10 options . the most popular ones are ash is purest white , body double , and captain marvel .
+OFFER ( movie_name = captain marvel, dumbo, hellboy ) @ INFORM_COUNT ( count = 6 ) & there are 6 available movies . what about captain marvel , dumbo or hellboy ?
+GOODBYE ( none = none ) & it 's been a pleasure helping you today ! enjoy the rest of your day !
+REQUEST ( location = ? ) & what location ?
+REQUEST ( location = ? ) & in what area are you located ?
+OFFER ( show_time = 7 pm ; theater_name = landmark's california theatre ) & there is one show at 7 pm in landmark 's california theatre .
+OFFER_INTENT ( intent = buymovietickets ) & do you want to get tickets ?
+REQUEST ( show_date = ? ) & what date would you like to see it ?
+OFFER ( show_time = 4 pm ; theater_name = livermore 13 cinema ) & there is a show at 4 pm in livermore 13 cinema .
+OFFER ( show_time = 3:30 pm ; theater_name = livermore 13 cinema ) & there 's a show at 3:30 pm in livermore 13 cinema .
+OFFER ( movie_name = captain marvel, little, missing link ) @ INFORM_COUNT ( count = 5 ) & okay , i found 5 movies that might work . there 's captain marvel , little , or missing link .
+GOODBYE ( none = none ) & i 'm happy to help , have a great day !
+GOODBYE ( none = none ) & no problem ! have a great day ahead !
+OFFER ( show_time = 7:30 pm ; theater_name = vogue theatre ) @ INFORM_COUNT ( count = 1 ) & okay , there 's 1 showing at 7:30 pm at the vogue theatre .
+OFFER_INTENT ( intent = buymovietickets ) & want me to buy you tickets ?
+OFFER ( show_time = 8 pm ; theater_name = boulevard 14 cinema ) & there is one show at 8 pm at the boulevard 14 cinema .
+OFFER_INTENT ( intent = buymovietickets ) & would you like tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & shall i book the tickets to this movie now ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & sorry , it 's not showing at any other times . is there anything else ?
+OFFER ( movie_name = breakthrough, dumbo, missing link ) @ INFORM_COUNT ( count = 4 ) & there are 4 movies you might be interested in . what about breakthrough , dumbo , or missing link ?
+REQUEST ( show_date = ? ) & on which date ?
+INFORM ( street_address = 2306 almaden road ; price = $20 ) & the theater is located at 2306 almaden road and tickets cost $ 20 per person .
+OFFER ( movie_name = dumbo, hellboy, shazam! ) & dumbo , hellboy , or shazam ! ?
+REQUEST ( show_date = ? ) & is there a date that you want to watch it ?
+OFFER ( show_time = 5:30 pm ; theater_name = amc bay street 16 ) @ INFORM_COUNT ( count = 1 ) & search revealed 1 showtime which is at 5:30 pm at amc bay street 16 .
+OFFER ( show_time = 10:30 pm ; theater_name = century napa valley and xd theater ) & hey , you 're in luck . there 's one showing of captain marvel on sunday playing at 10:30 pm in century napa valley and xd theater .
+REQ_MORE ( none = none ) & can i help you further ?
+REQ_MORE ( none = none ) & please let me know if you need any other help ?
+OFFER ( show_time = 9 pm ; theater_name = landmark's embarcadero center cinema ) & it would be showing at 9 pm at landmark 's embarcadero center cinema .
+OFFER ( show_time = 4 pm ; theater_name = regal cinemas crow canyon 6 ) @ INFORM_COUNT ( count = 2 ) & there are 2 showtimes for the movie . one of the shows of the movie is at 4 pm in regal cinemas crow canyon 6 .
+REQUEST ( show_date = ? ) & what day do you want to see it ?
+OFFER ( show_time = 4 pm ; theater_name = amc metreon 16 ) & there is a how at 4 pm in amc metreon 16 .
+OFFER ( movie_name = red joan ) @ INFORM_COUNT ( count = 1 ) & there is 1 movie playing . would you care to see red joan ?
+OFFER_INTENT ( intent = buymovietickets ) & shall i get tickets ?
+REQUEST ( location = ? ) & that sounds fun . let 's look for movies near you . can you tell me your city and location ?
+REQUEST ( show_date = ? ) & what day do you want to see it ?
+OFFER ( show_time = 7:30 pm ; theater_name = landmark's opera plaza cinema ) & there is one show at 7:30 pm in landmark 's opera plaza cinema .
+GOODBYE ( none = none ) & have a lovely day .
+INFORM ( price = 19 ) & the cost is 19 dollars each person .
+REQUEST ( location = ? ) & in which location you want ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) & would breakthrough , captain marvel , or dumbo interest you ?
+REQUEST ( location = ? ; show_date = ? ) & what day and city do you want to watch it in ?
+GOODBYE ( none = none ) & have a good day .
+OFFER_INTENT ( intent = buymovietickets ) & you need to buy tickets ?
+INFORM ( street_address = 1 embarcadero center ; genre = crime ) & the theater is located at 1 embarcadero center . it 's a crime movie .
+OFFER ( show_time = 7 pm ; theater_name = landmark's california theatre ) @ INFORM_COUNT ( count = 1 ) & i found 1 showtime at 7 pm in landmark 's california theatre .
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets now ?
+OFFER ( show_time = 5:30 pm ; theater_name = brenden vacaville 16 ) @ INFORM_COUNT ( count = 1 ) & there 's 1 showtime that i found at 5:30 pm in brenden vacaville 16 .
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like to reserve the tickets now ?
+OFFER ( movie_name = captain marvel, dumbo, hellboy ) & well , hellboy , captain marvel , and dumbo are all playing near there .
+OFFER ( movie_name = captain marvel, dumbo, hellboy ) & do you like captain marvel , dumbo or hellboy movies ?
+OFFER ( movie_name = dumbo, hellboy, how to train your dragon: the hidden world ) & how would you like watching dumbo , hellboy or how to train your dragon : the hidden world ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) & what do you think of breakthrough , captain marvel , or dumbo ?
+OFFER ( movie_name = the best of enemies ) & what about the best of enemies ?
+OFFER ( show_time = 7:30 pm ; theater_name = vogue theatre ) & there is one showing at 7:30 pm in vogue theatre .
+INFORM ( street_address = 620 3rd street ) & sure , they 're located at 620 3rd street .
+OFFER ( show_time = 9 pm ; theater_name = landmark's embarcadero center cinema ) @ INFORM_COUNT ( count = 1 ) & there is 1 showtime for 9 pm at landmark 's embarcadero center cinema .
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) & how about ash is purest white , captain marvel or citizen kane ?
+OFFER ( movie_name = say anything, the visitor ) @ INFORM_COUNT ( count = 2 ) & i found 2 . say anything or the visitor ?
+REQUEST ( location = ? ) & sure , where will you want to watch it ?
+GOODBYE ( none = none ) & have a nice day .
+INFORM ( genre = crime ; price = $14 ) & it 's a crime movie and tickets are $ 14 each .
+OFFER ( movie_name = dumbo, hellboy, mad max: fury road ) @ INFORM_COUNT ( count = 4 ) & i found 4 movies for you . dumbo , hellboy , and mad max : fury road are playing .
+GOODBYE ( none = none ) & enjoy your day .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & there 're no other times . sorry about that . need any other help ?
+REQUEST ( location = ? ) & what is the location ?
+OFFER ( show_time = 7 pm ; theater_name = livermore 13 cinema ) & there is a showtime at 7 pm at livermore 13 cinema .
+INFORM ( genre = romance ) & it is a romance film .
+REQUEST ( location = ? ) & where do you want to find a movie ?
+GOODBYE ( none = none ) & enjoy the rest of your day !
+REQ_MORE ( none = none ) & anything else today ?
+OFFER ( movie_name = dogman, dumbo, family ) & how would you feel about dogman , dumbo , or family ?
+OFFER ( movie_name = after, dumbo, hellboy ) & would you like hellboy , dumbo or maybe after ?
+REQUEST ( show_date = ? ) & what day do you want to go ?
+OFFER ( movie_name = captain marvel, little ) & captain marvel and little are playing at century walnut creek . would you like to watch one of those ?
+OFFER ( movie_name = captain marvel, little ) @ INFORM_COUNT ( count = 2 ) & ok , captain marvel and little are playing . would you like to see either of those 2 movies ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to purchase a ticket
+OFFER_INTENT ( intent = buymovietickets ) & do you want me to buy tickets now ?
+OFFER ( show_time = 4 pm ; theater_name = the new parkway theater ) & the new parkway theater has one showing at 4 pm .
+OFFER ( show_time = 3:30 pm ; theater_name = boulevard 14 cinema ) @ INFORM_COUNT ( count = 1 ) & there is 1 showing that day at 3:30 pm in boulevard 14 cinema .
+REQUEST ( location = ? ) & what location do you want me to search in ?
+OFFER ( movie_name = after, dumbo, hellboy ) & i have three movie choices . are you interested in after , dumbo , or hellboy ?
+OFFER_INTENT ( intent = buymovietickets ) & should i buy you some tickets ?
+OFFER ( movie_name = hotel mumbai ) & no , but hotel mumbai is .
+OFFER_INTENT ( intent = buymovietickets ) & are you ready to buy tickets ?
+REQUEST ( show_date = ? ) & can you tell me the date when you want to watch the movie ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) & i have found three movie options which match what you are looking for . would you like to see any of the following : breakthrough , captain marvel or dumbo ?
+OFFER ( show_time = 4 pm ; theater_name = amc deer valley 16 ) @ INFORM_COUNT ( count = 1 ) & i have 1 showing at 4 pm for the amc deer valley 16 .
+OFFER ( show_time = 7 pm ; theater_name = landmark's california theatre ) & there is a show of this movie at 7 pm in landmark 's california theatre .
+REQUEST ( movie_name = ? ) & what movie do you want to watch ?
+REQUEST ( location = ? ) & where are you located ?
+GOODBYE ( none = none ) & have a good day .
+OFFER ( movie_name = little, pet sematary, the curse of la llorona ) & how about little , pet sematary or the curse of la llorona ?
+OFFER ( movie_name = dumbo, hellboy, hotel mumbai ) & ok. perhaps dumbo , hellboy , or hotel mumbai ?
+OFFER ( movie_name = captain marvel ) @ INFORM_COUNT ( count = 1 ) & i found 1 movie , captain marvel .
+INFORM ( genre = mystery ) & it belongs to mystery movies
+OFFER ( movie_name = dogman, dumbo, family ) & there is dogman , dumbo and family . any of those interests you ?
+GOODBYE ( none = none ) & have a great day .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQUEST ( show_date = ? ) & what would be your preferred date to watch the movie ?
+GOODBYE ( none = none ) & have a great day .
+OFFER_INTENT ( intent = buymovietickets ) & did you need me to make your ticket reservations ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets ?
+REQUEST ( location = ? ) & yes , i sure can . where are you located ?
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+INFORM ( price = $11 ; genre = drama ) & it 's a drama movie , and the tickets cost $ 11 .
+INFORM ( price = $14 ; genre = crime ) & its a crime movie and cost $ 14 .
+OFFER ( show_time = 7 pm ; theater_name = landmark's california theatre ) @ INFORM_COUNT ( count = 1 ) & i found 1 showtime . there is a 7 pm show at landmark 's california theatre .
+GOODBYE ( none = none ) & alright , have a great day .
+OFFER ( movie_name = breakthrough, dumbo, hellboy ) @ INFORM_COUNT ( count = 6 ) & there is 6 movies . how about breakthrough , dumbo or hellboy ?
+OFFER ( show_time = 9 pm ; theater_name = landmark's embarcadero center cinema ) & there is one showing in landmark 's embarcadero center cinema at 9 pm .
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) & what do you think of these movies : ash is purest white , captain marvel , or citizen kane ?
+OFFER_INTENT ( intent = buymovietickets ) & okay , should i buy your tickets ?
+REQUEST ( location = ? ) & where would you like to watch it ?
+OFFER ( show_time = 7 pm ; theater_name = 3 below theaters and lounge ) & theres a show on at 7 pm in 3 below theaters and lounge .
+OFFER ( movie_name = the poseidon adventure ) @ INFORM_COUNT ( count = 1 ) & i found 1 movie . how about the poseidon adventure ?
+OFFER ( movie_name = ash is purest white, body double, captain marvel ) & what about ash is purest white , body double or captain marvel ?
+OFFER ( movie_name = after, breakthrough, captain marvel ) & perhaps after , breakthrough , or captain marvel would be good ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like me to buy the tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & can i get you tickets ?
+OFFER ( movie_name = breakthrough, how to train your dragon: the hidden world, little ) @ INFORM_COUNT ( count = 7 ) & i found 7 movies for you , here are a few : breakthrough , how to train your dragon : the hidden world , and little .
+REQUEST ( show_date = march 5th ) & do you want to look at times on march 5th ?
+OFFER ( show_time = 9 pm ; theater_name = landmark's embarcadero center cinema ) & one is at 9 pm in landmark 's embarcadero center cinema
+REQUEST ( location = ? ) & sure , which location ?
+OFFER ( movie_name = hellboy ) & how about hellboy ?
+REQUEST ( show_date = ? ) & what date would you like to go ?
+REQUEST ( show_date = march 9th ) & on march 9th ?
+REQUEST ( show_date = ? ) & for what date ?
+OFFER_INTENT ( intent = buymovietickets ) & would you like me to purchase a ticket for you ?
+OFFER ( movie_name = breakthrough, dumbo, hellboy ) @ INFORM_COUNT ( count = 5 ) & search returned 5 results . breakthrough , dumbo and hellboy are all playing .
+OFFER ( movie_name = after, dumbo, hellboy ) & after , dumbo or hellboy are showing .
+GOODBYE ( none = none ) & have a good day .
+OFFER ( show_time = 7 pm ; theater_name = landmark's california theatre ) & there is a show at 7 pm in landmark 's california theatre .
+OFFER ( movie_name = pet sematary, shazam! ) @ INFORM_COUNT ( count = 2 ) & here 's 2 more options : pet sematary and shazam !
+REQUEST ( show_date = ? ) & on what day would you like to see it ?
+OFFER ( movie_name = breakthrough, dumbo, pet sematary ) & you could see breakthrough , dumbo or pet sematary ?
+OFFER ( movie_name = hotel mumbai ) @ INFORM_COUNT ( count = 1 ) & the film hotel mumbai is 1 option that might interest you .
+OFFER_INTENT ( intent = buymovietickets ) & do you want me to purchase the tickets ?
+OFFER ( movie_name = high life, missing link, shazam! ) & high life , missing link , and shazam ! are all playing .
+GOODBYE ( none = none ) & enjoy the rest of your day .
+OFFER ( movie_name = shazam! ) & would you be interested in shazam ! ?
+REQUEST ( show_date = ? ) & what date ?
+REQ_MORE ( none = none ) & may i help you with anything else ?
+OFFER ( movie_name = after, breakthrough, captain marvel ) & what about after , breakthrough , or captain marvel ?
+INFORM ( street_address = 1188 el camino real 4th floor ) & the address is 1188 el camino real 4th floor .
+GOODBYE ( none = none ) & hope you have a nice day .
+OFFER ( movie_name = how to train your dragon: the hidden world, little, long shot ) & how to train your dragon : the hidden world , little , and long shot are also playing .
+REQ_MORE ( none = none ) & do you need more help ?
+REQUEST ( location = ? ) & sure , where would you like me to look ?
+REQ_MORE ( none = none ) & is there any thing else i can help you with ?
+OFFER_INTENT ( intent = buymovietickets ) & you want to buy tickets ?
+INFORM ( genre = fantasy ) & it is a fantasy movie .
+REQ_MORE ( none = none ) & do you need help with anything else ?
+REQ_MORE ( none = none ) & okay great . is there anything else i can help you with ?
+OFFER ( movie_name = captain marvel, dumbo, missing link ) @ INFORM_COUNT ( count = 3 ) & search revealed 3 movies . they are captain marvel , dumbo , and missing link .
+REQUEST ( movie_name = ? ) & what movie do you want ?
+REQUEST ( location = ? ) & your location ?
+REQUEST ( show_date = ? ) & when would you like to see it ?
+INFORM ( genre = fantasy ) & it 's a fantasy movie .
+REQUEST ( location = ? ) & where would you like to go ?
+OFFER ( movie_name = how to train your dragon: the hidden world, little, long shot ) & what do you think about how to train your dragon : the hidden world , little , or long shot ?
+OFFER ( movie_name = captain marvel, dogman, dumbo ) & what do you think of captain marvel , dogman , or dumbo ?
+OFFER ( movie_name = little, shazam! ) @ INFORM_COUNT ( count = 2 ) & there are 2 movies available : little or shazam ! .
+OFFER ( movie_name = the aftermath ) & what did you think about the aftermath ?
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy the tickets now ? shall i proceed ?
+INFORM ( price = $16 ) & it 'll cost $ 16 a person .
+REQUEST ( location = ? ) & where are you located ?
+OFFER ( movie_name = ash is purest white, dumbo, gloria bell ) @ INFORM_COUNT ( count = 8 ) & search revealed 8 results . ash is purest white , dumbo , and gloria bell are all playing .
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) & would you like to see ash is purest white , captain marvel or citizen kane .
+OFFER ( movie_name = how to train your dragon: the hidden world, little, missing link ) & what about how to train your dragon : the hidden world , little or missing link ?
+REQUEST ( location = ? ) & where are you located ?
+OFFER ( movie_name = hotel mumbai ) @ INFORM_COUNT ( count = 1 ) & i found 1 . hotel mumbai .
+REQ_MORE ( none = none ) & ok. what else do you have ?
+OFFER_INTENT ( intent = buymovietickets ) & shall i buy tickets for you ?
+OFFER ( movie_name = after, breakthrough, hellboy ) @ INFORM_COUNT ( count = 5 ) & i 've got 5 options here : does after , breakthrough , or hellboy sound good ?
+OFFER ( show_time = 10 pm ; theater_name = cinelux tennant station stadium 11 ) & there is one showing at 10 pm in cinelux tennant station stadium 11 .
+INFORM ( genre = fantasy ) & it is under the fantasy genre .
+OFFER_INTENT ( intent = buymovietickets ) & do you want to buy tickets ?
+OFFER ( movie_name = after, breakthrough, dumbo ) @ INFORM_COUNT ( count = 5 ) & there are 5 options . would dumbo , breakthrough of after interest you ?
+OFFER ( movie_name = hotel mumbai, missing link ) @ INFORM_COUNT ( count = 2 ) & search found 2 movies which are hotel mumbai and missing link .
+REQUEST ( show_date = ? ) & what date would you like to watch this movie ?
+OFFER ( show_time = 4 pm ; theater_name = the new parkway theater ) & the new parkway theater has a show starting at 4 pm .
+GOODBYE ( none = none ) & have a nice day .
+INFORM ( genre = thriller ; price = $10 ) & the cost is $ 10 for that thriller movie .
+OFFER ( show_time = 7 pm ; theater_name = landmark's guild theatre ) @ INFORM_COUNT ( count = 1 ) & it is being shown 1 time on march 9th at landmark 's guild theatre . just at 7 pm .
+OFFER ( movie_name = breakthrough, captain marvel, how to train your dragon: the hidden world ) @ INFORM_COUNT ( count = 7 ) & there are 7 movies to choose from at century at tanforan . would you consider breakthrough , captain marvel or how to train your dragon : the hidden world ?
+OFFER ( movie_name = the innocent ) & sure . are you interested in seeing the innocent ?
+OFFER ( show_time = 9:30 pm ; theater_name = cinelux almaden cinema ) @ INFORM_COUNT ( count = 1 ) & there is 1 showing of the movie at 9:30 pm at cinelux almaden cinema .
+REQUEST ( location = ? ; show_date = ? ) & where and on which date do you want to watch the movie ?
+OFFER ( movie_name = breakthrough, captain marvel, dumbo ) & i found three movies which i think you 'd like : breakthrough , captain marvel and dumbo .
+OFFER ( show_time = 9:30 pm ; theater_name = airport stadium 12 ) & i found one show that starts at 9:30 pm in airport stadium 12
+REQUEST ( location = ? ) & can you tell me where you want to watch the movie ?
+INFORM ( street_address = 4204 lone tree way ; genre = fantasy ) & the movie theater is located at 4204 lone tree way and the movie is categorized as fantasy
+OFFER ( show_time = 10:30 pm ; theater_name = the new parkway theater ) @ INFORM_COUNT ( count = 1 ) & there is 1 showtime matching your search . this show is at 10:30 pm in the new parkway theater .
+INFORM ( price = $11 ) & tickets are $ 11 per person .
+REQUEST ( show_date = march 9th ) & do you mean times on march 9th ?
+REQUEST ( location = ? ) & where are you located ?
+OFFER ( show_time = 10 pm ; theater_name = century rowland plaza ) & there is a single show at 10 pm at century rowland plaza .
+OFFER ( movie_name = missing link, pet sematary, shazam ) @ INFORM_COUNT ( count = 4 ) & i 've found 4 other movies . how about missing link , pet sematary , or shazam .
+REQUEST ( show_date = ? ) & on what date , please ?
+OFFER_INTENT ( intent = buymovietickets ) & you would like to get tickets ?
+INFORM ( street_address = 949 el camino real ) & the address is listed as 949 el camino real .
+OFFER_INTENT ( intent = buymovietickets ) & wan na get tickets ?
+OFFER_INTENT ( intent = buymovietickets ) & want to get tickets now ?
+OFFER ( movie_name = missing link, pet sematary, shazam! ) @ INFORM_COUNT ( count = 4 ) & i can recommend 4 other movies , are you perhaps interested in pet sematary , shazam ! , or missing link ?
+OFFER ( show_time = 9 pm ; theater_name = amc brentwood 14 ) & there is a showing at 9 pm at amc brentwood 14 .
+REQUEST ( show_date = ? ) & what day do you want to see the movie ?
+OFFER ( movie_name = breakthrough, dumbo, hellboy ) & there is breakthrough , dumbo and hellboy .
+OFFER_INTENT ( intent = buymovietickets ) & want to buy tickets ?
+REQ_MORE ( none = none ) & anything else ?
+OFFER ( movie_name = after, breakthrough, captain marvel ) & how would you consider watching after , breakthrough or captain marvel ?
+REQUEST ( location = ? ) & what 's your location ?
+GOODBYE ( none = none ) & you 're welcome , have a good day .
+OFFER ( movie_name = jt leroy ) @ INFORM_COUNT ( count = 1 ) & how about jt leroy ? i found 1 movies .
+REQUEST ( location = ? ) & where are you located ?
+GOODBYE ( none = none ) & have a good day .
+INFORM ( genre = fantasy ) & it is under the fantasy genre .
+OFFER ( movie_name = ash is purest white, captain marvel, citizen kane ) & i found ash is purest white , captain marvel , and citizen kane .
+INFORM ( genre = thriller ) & the movie is a thriller movie .

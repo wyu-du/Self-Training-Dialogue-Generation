@@ -1,0 +1,532 @@
+GOODBYE ( none = none ) & perfect . have a great day !
+REQUEST ( event_name = ? ) & what name shall i label the event ?
+OFFER ( event_date = march 11th ; available_start_time = 9:30 pm ; available_end_time = midnight ) & sure - looks like on march 11th , you are free from 9:30 pm to midnight .
+REQ_MORE ( none = none ) & do you need anything else ?
+GOODBYE ( none = none ) & have a nice day !
+OFFER ( event_date = march 2nd ; available_start_time = 7:30 pm ; available_end_time = 9 pm ) & on march 2nd you 're free from 7:30 pm to 9 pm
+REQUEST ( event_date = ? ) & for which date would you like discuss ?
+REQ_MORE ( none = none ) & is there any other help from me ?
+REQ_MORE ( none = none ) & do you require further assistance then ?
+REQUEST ( event_time = ? ) & that time do you want ?
+OFFER ( event_date = march 14th ; available_start_time = 8 am ; available_end_time = 12 pm ) & you have a spot starting at 8 am and ending at 12 pm on march 14th .
+OFFER ( event_date = march 10th ; available_start_time = 11 am ; available_end_time = 2 pm ) @ INFORM_COUNT ( count = 1 ) & you have 1 available time slot on march 10th from 11 am to 2 pm
+CONFIRM ( event_name = movie at smith rafael film center ; event_date = march 2nd ; event_location = 1118 4th street ; event_time = 8:30 pm ) & to confirm then the event is called movie at smith rafael film center at 1118 4th street and is on at 8:30 pm on march 2nd .
+OFFER ( event_date = march 4th ; available_start_time = 8 am ; available_end_time = 2 pm ) & on march 4th you 're free from 8 am to 2 pm
+NOTIFY_SUCCESS ( none = none ) & i added the schedule to your calendar .
+OFFER ( available_start_time = 8 am ; available_end_time = 3 pm ) & you are available from 8 am to 3 pm .
+REQUEST ( event_name = ? ) & under what name do you wish to save the event ?
+REQ_MORE ( none = none ) & do you need assistance with anything more ?
+GOODBYE ( none = none ) & have a good day .
+GOODBYE ( none = none ) & have a good day .
+CONFIRM ( event_name = restaurant reservation ; event_date = march 1st ; event_location = 121 east spain street ; event_time = 7 pm ) & you would like to schedule a restaurant reservation at 121 east spain street for march 1st at 7 pm ?
+REQUEST ( event_time = ? ) & what time should i put the event on ?
+OFFER_INTENT ( intent = addevent ) & want to add an event to your calendar ?
+REQ_MORE ( none = none ) & is there anything else i can help you
+OFFER ( event_name = dentist appointment ; event_time = 2 pm ) & you also have a dentist appointment at 2 pm .
+REQUEST ( event_time = ? ) & what is the time of the event ?
+OFFER ( event_name = apartment viewing at deer park apartments ; event_time = 4 pm ) @ INFORM_COUNT ( count = 2 ) & you have 2 events scheduled on the calendar . the first event is the apartment viewing at deer park apartments which begins at 4 pm .
+NOTIFY_SUCCESS ( none = none ) & this event is now added to your calendar
+OFFER ( event_date = march 1st ; available_start_time = 9 am ; available_end_time = 10 am ) & you have a time slot free from 9 am to 10 am on march 1st .
+NOTIFY_SUCCESS ( none = none ) & i successfully added it to your calendar .
+CONFIRM ( event_name = gp appointment ; event_date = march 8th ; event_location = 301 old san francisco road level 2 ; event_time = 12 pm ) & please confirm your addition of the event titled gp appointment which takes place at 301 old san francisco road level 2 at 12 pm on march 8th .
+OFFER ( event_date = next thursday ; available_start_time = 8 am ; available_end_time = 5 pm ) & you have an upcoming event next thursday . you would be free from 8 am to 5 pm
+GOODBYE ( none = none ) & have a wonderful day .
+GOODBYE ( none = none ) & have a nice day
+REQUEST ( event_time = ? ) & what time should i add ?
+OFFER_INTENT ( intent = addevent ) & should i add the event ?
+REQUEST ( event_date = ? ) & how about giving me the date ?
+GOODBYE ( none = none ) & it 's my pleasure .
+GOODBYE ( none = none ) & have a wonderful day .
+CONFIRM ( event_name = food ; event_date = march 13th ; event_location = 1100 market street ; event_time = 11:30 am ) & okay , please confirming : adding food event to your calendar for march 13th at 11:30 am , located at 1100 market street .
+REQUEST ( event_date = ? ) & which date should i view ?
+GOODBYE ( none = none ) & have a great day .
+OFFER ( event_date = march 8th ; available_start_time = 8 pm ; available_end_time = midnight ) & the date is march 8th . you are available from 8 pm to midnight .
+REQUEST ( event_date = ? ) & which day do you want me to check ?
+GOODBYE ( none = none ) & have a wonderful day .
+GOODBYE ( none = none ) & have a nice day .
+OFFER ( event_date = march 11th ; available_start_time = 9 am ; available_end_time = 1 pm ) & march 11th at 9 am and ends 1 pm
+CONFIRM ( event_name = out of office ; event_date = march 13th ; event_location = 2664 berryessa road # 212 ; event_time = 12 pm ) & confirming a 12 pm appointment at 2664 berryessa road # 212 on march 13th titled out of office .
+CONFIRM ( event_name = doctor appointment ; event_date = march 12th ; event_location = 329 tennessee street ; event_time = 11 am ) & okay . i just want to make sure . you want to create an event on your calendar labeled doctor appointment and it 's happening at 11 am on march 12th . the location for this should be 329 tennessee street .
+OFFER ( event_date = march 11th ; available_start_time = 7 am ; available_end_time = 9 pm ) & for march 11th , you will be free from 7 am till 9 pm .
+CONFIRM ( event_name = hairdresser appointment ; event_date = march 12th ; event_location = 10095 saich way #2 ; event_time = 2 pm ) & please confirm the following details : the vent name is hairdresser appointment . the sceduled date for the event is march 12th . the location of the eent is 10095 saich way # 2 . the scheduled time for the event is 2 pm .
+REQUEST ( event_date = ? ) & what date should i check ?
+OFFER ( event_date = march 12th ; available_start_time = 8 am ; available_end_time = 1:30 pm ) @ INFORM_COUNT ( count = 1 ) & there is 1 free slot on your calendar on march 12th . it starts at 8 am and ends at 1:30 pm .
+OFFER ( event_date = march 7th ; available_start_time = 9 am ; available_end_time = 11 pm ) & on march 7th , you have free time between 9 am and 11 pm .
+REQ_MORE ( none = none ) & can i help you with something else then ?
+OFFER ( event_name = hairdresser appointment ; event_time = 2 pm ) & you have hairdresser appointment at 2 pm
+REQUEST ( event_name = ? ; event_time = ? ) & what label and time do you want me to use for this ?
+OFFER ( event_date = march 13th ; available_start_time = 3:45 pm ; available_end_time = 7:30 pm ) & it appears that on march 13th you are free from 3:45 pm to 7:30 pm .
+OFFER_INTENT ( intent = addevent ) & should we add an event to your calendar ?
+REQUEST ( event_date = ? ) & what date do you want me to check
+OFFER_INTENT ( intent = addevent ) & do you want me to add it to your calendar ?
+CONFIRM ( event_name = apartment visit ; event_date = march 11th ; event_location = 150 sierra drive ; event_time = 3 pm ) & confirming your 3 pm march 11th event called apartment visit at 150 sierra drive
+OFFER ( event_name = ophthalmologist appointment with dr. randal pham md, ms, facs ; event_time = 12 pm ) & the event starts at 12 pm for the ophthalmologist appointment with dr. randal pham md , ms , facs .
+REQUEST ( event_date = ? ) & in which date ?
+GOODBYE ( none = none ) & enjoy your day .
+GOODBYE ( none = none ) & please have a great day . goodbye .
+REQUEST ( event_name = ? ) & how should i name the event ?
+REQUEST ( event_name = ? ; event_time = ? ; event_location = 2664 berryessa road # 206 ) & what name would you like to use for the event ? also is the location 2664 berryessa road # 206 ?
+CONFIRM ( event_name = out of office ; event_date = march 13th ; event_location = 9260 alcosta boulevard ; event_time = 10:30 am ) & please can you confirm me that you wish to add the event out of office scheduled at 9260 alcosta boulevard on march 13th at 10:30 am to your calendar , right ?
+OFFER ( event_date = march 2nd ; available_start_time = 6 am ; available_end_time = 12:30 pm ) & that 's march 2nd and you 're free at 6 am until 12:30 pm .
+OFFER ( event_date = march 8th ; available_start_time = 11:30 am ; available_end_time = 11 pm ) & on march 8th , you 're free for most of the day , from 11:30 am to 11 pm .
+CONFIRM ( event_name = reservation at honey thai restaurant ; event_date = march 1st ; event_location = 57 north milpitas boulevard ; event_time = 11:30 am ) & please confirm you want me add the event titled reservation at honey thai restaurant on march 1st at 57 north milpitas boulevard at 11:30 am .
+NOTIFY_SUCCESS ( none = none ) & i 've added the new event to the calendar .
+CONFIRM ( event_name = movie at amc eastridge 15 ; event_date = march 2nd ; event_location = 2190 eastridge loop ; event_time = 12 pm ) & okay , let 's confirm the details : we 're adding movie at amc eastridge 15 at 2190 eastridge loop to your calendar on march 2nd at 12 pm .
+REQUEST ( event_date = ? ) & what date do you want to look ?
+REQUEST ( event_date = ? ) & what day would you like me to check ?
+NOTIFY_SUCCESS ( none = none ) & it 's been added
+OFFER ( event_date = march 4th ; available_start_time = 8 am ; available_end_time = 8:30 pm ) & on march 4th you 're free from 8 am to 8:30 pm .
+REQ_MORE ( none = none ) & is there anything else that i may help you with ?
+OFFER ( event_date = march 7th ; available_start_time = 12:30 pm ; available_end_time = 11 pm ) & on march 7th there is a slot starting 12:30 pm and ending 11 pm .
+REQUEST ( event_date = ? ) & which date ?
+OFFER_INTENT ( intent = addevent ) & should i add that to your calendar ?
+CONFIRM ( event_name = stylist visit ; event_date = march 1st ; event_location = 1532 20th street ; event_time = 4:15 pm ) & to be clear , 4:15 pm appointment , march 1st at 1532 20th street for stylist visit ?
+OFFER_INTENT ( intent = addevent ) & shall i add something to your calendar ?
+REQUEST ( event_date = ? ) & which date are you referring to ?
+OFFER ( event_date = march 12th ; available_start_time = 6 am ; available_end_time = 12 pm ) & on march 12th you have an empty slot from 6 am to 12 pm .
+OFFER ( event_date = march 9th ; available_start_time = 8 am ; available_end_time = 1 pm ) & on march 9th you are available from 8 am to 1 pm
+REQ_MORE ( none = none ) & can i do anything else for you ?
+OFFER_INTENT ( intent = addevent ) & do you want me to added the event ?
+OFFER ( event_name = dentist appointment with ghina morad ; event_time = 10 am ) & it 's name is dentist appointment with ghina morad and the noted time is at 10 am . hope this will help you .
+OFFER ( event_name = general practitioner appointment ; event_time = 4:30 pm ) & yes , you have a general practitioner appointment at 4:30 pm on the 13th .
+OFFER ( event_name = stylist appointment ; event_time = 5:30 pm ) & stylist appointment at 5:30 pm .
+OFFER ( event_name = property viewing ; event_time = 5 pm ) @ INFORM_COUNT ( count = 1 ) & there is 1 event in your callendar , you have a property viewing at 5 pm .
+NOTIFY_SUCCESS ( none = none ) & your requested event has been added to your calendar .
+OFFER ( event_name = movie booking for breakthrough ; event_time = 10:30 pm ) & you have a movie booking for breakthrough starting at 10:30 pm .
+NOTIFY_SUCCESS ( none = none ) & this has successfully been added to your calendar .
+NOTIFY_SUCCESS ( none = none ) & the event is in your calendar .
+OFFER_INTENT ( intent = addevent ) & should i add an event to your calendar ?
+GOODBYE ( none = none ) & have a wonderful day .
+GOODBYE ( none = none ) & have a nice day
+CONFIRM ( event_name = apartment visit ; event_date = march 11th ; event_location = 1546 maurice lane ; event_time = 10:30 am ) & please give confirmation details : name of the event in calendar is apartment visit on march 11th at 1546 maurice lane at 10:30 am .
+NOTIFY_SUCCESS ( none = none ) & your event has been added to your calendar .
+REQ_MORE ( none = none ) & is there anything else i can help with ?
+OFFER ( event_date = march 14th ; available_start_time = 5 pm ; available_end_time = 7:30 pm ) & you are free at 5 pm until 7:30 pm on march 14th .
+REQUEST ( event_name = ? ) & absolutely . what name should i use for the event ?
+CONFIRM ( event_name = property appointment ; event_date = march 8th ; event_location = 2290 california street ; event_time = 12:30 pm ) & you want to add an event to your calendar called property appointment , located at 2290 california street , and with a time of 12:30 pm on march 8th ?
+REQUEST ( event_date = ? ) & for what date would you like to know ?
+OFFER_INTENT ( intent = addevent ) & will i add an event to your planner ?
+CONFIRM ( event_name = movie at the lot city center ; event_date = next thursday ; event_location = 6000 bollinger canyon road suite 2300 ; event_time = 7 pm ) & please confirm that you would like me to add an event named movie at the lot city center to your calendar schedule for next thursday at 7 pm . the event will be located at 6000 bollinger canyon road suite 2300 .
+NOTIFY_SUCCESS ( none = none ) & your event has been added .
+REQUEST ( event_name = ? ; event_time = ? ) & what should i name this event ? what time should i schedule it for ?
+NOTIFY_SUCCESS ( none = none ) & ok , the event has been added .
+NOTIFY_SUCCESS ( none = none ) & i 've added the event to your calendar .
+OFFER_INTENT ( intent = addevent ) & do you want to add it to your calendar .
+OFFER ( available_start_time = 8 am ; available_end_time = 6:30 pm ) @ INFORM_COUNT ( count = 2 ) & there are 2 empty slots in your calendar from 8 am to 6:30 pm .
+CONFIRM ( event_name = movie show ; event_date = march 14th ; event_location = 3630 balboa street ; event_time = 7:30 pm ) & okay no problem . so you 'd like to create an event called movie show scheduled for 7:30 pm on march 14th . the address of the event is 3630 balboa street .
+CONFIRM ( event_name = reservation at gumbas ; event_date = march 1st ; event_location = 176 south murphy avenue ; event_time = 12 pm ) & confirm reservation at gumbas march 1st for 12 pm located 176 south murphy avenue .
+OFFER ( event_date = march 13th ; available_start_time = 11 am ; available_end_time = 3 pm ) & on march 13th , you have free time from 11 am to 3 pm .
+REQ_MORE ( none = none ) & can i help you further ?
+GOODBYE ( none = none ) & okay , take care .
+REQUEST ( event_date = ? ) & which date are you checking ?
+OFFER ( event_date = march 4th ; available_start_time = 11 am ; available_end_time = 12 pm ) & on march 4th , the empty slot starts at 11 am and ends at 12 pm .
+OFFER ( event_name = movie show ; event_time = 11 pm ) & you have a movie show at 11 pm .
+OFFER ( available_start_time = 8 am ; available_end_time = 6 pm ) @ INFORM_COUNT ( count = 2 ) & there are 2 empty slots on your calendar . the nearest one is 8 am to 6 pm .
+REQ_MORE ( none = none ) & do you want me to do more ?
+REQUEST ( event_date = ? ) & you did n't specify a day before . what day , exactly ?
+REQUEST ( event_location = ? ; event_name = ? ; event_time = ? ) & where and when is the event ? what name should i use for the event ?
+OFFER ( available_start_time = 6:30 pm ; available_end_time = 10:30 pm ) & yes slots from 6:30 pm to 10:30 pm
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+OFFER ( event_name = new found glory concert ; event_time = 5:30 pm ) & you have a new found glory concert at 5:30 pm .
+GOODBYE ( none = none ) & okay , have a good day .
+REQ_MORE ( none = none ) & do you need something more ?
+REQUEST ( event_time = ? ) & okay , please tell me what time is the event ?
+NOTIFY_SUCCESS ( none = none ) & i 've successfully added this to your calendar .
+GOODBYE ( none = none ) & have a great day !
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & no , you do n't have any other events scheduled for monday . is there anything else i can help you with ?
+CONFIRM ( event_name = doctor appointment ; event_date = march 12th ; event_location = 655 redwood highway suite 100 ; event_time = 11:15 am ) & event name : doctor appointment . date of the event : march 12th at 11:15 am . address of the event : 655 redwood highway suite 100 . it 's all right ?
+GOODBYE ( none = none ) & you 're welcome . have a good day .
+GOODBYE ( none = none ) & enjoy your movie !
+REQ_MORE ( none = none ) & can i assist you with anything else ?
+GOODBYE ( none = none ) & have a nice day !
+CONFIRM ( event_name = restaurant reservation ; event_date = march 14th ; event_location = 20390 lake chabot road ; event_time = 5:30 pm ) & please give confirmation details : the event is restaurant reservation on march 14th at 20390 lake chabot road at 5:30 pm
+OFFER_INTENT ( intent = addevent ) & shall i add an event to your calendar ?
+NOTIFY_SUCCESS ( none = none ) & i have successfully added that to your calendar .
+REQUEST ( event_date = ? ) & on what date you want to know ?
+REQUEST ( event_date = ? ) & when do you want to check your schedule ?
+OFFER_INTENT ( intent = addevent ) & would you like me to fill in that time range on your calendar ?
+NOTIFY_SUCCESS ( none = none ) & the event is added to the calendar
+OFFER ( event_name = movie at the new parkway theater ; event_time = 10:30 pm ) & on that day , you will be watching a 10:30 pm showing of a movie at the new parkway theater .
+OFFER ( event_date = march 9th ; available_start_time = 7 am ; available_end_time = 1:30 pm ) & on march 9th you have an empty slot from 7 am to 1:30 pm .
+CONFIRM ( event_name = doctor appointment ; event_date = march 14th ; event_location = 795 el camino real jamplis building, level 1 ; event_time = 11 am ) & please verify the following information : an activity called doctor appointment scheduled for 11 am march 14th at 795 el camino real jamplis building , level 1 .
+GOODBYE ( none = none ) & have a nice day .
+CONFIRM ( event_name = movie at pruneyard dine-in cinemas ; event_date = march 1st ; event_location = 1875 south bascom avenue ; event_time = 9:30 pm ) & please confirm the following details : the event will be called movie at pruneyard dine-in cinemas . it 's scheduled for march 1st , 9:30 pm . the event is located at 1875 south bascom avenue .
+REQUEST ( event_name = ? ) & what should i call it ?
+OFFER ( event_date = march 1st ; available_start_time = 11:30 am ; available_end_time = 10:30 pm ) & it is march 1st and there is an empty slot at 11:30 am and that slot ends at 10:30 pm
+NOTIFY_SUCCESS ( none = none ) & that event has now been added .
+CONFIRM ( event_name = doctor appointment ; event_date = march 3rd ; event_location = sonoma ave, # 44, 1820 doctors park drive ; event_time = 3:30 pm ) & please can you confirm me that you wish to add the event doctor appointment that is scheduled at sonoma ave , # 44 , 1820 doctors park drive on march 3rd at 3:30 pm to your calendar , right ?
+GOODBYE ( none = none ) & have a nice day .
+REQ_MORE ( none = none ) & anything else then ?
+REQUEST ( event_time = ? ) & what time will you like the event to start .
+GOODBYE ( none = none ) & you 're welcome , have a good day .
+OFFER ( event_date = next tuesday ; available_start_time = 1:30 pm ; available_end_time = 5 pm ) & the date for the event is scheduled for next tuesday and you have an empty slot starting at 1:30 pm ending at 5 pm .
+OFFER ( available_start_time = 10 pm ; available_end_time = 12 pm ) & no . you also have available time at 10 pm and at 12 pm .
+GOODBYE ( none = none ) & you are welcome , have a great day , bye
+CONFIRM ( event_name = property ; event_date = march 5th ; event_location = 1711 detroit avenue ; event_time = 4 pm ) & please confirm : property is schedule for a 4 pm showing on march 5th at 1711 detroit avenue .
+REQUEST ( event_time = ? ; event_name = ? ) & what is the event time and name for event ?
+OFFER ( event_date = march 5th ; available_start_time = 8 am ; available_end_time = 1 pm ) & on march 5th , you have an empty slot from 8 am to 1 pm .
+REQ_MORE ( none = none ) & shall i do anything else ?
+REQ_MORE ( none = none ) & do you need more help ?
+GOODBYE ( none = none ) & have a great day .
+OFFER ( event_name = appointment with renew dental implant specialists ; event_time = 4 pm ) @ INFORM_COUNT ( count = 3 ) & there are 3 events which i see to have been scheduled on the calendar . you have arranged an appointment with renew dental implant specialists and the appointment is going to start at 4 pm .
+OFFER ( event_date = tomorrow ; available_start_time = 3 pm ; available_end_time = 4 pm ) & you have an empty slot tomorrow from 3 pm to 4 pm .
+OFFER_INTENT ( intent = addevent ) & can i add this event to your calendar ?
+GOODBYE ( none = none ) & okay . you 're welcome . goodbye .
+OFFER ( event_date = march 1st ; available_start_time = 10:30 pm ; available_end_time = midnight ) & on march 1st , you 're available from 10:30 pm until midnight .
+REQUEST ( event_name = ? ) & what would you like to name the event ?
+OFFER ( event_date = march 4th ; available_start_time = 9 am ; available_end_time = 2:30 pm ) @ INFORM_COUNT ( count = 1 ) & you have 1 opening with a decent amount of time on march 4th from 9 am to 2:30 pm .
+NOTIFY_SUCCESS ( none = none ) & i 've added it to your calendar .
+OFFER ( event_date = march 11th ; available_start_time = 7 am ; available_end_time = 5:30 pm ) & for march 11th you have everything from 7 am through 5:30 pm open .
+REQUEST ( event_date = ? ) & on which date please ?
+OFFER_INTENT ( intent = addevent ) & did you want to add an event to this calendar ?
+OFFER ( event_name = reservation for 5 people at maroo korean cuisine ; event_time = 11:30 am ) & yes , you have a reservation for 5 people at maroo korean cuisine at 11:30 am .
+OFFER ( event_name = apartment viewing ; event_time = 3 pm ) & you 've got an apartment viewing starting at 3 pm .
+OFFER_INTENT ( intent = addevent ) & should i add the visit to your calendar ?
+OFFER ( event_date = march 7th ; available_start_time = 8 am ; available_end_time = 2 pm ) & your availability on march 7th starts at 8 am and ends at 2 pm .
+OFFER ( event_name = appointment at miller and mane ; event_time = 10:30 am ) & you have an appointment at miller and mane at 10:30 am .
+REQUEST ( event_name = ? ; event_time = ? ; event_location = ? ) & alright what are the details of the event ?
+GOODBYE ( none = none ) & enjoy your day
+OFFER ( event_date = march 1st ; available_start_time = 4:30 pm ; available_end_time = 10 pm ) & you have an empty slot on march 1st from 4:30 pm to 10 pm .
+CONFIRM ( event_name = restaurant reservation at el valenciano ; event_date = march 14th ; event_location = 1153 valencia street ; event_time = 11 am ) & please confirm you want me to add an event with the name restaurant reservation at el valenciano on march 14th at 11 am taking place at 1153 valencia street .
+OFFER ( available_start_time = 8 am ; available_end_time = 1 pm ) & you have free from 8 am to 1 pm
+OFFER ( available_start_time = 8 am ; available_end_time = 11:30 am ) @ INFORM_COUNT ( count = 3 ) & there are 3 empty slots on your calendar , starting from 8 am to 11:30 am
+GOODBYE ( none = none ) & take care and have a good day .
+OFFER ( event_date = march 4th ; available_start_time = 9 am ; available_end_time = 1:30 pm ) & on march 4th , you have free time from 9 am to 1:30 pm .
+REQUEST ( event_date = ? ) & which day exactly ?
+REQUEST ( event_time = ? ; event_location = 3290 sacramento street ; event_name = ? ) & whats the time of it ? is it happening on 3290 sacramento street ? and what should i name it ?
+NOTIFY_SUCCESS ( none = none ) & the event has been added .
+REQUEST ( event_name = ? ) & in which name you want to note this event to your calendar ?
+REQ_MORE ( none = none ) & whats the next task ?
+CONFIRM ( event_name = property visit appointment ; event_date = march 5th ; event_location = 400 east remington drive ; event_time = 11:30 am ) & please confirm : an 11:30 am property visit appointment is scheduled on march 5th at 400 east remington drive .
+REQUEST ( event_date = ? ) & for which date you want to know when you are available ?
+NOTIFY_SUCCESS ( none = none ) & your event has been successfully added to your calendar !
+REQUEST ( event_name = ? ) & what should i name it ?
+REQUEST ( event_name = ? ; event_location = ? ) & what is the name of the event and where is the it happening ?
+OFFER ( event_date = march 11th ; available_start_time = 8 am ; available_end_time = 5:30 pm ) & on march 11th you 're free from 8 am to 5:30 pm
+OFFER_INTENT ( intent = addevent ) & would you like me to add that to your calendar ?
+OFFER_INTENT ( intent = addevent ) & you would like to add something to your calendar ?
+REQUEST ( event_date = ? ) & what date do you want to look at ?
+REQ_MORE ( none = none ) & can i help you out some more ?
+CONFIRM ( event_name = apartment visit ; event_date = march 4th ; event_location = 1546 maurice lane ; event_time = 10 am ) & you want to add apartment visit on march 4th at 10 am and is located at 1546 maurice lane , correct ?
+OFFER_INTENT ( intent = addevent ) & you would like to add the visit to you calendar ?
+REQUEST ( event_date = ? ) & what date do you want to know ?
+NOTIFY_SUCCESS ( none = none ) & event was added to your calendar .
+CONFIRM ( event_name = movie show ; event_date = march 1st ; event_location = 641 1st street ; event_time = 6:30 pm ) & please confirm : movie show is schedule at 6:30 pm on march 1st at 641 1st street
+OFFER ( event_date = march 14th ; available_start_time = 8 am ; available_end_time = 4:30 pm ) & you have a free slot from 8 am to 4:30 pm on march 14th .
+OFFER ( event_date = march 7th ; available_start_time = 6 am ; available_end_time = 11 pm ) & sure , you are currently free from 6 am to 11 pm on march 7th .
+GOODBYE ( none = none ) & your welcome . have a nice day .
+REQUEST ( event_date = ? ) & which date should i view ?
+GOODBYE ( none = none ) & have a wonderful day .
+NOTIFY_SUCCESS ( none = none ) & i 've added the event on your calendar .
+REQ_MORE ( none = none ) & is there anything else i can assist you with ?
+OFFER ( event_name = lights concert ; event_time = 5:30 pm ) & you have lights concert happening at 5:30 pm that day .
+NOTIFY_SUCCESS ( none = none ) & ok , i added that to your calendar
+OFFER ( event_name = dentist appointment ; event_time = 1:30 pm ) & you have a dentist appointment on march 3rd starting at 1:30 pm .
+CONFIRM ( event_name = movie at century 16 ; event_date = march 8th ; event_location = 15555 east 14th street ; event_time = 10:30 pm ) & confirm 10:30 pm on march 8th movie at century 16 15555 east 14th street
+NOTIFY_SUCCESS ( none = none ) & it 's added now .
+REQ_MORE ( none = none ) & do you need help with anything else ?
+CONFIRM ( event_name = hair care ; event_date = march 8th ; event_location = 6790 mckinley street #180 ; event_time = 6:30 pm ) & please confirm the following the event name is hair care and is scheduled on march 8th at at 6:30 pm . the location is 6790 mckinley street # 180
+CONFIRM ( event_name = movie show ; event_date = march 3rd ; event_location = 5614 bay street suite 220 ; event_time = 7 pm ) & to confirm then the event is movie show on march 3rd at 7 pm and the location is 5614 bay street suite 220 .
+REQUEST ( event_name = ? ) & what should i name this event ?
+REQ_MORE ( none = none ) & can i further assist you with anything else ?
+REQUEST ( event_date = ? ) & which day ?
+REQUEST ( event_time = ? ) & what time does it begin ?
+NOTIFY_SUCCESS ( none = none ) & okay the date has been added .
+OFFER ( event_date = march 12th ; available_start_time = 12:30 pm ; available_end_time = 10:30 pm ) & for march 12th you 're available starting at 12:30 pm and ending at 10:30 pm .
+OFFER ( event_date = next tuesday ; available_start_time = 9:30 pm ; available_end_time = 11 pm ) & you are free between 9:30 pm and 11 pm on next tuesday .
+OFFER ( event_date = march 12th ; available_start_time = 12 pm ; available_end_time = 5 pm ) & on march 12th , you are free from 12 pm to 5 pm .
+OFFER ( event_date = march 13th ; available_start_time = 2 pm ; available_end_time = 4 pm ) & you are currently free from 2 pm to 4 pm on march 13th .
+OFFER ( event_name = movie show ; event_time = 10 pm ) & you have a movie show at 10 pm .
+OFFER_INTENT ( intent = addevent ) & would you like to add this event to your calendar ?
+CONFIRM ( event_name = movie show ; event_date = march 1st ; event_location = 4204 lone tree way ; event_time = 7 pm ) & please confirm you want me to add the event with the title movie show on march 1st at 4204 lone tree way at 7 pm .
+REQUEST ( event_date = ? ) & what date would you like to see ?
+REQUEST ( event_location = ? ) & where is the enclave located ?
+REQUEST ( event_location = 2301 camino ramon ; event_name = ? ) & sure . is this taking place at 2301 camino ramon ? what should i name the event ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & no , that is the only event on your calendar for that date .
+OFFER ( event_name = dentist appointment with kobayashi james y ; event_time = 11:30 am ) & that day you have a dentist appointment with kobayashi james y at 11:30 am .
+REQUEST ( event_time = ? ) & what time would you like to make the appointment ?
+REQUEST ( event_location = 1501 solano avenue ) & is the address 1501 solano avenue ?
+OFFER_INTENT ( intent = addevent ) & should i add the event to your calendar ?
+GOODBYE ( none = none ) & have a good time .
+REQUEST ( event_time = ? ; event_location = 329 tennessee street ) & sure . what time do you want to set it in the calendar ? is this taking place at 329 tennessee street ?
+CONFIRM ( event_name = property visit appointment ; event_date = march 7th ; event_location = 1100 market street ; event_time = 12 pm ) & noting that it will be named property visit appointment on march 7th at 12 pm at 1100 market street
+OFFER ( event_name = movie show ; event_time = 10 pm ) & you are going to a movie show at 10 pm .
+OFFER ( available_start_time = 8 am ; available_end_time = 3 pm ) & you have availability from 8 am to 3 pm .
+CONFIRM ( event_name = movie show ; event_date = march 1st ; event_location = 280 smith ranch road ; event_time = 7:30 pm ) & can you please confirm that you want to add movie show in your calendar which happens at 280 smith ranch road on march 1st at 7:30 pm .
+OFFER_INTENT ( intent = addevent ) & shall i put an event on your calendar ?
+OFFER ( event_date = march 10th ; available_start_time = 8:15 pm ; available_end_time = 10 pm ) & on march 10th you do n't have any events planned 8:15 pm to 10 pm .
+GOODBYE ( none = none ) & have a good day .
+REQ_MORE ( none = none ) & is there anything else i can assist you with ?
+OFFER_INTENT ( intent = addevent ) & would you like me to add an event to your calendar ?
+NOTIFY_SUCCESS ( none = none ) & the event has been successfully added to the calendar .
+CONFIRM ( event_name = not at work ; event_date = march 11th ; event_location = 1274 benton street ; event_time = 11:30 am ) & kindly ensure that , on march 11th , the event not at work is at 1274 benton street . it has been scheduled at 11:30 am .
+GOODBYE ( none = none ) & thank you very much .
+REQUEST ( event_location = 601 van ness avenue ) & do you see the event happening there at 601 van ness avenue ?
+GOODBYE ( none = none ) & have a great day .
+NOTIFY_SUCCESS ( none = none ) & the appointment has been added .
+OFFER ( event_date = march 7th ; available_start_time = 8:30 pm ; available_end_time = midnight ) & the date is march 7th , you have an empty slot starting at 8:30 pm to midnight
+OFFER ( event_date = march 12th ; available_start_time = 1 pm ; available_end_time = 10:30 pm ) & on march 12th you have an empty slot starting 1 pm and ends at 10:30 pm
+CONFIRM ( event_name = dinner at b star ; event_date = march 12th ; event_location = 127 clement street ; event_time = 12:30 pm ) & please confirm you want to add the event titled dinner at b star on march 12th at 12:30 pm at 127 clement street .
+OFFER ( event_date = march 12th ; available_start_time = 8 am ; available_end_time = 4:30 pm ) & you are currently free on 8 am to 4:30 pm on march 12th .
+OFFER ( available_start_time = 3:30 pm ; available_end_time = 9 pm ) @ INFORM_COUNT ( count = 2 ) & there are 2 empty slots on 9th , from 3:30 pm to 9 pm .
+REQ_MORE ( none = none ) & its my pleasure . do you need any other favor ?
+REQUEST ( event_date = ? ) & what date are you looking for
+REQUEST ( event_date = march 9th ) & you want to know your availability on march 9th ?
+REQUEST ( event_date = ? ) & on which day ?
+REQ_MORE ( none = none ) & can i help you with anything else ?
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+OFFER ( event_date = next wednesday ; available_start_time = 1 pm ; available_end_time = 10:30 pm ) & next wednesday you have an empty slot starting 1 pm and ending at 10:30 pm
+OFFER ( event_date = march 1st ; available_start_time = 4:30 pm ; available_end_time = 7:30 pm ) & on march 1st you are free from 4:30 pm to 7:30 pm .
+OFFER_INTENT ( intent = addevent ) & would you like to add this visit to your itinerary ?
+NOTIFY_SUCCESS ( none = none ) & great , calendar is updated successfully .
+OFFER ( event_date = march 2nd ; available_start_time = 12 pm ; available_end_time = 4 pm ) & for march 2nd according to your schedule you will be free from 12 pm to 4 pm .
+REQUEST ( event_name = ? ; event_time = ? ) & what the name of this shindig ? what time does it start ?
+OFFER ( event_date = march 6th ; available_start_time = 12 pm ; available_end_time = 9:30 pm ) & i show march 6th at 12 pm until 9:30 pm you are free .
+GOODBYE ( none = none ) & no worries , have a great day ahead !
+OFFER ( event_date = march 12th ; available_start_time = 6 am ; available_end_time = 11:30 am ) & on march 12th you are open from 6 am until 11:30 am .
+OFFER ( event_name = dentist appointment with kini ramanand , kini lata ; event_time = 1 pm ) @ INFORM_COUNT ( count = 3 ) & you have 3 events scheduled . you have a dentist appointment with kini ramanand , kini lata starting at 1 pm .
+OFFER ( event_date = march 2nd ; available_start_time = 7 am ; available_end_time = 10 pm ) & you are currently free from 7 am to 10 pm on march 2nd .
+OFFER ( event_name = stylist appointment at showroom 383 salon ; event_time = 5 pm ) & you have a stylist appointment at showroom 383 salon at 5 pm .
+GOODBYE ( none = none ) & have a great day .
+OFFER ( event_name = apartment viewing ; event_time = 2:30 pm ) & you have an apartment viewing which starts at 2:30 pm that day .
+REQUEST ( event_name = ? ; event_time = ? ) & please tell me the title and time for the event .
+OFFER ( event_date = march 6th ; available_start_time = 4:45 pm ; available_end_time = 5 pm ) & the day is march 6th . you have a free spot beginning at 4:45 pm and ending at 5 pm .
+OFFER ( event_date = march 9th ; available_start_time = 8 pm ; available_end_time = midnight ) & you are free from 8 pm to midnight on march 9th .
+NOTIFY_SUCCESS ( none = none ) & the event has been added .
+OFFER ( event_date = march 1st ; available_start_time = 1:30 pm ; available_end_time = 8:30 pm ) & for the date march 1st you will be free from 1:30 pm to 8:30 pm .
+REQ_MORE ( none = none ) & shall i help you with something else ?
+OFFER ( event_date = march 7th ; available_start_time = 2:45 pm ; available_end_time = 9 pm ) & on march 7th you have a free time slot between 2:45 pm and 9 pm .
+NOTIFY_SUCCESS ( none = none ) & i successfully added it to your calendar .
+REQUEST ( event_date = ? ) & what date would you like to know ?
+REQUEST ( event_location = 991 county highway g4 ste 104 ; event_time = ? ) & is the appointment address 991 county highway g4 ste 104 ? what time schedule do i insert in the event ?
+OFFER ( event_date = next monday ; available_start_time = 11 am ; available_end_time = 6:30 pm ) & next monday , you are free from 11 am until 6:30 pm .
+GOODBYE ( none = none ) & take care !
+OFFER ( event_date = march 1st ; available_start_time = 2 pm ; available_end_time = 9 pm ) & on march 1st you have an empty time slot from 2 pm to 9 pm .
+NOTIFY_SUCCESS ( none = none ) & your requested event has been added in your calendar .
+GOODBYE ( none = none ) & have a great day .
+CONFIRM ( event_name = eat ; event_date = march 1st ; event_location = 1429 main street ; event_time = 10:30 am ) & okay , to make sure i have this correct , you want an event called eat , on march 1st , 10:30 am , at 1429 main street .
+GOODBYE ( none = none ) & have a great day .
+OFFER ( event_date = march 8th ; available_start_time = 8 am ; available_end_time = 10 am ) & you are available from 8 am to 10 am on march 8th .
+OFFER ( event_date = march 7th ; available_start_time = 11:30 am ; available_end_time = 5:30 pm ) & you are free from 11:30 am to 5:30 pm on march 7th .
+OFFER_INTENT ( intent = addevent ) & should i add an event ?
+REQUEST ( event_location = 450 east el camino real ; event_name = ? ) & let me check , is the salon at 450 east el camino real ? how should i label the event ?
+OFFER_INTENT ( intent = addevent ) & would you like to add a new event on that day ?
+GOODBYE ( none = none ) & have a great day !
+CONFIRM ( event_name = dental ; event_date = march 7th ; event_location = 990 west fremont avenue j ; event_time = 1:30 pm ) & to verify : you would like me to add the dental appointment at 990 west fremont avenue j on your calendar for 1:30 pm on march 7th .
+REQUEST ( event_date = ? ) & which date ?
+OFFER_INTENT ( intent = addevent ) & should i add something to your scheduler .
+REQUEST ( event_date = ? ) & when do you want to go ?
+REQ_MORE ( none = none ) & is there anything else you 'd like ?
+CONFIRM ( event_name = errand ; event_date = march 3rd ; event_location = 1894 contra costa boulevard ; event_time = 9:45 am ) & lets confirm the details . errand at 9:45 am at 1894 contra costa boulevard on march 3rd .
+REQUEST ( event_date = ? ) & for which date ?
+REQUEST ( event_time = ? ; event_location = 400 newpark mall ; event_name = ? ) & what should i name the event and when do you want to set it for ? it 's happening at 400 newpark mall , right ?
+NOTIFY_SUCCESS ( none = none ) & i have added it to your calendar .
+CONFIRM ( event_name = reservation at lulu's kitchen ; event_date = march 14th ; event_location = 1657 willow pass road ; event_time = 1 pm ) & can you please confirm that the name of the event you want to add to your schedule is reservation at lulu 's kitchen on march 14th . the event is scheduled to happen on 1657 willow pass road address , and the time when it will happen is 1 pm .
+CONFIRM ( event_name = movie show ; event_date = march 2nd ; event_location = 1875 south bascom avenue ; event_time = 3:30 pm ) & please confirm that you would like for me to add an event to your calendar and call it movie show . the event will be at 1875 south bascom avenue on march 2nd at 3:30 pm .
+OFFER ( event_date = march 10th ; available_start_time = 9:30 pm ; available_end_time = midnight ) & you have an empty slot on march 10th between 9:30 pm and midnight .
+NOTIFY_SUCCESS ( none = none ) & the event has been included on your calendar .
+REQUEST ( event_date = ? ) & on which day ?
+CONFIRM ( event_name = restaurant reservation at akiko's sushi bar ; event_date = march 11th ; event_location = 542 a mason street ; event_time = 6:30 pm ) & can you please confirm that you want me to add a calendar event named restaurant reservation at akiko 's sushi bar on march 11th at 6:30 pm , with the event location 542 a mason street ?
+REQUEST ( event_date = ? ) & what day shall i look in ?
+CONFIRM ( event_name = gym ; event_date = march 11th ; event_location = community gym ; event_time = 9:30 pm ) & please confirm : you want to schedule gym for march 11th at 9:30 pm in the community gym . is that correct ?
+OFFER ( event_date = march 4th ; available_start_time = 2:30 pm ; available_end_time = 8:30 pm ) & it 's on march 4th and you are available starting 2:30 pm until 8:30 pm .
+OFFER_INTENT ( intent = addevent ) & shall i update your calendar with that event ?
+OFFER_INTENT ( intent = addevent ) & would you like to update your calendar ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+OFFER ( event_date = march 3rd ; available_start_time = 6 am ; available_end_time = 1:30 pm ) & on march 3rd , you are available from 6 am until 1:30 pm .
+GOODBYE ( none = none ) & have a great day .
+OFFER ( event_date = march 8th ; available_start_time = 1 pm ; available_end_time = 11 pm ) & march 8th 1 pm 11 pm
+REQUEST ( event_location = 127 throckmorton avenue ; event_name = ? ) & location at 127 throckmorton avenue ? what should i title event ?
+GOODBYE ( none = none ) & alright , have a great day .
+OFFER ( event_date = march 13th ; available_start_time = 9 am ; available_end_time = 8:30 pm ) & you are free on march 13th from 9 am to 8:30 pm .
+NOTIFY_SUCCESS ( none = none ) & your event has been added .
+GOODBYE ( none = none ) & it was my pleasure . have a good day .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQUEST ( event_date = ? ) & is there a particular day you want to know about ?
+OFFER ( event_date = march 7th ; available_start_time = 1 pm ; available_end_time = 11 pm ) & on march 7th you have a empty slot starting at 1 pm and ending at 11 pm .
+GOODBYE ( none = none ) & have a great day !
+OFFER ( event_date = march 12th ; available_start_time = 8 am ; available_end_time = 11 am ) & on march 12th it looks like you have an opening between the hours of 8 am and 11 am .
+CONFIRM ( event_name = out of office ; event_date = march 6th ; event_location = 9260 alcosta boulevard b-12 ; event_time = 12:45 pm ) & to confirm : you would like me to mark out of office on your calendar for 12:45 pm march 6th . you will be going to 9260 alcosta boulevard b-12 .
+CONFIRM ( event_name = property visit appointment ; event_date = march 12th ; event_location = 5643 charlotte way ; event_time = 3 pm ) & i 'll add property visit appointment to your calendar as a new event . its date is march 12th , the location is 5643 charlotte way , and the time is 3 pm . is everything correct ?
+OFFER ( event_date = march 8th ; available_start_time = 3:30 pm ; available_end_time = 9:30 pm ) & yup ! there is an empty slot on march 8th from 3:30 pm to 9:30 pm . do you want me to add up this event in your calendar ?
+OFFER_INTENT ( intent = addevent ) & would you like to update your calendar at this time ?
+REQUEST ( event_location = 1599 sanchez street ) & shall i use 1599 sanchez street as the address ?
+OFFER ( available_start_time = 8 am ; available_end_time = 10 am ) @ INFORM_COUNT ( count = 4 ) & there are 4 empty slots for that day . one of them is between 8 am and 10 am .
+REQUEST ( event_name = ? ; event_time = ? ; event_location = ? ) & can you tell me the name of the event you want to schedule , and the time when the event will be happening ? what about the location of the event ?
+REQUEST ( event_date = ? ) & for what dates , please ?
+OFFER ( event_name = reservation for 5 people at sicilia in bocca ; event_time = 7 pm ) & yes . there is a reservation for 5 people at sicilia in bocca starting at 7 pm
+CONFIRM ( event_name = young the giant concert ; event_date = march 12th ; event_location = 200 south 3rd street ; event_time = 7 pm ) & please verify the following information : the name of the event is young the giant concert . the date the event takes place is march 12th . the concert will be located at 200 south 3rd street , at 7 pm .
+OFFER ( event_date = march 11th ; available_start_time = 9 am ; available_end_time = 10 am ) @ INFORM_COUNT ( count = 1 ) & you have 1 empty time frame on march 11th from 9 am to 10 am .
+NOTIFY_SUCCESS ( none = none ) & alright , the event has successfully been added to your calendar . do you need anything else ?
+OFFER ( event_date = march 7th ; available_start_time = 2:30 pm ; available_end_time = 8 pm ) & on march 7th , you are available from 2:30 pm to 8 pm .
+CONFIRM ( event_name = movie show ; event_date = march 2nd ; event_location = 15555 east 14th street ; event_time = 3:45 pm ) & you want to add the event movie show to your calendar on march 2nd at 3:45 pm , with the location 15555 east 14th street ?
+OFFER ( event_date = march 12th ; available_start_time = 8 am ; available_end_time = 1:30 pm ) & you have an empty slot at 8 am until 1:30 pm on march 12th .
+OFFER_INTENT ( intent = addevent ) & do you want me to add this to your calendar ?
+NOTIFY_SUCCESS ( none = none ) & this would be successfully added to your calendar .
+REQUEST ( event_date = ? ) & which date would you like me to check ?
+OFFER ( event_name = apartment viewing ; event_time = 3 pm ) & ok , you have apartment viewing starting at 3 pm .
+REQ_MORE ( none = none ) & do you need anything else ?
+OFFER ( event_name = chemical brothers concert ; event_time = 7 pm ) & alright . you have a chemical brothers concert scheduled for 7 pm .
+REQ_MORE ( none = none ) & anything else today ?
+CONFIRM ( event_name = restaurant reservation for 2 at sasa ; event_date = march 10th ; event_location = 1432 north main street ; event_time = 12 pm ) & please confirm : adding an event named restaurant reservation for 2 at sasa scheduled for march 10th at 1432 north main street at 12 pm
+CONFIRM ( event_name = restaurant reservation for 6 at 2g japanese brasserie ; event_date = march 1st ; event_location = 601 van ness avenue ; event_time = 5:30 pm ) & ok. to confirm , you want to add restaurant reservation for 6 at 2g japanese brasserie located at 601 van ness avenue to your calendar for march 1st at 5:30 pm . is that right ?
+REQUEST ( event_name = ? ) & i can help with that . what would you like to name this event ?
+REQ_MORE ( none = none ) & is there anything else ?
+NOTIFY_SUCCESS ( none = none ) & ok , the event has been added .
+GOODBYE ( none = none ) & have a nice day .
+REQUEST ( event_location = ? ; event_time = ? ) & what 's the time and event activity location ?
+NOTIFY_SUCCESS ( none = none ) & the event has been added .
+CONFIRM ( event_name = restaurant reservation for 3 at los palillos restaurant ; event_date = march 1st ; event_location = 3060 kerner boulevard ; event_time = 6:15 pm ) & you would like me to make a calendar entry titled restaurant reservation for 3 at los palillos restaurant on march 1st at 6:15 pm . the location of the event is 3060 kerner boulevard . is that correct ?
+NOTIFY_SUCCESS ( none = none ) & okay , i 've added it to your calendar .
+CONFIRM ( event_name = property ; event_date = march 14th ; event_location = 2000 shoreline loop ; event_time = 4:30 pm ) & adding the event property at 4:30 pm on march 14th . the location is 2000 shoreline loop
+NOTIFY_SUCCESS ( none = none ) & i have added the event to your calendar .
+GOODBYE ( none = none ) & have a good day anyway .
+GOODBYE ( none = none ) & have a great day .
+OFFER ( available_start_time = 1 pm ; available_end_time = 5 pm ) @ INFORM_COUNT ( count = 2 ) & your calendar shows 2 open times from 1 pm to 5 pm .
+CONFIRM ( event_name = restaurant reservation for 5 at simply fondue ; event_date = march 1st ; event_location = 2300 first street #110 ; event_time = 6:30 pm ) & restaurant reservation for 5 at simply fondue is the event name . 6:30 pm is the time . location is 2300 first street # 110 . and date is march 1st . correct ?
+GOODBYE ( none = none ) & have a great day .
+OFFER ( event_date = march 5th ; available_start_time = 6:30 pm ; available_end_time = 7 pm ) & on march 5th you have an empty slot from 6:30 pm to 7 pm .
+REQUEST ( event_name = ? ) & can you tell me the name that i should use for this event ?
+OFFER ( event_date = march 5th ; available_start_time = 9 am ; available_end_time = 7:30 pm ) & you are free from 9 am to 7:30 pm on march 5th .
+NOTIFY_SUCCESS ( none = none ) & the event has been added .
+OFFER ( event_date = march 10th ; available_start_time = 7 am ; available_end_time = 11 pm ) & you 're all clear on march 10th . open from 7 am until 11 pm .
+GOODBYE ( none = none ) & have a nice day .
+GOODBYE ( none = none ) & have a wonderful day .
+REQUEST ( event_date = ? ) & what date are you looking at ?
+REQUEST ( event_date = ? ) & what do you need to know ?
+OFFER ( event_date = march 13th ; available_start_time = 8 am ; available_end_time = 1:30 pm ) & you have an empty slot on march 13th from 8 am to 1:30 pm .
+REQUEST ( event_name = ? ) & how should i name the event ?
+REQ_MORE ( none = none ) & will that be all ?
+CONFIRM ( event_name = doctor appointment ; event_date = march 11th ; event_location = 2700 grant street suite 200 ; event_time = 12 pm ) & okay , you want to add an event called doctor appointment to your calendar , with a time of 12 pm on march 11th , and a location of 2700 grant street suite 200 ?
+NOTIFY_SUCCESS ( none = none ) & the event is in your calendar .
+REQUEST ( event_date = ? ) & what day do you want me to check ?
+NOTIFY_SUCCESS ( none = none ) & successfully added it .
+REQUEST ( event_date = ? ) & what date do you want to look up ?
+CONFIRM ( event_name = movie show ; event_date = march 6th ; event_location = 409 aviation boulevard ; event_time = 9:30 pm ) & please confirm that you would like to name the event movie show and the scheduled date for the event is march 6th at 9:30 pm at 409 aviation boulevard .
+OFFER_INTENT ( intent = addevent ) & do you wish to add this event to your calendar ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQUEST ( event_time = ? ) & at what time will the event be set for ?
+REQ_MORE ( none = none ) & would you need anything else ?
+REQ_MORE ( none = none ) & shall i be of any other help ?
+NOTIFY_SUCCESS ( none = none ) & the event is added to your calendar .
+NOTIFY_SUCCESS ( none = none ) & the event has been added to your calendar .
+REQ_MORE ( none = none ) & is there anything else you need ?
+REQUEST ( event_date = ? ) & on what date you are preferring to ?
+OFFER_INTENT ( intent = addevent ) & do you prefer to add an event to calendar ?
+REQ_MORE ( none = none ) & is there anything else you need ?
+OFFER_INTENT ( intent = addevent ) & shall i schedule an event to the calendar ?
+REQUEST ( event_name = ? ) & what name do you want for this event ?
+OFFER_INTENT ( intent = addevent ) & shall i put an event on your calendar ?
+NOTIFY_SUCCESS ( none = none ) & it 's on the books .
+OFFER ( event_name = general practitioner appointment with dr. leland m. luna, md ; event_time = 2:30 pm ) & at 2:30 pm you have your general practitioner appointment with dr. leland m. luna , md .
+OFFER ( event_date = march 6th ; available_start_time = 6:15 pm ; available_end_time = 9 pm ) & on march 6th you are available from 6:15 pm to 9 pm
+NOTIFY_SUCCESS ( none = none ) & it 's final
+GOODBYE ( none = none ) & have a wonderful day .
+REQ_MORE ( none = none ) & can i assist you in anything else ?
+GOODBYE ( none = none ) & let me know if you require anything further .
+REQUEST ( event_time = ? ; event_name = ? ) & what is the event title and time ?
+REQUEST ( event_time = ? ) & what time will the event start ?
+GOODBYE ( none = none ) & okay . bye ! have a great day .
+CONFIRM ( event_name = hairdresser appointment ; event_date = march 5th ; event_location = 2100 avy avenue ; event_time = 3 pm ) & you would like to add hairdresser appointment to your calendar on for march 5th at 3 pm with a location of 2100 avy avenue , is that correct ?
+GOODBYE ( none = none ) & have a great day .
+GOODBYE ( none = none ) & take care have a great day
+OFFER ( event_date = march 4th ; available_start_time = 4 pm ; available_end_time = 10 pm ) & on march 4th your availability starts at 4 pm and ends at 10 pm .
+REQUEST ( event_date = ? ) & which date are you referring to ?
+OFFER ( event_date = march 12th ; available_start_time = 6 am ; available_end_time = 10 pm ) & on march 12th , you have a load of free time from 6 am to 10 pm .
+REQ_MORE ( none = none ) & anything else today ?
+OFFER ( event_date = march 2nd ; available_start_time = 9:30 pm ; available_end_time = 10 pm ) & on march 2nd you have a free slot from 9:30 pm to 10 pm .
+GOODBYE ( none = none ) & no problem . have a good day .
+OFFER_INTENT ( intent = addevent ) & would you like to add this to your itinerary ?
+REQ_MORE ( none = none ) & is there anything else i can assist you with ?
+OFFER ( event_date = march 1st ; available_start_time = 9 am ; available_end_time = 11 pm ) & you are currently free between 9 am to 11 pm on march 1st , today .
+REQ_MORE ( none = none ) & is there anything else ?
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+OFFER ( event_date = today ; available_start_time = 3 pm ; available_end_time = 5:30 pm ) & the event is on today , yo have an empty slot starting at 3 pm and ends at 5:30 pm
+NOTIFY_SUCCESS ( none = none ) & event has been added .
+OFFER ( event_name = dermatologist appointment ; event_time = 5 pm ) & you have a dermatologist appointment that starts at 5 pm
+REQ_MORE ( none = none ) & do you need any other help ?
+NOTIFY_SUCCESS ( none = none ) & okay ! i 've added the event successfully to your calendar .
+OFFER ( event_date = next monday ; available_start_time = 11:30 pm ; available_end_time = midnight ) & for next monday you 're available starting at 11:30 pm and ending at midnight .
+OFFER ( event_date = march 9th ; available_start_time = 6 pm ; available_end_time = 10 pm ) & for march 9th , you are from 6 pm to 10 pm .
+CONFIRM ( event_name = restaurant reservation ; event_date = march 1st ; event_location = 641 santa cruz avenue ; event_time = 11 am ) & sure , please confirm your request to add restaurant reservation located at 641 santa cruz avenue on march 1st at 11 am .
+NOTIFY_SUCCESS ( none = none ) & your event has been added to your calendar .
+REQUEST ( event_date = ? ) & which day do you mean ?
+GOODBYE ( none = none ) & have a wonderful day
+NOTIFY_SUCCESS ( none = none ) & i put the event on your calendar .
+REQUEST ( event_time = ? ) & at what time do you want to add it ?
+REQ_MORE ( none = none ) & is there anything else ?
+GOODBYE ( none = none ) & have a wonderful day .
+REQUEST ( event_date = ? ) & on what day ?
+OFFER_INTENT ( intent = addevent ) & should i add the appointment to your calendar ?
+REQ_MORE ( none = none ) & anything else you need ?
+REQ_MORE ( none = none ) & can i help you with a different task ?
+OFFER_INTENT ( intent = addevent ) & do you want to add an event to your calendar ?
+CONFIRM ( event_name = visit to doctor ; event_date = march 11th ; event_location = 9460 no name uno # 210 ; event_time = 2:15 pm ) & okay , just to confirm : i 'll pop in a reminder in the diary called visit to doctor for march 11th at 2:15 pm , and i 'll put the location at 9460 no name uno # 210 ?
+REQUEST ( event_time = ? ) & at what time is the event ?
+REQ_MORE ( none = none ) & anything else then ?
+OFFER ( event_date = march 12th ; available_start_time = 8 am ; available_end_time = 4:30 pm ) & you 're free from 8 am until 4:30 pm on march 12th .
+REQ_MORE ( none = none ) & what else do you want ?
+OFFER ( event_name = viewing at san jose apartments ; event_time = 2:30 pm ) & you have a scheduled viewing at san jose apartments that will begin at 2:30 pm .
+GOODBYE ( none = none ) & have a great day .
+OFFER ( event_date = march 11th ; available_start_time = 9 am ; available_end_time = 12 pm ) & on the date of march 11th you have an empty slot beginning at 9 am and ending at 12 pm .
+GOODBYE ( none = none ) & have a good one !
+OFFER ( event_date = march 11th ; available_start_time = 8 am ; available_end_time = 4 pm ) & you have an empty slot on your calendar from 8 am to 4 pm on march 11th .
+REQUEST ( event_name = ? ) & and what would you like to name the vent ?
+GOODBYE ( none = none ) & have a fantastic day .
+OFFER ( event_date = march 2nd ; available_start_time = 8 am ; available_end_time = 7:30 pm ) & you have your free time from 8 am to 7:30 pm on march 2nd .
+REQUEST ( event_name = ? ) & sure , i just need a name for the event .
+OFFER_INTENT ( intent = addevent ) & do you need me to add an event to your calendar ?
+OFFER ( event_date = march 4th ; available_start_time = 3:30 pm ; available_end_time = 9:30 pm ) & on march 4th you 're free from 3:30 pm to 9:30 pm .
+OFFER ( event_date = march 8th ; available_start_time = 9 am ; available_end_time = 11 pm ) & on march 8th you 're free from 9 am to 11 pm .
+REQUEST ( event_name = ? ) & what name should i label the event as ?
+REQ_MORE ( none = none ) & anything else ?
+CONFIRM ( event_name = movie at rialto cinemas ; event_date = march 1st ; event_location = 6868 mckinley street ; event_time = 9:30 pm ) & please confirm , you want to add movie at rialto cinemas to your calendar for march 1st at 9:30 pm . the location is 6868 mckinley street .
+OFFER ( event_date = march 6th ; available_start_time = 8 am ; available_end_time = 10 pm ) & on march 6th , you have an empty slot from 8 am to 10 pm .
+NOTIFY_SUCCESS ( none = none ) & i 've added the event .
+OFFER ( available_start_time = 4:30 pm ; available_end_time = 5:30 pm ) @ INFORM_COUNT ( count = 2 ) & you have 2 empty slots on march 11th . one of them is between 4:30 pm to 5:30 pm .
+REQUEST ( event_name = ? ; event_time = ? ) & what would you like to name this event ?
+REQ_MORE ( none = none ) & do you need anything else .
+OFFER_INTENT ( intent = addevent ) & would you like to add the event to your calendar ?
+CONFIRM ( event_name = errand ; event_date = march 13th ; event_location = 2485 de la cruz boulevard ; event_time = 2:45 pm ) & okay , let 's confirm : we are creating an event called errand on march 13th at 2:45 pm at the 2485 de la cruz boulevard location .
+REQUEST ( event_name = ? ) & what would you like to name the event ?
+NOTIFY_SUCCESS ( none = none ) & it has now been added to your calendar .
+OFFER ( event_date = march 7th ; available_start_time = 8 am ; available_end_time = 9 pm ) & for march 7th , you will be free from 8 am till 9 pm .
+REQUEST ( event_name = ? ; event_time = ? ) & what would you like to call it and at what time ?
+CONFIRM ( event_name = hairdresser appointment ; event_date = march 5th ; event_location = 1047 lincoln highway suite 101 ; event_time = 2:30 pm ) & sure . please can you confirm me that you wish to add the event hairdresser appointment at 1047 lincoln highway suite 101 is schedule on march 5th at 2:30 pm , right ?
+REQUEST ( event_name = ? ; event_time = ? ) & what sort of title ought i use for the activity ? when is the activity ?
+REQUEST ( event_location = ? ) & alright , would you like me to add a location ?
+OFFER_INTENT ( intent = addevent ) & should i add an event to your calendar ?
+REQ_MORE ( none = none ) & do you need further assistance ?
+CONFIRM ( event_name = table for 2 at mcdonald's ; event_date = march 14th ; event_location = 23989 watkins street ; event_time = 5:15 pm ) & please confirm the following : the event name is table for 2 at mcdonald 's and it is scheduled for march 14th at 5:15 pm . the location is 23989 watkins street .
+NOTIFY_SUCCESS ( none = none ) & the event has been added .
+OFFER ( event_date = march 7th ; available_start_time = 12:15 pm ; available_end_time = 9 pm ) & sure , it looks like on march 7th you are free from 12:15 pm to 9 pm .
+OFFER ( event_date = march 7th ; available_start_time = 1:30 pm ; available_end_time = 3:30 pm ) & you have an empty slot from 1:30 pm to 3:30 pm on march 7th .
+REQUEST ( event_name = ? ) & how about a name , what should i call this event ?
+NOTIFY_SUCCESS ( none = none ) & i have the event added to your calendar .
+OFFER_INTENT ( intent = addevent ) & should i add this event to your calendar ?
+NOTIFY_SUCCESS ( none = none ) & the activity has been placed onto your calendar .
+OFFER ( event_date = march 3rd ; available_start_time = 10:30 am ; available_end_time = 7:30 pm ) & you are free between 10:30 am and 7:30 pm on march 3rd .
+CONFIRM ( event_name = hair salon ; event_date = march 10th ; event_location = 1 camino sobrante ste 5 ; event_time = 4 pm ) & please confirm the following details to add to your calendar : the event name is hair salon , it is located at 1 camino sobrante ste 5 , scheduled for march 10th at 4 pm .
+CONFIRM ( event_name = general practitioner ; event_date = march 5th ; event_location = 2301 camino ramon ; event_time = 11:30 am ) & okay . i just want to make sure . you want an event labeled general practitioner set in your calendar for march 5th at 11:30 am . the location for this event is 2301 camino ramon .
+OFFER_INTENT ( intent = addevent ) & want to add the event ?
+REQ_MORE ( none = none ) & anything else i can help with ?
+OFFER ( event_date = march 11th ; available_start_time = 8:15 pm ; available_end_time = 9 pm ) & sure , you are free between 8:15 pm to 9 pm on march 11th .
+OFFER ( event_date = tomorrow ; available_start_time = 8 am ; available_end_time = 12 pm ) @ INFORM_COUNT ( count = 1 ) & there 's 1 empty slot on your calendar tomorrow starting at 8 am and ending at 12 pm .
+REQ_MORE ( none = none ) & can i help with any other activity scheduling ?
+NOTIFY_SUCCESS ( none = none ) & the appointment has been scheduled on your calendar .
+REQUEST ( event_name = ? ; event_time = ? ) & what name can i use for this event ? when the event starts ?
+NOTIFY_SUCCESS ( none = none ) & event has been added to your calendar .
+REQUEST ( event_date = ? ) & on which day should i look for availability ?
+CONFIRM ( event_name = doctor visit ; event_date = march 10th ; event_location = 1, 4050 dublin boulevard ; event_time = 11:30 am ) & okay . let me make sure i have this right . you want to add an event named doctor visit on march 10th at 11:30 am . it 's location should be 1 , 4050 dublin boulevard .
+OFFER_INTENT ( intent = addevent ) & would you like me to add it to your calendar ?
+GOODBYE ( none = none ) & have a good time !
+NOTIFY_SUCCESS ( none = none ) & it has been successfully added to your calendar .
+OFFER ( event_name = viewing at charter oaks apartments ; event_time = 4:30 pm ) & you have a viewing at charter oaks apartments starting at 4:30 pm .
+OFFER_INTENT ( intent = addevent ) & do you want me to add this to your calendar ?
+GOODBYE ( none = none ) & have a great day .
+NOTIFY_SUCCESS ( none = none ) & i 've successfully put that even on your calendar .
+REQ_MORE ( none = none ) & do you still need me ?
+NOTIFY_SUCCESS ( none = none ) & your event has been added to your calendar .
+REQUEST ( event_date = ? ) & for which date do you want to check your availability ?
+REQUEST ( event_date = ? ) & in which date ?
+OFFER ( event_date = march 5th ; available_start_time = 8 am ; available_end_time = 12 pm ) & on march 5th , you are free from 8 am to 12 pm .

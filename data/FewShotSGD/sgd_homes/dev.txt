@@ -1,0 +1,563 @@
+CONFIRM ( property_name = apricot pit apartments ; visit_date = march 5th ) & ok. to confirm , you want to schedule a visit to apricot pit apartments on march 5th . is that right ?
+REQUEST ( area = ? ) & in which area ?
+OFFER ( property_name = country club village ; address = 6351 country club drive ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,400 ) @ INFORM_COUNT ( count = 2 ) & i can see that 2 apartments which are good ones suit what you want . country club village for example is a good option which can be founda t 6351 country club drive and it has 2 bedrooms and 1 bathroom . i see that the rent of the apartment will be costing you $ 2,400 per month .
+REQUEST ( number_of_beds = ? ) & how many bed rooms would you like in that apartment ?
+INFORM ( furnished = false ; phone_number = 925-757-1250 ) & it 's not furnished , but you can call them at 925-757-1250 .
+REQUEST ( number_of_beds = ? ) & sure , how many bedrooms you need in that apartment ?
+GOODBYE ( none = none ) & have a good day .
+NOTIFY_SUCCESS ( none = none ) & you visit to the apartment is scheduled .
+INFORM ( phone_number = 510-849-6628 ) & their number is 510-849-6628 .
+INFORM ( phone_number = 707-584-3522 ) @ NOTIFY_SUCCESS ( none = none ) & your showing is scheduled . the phone number is 707-584-3522 .
+INFORM ( furnished = false ) @ NOTIFY_SUCCESS ( none = none ) & i 've schedule your visit for the 10th . the apartment is not furnished .
+REQUEST ( number_of_beds = ? ) & okay , please tell me how many bedrooms do you need in that apartment ?
+REQUEST ( number_of_beds = ? ) & how many bedrooms too ?
+GOODBYE ( none = none ) & have a pleasant afternoon .
+CONFIRM ( property_name = amber court ; visit_date = march 13th ) & ok , you would like to schedule a visit to amber court for march 13th . is that correct ?
+INFORM ( furnished = false ) & no , this is an unfinished apartment .
+INFORM ( phone_number = 925-935-4614 ; furnished = false ) & the apartment is unfurnished . their phone number is 925-935-4614 .
+REQUEST ( area = ? ) & in what area ?
+OFFER ( property_name = aegena ; address = 1290 san tomas aquino road ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,650 ) & there is an excellent residence called aegena located at 1290 san tomas aquino road that has 2 bedrooms and 1 baths . the monthly cost is $ 2,650 .
+CONFIRM ( property_name = lorenzo commons apartments ; visit_date = march 2nd ) & please confirm these details : you are scheduling a visit to lorenzo commons apartments on march 2nd .
+GOODBYE ( none = none ) & have a wonderful day .
+OFFER ( property_name = arbors at mountain view ; address = 2290 california street ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,700 ) & arbors at mountain view is located at 2290 california street and has a 2 bedroom , 1 bath apartment for $ 2,700 per month .
+OFFER ( property_name = bridge grayson creek associates ; address = 100 chilpancingo parkway ; number_of_beds = 1 ; number_of_baths = 1 ; rent = 4800 ) & yes , this one is at 100 chilpancingo parkway ; bridge grayson creek associates has 1 bedroom and 1 bath , at 4800 $ per month
+GOODBYE ( none = none ) & have a good day !
+GOODBYE ( none = none ) & have a nice day .
+OFFER_INTENT ( intent = schedulevisit ) & shall i book a schedule of appointment to visit to that place ?
+OFFER_INTENT ( intent = schedulevisit ) & should i schedule a visit to the apartment ?
+OFFER ( property_name = holiday gardens apartments ; address = 19 panorama drive ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,350 ) & there 's a $ 4,350 per month 3 bedroom 3 bath apartment at 19 panorama drive in the holiday gardens apartments
+INFORM ( pets_allowed = false ; furnished = false ) & no , unfortunately pets are not allowed and the apartment is unfurnished .
+INFORM ( phone_number = 707-448-7036 ) & its phone number is 707-448-7036 .
+INFORM ( phone_number = 650-965-8290 ) & the apartment complex has a phone number of 650-965-8290 .
+REQUEST ( number_of_beds = ? ) & how many bedrooms do you need in your apartment ?
+REQUEST ( area = ? ) & which location would you like the property to be in ?
+OFFER_INTENT ( intent = schedulevisit ) & do you want to visit the property ?
+NOTIFY_SUCCESS ( none = none ) & your schedule for visit apartments is taking place .
+REQUEST ( visit_date = ? ) & when would you like to look at the apartment ?
+OFFER_INTENT ( intent = schedulevisit ) & shall i make an appointment to visit that apartment ?
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,450 ) @ INFORM_COUNT ( count = 10 ) & okay , i 've found 10 that would work for you . what about the 888 golden saratoga-cupertino apartment homes at 1546 maurice lane ? it has 3 beds , 3 baths and costs $ 4,450 a month .
+REQUEST ( area = ? ; number_of_beds = ? ) & how many bedrooms do you want ? do you have a preferred area ?
+OFFER ( property_name = burgess point apartments ; address = 91 riverview terrace ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $5,000 ) @ INFORM_COUNT ( count = 1 ) & i found 1 nice apartment with 4 bed rooms and 3 baths at burgess point apartments located at 91 riverview terrace . the rent is $ 5,000 per month .
+INFORM ( furnished = false ) & there 's no furniture .
+REQUEST ( visit_date = ? ) & when would you like to go ?
+REQUEST ( visit_date = ? ) & when would you like to view it ?
+INFORM ( phone_number = 650-965-1671 ) @ NOTIFY_SUCCESS ( none = none ) & sure , you can reach them at 650-965-1671 . your apartment visit is scheduled .
+OFFER_INTENT ( intent = schedulevisit ) & should i make an appointment to visit the apartment
+CONFIRM ( property_name = alameda gardens apartments ; visit_date = march 13th ) & okay , so the visit will be on march 13th at alameda gardens apartments , is that right ?
+INFORM ( phone_number = 510-234-8844 ; pets_allowed = false ) & pets are not allowed . the phone number is 510-234-8844 .
+INFORM ( furnished = false ; pets_allowed = true ) @ NOTIFY_SUCCESS ( none = none ) & viewing is scheduled .
+GOODBYE ( none = none ) & have a good day .
+CONFIRM ( property_name = el gato penthouse ; visit_date = march 11th ) & please confirm your visit to el gato penthouse on march 11th .
+REQUEST ( visit_date = ? ) & when would you like to schedule the visit ?
+CONFIRM ( property_name = creekside glen apartments ; visit_date = march 8th ) & please confirm you want me to schedule an appointment to see the creekside glen apartments on march 8th .
+GOODBYE ( none = none ) & have a good day
+OFFER ( property_name = spring valley apartments ; address = 133 north temple drive ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $1,750 ) & spring valley apartments , at 133 north temple drive , with 1 bed rooms and 1 baths . it costs $ 1,750 per month
+INFORM ( furnished = false ) & no it does not .
+REQ_MORE ( none = none ) & is there anything else ?
+INFORM ( phone_number = 844-334-0618 ; furnished = false ) & it is not furnished . the number is 844-334-0618 .
+OFFER ( property_name = city walk apartment homes ; address = 1688 clayton road ; number_of_beds = 3 ; number_of_baths = 2 ; rent = $3,550 ) & city walk apartment homes is a nice property situated at 1688 clayton road . it has 3 bed rooms and 2 baths . the rent is $ 3,550 per month .
+OFFER ( property_name = alameda gardens apartments ; address = 73 north keeble avenue ; number_of_beds = 2 ; number_of_baths = 2 ; rent = $3,150 ) @ INFORM_COUNT ( count = 10 ) & i have 10 wonderful apartments including alameda gardens apartments at 73 north keeble avenue . that is a 2 bed and 2 bath for $ 3,150 per month .
+REQUEST ( area = ? ) & what city do you prefer i look ?
+OFFER ( property_name = brookside oaks ; address = 1651 belleville way ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,700 ) & okay ! the property , brookside oaks located at 1651 belleville way has 2 bed rooms with 1 bath and the cost is $ 2,700 per month .
+REQUEST ( area = ? ) & in what region are you interested in ?
+INFORM ( phone_number = 669-257-9990 ) & yup , its available . the number is 669-257-9990 .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & sorry i could n't schedule your visit . can i help you with anything else ?
+OFFER ( property_name = avalon apartments ; address = 624 avalon avenue ; number_of_beds = 3 ; number_of_baths = 1 ; rent = 3550 ) @ INFORM_COUNT ( count = 10 ) & i located 10 good apartments . avalon apartments is a great property located on 624 avalon avenue . this property has 3 bedrooms and 1 bath and the rent is 3550 dollars per month
+OFFER_INTENT ( intent = schedulevisit ) & should i schedule a visit to check it out ?
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 3 ; number_of_baths = 3 ; rent = 4450 ) @ INFORM_COUNT ( count = 10 ) & found results for 10 apartments . 888 golden saratoga-cupertino apartment homes located at 1546 maurice lane . this apartment has 3 bed rooms with attached bath rooms . the rent is 4450 dollars per month
+REQUEST ( area = ? ) & what city do you want to live in ?
+NOTIFY_SUCCESS ( none = none ) & your visit has been scheduled .
+CONFIRM ( property_name = arbor terraces ; visit_date = next wednesday ) & no problem . next wednesday at the arbor terraces apartment .
+INFORM ( pets_allowed = true ) @ NOTIFY_SUCCESS ( none = none ) & you have a visit scheduled . you may bring your pet .
+OFFER ( property_name = courtyard terrace ; address = 4200 appian way ; number_of_beds = 2 ; number_of_baths = 1 ; rent = 4100 ) @ INFORM_COUNT ( count = 4 ) & i have found 4 nice apartment options for you . courtyard terrace at 4200 appian way has an apartment with 2 bedrooms , 1 bath that is 4100 dollars a month .
+OFFER ( property_name = addison ranch ; address = 200 greenbriar circle ; number_of_beds = 1 ; number_of_baths = 1 ; rent = 4950 ) & my first suggestion is addison ranch , which is a really good property located at 200 greenbriar circle . the property has 1 bed rooms and 1 bath for 4950 dollars per month
+NOTIFY_SUCCESS ( none = none ) & your visit is scheduled .
+REQUEST ( number_of_beds = ? ) & how many bed rooms are you looking for ?
+CONFIRM ( property_name = charles street village ; visit_date = march 6th ) & please confirm that you want to schedule a visit to charles street village on march 6th .
+CONFIRM ( property_name = avalon apartments ; visit_date = tomorrow ) & okay , so you want to plan a visit for tomorrow at avalon apartments , is that right ?
+REQUEST ( number_of_beds = ? ) & how many bedrooms do you need ?
+REQUEST ( visit_date = ? ) & for which day do you want to book your visit ?
+GOODBYE ( none = none ) & have a great day .
+OFFER ( property_name = country sharon apartments ; address = 2225 sharon road ; number_of_beds = 2 ; number_of_baths = 3 ; rent = $5,250 ) & country sharon apartments is located at 2225 sharon road . it has 2 bed rooms and 3 bath . the rent in $ 5,250 per month .
+CONFIRM ( property_name = solano vista senior apartments ; visit_date = march 9th ) & okay , let 's confirm the details : you want to schedule a visit at the solano vista senior apartments on march 9th .
+INFORM ( furnished = false ; pets_allowed = false ) & unfortunately , the apartment does not come furnished , and pets are not allowed .
+CONFIRM ( property_name = doolittle apartments ; visit_date = march 11th ) & you want to go view doolittle apartments on march 11th ?
+INFORM ( phone_number = 650-813-1369 ) @ NOTIFY_SUCCESS ( none = none ) & you 're all set ! you can reach them at 650-813-1369 .
+OFFER ( property_name = almaden garden apartments ; address = 947 branham lane # c ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $5,150 ) & the almaden garden apartments is great , located at 947 branham lane # c. 4 bedrooms and 3 bathrooms , with a rent that costs $ 5,150 per month .
+INFORM ( pets_allowed = true ) & yes , pets are allowed .
+REQUEST ( number_of_beds = ? ) & area is okay , let me know the number of bedrooms that the apartment would have ?
+GOODBYE ( none = none ) & have a nice day
+CONFIRM ( property_name = la mancha apartments ; visit_date = tomorrow ) & please confirm the following : you are scheduling a visit to la mancha apartments tomorrow .
+OFFER_INTENT ( intent = schedulevisit ) & would you like to visit the apartment ?
+OFFER ( property_name = aspen village apartments ; address = 2355 fairfield avenue ; number_of_beds = 2 ; number_of_baths = 1 ; rent = 3250 ) @ INFORM_COUNT ( count = 9 ) & i have found 9 great apartments located in fairfiled . aspen village apartments is located at 2355 fairfield avenue and it has 2 bedrooms and 1 bathroom for 3250 dollars per month .
+REQUEST ( number_of_beds = ? ) & how many bed rooms ?
+NOTIFY_SUCCESS ( none = none ) & your visit is scheduled .
+REQ_MORE ( none = none ) & do you need help with anything else .
+REQUEST ( number_of_beds = ? ) & with how many bedrooms ?
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,450 ) & sure , i can help you with that . let 's start with 888 golden saratoga-cupertino apartment homes located at 1546 maurice lane . this is a 3 bed 3 bath apartment for rent at $ 4,450 per month .
+INFORM ( pets_allowed = true ) & yes , they do allow pets .
+INFORM ( furnished = false ) @ NOTIFY_SUCCESS ( none = none ) & your visit has been scheduled . it is not furnished .
+OFFER ( property_name = bella vista at hilltop ; address = 3400 richmond parkway ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,750 ) & i found a 2 bed 1 bath apartment at the very good bella vista at hilltop at 3400 richmond parkway for $ 2,750 per month .
+INFORM ( furnished = false ) & no , it 's not furnished
+REQUEST ( visit_date = ? ) & when exactly is that ?
+OFFER_INTENT ( intent = schedulevisit ) & would you like to make an appointment to visit the apartment ?
+GOODBYE ( none = none ) & have a super day .
+CONFIRM ( property_name = creekside park apartments ; visit_date = march 8th ) & please confirm : you are scheduling a visit to creekside park apartments on march 8th .
+OFFER ( property_name = city walk apartment homes ; address = 1688 clayton road ; number_of_beds = 2 ; number_of_baths = 3 ; rent = 5150 ) @ INFORM_COUNT ( count = 9 ) & i saw 9 nice apartments at the 1688 clayton road location of city walk apartment homes . they have 2 beds and 3 baths for 5150 a month .
+CONFIRM ( property_name = briarwood apartments ; visit_date = march 11th ) & okay , please confirm the following details . the visit will be scheduled for briarwood apartments on the day of march 11th .
+REQUEST ( area = ? ) & i 'd be happy to help . where would you like to find an apartment ?
+OFFER_INTENT ( intent = schedulevisit ) & did you want to schedule a visit ?
+OFFER ( property_name = buchanan gardens ; address = 1600 buchanan road ; number_of_beds = 3 ; number_of_baths = 2 ; rent = 4250 ) & buchanan gardens is also a great property and is located in 1600 buchanan road . the property has 3 bedrooms and 2 bathrooms . and your rent costs 4250 dollars per month .
+GOODBYE ( none = none ) & have a good day .
+OFFER_INTENT ( intent = schedulevisit ) & do you want to book a visit for this property ?
+INFORM ( furnished = true ; phone_number = 408-984-8888 ) & yes it is furnished . the phone number is 408-984-8888 .
+OFFER ( property_name = arbors at mountain view ; address = 2290 california street ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,700 ) & arbors at mountain view at 2290 california street offers 2 bed rooms and 1 bath for $ 2,700 per month .
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 2 ; number_of_baths = 2 ; rent = 4450 ) @ INFORM_COUNT ( count = 10 ) & i have found 10 nice apartments . 888 golden saratoga-cupertino apartment homes is a very good property located at 1546 maurice lane . the property has 2 bedrooms and 2 baths , the rent is 4450 per month .
+NOTIFY_SUCCESS ( none = none ) & your scheduled visit to apartments is confirmed .
+GOODBYE ( none = none ) & have a great day .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & i apologize but i could n't schedule the visit.can i still help you ?
+REQUEST ( number_of_beds = ? ) & number of bed rooms you want in a apartment ?
+NOTIFY_SUCCESS ( none = none ) & your visit is fixed .
+INFORM ( pets_allowed = true ) @ NOTIFY_SUCCESS ( none = none ) & the visit is schedules and the place is pet friendly .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+OFFER ( property_name = casa bonita ; address = 1017 h street ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $4,750 ) & i would like the property casa bonita at 1017 h street which is 4 beds and 3 baths and $ 4,750 per month .
+NOTIFY_SUCCESS ( none = none ) & i have scheduled your visit to the apartment .
+REQUEST ( area = ? ) & what area are you looking for ?
+REQUEST ( number_of_beds = ? ) & how many bedrooms do you require ?
+OFFER ( property_name = chesapeake point apartments ; address = 1633 marina court ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2700 ) @ INFORM_COUNT ( count = 6 ) & i found 6 apartments that may interest you . one is at chesapeake point apartments at 1633 marina court . it has 2 bedrooms and 1 bath . it costs $ 2700 per month .
+REQ_MORE ( none = none ) & may i help you with something else ?
+INFORM ( pets_allowed = true ) & i can see that they are pet friendly .
+OFFER ( property_name = clayton creek apartments ; address = 5255 clayton road ; number_of_beds = 2 ; number_of_baths = 1 ; rent = 3950 ) & clayton creek apartments are excellent apartments . they are 2 beds and 1 bath for 3950 a month and are located at 5255 clayton road .
+GOODBYE ( none = none ) & enjoy the rest of your day .
+OFFER ( property_name = avery park apartments ; address = 2000 clay bank road ; number_of_beds = 3 ; number_of_baths = 2 ; rent = $3,750 ) & avery park apartments at 2000 clay bank road has 3 beds and 2 baths for $ 3,750 a month .
+REQUEST ( number_of_beds = ? ) & how many bed rooms you require in the apartment ?
+REQUEST ( visit_date = ? ) & when would you like to visit ?
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $1,600 ) & 888 golden saratoga-cupertino apartment homes is a very nice property at 1546 maurice lane . it has 1 bed room and 1 baths . the rent is $ 1,600 .
+INFORM ( phone_number = 510-797-1800 ) & dial 510-797-1800 .
+CONFIRM ( property_name = wilford lane apartments ; visit_date = march 12th ) & ok so we are scheduled on march 12th to visit wilford lane apartments
+REQUEST ( visit_date = ? ) & when would you like me to schedule the visit ?
+REQUEST ( area = ? ) & which area would you like this apartment to be in ?
+REQUEST ( area = ? ; number_of_beds = ? ) & alright . how many bedrooms are you looking for ? also , where should i search ?
+OFFER ( property_name = cambridge square apartments ; address = 1450 east cotati avenue ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,150 ) & there is also cambridge square apartments which is located at 1450 east cotati avenue with 3 bedrooms and 3 baths which will set you back $ 4,150 monthly .
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,450 ) @ INFORM_COUNT ( count = 10 ) & there are 10 apartments that i 've found . 888 golden saratoga-cupertino apartment homes , located at 1546 maurice lane , is a 3 bedroom and 3 bath apartment for a monthly rental of $ 4,450 .
+GOODBYE ( none = none ) & have a wonderful day .
+GOODBYE ( none = none ) & have a great day .
+GOODBYE ( none = none ) & have a nice day .
+REQUEST ( number_of_beds = ? ) & how many bedrooms do you want ?
+GOODBYE ( none = none ) & enjoy the rest of your day .
+REQ_MORE ( none = none ) & may i help you with anything else ?
+REQ_MORE ( none = none ) & can i assist you with anything else ?
+OFFER ( property_name = casa vista apartments ; address = 55 fairfax street #27 ; number_of_beds = 2 ; number_of_baths = 1 ; rent = 2300 ) & how about casa vista apartments at 55 fairfax street # 27 ? it has 2 bedroom 1 bathroom units for 2300 dollars per month .
+REQUEST ( number_of_beds = ? ; area = ? ) & how many bedroom ? which area ?
+REQUEST ( visit_date = ? ) & when do you want to go ?
+OFFER_INTENT ( intent = schedulevisit ) & would you like to visit the apartment ?
+OFFER_INTENT ( intent = schedulevisit ) & would you like to schedule a visit ?
+GOODBYE ( none = none ) & we wish you a great day !
+REQ_MORE ( none = none ) & sure , do you need any other help then ?
+OFFER ( property_name = kent gardens ; address = w, 16450 kent avenue ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $1,700 ) & kent gardens is another very good property located at w , 16450 kent avenue . it has 1 bedroom and 1 bath . the rent is $ 1,700 per month .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & i 'm sorry but they have no availability for showings that day . is there anything else i can help you with ?
+REQUEST ( area = ? ) & where do you want the property to be ?
+OFFER ( property_name = renaissance apartment homes ; address = 718 old san francisco road ; number_of_beds = 2 ; number_of_baths = 3 ; rent = 3950 ) @ INFORM_COUNT ( count = 2 ) & i have found 2 apartments with 2 bedrooms and 3 bathrooms at renaissance apartment homes located at 718 old san francisco road . the rent is 3950 dollars per month .
+OFFER ( property_name = carrington apartments ; address = 38900 blacow road ; number_of_beds = 4 ; number_of_baths = 3 ; rent = 5050 ) @ INFORM_COUNT ( count = 6 ) & i found 6 listings . carrington apartments located at 38900 blacow road has a listing for 4 bedrooms and 3 baths at 5050 dollars a month .
+REQUEST ( area = ? ; number_of_beds = ? ) & what area do you want the property to be in and how many bedrooms would you like ?
+CONFIRM ( property_name = la mancha apartments ; visit_date = march 7th ) & la mancha apartments on march 7th ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & i 'm sorry , but unfortunately i can not find a suitable apartment . can i help you with something else ?
+REQUEST ( area = ? ) & sure . in which area do you want the apartment to be in ?
+NOTIFY_SUCCESS ( none = none ) & your appointment was confirmed successfully .
+REQUEST ( area = ? ) & and where do you want it to be located ?
+INFORM ( phone_number = 866-829-7835 ; pets_allowed = false ) @ NOTIFY_SUCCESS ( none = none ) & your tour is scheduled . the property number is 866-829-7835 . unfortunately , pets are not allowed at this location .
+REQUEST ( area = ? ) & sure , which area should i search ?
+REQUEST ( number_of_beds = ? ; area = ? ) & how many rooms and what city ?
+INFORM ( pets_allowed = true ) & yes , they are .
+REQUEST ( number_of_beds = ? ) & with how many bedrooms ?
+CONFIRM ( property_name = 1901 shoreline apartments ; visit_date = day after tomorrow ) & not a problem . i can change that real quick . so , you are planning to visit 1901 shoreline apartments on the day after tomorrow . correct ?
+GOODBYE ( none = none ) & you 're welcome , have a good day .
+INFORM ( phone_number = 415-285-5966 ; furnished = false ) & you can reach at 415-285-5966 . sorry that the apartment is an unfurnished one .
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $1,600 ) & 888 golden saratoga-cupertino apartment homes 1546 maurice lane 1 bed 1 bath $ 1,600
+REQ_MORE ( none = none ) & okay , is there anything else ?
+CONFIRM ( property_name = bella vista apartments ; visit_date = march 12th ) & confirming your appointment on march 12th at bella vista apartments
+GOODBYE ( none = none ) & enjoy the rest of your day .
+GOODBYE ( none = none ) & have a nice day , bye .
+REQUEST ( number_of_beds = ? ) & what is the number of bed rooms you want the apartment to have ?
+OFFER ( property_name = aegena ; address = 1290 san tomas aquino road ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,650 ) @ INFORM_COUNT ( count = 10 ) & there are 10 apartments . there is aegena located at 1290 san tomas aquino road it has 2 bedrooms and 1 bath for $ 2,650 per month .
+OFFER ( property_name = marina plaza apartments ; address = 2777 marina boulevard ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,550 ) @ INFORM_COUNT ( count = 2 ) & there are 2 apartments that match . there 's a very good place at marina plaza apartments on 2777 marina boulevard . it has 2 bed rooms , 1 bath , and its rent is $ 2,550 a month .
+INFORM ( pets_allowed = true ) & yes they do allow pets .
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 1 ; number_of_baths = 3 ; rent = 4450 ) & 888 golden saratoga-cupertino apartment homes located at 1546 maurice lane . has 1 bed room and 3 baths . the rent for the apartment is 4450 dollars per month .
+CONFIRM ( property_name = avery park apartments ; visit_date = march 11th ) & confirming a march 11th visit to avery park apartments ?
+CONFIRM ( property_name = courtyard apartments ; visit_date = march 5th ) & i need your confirmation to make a schedule of visit to courtyard apartments on march 5th .
+OFFER_INTENT ( intent = schedulevisit ) & do you want to visit the property ?
+INFORM ( furnished = false ) & no , i 'm sorry , it is n't furnished .
+OFFER ( property_name = alpine vista apartments ; address = 1282 mattox road ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $5,150 ) & sure . i found the alpine vista apartments located at 1282 mattox road . they have a 4 bed room 3 bath available for $ 5,150 per month .
+NOTIFY_SUCCESS ( none = none ) & your visit is scheduled .
+OFFER ( property_name = arbor terrace apartments ; address = 555 east el camino real ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,300 ) & sure , there 's also arbor terrace apartments , with 3 bedrooms and 3 bathrooms at $ 4,300 per month , located at 555 east el camino real .
+GOODBYE ( none = none ) & okay , see you .
+GOODBYE ( none = none ) & have a wonderful day .
+REQUEST ( number_of_beds = ? ) & with how many bedrooms ?
+OFFER_INTENT ( intent = schedulevisit ) & would you like to visit the apartment .
+REQUEST ( number_of_beds = ? ; area = ? ) & how many bedrooms will you the answer ? which area shall a search in ?
+INFORM ( phone_number = 650-583-9275 ; furnished = true ) & the apartment is furnished . the phone number is 650-583-9275 .
+CONFIRM ( property_name = bermuda garden apartments ; visit_date = march 6th ) & please confirm : you want me to schedule a visit to bermuda garden apartments on march 6th .
+NOTIFY_SUCCESS ( none = none ) & your visit is scheduled
+NOTIFY_SUCCESS ( none = none ) & your visit has been scheduled !
+INFORM ( furnished = false ) & this apartment lacks furnishing as well .
+CONFIRM ( property_name = city walk apartment homes ; visit_date = march 14th ) & sure . march 14th at city walk apartment homes ?
+GOODBYE ( none = none ) & you 're welcome . have a great day .
+REQUEST ( area = ? ) & where are you looking for the apartment ?
+NOTIFY_SUCCESS ( none = none ) & the tice oaks visit has been scheduled .
+REQUEST ( area = ? ) & do you have an area in mind ?
+OFFER ( property_name = city centre ; address = 22800 meridian drive ; number_of_beds = 3 ; number_of_baths = 2 ; rent = $3700 ) & city centre is located at 22800 meridian drive and has a 3 bedroom 2 bath for $ 3700 a month .
+REQUEST ( number_of_beds = ? ) & how many bed rooms do you need ?
+INFORM ( phone_number = 888-743-1851 ) @ NOTIFY_SUCCESS ( none = none ) & i 've scheduled your visit . you can call them at 888-743-1851 .
+OFFER_INTENT ( intent = schedulevisit ) & should i schedule a visit ?
+REQUEST ( number_of_beds = ? ) & how many bedrooms would you like ?
+OFFER_INTENT ( intent = schedulevisit ) & would you like me to schedule a visit to the apartment ?
+REQ_MORE ( none = none ) & was there anything else you needed help with ?
+INFORM ( pets_allowed = false ; furnished = false ) @ NOTIFY_SUCCESS ( none = none ) & your visit on march 10th is scheduled . pets are not allowed in the apartment and it is not furnished .
+OFFER ( property_name = coffeetree apartments ; address = 600 marathon drive ; number_of_beds = 3 ; number_of_baths = 2 ; rent = $3,650 ) & i have found coffeetree apartments located on 600 marathon drive . they have a 3 bedroom 2 bath available for $ 3,650 per month .
+REQUEST ( number_of_beds = ? ) & how many bedrooms do you need it to have ?
+INFORM ( furnished = false ; phone_number = 408-738-4862 ) @ NOTIFY_SUCCESS ( none = none ) & yup , you can reach them at 408-738-4862 . sorry that the apartment is an unfurnished one . your appointment to visit the apartment has been scheduled .
+INFORM ( pets_allowed = false ) & no , pets are not allowed .
+REQUEST ( area = ? ) & where are you looking ?
+REQUEST ( number_of_beds = ? ) & how big of a place do you want ?
+OFFER ( property_name = bermuda garden apartments ; address = 1475 167th avenue ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,100 ) & how about bermuda garden apartments ? this property has 3 bed rooms , and 3 baths , and is located at 1475 167th avenue . for this , it will cost $ 4,100 per month .
+REQUEST ( number_of_beds = ? ) & how many bed rooms were you looking for in the apartment ?
+CONFIRM ( property_name = courtyard terrace ; visit_date = march 13th ) & great , should i go ahead and schedule your visit to courtyard terrace on march 13th ?
+REQUEST ( visit_date = ? ) & when do you want to visit the apartment ?
+INFORM ( furnished = true ) & yes , it is completely furnished .
+OFFER ( property_name = alameda gardens apartments ; address = 73 north keeble avenue ; number_of_beds = 4 ; number_of_baths = 3 ; rent = 4850 ) & yes , of course ! at 73 north keeble avenue we can show you the alameda gardens apartments . this property has 4 bed rooms and 3 baths , with rents starting from 4850 dollars per month .
+OFFER ( property_name = pebble creek ; address = 3685 south bascom avenue ; number_of_beds = 3 ; number_of_baths = 3 ; rent = 4000 ) & there is a 3 bed room , 3 bath apartment at pebble creek , 3685 south bascom avenue for 4000 dollars a month .
+OFFER_INTENT ( intent = schedulevisit ) & want to set up a visit there ?
+OFFER ( property_name = courtyard apartments ; address = 1711 detroit avenue ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $4,700 ) & you will like courtyard apartments on 1711 detroit avenue . it has 4 bed rooms and 3 baths and it will cost you $ 4,700 monthly rent .
+OFFER ( property_name = casa pino condos ; address = 1580 clayton road # 1 ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $4,800 ) @ INFORM_COUNT ( count = 10 ) & i searched and found 10 great apartments . casa pino condos is a nice property situated at 1580 clayton road # 1 . it has 4 bed rooms and 3 baths . the rent is $ 4,800 per month .
+OFFER ( property_name = willow branch apartments ; address = 2200 rivers street ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,300 ) @ INFORM_COUNT ( count = 1 ) & i have found 1 option . willow branch apartments is located at 2200 rivers street and has 3 bedrooms and 3 baths and costs $ 4,300 a month .
+OFFER ( property_name = birchwood apartments ; address = 1195 saranap avenue # 14 ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $4,750 ) @ INFORM_COUNT ( count = 8 ) & ok , i found 8 options that look pretty nice . how about birchwood apartments at 1195 saranap avenue # 14 ? they have a 4 bedroom 3 bathroom apartment for $ 4,750 per month .
+OFFER_INTENT ( intent = schedulevisit ) & would you like to make an appointment to see it ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & i am sorry , i could n't schedule the visit . is there anything else i can help you with ?
+OFFER ( property_name = aster park apartments ; address = 1059 reed avenue ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $4,950 ) & there 's a property with 2 bedrooms and 1 bath at 1059 reed avenue . it 's called aster park apartments and the monthly rent is $ 4,950 .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+GOODBYE ( none = none ) & have a nice day .
+OFFER ( property_name = americana apartments ; address = 4445 stevenson boulevard ; number_of_beds = 2 ; number_of_baths = 2 ; rent = $2,800 ) @ INFORM_COUNT ( count = 10 ) & there are 10 options . there is the americana apartments on 4445 stevenson boulevard . there are 2 bedrooms and 2 baths and it costs $ 2,800 a month .
+OFFER ( property_name = granada apartments ; address = 41342 roberts avenue ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,750 ) @ INFORM_COUNT ( count = 4 ) & i found 4 suitable apartments for you , including granada apartments at 41342 roberts avenue . it has 2 bedrooms and 1 bath , with a monthly rent of $ 2,750 .
+REQUEST ( number_of_beds = ? ) & sure . how many bed room apartment are you looking for ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+CONFIRM ( property_name = raintree condominiums ; visit_date = next tuesday ) & can you confirm : you 're scheduling a visit for raintree condominiums on next tuesday .
+OFFER_INTENT ( intent = schedulevisit ) & would you like me to schedule a visit to the property ?
+OFFER ( property_name = regency square ; address = 1315 eden avenue ; number_of_beds = 1 ; number_of_baths = 2 ; rent = 5150 ) @ INFORM_COUNT ( count = 4 ) & i found 4 , regency square located at 1315 eden avenue , 1 bed and 2 baths and the rent is 5150 per month .
+OFFER ( property_name = fernmar apartments ; address = 210 easy street ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,300 ) @ INFORM_COUNT ( count = 2 ) & i have found 2 apartments . fernmar apartments is a great property located at 210 easy street . it has 3 bed rooms and 3 baths and costs $ 4,300 a month .
+INFORM ( furnished = false ; phone_number = 925-686-6868 ) @ NOTIFY_SUCCESS ( none = none ) & your appointment is complete , no it 's not furnished and 925-686-6868
+REQUEST ( area = ? ; number_of_beds = ? ) & how many bedrooms do you require and in which area are you interested in ?
+GOODBYE ( none = none ) & have a good one !
+OFFER ( property_name = aspen village apartments ; address = 2355 fairfield avenue ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,350 ) @ INFORM_COUNT ( count = 10 ) & i found 10 apartments that could do the job . there is aspen village apartments at 2355 fairfield avenue , which has 3 bedrooms , 3 baths , and a monthly rent of $ 4,350 .
+REQUEST ( number_of_beds = ? ) & how many bedrooms do you want ?
+CONFIRM ( property_name = 1901 shoreline apartments ; visit_date = march 13th ) & i can do that . so to confirm . you would like to visit 1901 shoreline apartments on march 13th .
+CONFIRM ( property_name = birchwood apartments ; visit_date = march 4th ) & i 'll schedule you a visit to birchwood apartments for a visit on march 4th , is that correct ?
+REQUEST ( number_of_beds = ? ; area = ? ) & sure , how many bedrooms do you want the apartment to have and which area would you like it in ?
+OFFER ( property_name = archstone walnut creek ; address = 1445 treat boulevard ; number_of_beds = 2 ; number_of_baths = 1 ; rent = 4700 ) @ INFORM_COUNT ( count = 7 ) & i found 7 nice apartments . the first one is archstone walnut creek , a very good property located at 1445 treat boulevard . the apartment has 2 bed rooms and 1 bath , and the rent is 4700 dollars per month .
+CONFIRM ( property_name = 215 bayview apartments ; visit_date = march 10th ) & okay , i have you scheduled for march 10th to visit 215 bayview apartments , is that right ?
+REQUEST ( number_of_beds = ? ) & how many bedrooms do you prefer in the apartment ?
+OFFER_INTENT ( intent = schedulevisit ) & would you like to schedule a visit to the property ?
+OFFER ( property_name = fernmar apartments north ; address = 208 holly avenue # 1 ; number_of_beds = 1 ; number_of_baths = 1 ; rent = 2600 ) @ INFORM_COUNT ( count = 6 ) & i found 6 nice apartments for you . fernmar apartments north is a good place located at 208 holly avenue # 1 . it has 1 bed room , 1 bath , and the rent is 2600 dollars per month .
+OFFER ( property_name = la mancha apartments ; address = 240 hollis avenue ; number_of_beds = 1 ; number_of_baths = 3 ; rent = 3950 ) @ INFORM_COUNT ( count = 5 ) & i found 5 apartments for you . la mancha apartments , located at 240 hollis avenue has 1 bedroom and 3 bathrooms . the rent is 3950 dollars per month .
+OFFER ( property_name = americana ; address = 707 continental circle ; number_of_beds = 2 ; number_of_baths = 2 ; rent = $2,700 ) & americana at 707 continental circle offers 2 bed rooms and 2 bath for $ 2,700 per month .
+CONFIRM ( property_name = aegena ; visit_date = today ) & please confirm : you want to schedule a visit to aegena today .
+OFFER_INTENT ( intent = schedulevisit ) & would you like to schedule a viewing ?
+REQUEST ( area = ? ) & which area are you looking in ?
+OFFER_INTENT ( intent = schedulevisit ) & do you want to book a viewing ?
+INFORM ( pets_allowed = true ) & yes , pets are welcome .
+OFFER ( property_name = bonnie terrace apartments ; address = 660 gail avenue ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,450 ) & there 's bonnie terrace apartments at 660 gail avenue . there is a 3 bedroom 3 bath apartment for $ 4,450 a month .
+INFORM ( phone_number = 650-940-9349 ; pets_allowed = false ) & the phone number for the property is 650-940-9349 . unfortunately , pets are not permitted in the apartment .
+GOODBYE ( none = none ) & have a good day ahead .
+INFORM ( phone_number = 510-471-1272 ) & the number is 510-471-1272
+CONFIRM ( property_name = alborada apartments ; visit_date = march 5th ) & ok. to confirm , you want to book a visit to alborada apartments on march 5th . is that right ?
+INFORM ( pets_allowed = true ) & yes , pets are allowed .
+GOODBYE ( none = none ) & have a good time !
+REQ_MORE ( none = none ) & can i help you with anything else ?
+INFORM ( phone_number = 925-686-6868 ) & it is 925-686-6868 .
+OFFER ( property_name = almaden garden apartments ; address = 947 branham lane # c ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $5,150 ) @ INFORM_COUNT ( count = 10 ) & alright , great news , i found 10 options for you . starting with almaden garden apartments located at 947 branham lane # c. this is a 4 bed room 3 bath unit . the monthly rent is $ 5,150 . how does this sound ?
+REQUEST ( visit_date = ? ) & when is convenient for you to inspect this property ?
+REQUEST ( number_of_beds = ? ) & how many bed rooms do you want in your apartment ?
+REQUEST ( area = ? ; number_of_beds = ? ) & sure . where do you want to move ? how many bed rooms do you need ?
+CONFIRM ( property_name = americana apartment homes ; visit_date = march 2nd ) & okay . so , you want to schedule a visit to americana apartment homes on march 2nd . is that right ?
+NOTIFY_SUCCESS ( none = none ) & visit scheduled !
+REQUEST ( number_of_beds = ? ) & how many bedrooms you want ?
+GOODBYE ( none = none ) & have a good day !
+INFORM ( furnished = true ) @ NOTIFY_SUCCESS ( none = none ) & correct . the apartment is furnished and you have successfully scheduled a visit .
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,450 ) @ INFORM_COUNT ( count = 10 ) & found 10 results and found an apartment named 888 golden saratoga-cupertino apartment homes at 1546 maurice lane which has 3 bed rooms and 3 baths for which the rent will be $ 4,450 per month .
+REQUEST ( visit_date = ? ) & no problem . when would you like to visit ?
+GOODBYE ( none = none ) & enjoy your day
+INFORM ( phone_number = 650-341-3367 ) & their phone number is 650-341-3367 .
+REQUEST ( area = ? ) & okay , which part of town are you interested in ?
+INFORM ( furnished = false ) @ NOTIFY_SUCCESS ( none = none ) & it 's not furnished . your visit has been booked .
+OFFER_INTENT ( intent = schedulevisit ) & would you like to visit the apartment ?
+REQUEST ( visit_date = ? ) & when do you want to visit it ?
+REQ_MORE ( none = none ) & anything i can do right now ?
+REQUEST ( area = ? ) & which area do you want to search ?
+INFORM ( phone_number = 510-657-1133 ; pets_allowed = true ) & they welcome pets along with their customers always . you can contact them by the phone number 510-657-1133 .
+CONFIRM ( property_name = alpine vista apartments ; visit_date = march 1st ) & a visit to alpine vista apartments on march 1st : do you confirm ?
+REQUEST ( area = ? ) & where you wish to look for the apartment ?
+REQUEST ( area = ? ) & which area would you like me to search for property in ?
+REQUEST ( number_of_beds = ? ) & are there any necessary attributes you want in the apartment ?
+INFORM ( phone_number = 408-265-4808 ; pets_allowed = true ) & yup , you can have pets inside the apartment . you can reach them at 408-265-4808 .
+CONFIRM ( property_name = macara gardens apartments ; visit_date = march 1st ) & ok , visiting macara gardens apartments on march 1st , correct ?
+INFORM ( phone_number = 888-743-1851 ; furnished = false ) & the property 's number is 888-743-1851 . unfortunately , it is not furnished .
+OFFER ( property_name = cloverdale garden apartments ; address = 18 clark avenue ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,050 ) @ INFORM_COUNT ( count = 3 ) & i found 3 possible apartments . cloverdale garden apartments at 18 clark avenue is very nice . it has 3 bedrooms and 3 bathrooms , and the rent is $ 4,050 a month .
+REQUEST ( area = ? ; number_of_beds = ? ) & sure . what area do you want to live in and how many bedrooms do you want ?
+CONFIRM ( property_name = 215 bayview apartments ; visit_date = march 11th ) & sure , please confirm your visit to 215 bayview apartments on march 11th .
+INFORM ( furnished = true ; phone_number = 530-745-6170 ) @ NOTIFY_SUCCESS ( none = none ) & the visit is booked . the apartment is furnished and the number is 530-745-6170
+REQUEST ( visit_date = ? ) & when do you want to visit ?
+NOTIFY_SUCCESS ( none = none ) & a visit has been successfully scheduled .
+CONFIRM ( property_name = bay ridge apartment ; visit_date = march 12th ) & please confirm schedule visit to bay ridge apartment on march 12th .
+INFORM ( furnished = true ) & yes it is .
+CONFIRM ( property_name = bel air ; visit_date = march 12th ) & can you please confirm that you want to visit the bel air apaortment on march 12th ?
+INFORM ( phone_number = 408-738-4862 ) @ NOTIFY_SUCCESS ( none = none ) & you are set up . you may phone them at 408-738-4862 .
+REQUEST ( number_of_beds = ? ) & how many bedrooms would you like ?
+CONFIRM ( property_name = pointe at cupertino ; visit_date = march 3rd ) & please confirm the details : the visit is scheduled for pointe at cupertino on march 3rd .
+CONFIRM ( property_name = aegena ; visit_date = march 14th ) & confirm that you want to visit aegena on the march 14th .
+CONFIRM ( property_name = americana apartment homes ; visit_date = march 13th ) & you want to schedule a showing at americana apartment homes on march 13th . is that correct ?
+NOTIFY_SUCCESS ( none = none ) & sounds good your visit is schedules as per your plan .
+INFORM ( phone_number = 510-832-2249 ) & you can call them at 510-832-2249
+REQUEST ( area = ? ; number_of_beds = ? ) & in which area and how many bedrooms ?
+OFFER ( property_name = azure at lakeville square apartments ; address = 1400 technology lane ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $3950 ) & what do you think of azure at lakeville square apartments at 1400 technology lane which has 3 bed rooms and 3 baths . you will pay $ 3950 per month rent for the apartment .
+OFFER_INTENT ( intent = schedulevisit ) & are you planning to schedule a visit to the property ?
+OFFER ( property_name = birchwood apartments ; address = 1195 saranap avenue # 14 ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $4,750 ) & there is one nice birchwood apartments located at 1195 saranap avenue # 14 with 4 bed rooms and 3 baths and rent is $ 4,750 per month .
+INFORM ( pets_allowed = false ) & no , the property does not allow pets .
+OFFER ( property_name = baker park apartments ; address = 4748 west campbell avenue ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $4,950 ) & i recommend the baker park apartments on 4748 west campbell avenue . the property has 4 bedrooms and 3 baths . the cost is $ 4,950 a month .
+OFFER ( property_name = alderwood apartments ; address = 1435 163rd avenue #23 ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $3,550 ) & alderwood apartments at 1435 163rd avenue # 23 has an apartment with 1 bedroom and 1 bathroom for $ 3,550 a month .
+OFFER ( property_name = parkway place apartments ; address = 2900 redwood parkway ; number_of_beds = 2 ; number_of_baths = 2 ; rent = $3,250 ) @ INFORM_COUNT ( count = 3 ) & sure , i 've located 3 options for you . starting with , parkway place apartments at 2900 redwood parkway . this property has 2 bedrooms and 2 baths as you requested . monthly rent is $ 3,250 .
+REQUEST ( area = ? ) & in which area ?
+INFORM ( furnished = false ; phone_number = 833-278-0054 ) & the phone number is 833-278-0054 , and it is n't furnished .
+REQUEST ( area = ? ) & do you have any area choice for your apartment ?
+INFORM ( furnished = false ) & the apartment has not been furnished .
+OFFER ( property_name = avalon apartments ; address = 624 avalon avenue ; number_of_beds = 2 ; number_of_baths = 2 ; rent = $3,150 ) & sure ! i am able to find avalon apartments which is a superb property currently located at 624 avalon avenue . this apartment has 2 bedrooms and 2 baths , and the cost of this apartment is $ 3,150 each month .
+REQUEST ( number_of_beds = ? ; area = ? ) & any idea on the number of bed rooms and the location of the property ?
+GOODBYE ( none = none ) & we 'll be happy to help you again . we wish you a nice day !
+OFFER ( property_name = casa pino condos ; address = 1580 clayton road # 1 ; number_of_beds = 2 ; number_of_baths = 2 ; rent = $3,200 ) & well , what about casa pino condos ? it 's at 1580 clayton road # 1 . it has 2 bed , 2 bath and rents for $ 3,200 a month .
+OFFER ( property_name = alameda gardens apartments ; address = 73 north keeble avenue ; number_of_beds = 2 ; number_of_baths = 2 ; rent = $3,150 ) & i got alameda gardens apartments located at 73 north keeble avenue with 2 bed rooms and 2 baths and it cost $ 3,150 per month .
+OFFER_INTENT ( intent = schedulevisit ) & do you want to schedule a visit to check it out ?
+CONFIRM ( property_name = city walk apartment homes ; visit_date = march 1st ) & to confirm then you want to visit city walk apartment homes on march 1st .
+GOODBYE ( none = none ) & have a wonderful day .
+CONFIRM ( property_name = 888 golden saratoga-cupertino apartment homes ; visit_date = march 10th ) & you 'd like me to schedule a viewing at 888 golden saratoga-cupertino apartment homes on march 10th . is this correct ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & sorry , but i could n't set up the visit right now . need help with anything else ?
+REQ_MORE ( none = none ) & would you like assistance with anything else ?
+REQUEST ( area = ? ) & is there a specific area where i should look for the apartment ?
+REQUEST ( number_of_beds = ? ) & how many bed rooms ?
+REQUEST ( visit_date = ? ) & when do you want to see the property ?
+INFORM ( phone_number = 925-634-8374 ) & brentwood parks apartments phone number is 925-634-8374 .
+CONFIRM ( property_name = avalon apartments ; visit_date = day after tomorrow ) & please confirm the following details . schedule visit to avalon apartments and visit on day after tomorrow .
+REQUEST ( area = ? ; number_of_beds = ? ) & i can help with that . do you know how many rooms you want on what side of town ?
+GOODBYE ( none = none ) & see you soon !
+REQ_MORE ( none = none ) & is there anything else ?
+OFFER ( property_name = almaden garden apartments ; address = 947 branham lane # c ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $5,150 ) @ INFORM_COUNT ( count = 10 ) & there are 10 apartments . almaden garden apartments is a good restaurant located at 947 branham lane # c with 4 bed and 3 baths costs $ 5,150
+OFFER ( property_name = bicentennial apartments ; address = 825 russell avenue ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $1,500 ) & there is an option in that area . bicentennial apartments located at 825 russell avenue has a 1 bedroom 1 bath option for $ 1,500 a month . it is a nice property .
+OFFER ( property_name = adrienne village apartments ; address = 31755 alvarado boulevard ; number_of_beds = 2 ; number_of_baths = 3 ; rent = 4950 ) & adrienne village apartments on 31755 alvarado boulevard has great apartments . there are 2 bedroom 3 bath apartments renting for 4950 dollars per month .
+CONFIRM ( property_name = leib senior apartments ; visit_date = march 12th ) & please confirm this appointment . you are scheduling a visit to leib senior apartments and you would like to visit on march 12th .
+CONFIRM ( property_name = apricot pit apartments ; visit_date = march 4th ) & let 's go over the details . you want to schedule a visit to apricot pit apartments on march 4th ?
+REQUEST ( number_of_beds = ? ) & how many bedrooms ?
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,450 ) @ INFORM_COUNT ( count = 10 ) & i have found for you 10 nice apartments.a very good property is 888 golden saratoga-cupertino apartment homes with 3 bed rooms and 3 baths.is located at 1546 maurice lane with the cost per month of $ 4,450 .
+NOTIFY_SUCCESS ( none = none ) & i 've successfully scheduled your visit .
+INFORM ( furnished = false ) & sorry , the apartment is unfurnished .
+CONFIRM ( property_name = buchanan gardens ; visit_date = tomorrow ) & please confirm the details of the visit . buchanan gardens in the next tomorrow .
+GOODBYE ( none = none ) & enjoy your day .
+OFFER ( property_name = boulevard ; address = 40001 fremont boulevard ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $1,850 ) & i hear there 's a cool place at boulevard located at 40001 fremont boulevard that has 1 bed room and 1 bath that costs $ 1,850
+NOTIFY_SUCCESS ( none = none ) & your visit is confirmed .
+INFORM ( furnished = false ; phone_number = 925-307-7099 ) & you can contact them at 925-307-7099 and unfortunately , this is an unfurnished property .
+GOODBYE ( none = none ) & have a nice day .
+REQUEST ( number_of_beds = ? ; area = ? ) & ok , how many bedrooms do you want the apartment to have ? and where do you want the property to be ?
+GOODBYE ( none = none ) & have a great day .
+OFFER ( property_name = casa pino condos ; address = 1580 clayton road # 1 ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $4800 ) & a very nice property is casa pino condos that have 4 bed rooms and 3 baths.is located at 1580 clayton road # 1 and cost $ 4800 per month .
+REQUEST ( area = ? ) & which are would you like to look in ?
+CONFIRM ( property_name = water's edge ; visit_date = march 7th ) & you want to visit water 's edge on march 7th ?
+OFFER ( property_name = evelyn gardens ; address = 1055 east evelyn avenue ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4100 ) @ INFORM_COUNT ( count = 10 ) & i did find 10 apartments . evelyn gardens , located at 1055 east evelyn avenue has a 3 bedroom 3 bath apartment for $ 4100 per month .
+OFFER ( property_name = alamo garden apartments ; address = 1501 alamo drive ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $2,550 ) @ INFORM_COUNT ( count = 10 ) & i have approximately 10 places you can choose from . the alamo garden apartments at 1501 alamo drive is very nice . the available unit has 1 bedroom and 1 bath and rents for $ 2,550 per month .
+CONFIRM ( property_name = arbors apartments ; visit_date = march 5th ) & march 5th tour of arbors apartments will be scheduled , do i have these details correct ?
+REQUEST ( number_of_beds = ? ; area = ? ) & how many bedroom and which area do you want your apartment in ?
+INFORM ( furnished = false ; pets_allowed = false ) & the apartment is not furnished and they do not allow pets .
+GOODBYE ( none = none ) & have an awesome day .
+GOODBYE ( none = none ) & my pleasure , enjoy the rest of your day .
+GOODBYE ( none = none ) & have a great day .
+OFFER_INTENT ( intent = schedulevisit ) & do you want to schedule a visit to the property ?
+OFFER ( property_name = briarwood apartments ; address = 3819 east avenue ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,100 ) & there is briarwood apartments , which is at 3819 east avenue and is a very good property . it has 3 bedrooms and 3 bathrooms and rents for $ 4,100 each month .
+REQUEST ( visit_date = ? ) & when do you want to visit the apartment ?
+REQUEST ( area = ? ) & which area would you like me to search in ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+CONFIRM ( property_name = courtyard villa apartments ; visit_date = march 11th ) & please confirm you want me to book an appointment to see the apartment at courtyard villa apartments on march 11th .
+CONFIRM ( property_name = birchwood apartments ; visit_date = march 8th ) & please confirm your visit to birchwood apartments on march 8th .
+CONFIRM ( property_name = behringer harvard ; visit_date = march 14th ) & you want to visit behringer harvard on march 14th , correct ?
+REQ_MORE ( none = none ) & is there anything else i can assist you with ?
+NOTIFY_SUCCESS ( none = none ) & your appointment to visit the apartment has been booked .
+INFORM ( phone_number = 510-797-1800 ; furnished = false ) & their number is 510-797-1800 . it is not furnished .
+INFORM ( furnished = false ; pets_allowed = false ) & no , the apartment is not furnished and pets are not allowed there .
+GOODBYE ( none = none ) & ok then , take care
+NOTIFY_SUCCESS ( none = none ) & okay , that has been scheduled .
+INFORM ( phone_number = 415-543-1135 ) & yup ! please note it down - 415-543-1135
+GOODBYE ( none = none ) & you 're welcome , have a great day .
+REQUEST ( number_of_beds = ? ) & certainly ! how many bedroom shall i search for ?
+GOODBYE ( none = none ) & have a good day .
+OFFER ( property_name = park hill apartments ; address = 1747 lincoln avenue ; number_of_beds = 4 ; number_of_baths = 3 ; rent = 4950 ) @ INFORM_COUNT ( count = 1 ) & i found 1 good one at park hill apartments located on 1747 lincoln avenue . it 's got 4 bed rooms and 3 baths . its gon na run you 4950 dollars a onth
+OFFER_INTENT ( intent = schedulevisit ) & would you like to see the apartment ?
+INFORM ( furnished = false ; pets_allowed = false ) & unfortunately , it is unfurnished and pets are not allowed .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQUEST ( number_of_beds = ? ) & how many bed rooms in the apartment do you want ?
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,450 ) @ INFORM_COUNT ( count = 10 ) & there are 10 nice apartments you could look into . 888 golden saratoga-cupertino apartment homes is a nice place at 1546 maurice lane . it has 3 bedrooms and 3 baths for $ 4,450 a month .
+INFORM ( furnished = false ; pets_allowed = false ) @ NOTIFY_SUCCESS ( none = none ) & your visit to the apartment is scheduled .
+OFFER_INTENT ( intent = schedulevisit ) & would you like me to schedule a visit to the apartment ?
+REQUEST ( area = ? ; number_of_beds = ? ) & in what area would you like to find the property ? how many bed rooms in the apartment ?
+INFORM ( furnished = false ) & no , it 's not furnished .
+INFORM ( pets_allowed = false ) @ NOTIFY_SUCCESS ( none = none ) & your visit has been scheduled . sorry , pets are not allowed .
+INFORM ( phone_number = 925-827-3700 ; furnished = true ) & the number is 925-827-3700 .
+CONFIRM ( property_name = muir park condominiums ; visit_date = march 12th ) & please confirm the following : schedule a visit to muir park condominiums on march 12th .
+OFFER ( property_name = bookstreet park apartments ; address = 3543 brook street ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $5,150 ) @ INFORM_COUNT ( count = 2 ) & there are 2 nice apartments there . the first is bookstreet park apartments located at 3543 brook street . it 's a 3 bed 3 bath and the rent is $ 5,150 a month .
+REQUEST ( number_of_beds = ? ) & no problem , how many bed rooms we 're you thinking ?
+CONFIRM ( property_name = bookstreet park apartments ; visit_date = next tuesday ) & please confirm your visit to bookstreet park apartments for next tuesday .
+CONFIRM ( property_name = apricot pit apartments ; visit_date = march 1st ) & please confirm that you are scheduling a visit to apricot pit apartments on march 1st .
+CONFIRM ( property_name = carter terrace ; visit_date = march 13th ) & let me verify your request you want to set up a time for a visit to carter terrace on march 13th right ?
+GOODBYE ( none = none ) & it 's my pleasure .
+INFORM ( furnished = false ) @ NOTIFY_SUCCESS ( none = none ) & the apartment is empty . your visit is booked .
+GOODBYE ( none = none ) & have a wonderful day !
+INFORM ( furnished = false ) @ NOTIFY_SUCCESS ( none = none ) & its not furnished and i have scheduled you to visit it .
+GOODBYE ( none = none ) & have a nice day .
+OFFER ( property_name = americana ; address = 707 continental circle ; number_of_beds = 1 ; number_of_baths = 2 ; rent = $2,700 ) & there is a great place in americana at 707 continental circle . it 's a 1 bed/ 2 bath that 's renting for $ 2,700 a month .
+INFORM ( phone_number = 408-998-7266 ) & you can call them at 408-998-7266 .
+REQUEST ( number_of_beds = ? ) & how many bedrooms do you want to have ?
+OFFER ( property_name = amberwood garden apartments ; address = 26100 gading road ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4250 ) & amberwood garden apartments located at 26100 gading road has a 3 bedroom 3 bath for $ 4250 a month .
+REQUEST ( area = ? ) & where are you looking for this property ?
+OFFER_INTENT ( intent = schedulevisit ) & would you like to schedule a tour of the property ?
+INFORM ( furnished = true ; pets_allowed = true ) & it is a furnished apartment and you can have pets .
+OFFER ( property_name = spinnaker pointe apartments ; address = 231 dixon landing road ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $5,000 ) @ INFORM_COUNT ( count = 1 ) & i have 1 apartment at 231 dixon landing road with 4 bedrooms and 3 baths . the spinnaker pointe apartments is a excellent property for only $ 5,000 per month , would you be interested in this ?
+OFFER ( property_name = ridgeway apartments ; address = 141 donahue street ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $3900 ) & there is one ridgeway apartments at 141 donahue street . it has 3 bedrooms and 3 baths . it will cost $ 3900 as rent per month
+CONFIRM ( property_name = cypress glen ; visit_date = march 13th ) & confirming a cypress glen visit on march 13th .
+OFFER ( property_name = bayfair apartments ; address = 16077 ashland avenue ; number_of_beds = 3 ; number_of_baths = 2 ; rent = $4,050 ) & the property bayfair apartments located at 16077 ashland avenue is very good . it has 3 bed rooms and 2 baths and costing around $ 4,050 per month .
+GOODBYE ( none = none ) & have a good day .
+REQUEST ( number_of_beds = ? ; area = ? ) & sure thing , where would you like the property and how many bedrooms would you like ?
+GOODBYE ( none = none ) & ok then , bye for now
+REQUEST ( area = ? ) & where are you looking for an apartment ?
+OFFER ( property_name = almaden garden apartments ; address = 947 branham lane # c ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $1,850 ) & there is a 1 br 1 bath for $ 1,850 at almaden garden apartments . you can find them at 947 branham lane # c .
+REQUEST ( area = ? ) & what city do you want ?
+GOODBYE ( none = none ) & enjoy your day .
+INFORM ( furnished = false ; phone_number = 669-206-0300 ) & unfortunately this unit is not furnished and the phone number is 669-206-0300
+REQUEST ( number_of_beds = ? ) & how many bed rooms and baths do you wish to have in the apartment you are looking for ?
+INFORM ( pets_allowed = true ; phone_number = 408-262-3223 ) @ NOTIFY_SUCCESS ( none = none ) & just pet-friendly apartment visit is all set . you can reach them at 408-262-3223 .
+OFFER_INTENT ( intent = schedulevisit ) & shall i schedule a visit ?
+CONFIRM ( property_name = birchwood apartments ; visit_date = next tuesday ) & please confirm the following details : you are scheduling a visit to birchwood apartments on next tuesday .
+OFFER ( property_name = hill valley apartments ; address = 1518 hill road ; number_of_beds = 3 ; number_of_baths = 3 ; rent = 4950 ) & hill valley apartments has 3 bed rooms and 3 bath rooms . the address is 1518 hill road and the cost is 4950 per month .
+GOODBYE ( none = none ) & i am glad i could help . have a great day .
+CONFIRM ( property_name = vista oaks apartments ; visit_date = march 6th ) & just to confirm , you would like to visit the vista oaks apartments on march 6th .
+NOTIFY_SUCCESS ( none = none ) & your tour is confirmed .
+OFFER ( property_name = heron court ; address = 350 gunter lane ; number_of_beds = 3 ; number_of_baths = 2 ; rent = 3700 ) & heron court has a 3 bed room , 2 bath apartment for 3700 per month . it is located at 350 gunter lane . it is considered a very good property .
+OFFER ( property_name = aster park apartments ; address = 1059 reed avenue ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $1,950 ) & at 1059 reed avenue there 's aster park apartments . it offers 1 bedroom and 1 bath , rent is $ 1,950 per month
+OFFER ( property_name = la mancha apartments ; address = 240 hollis avenue ; number_of_beds = 4 ; number_of_baths = 1 ; rent = $4,800 ) @ INFORM_COUNT ( count = 2 ) & i found 2 apartments . la mancha apartments is a 4 bedroom 1 bath apartment located at 240 hollis avenue . the rent is $ 4,800 per month .
+CONFIRM ( property_name = cadillac flats apartments ; visit_date = march 2nd ) & let 's confirm the details here . you 'll be visiting cadillac flats apartments on march 2nd ?
+OFFER ( property_name = bollinger crest apartments ; address = 4000 bollinger crest common ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,350 ) @ INFORM_COUNT ( count = 5 ) & there 's 5 apartments meeting your criteria in san ramon out of which i recommend bollinger crest apartments , priced at $ 4,350 per month with 3 bedrooms and 3 bathrooms as requested . the property is located at 4000 bollinger crest common .
+OFFER ( property_name = 888 golden saratoga-cupertino apartment homes ; address = 1546 maurice lane ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $1,600 ) @ INFORM_COUNT ( count = 10 ) & there are 10 apartments , one of these is 888 golden saratoga-cupertino apartment homes , located at 1546 maurice lane . it has 1 bed rooms and 1 baths . the rent per month is $ 1,600
+INFORM ( phone_number = 510-822-2617 ) & it is 510-822-2617 .
+CONFIRM ( property_name = bicentennial apartments ; visit_date = march 4th ) & to schedule this visit , confirm the following : you wish to visit the bicentennial apartments on march 4th ?
+OFFER ( property_name = alameda gardens apartments ; address = 73 north keeble avenue ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,100 ) & alameda gardens apartments at 73 north keeble avenue has a 3 bed and bath for $ 4,100
+CONFIRM ( property_name = arbor ridge apartments ; visit_date = march 12th ) & please confirm : visit to arbor ridge apartments on march 12th .
+REQ_MORE ( none = none ) & anything i can do for you
+CONFIRM ( property_name = tice oaks apartments ; visit_date = march 13th ) & to confirm : you 'd like to schedule a visit on march 13th to see the apartment at tice oaks apartments , correct ?
+REQUEST ( area = ? ) & which area would you like to search in ?
+REQUEST ( number_of_beds = ? ) & can you tell me how many bedrooms you need the apartment to have ?
+REQUEST ( number_of_beds = ? ) & how many bedrooms should the apartment have ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & i apologize , unfortunately i could not schedule your tour . can i assist with anything else ?
+OFFER ( property_name = affordable housing associates ; address = 150 sierra drive ; number_of_beds = 2 ; number_of_baths = 2 ; rent = $2,700 ) @ INFORM_COUNT ( count = 8 ) & there are 8 apartments that may be want you need . one is affordable housing associates located at 150 sierra drive in walnut creek . the apartment has 2 bedrooms and 2 baths and is a first floor apartment . the cost is $ 2,700 per month .
+CONFIRM ( property_name = 215 bayview apartments ; visit_date = next wednesday ) & you would like to visit 215 bayview apartments next wednesday , is that correct ?
+OFFER_INTENT ( intent = schedulevisit ) & would you like to see the apartment ?
+REQUEST ( area = ? ) & where do you want to live ?
+OFFER_INTENT ( intent = schedulevisit ) & would you like to visit the property ?
+OFFER ( property_name = walnut grove apartments ; address = 1811 novato blvd ; number_of_beds = 3 ; number_of_baths = 2 ; rent = $3,550 ) & walnut grove apartments has 3 bed rooms , 2 bath rooms , costs $ 3,550 a month and is located at 1811 novato blvd .
+INFORM ( phone_number = 925-827-3700 ) & it 's 925-827-3700 .
+CONFIRM ( property_name = aegena ; visit_date = march 14th ) & please confirm if a visit to aegena on march 14th is what you desire .
+REQUEST ( number_of_beds = ? ; area = ? ) & which area are you interested in and how many bedrooms would you like ?
+OFFER ( property_name = sequoia grove of danville ; address = 950 podva road ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,350 ) @ INFORM_COUNT ( count = 1 ) & sequoia grove of danville is a very nice apartment , located at 950 podva road . it has 2 bed rooms and 1 bath . it goes for $ 2,350 per month .
+CONFIRM ( property_name = bella vista at hilltop ; visit_date = march 9th ) & please confirm you 're scheduling a visit to bella vista at hilltop on march 9th .
+GOODBYE ( none = none ) & have a good day
+INFORM ( phone_number = 408-818-0710 ; pets_allowed = false ) & the number is 408-818-0710 . unfortunately , pets are not allowed .
+OFFER ( property_name = kottinger place apartments-seniors ; address = 240 kottinger drive ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,000 ) & there 's kottinger place apartments-seniors located at 240 kottinger drive . it 's a 3 bed 3 bath for $ 4,000 a month .
+REQUEST ( area = ? ) & what area do you want to live in ?
+OFFER ( property_name = city view ; address = 25200 carlos bee boulevard ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,550 ) & there is a good city view apartment for $ 2,550 a month at 25200 carlos bee boulevard with 2 bedrooms and 1 bath .
+INFORM ( pets_allowed = true ) @ NOTIFY_SUCCESS ( none = none ) & your visit is scheduled . yes , pets are allowed .
+CONFIRM ( property_name = brookside gardens ; visit_date = march 10th ) & okay confirming you 'd like me to schedule a visit to brookside gardens on march 10th ?
+GOODBYE ( none = none ) & have a great day .
+GOODBYE ( none = none ) & you 're welcome . take care .
+CONFIRM ( property_name = holiday gardens apartments ; visit_date = march 1st ) & can you please confirm that you want me to schedule a visit on march 1st to holiday gardens apartments ?
+OFFER ( property_name = apricot pit apartments ; address = 400 east remington drive ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,150 ) & how about apricot pit apartments at 400 east remington drive ? they have a 3 bedroom 3 bathroom unit for $ 4,150 per month .
+REQUEST ( area = ? ; number_of_beds = ? ) & in what area and how many bedrooms ?
+GOODBYE ( none = none ) & have a nice day
+INFORM ( phone_number = 408-818-0710 ) & the number is 408-818-0710 .
+GOODBYE ( none = none ) & i am glad i could help . have a nice day .
+REQUEST ( area = ? ) & in which area ?
+OFFER ( property_name = amador apartments ; address = 24660 amador street ; number_of_beds = 2 ; number_of_baths = 2 ; rent = $3,100 ) & a great option there is amador apartments on 24660 amador street . it has a 2 bed , 2 bath for only $ 3,100 monthly .
+GOODBYE ( none = none ) & okay , have a great day .
+OFFER ( property_name = monterey pines ; address = 680 south 37th street ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $1,850 ) & you might like living at monterey pines . it 's at 680 south 37th street . the 1 bed , 1 bath there rent for $ 1,850 .
+REQUEST ( visit_date = ? ) & what day would you like to appointment for ?
+INFORM ( furnished = false ; pets_allowed = true ) & the apartment is not furnished but pets are allowed inside .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & sorry , i could n't book it . anything else ?
+INFORM ( furnished = false ) & no , the apartment is unfurnished .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQ_MORE ( none = none ) & do you need any more help from me ?
+REQUEST ( area = ? ) & any neighborhood you 're interested in
+NOTIFY_SUCCESS ( none = none ) & your appointment has been made .
+OFFER ( property_name = amberwood garden apartments ; address = 26100 gading road ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,250 ) & yes , i found one located at 26100 gading road in the name amberwood garden apartments which have 3 bed rooms with attached 3 baths for which the rent will be $ 4,250 per month . is that okay for you ?
+INFORM ( furnished = false ) & no , it 's not furnished .
+REQUEST ( number_of_beds = ? ) & how many rooms should the place have ?
+INFORM ( pets_allowed = true ) @ NOTIFY_SUCCESS ( none = none ) & it 's been booked . yes , pets are allowed .
+INFORM ( phone_number = 925-682-9661 ) & the phone number is 925-682-9661 .
+CONFIRM ( property_name = bristol apartments ; visit_date = next wednesday ) & please confirm : a visit to bristol apartments on next wednesday .
+OFFER ( property_name = leib senior apartments ; address = 210 douglas street # 100 ; number_of_beds = 3 ; number_of_baths = 2 ; rent = $3800 ) @ INFORM_COUNT ( count = 4 ) & there are 4 good properties . would you like the leib senior apartments at 210 douglas street # 100 . it has 3 bed rooms and 2 baths and will be $ 3800 monthly rent for this place .
+INFORM ( furnished = false ) & no , sorry . it is not furnished .
+GOODBYE ( none = none ) & have a good time !
+REQUEST ( area = ? ; number_of_beds = ? ) & i can help with that but i need some additional information . how many bedrooms do you want and what area should i search in ?
+INFORM ( phone_number = 855-957-1118 ) & sure , it 's 855-957-1118 .
+NOTIFY_SUCCESS ( none = none ) & okay that 's all done .
+NOTIFY_SUCCESS ( none = none ) & your appointment has been made .
+INFORM ( furnished = false ) & it is unfurnished .
+OFFER ( property_name = alameda gardens apartments ; address = 73 north keeble avenue ; number_of_beds = 2 ; number_of_baths = 2 ; rent = 3600 ) & how about alameda gardens apartments ? this is a nice property that is located at 73 north keeble avenue . like the others , it meets your needs for 2 bedrooms and 2 baths . the rent is a nice 3600 dollars per month .
+GOODBYE ( none = none ) & you 're welcome . have a great day !
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & sorry i can not schedule the visit , anything else i can help you with
+OFFER_INTENT ( intent = schedulevisit ) & would you like to schedule a showing for this apartment ?
+OFFER ( property_name = amador royal ; address = 25173 cypress avenue ; number_of_beds = 2 ; number_of_baths = 2 ; rent = 2850 ) & the apartment amador royal at 25173 cypress avenue is a very good place that has 2 bed rooms and 2 baths at a price of 2850 $ per month .
+REQUEST ( area = ? ) & where would you like to find an apartment ?
+CONFIRM ( property_name = bel air ; visit_date = day after tomorrow ) & just to confirm here , you are scheduling a visit to bel air and you wish to visit day after tomorrow .
+OFFER_INTENT ( intent = schedulevisit ) & shall i book you a visit to this place ?
+OFFER ( property_name = crescent park ; address = 5000 hartnett avenue ; number_of_beds = 1 ; number_of_baths = 1 ; rent = $1,950 ) & crescent park has a 1 bed room , 1 bath available for $ 1,950 per month . located at 5000 hartnett avenue .
+REQUEST ( number_of_beds = ? ; area = ? ) & which area would you like me to search in ? and can you please confirm the number of bedrooms in the apartment ?
+NOTIFY_SUCCESS ( none = none ) & your visit has been scheduled successfully .
+CONFIRM ( property_name = brush creek apartments ; visit_date = march 6th ) & please give confirmation details : you are fixing a visit to brush creek apartments on march 6th
+OFFER ( property_name = chesapeake point apartments ; address = 1633 marina court ; number_of_beds = 2 ; number_of_baths = 1 ; rent = $2,700 ) @ INFORM_COUNT ( count = 6 ) & there are 6 apartments in or near san mateo . chesapeake point apartments is at 1633 marina court and is highly rated . there is a 2 bedroom 1 bath apartment available for $ 2,700 per month .
+OFFER_INTENT ( intent = schedulevisit ) & would you like to schedule a visit ?
+OFFER ( property_name = alderwood apartments ; address = 1435 163rd avenue #23 ; number_of_beds = 2 ; number_of_baths = 2 ; rent = $2,950 ) @ INFORM_COUNT ( count = 6 ) & there are 6 apartment that match . there 's a very good place at alderwood apartments on 1435 163rd avenue # 23 . it has 2 bed rooms , 2 baths , and its rent is $ 2,950 a month .
+GOODBYE ( none = none ) & enjoy your day !
+OFFER ( property_name = casa vasona garden apartments ; address = 859 university avenue ; number_of_beds = 3 ; number_of_baths = 3 ; rent = $4,100 ) @ INFORM_COUNT ( count = 4 ) & there are 4 nice apartments available . casa vasona garden apartments is a very good property located at 859 university avenue.it has 3 bedrooms and 3 baths . the rent is set at $ 4,100 per month .
+INFORM ( pets_allowed = false ) @ NOTIFY_SUCCESS ( none = none ) & your visit has been scheduled . i 'm sorry but unfortunately there are no pets allowed in the apartment .
+OFFER ( property_name = almaden garden apartments ; address = 947 branham lane # c ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $5,150 ) @ INFORM_COUNT ( count = 10 ) & i have 10 places you might be interested in . almaden garden apartments is a very nice place . located at 947 branham lane # c , there is 4 bedrooms and 3 bathrooms . the rent would be $ 5,150 a month .
+GOODBYE ( none = none ) & have a great day .
+GOODBYE ( none = none ) & have a good day .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & sorry , i could n't schedule it for you . is there anything else ?
+INFORM ( furnished = false ) & the apartment is not furnished .
+OFFER ( property_name = acacia capital cor-ironwood ap ; address = 5643 charlotte way ; number_of_beds = 4 ; number_of_baths = 3 ; rent = $4,750 ) & there is a 4 bed and 3 bath at acacia capital cor-ironwood ap located at 5643 charlotte way for $ 4,750 per month .
+OFFER ( property_name = charles street village ; address = 42 charles street ; number_of_beds = 3 ; number_of_baths = 2 ; rent = 4400 ) & i have a nice property located in charles street village , address is 42 charles street . it has 3 bedrooms and 2 baths . the rent is 4400 a month .
+OFFER_INTENT ( intent = schedulevisit ) & would you like to schedule a property visit ?
+CONFIRM ( property_name = bennington apartments ; visit_date = march 6th ) & please confirm : you want me to schedule a visit to bennington apartments on march 6th .
+REQUEST ( number_of_beds = ? ) & how many bed rooms should the apartment have ?
+INFORM ( furnished = false ; pets_allowed = true ) & pets are allowed but it is not furnished .
+REQ_MORE ( none = none ) & will that be all ?
+INFORM ( pets_allowed = true ) & yes pets are allowed in this apartment
+CONFIRM ( property_name = meadowood apartments ; visit_date = march 3rd ) & please can you confirm me that you wish to schedule an appointment to visit the meadowood apartments on march 3rd , right ?
+OFFER_INTENT ( intent = schedulevisit ) & would you like to schedule to see this apartment
+OFFER ( property_name = city centre ; address = 22800 meridian drive ; number_of_beds = 3 ; number_of_baths = 2 ; rent = $3,700 ) & city centre located at 22800 meridian drive with 3 bedrooms and 2 baths is like the good one and the rent will be $ 3,700 per month . is that suits you ?
+OFFER_INTENT ( intent = schedulevisit ) & i can schedule a viewing if you like .
+INFORM ( phone_number = 510-481-2565 ; pets_allowed = false ) & unfortunately pets are not allowed . the telephone is 510-481-2565
+INFORM ( furnished = false ) & sorry , it is not furnished .
+OFFER_INTENT ( intent = schedulevisit ) & would you like to schedule a property visit ?
+INFORM ( phone_number = 925-371-0905 ; pets_allowed = true ) @ NOTIFY_SUCCESS ( none = none ) & i 've schedule your visit . you can call them at 925-371-0905 . and the apartment can have pets .
+INFORM ( furnished = false ; pets_allowed = false ) & it 's not furnished or pet-friendly unfortunately .
+INFORM ( phone_number = 925-371-0905 ; pets_allowed = true ) & pets are allowed and the number is 925-371-0905 .
+INFORM ( phone_number = 408-984-1060 ; furnished = false ) @ NOTIFY_SUCCESS ( none = none ) & i have confirmed your tour of the property . the telephone number is 408-984-1060 . this apartment does not come furnished .
+REQUEST ( area = ? ; number_of_beds = ? ) & how many bed rooms do you need and in what city do you want ?
+OFFER_INTENT ( intent = schedulevisit ) & do you want to schedule a visit ?
+OFFER_INTENT ( intent = schedulevisit ) & do you want to schedule a visit ?
+CONFIRM ( property_name = renaissance apartment homes ; visit_date = today ) & just to confirm , you would like to schedule a viewing of the property at renaissance apartment homes today ?
+OFFER_INTENT ( intent = schedulevisit ) & would you like to book a viewing ?
+CONFIRM ( property_name = 1000 kiely ; visit_date = march 13th ) & alright , please confirm we are scheduling a tour to 1000 kiely on march 13th for a property tour . is this correct ?
+OFFER_INTENT ( intent = schedulevisit ) & should i schedule a visit to the property ?
+INFORM ( furnished = false ; phone_number = 925-301-9510 ) & the phone number is 925-301-9510 , and unfortunately the apartment is not furnished .

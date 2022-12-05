@@ -1,0 +1,4 @@
+request ( leaveat = ? ; departure = ? ; destination = ? ) &  sure ! can you confirm your departure and arrival locations and a time frame , please ?
+request ( departure = ? ; arriveby = ? ) &  no , problem , i just need to know what time you wish to get there and where you 'll be arriving from .
+inform ( arriveby = 12:30 ) @ request ( arriveby = ? ) &  i have scheduled the arrival at 12:30. if you would like me to change the time , i can certainly do that .
+inform ( arriveby = 13:30 ; phone = 07542624633 ; type = grey toyota ) &  okay i was able to secure you a grey toyota that will make sure you arrive by 13:30 and their contact number is 07542624633 .

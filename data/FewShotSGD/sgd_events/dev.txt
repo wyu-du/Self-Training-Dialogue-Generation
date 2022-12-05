@@ -1,0 +1,836 @@
+CONFIRM ( event_name = pup ; number_of_tickets = 1 ; date = march 8th ; city = san diego ) & that would be 1 ticket for the pup event in san diego on march 8th ?
+INFORM ( time = 6:30 pm ) & the event will being at 6:30 pm .
+OFFER ( date = march 3rd ; event_name = blue jays vs mariners ; venue = rogers centre ) & the blue jays vs mariners game is on march 3rd at rogers centre .
+CONFIRM ( event_name = timbers vs earthquakes ; number_of_tickets = 3 ; date = march 11th ; city = portland ) & please confirm the following information : booking tickets for timbers vs earthquakes , the number of people in your party is 3 . the event will take place on march 11th . the event is in portland .
+REQ_MORE ( none = none ) & can i do anything else for you ?
+REQUEST ( city_of_event = ? ) & do you have a specific city in mind , where you would like for me to search for ?
+REQUEST ( category = ? ; city_of_event = ? ) & what kind of things are you looking to do and where should i look ?
+INFORM ( time = 7:30 pm ) & around 7:30 pm .
+CONFIRM ( event_name = united vs united ; number_of_tickets = 2 ; date = day after tomorrow ; city = atlanta ) & please confirm the following : 2 tickets for the day after tomorrow to see united vs united in atlanta .
+INFORM ( time = 5 pm ; category = hip hop ) & it is a hip hop event that starts at 5 pm .
+OFFER ( date = march 1st ; event_name = nav with killy ; venue = the fillmore philadelphia ) @ INFORM_COUNT ( count = 7 ) & i was able to locate 7 dates for you . there is a nav with killy event on march 1st at the fillmore philadelphia .
+INFORM ( time = 6:30 pm ) @ NOTIFY_SUCCESS ( none = none ) & your reservation is set . have fun ! the event will start at 6:30 pm .
+CONFIRM ( event_name = matt corby ; number_of_tickets = 4 ; date = march 11th ; city = san francisco ) & okay , please confirm : 4 tickets to matt corby on march 11th in san francisco .
+REQUEST ( category = ? ; city_of_event = ? ) & yes , it is a nice idea . i will search it for you but i need some information about your interest on particular city or category of event in your mind . if you inform me then i will make my search accurately match your taste .
+REQ_MORE ( none = none ) & is there something else i can help you with ?
+REQUEST ( city_of_event = ? ) & which city should i search in ?
+INFORM ( address_of_location = town hall parade ) & the venue is located in town hall parade .
+REQUEST ( number_of_tickets = ? ) & how many tickets will you need ?
+INFORM ( venue = oracle park ; venue_address = 24 willie mays plaza ) @ NOTIFY_SUCCESS ( none = none ) & i have successfully made your reservation . the event is taking place at oracle park and the address of the venue is 24 willie mays plaza .
+OFFER ( date = march 2nd ; event_name = lauv ; venue = the fillmore philadelphia ) & on march 2nd the event lauv at the fillmore philadelphia .
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQUEST ( number_of_tickets = ? ) & sure . how many ?
+INFORM ( subcategory = pop ; address_of_location = 1234 west 7th street ) & it is a pop kind of event . the venue is located at 1234 west 7th street .
+REQ_MORE ( none = none ) & should i do anything .
+REQ_MORE ( none = none ) & anything else today ?
+REQ_MORE ( none = none ) & could i help with something else ?
+INFORM ( time = 5 pm ; venue = chase center experience ) & it starts at 5 pm at chase center experience .
+OFFER ( date = march 4th ; event_name = mets vs braves ; venue = citi field ) & okay , mets vs braves will happen on march 4th at citi field .
+REQUEST ( city_of_event = ? ) & can you tell me the city , where i should look for the event ?
+INFORM ( venue_address = 56-15 northern boulevard, woodside ; category = international ) & it 's an international event and the venue is at 56-15 northern boulevard , woodside .
+INFORM ( time = 7:30 pm ; category = international ) & this is an international event which commences at 7:30 pm .
+INFORM ( subcategory = classical ; address_of_location = 201 van ness avenue ) & it is a classical event and venue located at 201 van ness avenue
+REQUEST ( number_of_tickets = ? ) & how many would you like ?
+REQ_MORE ( none = none ) & then can i assist with something else ?
+OFFER ( date = march 6th ; event_name = huichica music festival ; venue = the sandman hotel ) & there 's the huichica music festival at the sandman hotel on march 6th .
+REQ_MORE ( none = none ) & anything else i can help with ?
+CONFIRM ( event_name = dodgers vs diamondbacks ; number_of_tickets = 3 ; date = day after tomorrow ; city = los angeles ) & please confirm : you are purchasing 3 tickets for dodgers vs diamondbacks in los angeles on the day after tomorrow .
+REQ_MORE ( none = none ) & fine , do you need more from me ?
+REQUEST ( category = ? ) & would you tell me if you have a particular preference when it comes to events ?
+OFFER ( date = march 3rd ; event_name = panteon rococo ; venue = sony hall ) & well , panteon rococo is playing at sony hall on march 3rd .
+INFORM ( address_of_location = 123-01 roosevelt avenue ) @ NOTIFY_SUCCESS ( none = none ) & it is 123-01 roosevelt avenue .
+CONFIRM ( event_name = cubs vs brewers ; number_of_tickets = 3 ; date = march 3rd ; city = chicago ) & sure , here 's what i have : 3 tickets to wrigley field for cubs vs brewers on march 3rd in chicago .
+REQUEST ( number_of_tickets = ? ) & how many tickets are you interested in ?
+REQUEST ( category = ? ) & what type of events are you looking for ?
+REQUEST ( category = music, sports ) & is there a specific category that you like ? you can let me know by saying music , sports or anything else you like .
+REQ_MORE ( none = none ) & what other assistance do you need ?
+CONFIRM ( number_of_tickets = 3 ; city = oakland ) & please verify the following order : 3 tickets for the event in oakland .
+CONFIRM ( event_name = lafc vs rapids ; number_of_tickets = 4 ; date = march 5th ; city = los angeles ) & confirming 4 tickets for lafc vs rapids on march 5th in los angeles .
+CONFIRM ( number_of_tickets = 4 ; date = next friday ) & please confirm : 4 tickets for next friday .
+REQ_MORE ( none = none ) & may i further assist you ?
+INFORM ( time = 7:30 pm ) @ NOTIFY_SUCCESS ( none = none ) & ok , i made the reservation , it begins at 7:30 pm
+REQUEST ( city_of_event = ? ) & in which city ?
+REQ_MORE ( none = none ) & anything else i can help you with ?
+CONFIRM ( event_name = the hives ; number_of_tickets = 3 ; date = next tuesday ; city = san diego ) & we can do that . just to confirm , you would like 3 tickets to the hives next tuesday in san diego , correct ?
+OFFER ( date = march 5th ; event_name = dodgers vs giants ; venue = dodger stadium ) & the dodgers vs giants at the dodger stadium are also playing on march 5th .
+OFFER ( date = march 10th ; event_name = chemical brothers ; venue = forest hills stadium ) & there 's a chemical brothers event at forest hills stadium on march 10th .
+REQUEST ( date = ? ) & tell me the date you want and i 'll happily look that up for you .
+CONFIRM ( event_name = phillies vs diamondbacks ; number_of_tickets = 1 ; date = march 4th ; city = philadelphia ) & can you please confirm that you want me to get you 1 ticket for the phillies vs diamondbacks game in philadelphia on march 4th ?
+CONFIRM ( number_of_tickets = 1 ; city = philadelphia ) & you want 1 ticket to see lights in philadelphia , correct ?
+INFORM ( time = 7:30 pm ) & it 's starts at 7:30 pm .
+REQUEST ( city_of_event = ? ) & what city are you looking at ?
+CONFIRM ( event_name = blowout music festival ; number_of_tickets = 4 ; date = today ; city = new york ) & please confirm the blowout music festival today in new york for 4 .
+CONFIRM ( event_name = water seed ; number_of_tickets = 3 ; date = march 14th ; city = napa ) & you want 3 tickets to see water seed on march 14th in napa . is that right ?
+INFORM ( time = 6 pm ) @ NOTIFY_SUCCESS ( none = none ) & your reservation has been made . have fun ! the event starts at 6 pm .
+INFORM ( address_of_location = 625 nelson road ) & it is 625 nelson road .
+REQUEST ( category = music, sports ) & do you care for any particular category , like music or sports or something else ?
+REQUEST ( number_of_tickets = ? ) & sure , how many tickets do you need ?
+REQUEST ( category = ? ) & any preference on the type of events you will like ?
+REQUEST ( city_of_event = ? ) & what city should i search in ?
+CONFIRM ( event_name = giants vs diamondbacks ; number_of_tickets = 3 ; date = march 4th ; city = san francisco ) & buy tickets at event giants vs diamondbacks for 3 people in san francisco on march 4th.is that okay for you ?
+REQUEST ( number_of_tickets = ? ) & how many tickets do i need .
+CONFIRM ( event_name = amber run brooklyn ; number_of_tickets = 1 ; date = march 2nd ; city = new york ) & so you would like 1 ticket to see amber run brooklyn on march 2nd in new york ?
+REQUEST ( date = ? ) & for which date ?
+OFFER ( date = tomorrow ; event_name = brown sabbath ; venue = crossroads at house of blues anaheim ) & there 's brown sabbath tomorrow at crossroads at house of blues anaheim .
+CONFIRM ( event_name = crystal palace vs norwich ; number_of_tickets = 4 ; date = march 4th ; city = london ) & sure . please can you confirm me that you wish to buy 4 tickets for the event crystal palace vs norwich that is going to be held on march 4th at london , right ?
+CONFIRM ( event_name = seattle vs la angels ; number_of_tickets = 4 ; date = march 2nd ; city = seattle ) & booking 4 tickets for seattle vs la angels on march 2nd in seattle .
+CONFIRM ( number_of_tickets = 2 ; date = march 14th ) & please confirm : you want 2 tickets for the game on march 14th .
+CONFIRM ( number_of_tickets = 4 ; city = seattle ) & just to make sure , you want 4 tickets to the seattle event .
+CONFIRM ( event_name = amber run brooklyn ; number_of_tickets = 4 ; date = march 14th ; city = new york ) & please confirm , you asked for 4 tickets to watch amber run brooklyn in new york , on march 14th .
+OFFER ( date = march 1st ; event_name = nycfc vs red bulls ; venue = yankee stadium ) @ INFORM_COUNT ( count = 3 ) & i found them playing on 3 days . on march 1st nycfc vs red bulls are on at the yankee stadium .
+CONFIRM ( number_of_tickets = 4 ; date = next thursday ) & can you please confirm that you want 4 tickets for next thursday .
+REQ_MORE ( none = none ) & shall i help you with anything more ?
+REQUEST ( date = ? ) & for what date ?
+CONFIRM ( event_name = raiders vs bengals ; number_of_tickets = 3 ; date = today ; city = oakland ) & sure . i will go ahead and buy 3 tickets for the raiders vs bengals game in oakland today . is that right ?
+INFORM ( time = 6 pm ) @ NOTIFY_SUCCESS ( none = none ) & the event begins at 6 pm . i have completed your reservation . enjoy !
+OFFER ( date = today ; event_name = roy ayers ; venue = blue note napa ) @ INFORM_COUNT ( count = 6 ) & i found that event on 6 different days . i have roy ayers at blue note napa today . will that work for you ?
+INFORM ( time = 6 pm ) & the game starts at 6 pm .
+INFORM ( time = 5 pm ) @ NOTIFY_SUCCESS ( none = none ) & your ticket is confirmed . the event starts at 5 pm . have fun !
+REQUEST ( event_name = ? ; date = ? ) & what event are you thinking about ? and is there a specific date for it ?
+CONFIRM ( event_name = france rocks festival ; number_of_tickets = 1 ; date = march 11th ; city = new york ) & to confirm : you 'd like 1 ticket to the france rocks festival on march 11th in new york ?
+CONFIRM ( number_of_tickets = 2 ; date = next thursday ) & okay , so you need a total of 2 tickets for the concert next thursday . is that correct ?
+REQUEST ( number_of_tickets = ? ) & how many tickets do you need ?
+INFORM ( time = 6 pm ) & it 's 6 pm
+CONFIRM ( event_name = conan gray ; number_of_tickets = 3 ; date = march 4th ; city = philadelphia ) & okay , i am booking 3 tickets for conan gray on march 4th in philadelphia . is this right ?
+REQ_MORE ( none = none ) & do you need more help ?
+CONFIRM ( event_name = giants vs dodgers ; number_of_tickets = 4 ; date = march 8th ; city = san francisco ) & you want 4 tickets to see giants vs dodgers on march 8th in san francisco .
+REQ_MORE ( none = none ) & sure , anything else ?
+OFFER ( date = next friday ; event_name = cubs vs padres ; venue = wrigley field ) & another is next friday at wrigley field - the cubs vs padres
+OFFER ( date = march 4th ; event_name = nationals vs phillies ; venue = nationals park ) & yup ! the event nationals vs phillies is on march 4th at nationals park . do you wish to book tickets for this event ?
+REQUEST ( category = ? ) & what type of events do you have in mind ?
+REQ_MORE ( none = none ) & do you need help with anything else ?
+REQUEST ( city_of_event = ? ; event_name = ? ) & what event and where is it located at .
+REQUEST ( date = ? ; number_of_seats = ? ; event_name = ? ) & on which date do you want to go the event ? how many of you going to attend the event ? which event do you prefer to go ?
+CONFIRM ( event_name = raiders vs titans ; number_of_tickets = 1 ; date = march 14th ; city = oakland ) & at raiders vs titans 1 tickets.the event is take place on march 14th in oakland.i 'm right ?
+OFFER ( date = march 3rd ; event_name = aaron lewis ; venue = somo village event center ) @ INFORM_COUNT ( count = 3 ) & i have 3 options for you . how about aaron lewis on march 3rd at somo village event center ?
+REQUEST ( number_of_tickets = ? ) & how many seats will you be needing ?
+CONFIRM ( event_name = allan rayman ; number_of_tickets = 4 ; date = march 9th ; city = san francisco ) & sure thing , please confirm we need 4 tickets for the allan rayman show on march 9th in san francisco . did i get that right ?
+INFORM ( time = 5 pm ) & it starts at 5 pm .
+INFORM ( subcategory = international ) & the show is an international one
+INFORM ( address_of_location = 1 tennis place, forest hills ) @ NOTIFY_SUCCESS ( none = none ) & your tickets are confirmed and the address is 1 tennis place , forest hills .
+REQ_MORE ( none = none ) & do you need anything else from me today ?
+CONFIRM ( number_of_tickets = 2 ; date = next wednesday ) & please confirm : 2 tickets for the event next wednesday .
+INFORM ( time = 5 pm ) @ NOTIFY_SUCCESS ( none = none ) & good news , your order was confirmed , and the event starts at 5 pm .
+INFORM ( time = 7:30 pm ) @ NOTIFY_SUCCESS ( none = none ) & it starts at 7:30 pm . your reservations are all set .
+REQUEST ( date = ? ) & which date should i search for ?
+REQUEST ( city_of_event = ? ; number_of_seats = ? ; date = ? ) & let me help you with that . first , where and when do you want to attend the game ? how man people are in your party ?
+OFFER ( date = today ; event_name = dodgers vs cubs ; venue = dodger stadium ) @ INFORM_COUNT ( count = 2 ) & the dodgers vs cubs game at dodger stadium is on 2 different days , including today .
+INFORM ( subcategory = pop ; address_of_location = 261 driggs avenue, brooklyn ) & its a pop event in 261 driggs avenue , brooklyn
+CONFIRM ( number_of_tickets = 1 ; date = march 14th ) & so you only want 1 ticket to the game on march 14th ?
+REQ_MORE ( none = none ) & is there anything else i can assist with ?
+REQ_MORE ( none = none ) & could i assist you with something else ?
+REQ_MORE ( none = none ) & is there any other help from me ?
+INFORM ( address_of_location = 141 prospect park west, brooklyn ) & the address of the venue is 141 prospect park west , brooklyn .
+REQUEST ( number_of_tickets = ? ) & sure , how many tickets are you looking to get ?
+OFFER ( date = tomorrow ; event_name = whitecaps vs earthquakes ; venue = bc place ) & i found whitecaps vs earthquakes , starts tomorrow at bc place .
+OFFER ( date = march 14th ; event_name = bastille ; venue = cal coast credit union amphitheater ) & yes , what about the event bastille at cal coast credit union amphitheater on march 14th ? is that suits you ?
+CONFIRM ( event_name = blue jays vs indians ; number_of_tickets = 1 ; date = march 13th ; city = toronto ) & great , to confirm : blue jays vs indians , 1 ticket for march 13th in toronto .
+REQ_MORE ( none = none ) & is there anything else you need help with ?
+REQUEST ( city_of_event = ? ) & sure , what city should i look in ?
+CONFIRM ( event_name = arizona vs la dodgers ; number_of_tickets = 2 ; date = march 8th ; city = phoenix ) & you want 2 tickets to see the arizona vs la dodgers game on march 8th in phoenix ?
+CONFIRM ( event_name = mariners vs tigers ; number_of_tickets = 4 ; date = tomorrow ; city = seattle ) & i 'll buy you 4 tickets for the mariners vs tigers game tomorrow in seattle , is that right ?
+INFORM ( address_of_location = 1000 vin scully ave ) @ NOTIFY_SUCCESS ( none = none ) & i have confirmed your reservation . please have a good time . the venue s at 1000 vin scully ave .
+REQUEST ( city_of_event = ? ) & in which city are you looking for ?
+CONFIRM ( event_name = northlane ; number_of_tickets = 4 ; date = march 4th ; city = philadelphia ) & so you want 4 tickets for northlane on march 4th in philadelphia .
+REQUEST ( number_of_tickets = ? ) & how many would you like ?
+CONFIRM ( event_name = huskies vs utes ; number_of_tickets = 1 ; date = next friday ; city = seattle ) & okay , so you 'd like to purchase 1 ticket to huskies vs utes next friday in seattle .
+REQUEST ( category = music, sports ) & what kind of event ? music , sports , or something else ?
+OFFER ( date = march 3rd ; event_name = mariners vs rays ; venue = t-mobile park ) & the mariners vs rays is going on at t-mobile park on march 3rd .
+REQUEST ( number_of_tickets = ? ) & how many tickets do you want me to obtain ?
+REQ_MORE ( none = none ) & can i help you with something else ?
+INFORM ( subcategory = american football ) & it 's an american football game .
+INFORM ( address_of_location = 123-01 roosevelt avenue ) & the address is 123-01 roosevelt avenue .
+CONFIRM ( number_of_tickets = 1 ; date = march 14th ) & confirming 1 ticket on march 14th .
+INFORM ( time = 6:30 pm ) & the activity begins at 6:30 pm .
+INFORM ( time = 5 pm ) & the event will start at 5 pm .
+REQUEST ( number_of_tickets = ? ) & okay , how many tickets you need ?
+REQUEST ( date = ? ) & what day would you like to go ?
+REQUEST ( date = ? ) & on which date do you want to see the event ?
+OFFER ( date = next monday ; event_name = hozier ; venue = theater of the clouds ) & the event is next monday for hozier at theater of the clouds .
+REQ_MORE ( none = none ) & can i assist further ?
+INFORM ( venue = the observatory north park ) & at the observatory north park
+CONFIRM ( event_name = blue jays vs indians ; number_of_tickets = 1 ; date = next thursday ; city = toronto ) & please confirm details . event blue jays vs indians on next thursday in toronto for 1
+CONFIRM ( event_name = josh groban ; number_of_tickets = 1 ; date = next thursday ; city = livermore ) & please confirm you want 1 ticket to josh groban 's concert next thursday in livermore .
+REQ_MORE ( none = none ) & can i do anything more for you ?
+CONFIRM ( event_name = blueface ; number_of_tickets = 4 ; date = march 6th ; city = philadelphia ) & please confirm : 4 tickets for blueface in philadelphia on march 6th ?
+REQUEST ( number_of_tickets = ? ) & how many should i get ?
+REQUEST ( number_of_tickets = ? ) & how many tickets do you want me to get for you ?
+REQUEST ( category = ? ) & what type of events do you prefer ?
+REQUEST ( city_of_event = ? ) & what city would you like to find events in ?
+REQUEST ( city_of_event = ? ) & any preference on the event location ?
+REQUEST ( city_of_event = ? ) & which is your preferred city ?
+INFORM ( address_of_location = 24 willie mays plaza ) & the stadium is at 24 willie mays plaza .
+OFFER ( date = march 2nd ; event_name = carbon leaf ; venue = union stage ) & carbon leaf is playing march 2nd at union stage .
+REQ_MORE ( none = none ) & do you need any other assistance ?
+REQ_MORE ( none = none ) & can i help you with anything else ?
+REQ_MORE ( none = none ) & can i help you further ?
+CONFIRM ( event_name = the struts ; number_of_tickets = 4 ; date = march 5th ; city = san diego ) & sure . would you like to confirm 4 tickets to see the struts on march 5th in san diego ?
+REQUEST ( category = music, sports ) & do you prefer music or sports or something else ?
+REQ_MORE ( none = none ) & what else can i do for you
+CONFIRM ( number_of_tickets = 1 ; city = atlanta ) & please confirm 1 ticket in atlanta
+REQUEST ( number_of_tickets = ? ) & how many tickets do you want ?
+OFFER ( date = march 2nd ; event_name = kishi bashi ; venue = murmrr ) @ INFORM_COUNT ( count = 4 ) & that event is on 4 days . kishi bashi is at murmrr on march 2nd .
+REQUEST ( date = ? ) & do you have a preferred date in mind ?
+OFFER ( date = march 1st ; event_name = roy ayers ; venue = blue note napa ) & roy ayers and it is at blue note napa on march 1st . any interest ?
+REQUEST ( city_of_event = ? ) & sure , any certain city you want me to search ?
+CONFIRM ( event_name = sparks vs mystics ; number_of_tickets = 4 ; date = march 5th ; city = los angeles ) & can you please confirm that you want to buy 4 tickets for the match of sparks vs mystics on march 5th in los angeles ?
+CONFIRM ( event_name = mariners vs tigers ; number_of_tickets = 2 ; date = march 4th ; city = seattle ) & please confirm to book 2 tickets on march 4th to the event mariners vs tigers in seattle .
+CONFIRM ( event_name = amber run brooklyn ; number_of_tickets = 1 ; date = next monday ; city = new york ) & okay . can you confirm the following details , please ? you are purchasing 1 ticket for amber run brooklyn at the warsaw . it takes place next monday in new york .
+CONFIRM ( event_name = angels vs white sox ; number_of_tickets = 3 ; date = march 1st ; city = anaheim ) & sure , confirm me the next operation . i 'll buy 3 tickets for angels vs white sox in anaheim on march 1st
+CONFIRM ( event_name = angels vs orioles ; number_of_tickets = 4 ; date = march 14th ; city = anaheim ) & you want tickets for 4 to angels vs orioles in anaheim on march 14th .
+CONFIRM ( event_name = giants vs nationals ; number_of_tickets = 3 ; date = march 11th ; city = san francisco ) & confirm march 11th for 3 giants vs nationals in san francisco .
+OFFER ( date = next friday ; event_name = giants vs brewers ; venue = oracle park ) @ INFORM_COUNT ( count = 3 ) & i found the giants vs brewers on 3 days and it starts next friday at oracle park .
+INFORM ( subcategory = rock ; address_of_location = 1720 east 16th street ) & it is a rock concert and the location is 1720 east 16th street .
+REQUEST ( number_of_tickets = ? ) & sure , how many ticket do you need ?
+REQUEST ( city_of_event = ? ) & sure , which city should i search in for ?
+CONFIRM ( event_name = mets vs pirates ; number_of_tickets = 3 ; date = march 8th ; city = new york ) & you want 3 tickets to mets vs pirates in new york on march 8th , correct ?
+CONFIRM ( event_name = raiders vs jaguars ; number_of_tickets = 3 ; date = next tuesday ; city = oakland ) & you are instructing me to purchase the following : 3 seats for the oakland game raiders vs jaguars next tuesday . is that correct ?
+OFFER ( date = march 1st ; event_name = kishi bashi ; venue = the old church concert hall ) & you could attend kishi bashi at the old church concert hall on march 1st .
+INFORM ( time = 7 pm ) & the concert starts at 7 pm .
+REQUEST ( city_of_event = ? ) & in which city ?
+INFORM ( address_of_location = 1030 main street ) & the address is 1030 main street
+REQUEST ( number_of_tickets = ? ) & how many ?
+REQUEST ( city_of_event = ? ; category = ? ) & what city would you like to look in ? do you prefer any types of events ?
+REQUEST ( city_of_event = ? ; category = ? ) & i sure can . can you please tell me what type of events do you like and in which city should i search ?
+CONFIRM ( event_name = angels vs white sox ; number_of_tickets = 3 ; date = march 10th ; city = anaheim ) & please confirm you want me to reserve 3 tickets to the angels vs white sox game on march 10th in anaheim .
+REQUEST ( category = ? ) & sure , any preference on the type of events ?
+REQUEST ( date = ? ) & about when will you want these ?
+REQ_MORE ( none = none ) & can i help with anything else ?
+REQUEST ( category = music, sports ; city_of_event = ? ) & i 'd be happy to help . are you interested in anything specific ? you may request music or sports or anything that can narrow down your preferences . where would you like to attend ?
+CONFIRM ( event_name = giants vs nationals ; city = philadelphia ) & please confirm the event giants vs nationals is in philadelphia .
+REQ_MORE ( none = none ) & is there anything else i can do for you today ?
+INFORM ( time = 5:30 pm ) @ NOTIFY_SUCCESS ( none = none ) & i have already confirmed your booking and the event starts at 5:30 pm .
+INFORM ( address_of_location = 401 east jefferson street ) @ NOTIFY_SUCCESS ( none = none ) & your tickets are confirmed . the venue is located at 401 east jefferson street . enjoy the game !
+OFFER ( date = today ; event_name = basta ; venue = concord music hall ) & the event basta is today at concord music hall
+REQUEST ( city_of_event = ? ) & is there a city to search ?
+OFFER ( date = march 4th ; event_name = smokey robinson ; venue = pne amphitheatre ) @ INFORM_COUNT ( count = 5 ) & i found an event on 5 days . there is an event smokey robinson at pne amphitheatre on march 4th .
+CONFIRM ( event_name = giants vs dodgers ; number_of_tickets = 3 ; date = march 4th ; city = san francisco ) & please confirm 3 tickets for giants vs dodgers in san francisco on march 4th .
+REQUEST ( number_of_tickets = ? ) & how many tickets ?
+INFORM ( time = 6:30 pm ) & it starts at 6:30 pm .
+INFORM ( time = 7 pm ) & the concert is at 7 pm
+INFORM ( address_of_location = 123-01 roosevelt avenue ) & the address is 123-01 roosevelt avenue .
+CONFIRM ( event_name = the hives ; number_of_tickets = 1 ; date = march 6th ; city = san diego ) & no problem . just to confirm , you want to buy 1 ticket to the hives in san diego on march 6th . is that right ?
+REQUEST ( date = ? ) & on which date ?
+REQUEST ( number_of_tickets = ? ) & how many tickets do you want ?
+CONFIRM ( event_name = giants vs rockies ; city = san francisco ) & okay , you want the tickets for the giants vs rockies in san francisco , correct ?
+OFFER ( date = march 2nd ; event_name = blue jays vs yankees ; venue = rogers centre ) & the event blue jays vs yankees is happening on march 2nd at rogers centre .
+CONFIRM ( event_name = basta ; number_of_tickets = 1 ; date = today ; city = chicago ) & just to confirm , you need 1 ticket for basta today in chicago ?
+REQUEST ( city_of_event = ? ) & in what city ?
+OFFER ( date = march 1st ; event_name = diamondbacks vs orioles ; venue = chase field ) & i found the diamondbacks vs orioles at chase field on march 1st .
+OFFER ( date = march 3rd ; event_name = beach boys ; venue = pne amphitheatre ) @ INFORM_COUNT ( count = 4 ) & there is a beach boys event happening at the pne amphitheatre in 4 days on march 3rd .
+REQ_MORE ( none = none ) & can i help with anything else ?
+REQUEST ( date = ? ) & do you have a date ?
+INFORM ( venue_address = brisbane, california 94005, united states ; category = blues ) & it 's a blues event at brisbane , california 94005 , united states .
+OFFER ( date = march 1st ; event_name = giants vs rockies ; venue = oracle park ) & the giants vs rockies will be at oracle park on march 1st .
+INFORM ( subcategory = rock ; address_of_location = 29 east allen street 2nd floor ) & the genre is rock . the venue is located at 29 east allen street 2nd floor .
+REQUEST ( date = ? ) & what date do you want me to look for ?
+REQUEST ( number_of_tickets = ? ) & how many tickets i need to get ?
+CONFIRM ( event_name = usc vs oregon ; number_of_tickets = 2 ; date = march 10th ; city = los angeles ) & sure . please confirm me that you wish to buy 2 tickets for the event usc vs oregon that is going to take place on march 10th in los angeles , right ?
+REQ_MORE ( none = none ) & anything else i can do to help ?
+INFORM ( address_of_location = 24 willie mays plaza ) @ NOTIFY_SUCCESS ( none = none ) & i 've successfully booked your tickets . the address is 24 willie mays plaza .
+CONFIRM ( event_name = giants vs nationals ; number_of_tickets = 2 ; date = march 10th ; city = san francisco ) & so you would like 2 tickets to giants vs nationals in san francisco on march 10th ?
+REQ_MORE ( none = none ) & do you need help with something more ?
+OFFER ( date = march 3rd ; event_name = psychedelic furs ; venue = the observatory north park ) @ INFORM_COUNT ( count = 5 ) & search revealed 5 results . psychedelic furs is playing at the observatory north park on march 3rd .
+INFORM ( address_of_location = 5970 santa monica boulevard ) & 5970 santa monica boulevard .
+REQUEST ( city_of_event = ? ) & do you want the event in any particular city ?
+REQ_MORE ( none = none ) & do you need more help ?
+INFORM ( time = 6 pm ; category = baseball ) & mets vs cubs is a baseball game and begins at 6 pm with gates opening at 4 pm .
+CONFIRM ( event_name = rams vs cardinals ; number_of_tickets = 1 ; date = march 3rd ; city = los angeles ) & please confirm your details : you are booking 1 ticket for rams vs cardinals on march 3rd in los angeles .
+INFORM ( time = 5 pm ) & it starts at 5 pm .
+INFORM ( address_of_location = 123-01 roosevelt avenue ) & it 's at 123-01 roosevelt avenue .
+OFFER ( date = march 14th ; event_name = amber run brooklyn ; venue = warsaw ) @ INFORM_COUNT ( count = 1 ) & the event is on for 1 day on march 14th . it 's called amber run brooklyn and is at warsaw .
+OFFER ( date = march 6th ; event_name = harlem gospel choir ; venue = sony hall ) & harlem gospel choir in sony hall will play on march 6th
+INFORM ( address_of_location = 123-01 roosevelt avenue ) & 123-01 roosevelt avenue .
+OFFER ( date = march 6th ; event_name = the buttertones ; venue = chop shop ) @ INFORM_COUNT ( count = 5 ) & i found 5 dates for the buttertones at chop shop beginning on march 6th .
+OFFER ( date = tomorrow ; event_name = blue jays vs yankees ; venue = rogers centre ) @ INFORM_COUNT ( count = 7 ) & i found 7 days of the event . the blue jays vs yankees will take place tomorrow at rogers centre .
+CONFIRM ( event_name = huskies vs cougars ; number_of_tickets = 3 ; date = march 10th ; city = seattle ) & okay , you want 3 tickets for huskies vs cougars on march 10th at seattle . please confirm .
+REQUEST ( number_of_tickets = ? ) & how many tickets would you like ?
+CONFIRM ( event_name = crystal palace vs norwich ; number_of_tickets = 2 ; date = next monday ; city = london ) & so you 'd like 2 tickets for the crystal palace vs norwich event , taking place in london next monday ?
+CONFIRM ( event_name = russian circles ; number_of_tickets = 2 ; date = march 3rd ; city = new york ) & please confirm : 2 tickets for russian circles on march 3rd in new york .
+REQUEST ( number_of_tickets = ? ) & okay , and how many persons will be going to the event ?
+REQUEST ( number_of_tickets = ? ) & let me know the number of tickets that you want to book for this event .
+INFORM ( address_of_location = 178 junction road ) & 178 junction road .
+INFORM ( time = 5 pm ) & the start time is 5 pm .
+INFORM ( time = 7:30 pm ) & it starts at 7:30 pm .
+REQUEST ( city_of_event = ? ) & is there any specific city should i search ?
+INFORM ( venue_address = 1000 vin scully ave ; category = baseball ) & this is a baseball game located at 1000 vin scully ave .
+OFFER ( date = march 1st ; event_name = northlane ; venue = the foundry ) & well northlane will actually going to be performing on march 1st , at the foundry .
+REQ_MORE ( none = none ) & is there anything else you need me to do ?
+CONFIRM ( number_of_tickets = 3 ; date = today ) & ok so 3 tickets for that game today .
+INFORM ( subcategory = pop ) & well , the event is a pop concert .
+OFFER ( date = march 1st ; event_name = cher ; venue = chase center experience ) @ INFORM_COUNT ( count = 5 ) & i have events on 5 days.on march 1st is the event cher and take place at chase center experience .
+CONFIRM ( event_name = blue jays vs orioles ; number_of_tickets = 3 ; date = march 5th ; city = toronto ) & please give confirmation details : ticket booking for the event blue jays vs orioles in toronto on march 5th and requirement of ticket is 3 .
+REQ_MORE ( none = none ) & is there anything else i can help with .
+INFORM ( time = 5:30 pm ) & the show starts at 5:30 pm .
+REQ_MORE ( none = none ) & can i do anything else for you .
+REQ_MORE ( none = none ) & is there anything else i could do for you ?
+OFFER ( date = next monday ; event_name = mariners vs angels ; venue = t-mobile park ) & the following mariners vs angels game at t-mobile park is next monday .
+INFORM ( subcategory = classical ) & it is a classical event .
+INFORM ( time = 8:30 pm ) @ NOTIFY_SUCCESS ( none = none ) & your reservation was successful . have a great time ! starts at 8:30 pm !
+REQ_MORE ( none = none ) & thanks . what else you got for me ?
+INFORM ( time = 5 pm ) & yes , this event will begin at 5 pm .
+OFFER ( date = next monday ; event_name = seahawks vs cardinals ; venue = centurylink field ) & yes , seahawks vs cardinals is on next monday at centurylink field
+REQUEST ( number_of_tickets = ? ) & how many ?
+CONFIRM ( event_name = falcons vs jaguars ; number_of_tickets = 1 ; date = next monday ; city = atlanta ) & to verify : you want 1 ticket for the falcons vs jaguars next monday in atlanta .
+OFFER ( date = next monday ; event_name = gloryhammer ; venue = 1720(tm) ) @ INFORM_COUNT ( count = 1 ) & the is an event on 1 other day next monday at 1720 ( tm ) for gloryhammer .
+REQUEST ( date = ? ) & do you have a preference in the date for the event ?
+INFORM ( address_of_location = 1 lincoln financial field way ) @ NOTIFY_SUCCESS ( none = none ) & booking the tickets was a success . the game will be held at 1 lincoln financial field way .
+OFFER ( date = march 3rd ; event_name = diamondbacks vs nationals ; venue = chase field ) & there 's the diamondbacks vs nationals at chase field on march 3rd .
+CONFIRM ( event_name = wallows ; number_of_tickets = 2 ; date = next wednesday ; city = london ) & i 'm reserving 2 tickets for the wallows event , happening on next wednesday in london . do you want to confirm that ?
+INFORM ( time = 7 pm ) & it begins at 7 pm .
+INFORM ( time = 5 pm ) & the event will begin promptly at 5 pm .
+CONFIRM ( event_name = cardinal vs ducks ; number_of_tickets = 1 ; date = next wednesday ; city = stanford ) & let me see if i got everything correctly : 1 ticket for the cardinal vs ducks game in stanford , for next wednesday ?
+OFFER ( date = march 8th ; event_name = whitecaps vs earthquakes ; venue = bc place ) & whitecaps vs earthquakes would be playing at bc place on march 8th .
+REQUEST ( city_of_event = ? ) & i can do that . what city would you like to search ?
+REQ_MORE ( none = none ) & is there anything else i can help with ?
+OFFER ( date = march 4th ; event_name = nationals vs indians ; venue = nationals park ) @ INFORM_COUNT ( count = 4 ) & there are 4 dates for this event . how about nationals vs indians at nationals park on march 4th ?
+REQ_MORE ( none = none ) & do you need further assistance then ?
+INFORM ( address_of_location = 1 lincoln financial field way ) & 1 lincoln financial field way .
+REQ_MORE ( none = none ) & do you need anything else ?
+OFFER ( date = march 5th ; event_name = diamondbacks vs rockies ; venue = chase field ) @ INFORM_COUNT ( count = 4 ) & there are 4 days available for the event diamondbacks vs rockies . one is on march 5th at chase field .
+REQUEST ( city_of_event = ? ) & is there a specific city you have in mind ?
+REQUEST ( event_name = ? ; city = ? ; date = ? ) & what kind of event ? and in what city and for what date ?
+CONFIRM ( number_of_tickets = 3 ; date = march 9th ) & 3 tickets on the march 9th then ?
+REQUEST ( city_of_event = ? ) & which city are you looking in ?
+CONFIRM ( event_name = jordan rakei ; number_of_tickets = 3 ; date = march 12th ; city = los angeles ) & you 'd like 3 tickets to see jordan rakei on march 12th in los angeles . is this correct ?
+OFFER ( date = march 1st ; event_name = jordan rakei ; venue = regent theater dtla ) & i do show an event for jordan rakei playing at regent theater dtla on march 1st if your interested .
+INFORM ( time = 7:30 pm ; category = international ) & it is an international event and starts at 7:30 pm
+REQ_MORE ( none = none ) & can i do anything else for you ?
+REQUEST ( number_of_tickets = ? ) & okay , and how many tickets will you be needing .
+REQUEST ( number_of_tickets = ? ) & how many tickets would you like ?
+CONFIRM ( event_name = dodgers vs giants ; number_of_tickets = 3 ; date = next wednesday ; city = los angeles ) & there are 3 tickets for dodgers vs giants next wednesday in los angeles . shall i make a reservation ?
+REQUEST ( category = ? ) & do you have any preferred category of events in mind ?
+CONFIRM ( event_name = blue jays vs astros ; number_of_tickets = 3 ; date = march 9th ; city = toronto ) & to confirm : you want 3 tickets to the blue jays vs astros game on march 9th in toronto .
+REQUEST ( category = music, sports ) & music , sports or some other type of activity ?
+REQ_MORE ( none = none ) & would you like my help with anything else ?
+REQ_MORE ( none = none ) & what else can i do for you ?
+REQUEST ( number_of_tickets = ? ) & how many should i get ?
+CONFIRM ( event_name = life is beautiful festival ; number_of_tickets = 2 ; date = march 4th ; city = las vegas ) & please confirm : 2 tickets of life is beautiful festival for march 4th in las vegas
+INFORM ( address_of_location = 1 lincoln financial field way ) & 1 lincoln financial field way
+REQUEST ( city_of_event = ? ) & depends on where ?
+REQ_MORE ( none = none ) & do you need me to help with anything else ?
+INFORM ( address_of_location = 5970 santa monica boulevard ) & the address is 5970 santa monica boulevard .
+CONFIRM ( event_name = vertical horizon ; number_of_tickets = 2 ; date = march 4th ; city = new york ) & 2 tickets for vertical horizon on march 4th in new york .
+REQUEST ( number_of_tickets = ? ) & how many tickets do you want ?
+REQUEST ( city_of_event = ? ) & and what city would you like to find events in ?
+CONFIRM ( event_name = raiders vs jaguars ; number_of_tickets = 4 ; date = march 4th ; city = oakland ) & please confirm the following details : booking tickets for raiders vs jaguars . the number of tickets is 4 , and will take place on march 4th . the event is in oakland .
+CONFIRM ( number_of_tickets = 2 ; date = today ) & you want 2 tickets for the event today . is that right ?
+REQUEST ( category = ? ) & do you have any preference on the type of event ?
+CONFIRM ( event_name = giants vs marlins ; number_of_tickets = 2 ; date = march 11th ; city = san francisco ) & please confirm the giants vs marlins for 2 tickets march 11th in san francisco .
+INFORM ( address_of_location = 401 west van buren street ) @ NOTIFY_SUCCESS ( none = none ) & i have purchased your three tickets and made the reservation . please enjoy yourself at the performance . to answer your question , the venue is located at 401 west van buren street .
+INFORM ( address_of_location = 24 willie mays plaza ) & 24 willie mays plaza .
+REQUEST ( date = ? ) & do you have a specific date in mind for the event ?
+REQ_MORE ( none = none ) & could you help me with anything else ?
+OFFER ( date = march 1st ; event_name = phillies vs diamondbacks ; venue = citizens bank park ) @ INFORM_COUNT ( count = 5 ) & i found it on 5 days . phillies vs diamondbacks at citizens bank park will occur on march 1st .
+INFORM ( time = 5:30 pm ; category = soccer ) & the soccer event starts at 5:30 pm
+OFFER ( date = march 10th ; event_name = padres vs diamondbacks ; venue = petco park ) & what about on march 10th for the same padres vs diamondbacks at petco park ?
+REQ_MORE ( none = none ) & alright . anything else i can do for you ?
+OFFER ( date = march 5th ; event_name = dodgers vs giants ; venue = dodger stadium ) & the event dodgers vs giants is on march 5th at dodger stadium .
+CONFIRM ( number_of_tickets = 2 ; date = march 14th ) & okay , now i have 2 tickets for the game on march 14th .
+REQ_MORE ( none = none ) & do you need any other help ?
+CONFIRM ( event_name = nationals vs indians ; number_of_tickets = 3 ; date = next monday ; city = washington d.c. ) & you would like 3 tickets for the nationals vs indians next monday in washington d.c. , is this correct ?
+CONFIRM ( event_name = jethro tull ; number_of_tickets = 3 ) & please confirm you want 3 tickets to jethro tull .
+CONFIRM ( event_name = outlaw music festival ; number_of_tickets = 4 ; date = march 3rd ; city = new york ) & 4 tickets for outlaw music festival on march 3rd in new york .
+OFFER ( date = march 2nd ; event_name = raiders vs chiefs ; venue = oakland-alameda county coliseum ) @ INFORM_COUNT ( count = 3 ) & found 3 results , what about the event raiders vs chiefs at oakland-alameda county coliseum on march 2nd ?
+REQ_MORE ( none = none ) & would you need help with anything else ?
+INFORM ( time = 6 pm ) @ NOTIFY_SUCCESS ( none = none ) & the event for 6 pm is confirmed .
+REQUEST ( number_of_tickets = ? ) & okay , how many tickets do you want ?
+CONFIRM ( event_name = amber run brooklyn ; number_of_tickets = 2 ; date = march 14th ; city = new york ) & you want 2 tickets to the amber run brooklyn event on march 14th in new york is that right ?
+REQUEST ( category = ? ; city_of_event = ? ) & do you have a sort of category ? what city please ?
+OFFER ( date = march 3rd ; event_name = starset ; venue = regent theater dtla ) & you can attend the starset at regent theater dtla on march 3rd .
+OFFER ( date = day after tomorrow ; event_name = mets vs diamondbacks ; venue = citi field ) & sure . there 's a mets vs diamondbacks game the day after tomorrow in citi field
+CONFIRM ( event_name = nav with killy ; number_of_tickets = 4 ; date = march 11th ; city = philadelphia ) & so would like me to buy 4 tickets for the nav with killy in philadelphia on march 11th ?
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+CONFIRM ( event_name = hozier ; number_of_tickets = 1 ; date = next tuesday ; city = san diego ) & okay , i have you 1 ticket reserved for the hozier event next tuesday in san diego , does that sound right ?
+CONFIRM ( event_name = sparks vs storm ; number_of_tickets = 1 ; date = march 1st ; city = los angeles ) & great confirming 1 ticket for sparks vs storm on march 1st in los angeles .
+INFORM ( venue = warsaw ; venue_address = 261 driggs avenue, brooklyn ) @ NOTIFY_SUCCESS ( none = none ) & reservations confirmed . enjoy ! the event is at warsaw and is located at 261 driggs avenue , brooklyn .
+OFFER ( date = next wednesday ; event_name = americo ; venue = la boom ) & americo at la boom will also take place next wednesday .
+REQUEST ( number_of_tickets = ? ) & what is the number of tickets you would like ?
+REQUEST ( date = ? ) & any preferred dates ?
+REQ_MORE ( none = none ) & anything else i can help with ?
+REQ_MORE ( none = none ) & anything else today ?
+OFFER ( date = march 2nd ; event_name = nationals vs diamondbacks ; venue = nationals park ) @ INFORM_COUNT ( count = 7 ) & yup ! the event will be conducted for 7 days starting from march 2nd . the event nationals vs diamondbacks is going to held at nationals park .
+CONFIRM ( event_name = acoustic alchemy ; number_of_tickets = 2 ; date = next tuesday ; city = napa ) & please confirm to reserve 2 tickets for the event acoustic alchemy on next tuesday in napa .
+REQUEST ( city_of_event = ? ) & is there a city i should search ?
+INFORM ( time = 6 pm ) @ NOTIFY_SUCCESS ( none = none ) & the booking of the tickets has been made and the event will be starting at 6 pm .
+CONFIRM ( number_of_tickets = 1 ; date = march 9th ) & kindly ensure that , on march 9th 1 ticket has been reserved .
+INFORM ( subcategory = basketball ; address_of_location = 1100 oak drive se ) & there is a basketball event in 1100 oak drive se .
+REQ_MORE ( none = none ) & can i assist with any other matter ?
+OFFER ( date = today ; event_name = blueface ; venue = the fillmore philadelphia ) @ INFORM_COUNT ( count = 7 ) & i found that event on 7 days . blueface is on today , at the fillmore philadelphia .
+REQUEST ( category = music, sports ; city_of_event = ? ) & is there a particular category you like , maybe music or sports and any particular city you are looking in ?
+CONFIRM ( event_name = yankees vs blue jays ; number_of_tickets = 1 ; date = march 8th ; city = new york ) & okay is the following correct ? there is 1 ticket reserved for march 8th for yankees vs blue jays occurring in new york .
+INFORM ( subcategory = pop ; address_of_location = 1111 southwest broadway ) & it is a pop event at 1111 southwest broadway .
+REQ_MORE ( none = none ) & anything else i can help you with today ?
+CONFIRM ( event_name = the chats ; number_of_tickets = 4 ; date = march 8th ; city = phoenix ) & okay , i have 4 tickets for the chats on march 8th in phoenix , correct ?
+INFORM ( time = 6 pm ) & the event starts at 6 pm .
+CONFIRM ( number_of_tickets = 1 ; city = los angeles ) & please confirm : 1 ticket for los angeles event .
+REQ_MORE ( none = none ) & do you need any other help ?
+CONFIRM ( event_name = republic vs toros ; number_of_tickets = 1 ; date = march 7th ; city = sacramento ) & please confirm booking for republic vs toros 1 ticket on march 7th in sacramento .
+INFORM ( time = 5:30 pm ) & it starts at 5:30 pm .
+REQ_MORE ( none = none ) & do you need any other help ?
+OFFER ( date = next monday ; event_name = star city music festival ; venue = brisbane community park ) & there 's a star city music festival next monday at brisbane community park
+INFORM ( address_of_location = 1234 west 7th street ) @ NOTIFY_SUCCESS ( none = none ) & 1234 west 7th street . enjoy . your seat is confirmed .
+CONFIRM ( event_name = aftershock festival ; number_of_tickets = 4 ; date = march 13th ; city = sacramento ) & could you confirm that you want to book 4 tickets for aftershock festival on march 13th at sacramento ?
+REQ_MORE ( none = none ) & would you like help with anything else ?
+REQ_MORE ( none = none ) & anything else i can help you with ?
+CONFIRM ( event_name = the original wailers ; city = berkeley ) & please confirm you want me to book the tickets for the original wailers event in berkeley .
+OFFER ( date = march 12th ; event_name = ben harper ; venue = pier 17 ) @ INFORM_COUNT ( count = 1 ) & ben harper will appear at pier 17 for 1 day , march 12th .
+REQUEST ( category = music, sports ) & what would you like to do ? music ? sports ?
+REQUEST ( category = ? ) & i can help with that , what kinds of events do you like ?
+REQUEST ( category = ? ) & do you have a particular category of event in mind ?
+INFORM ( time = 5:30 pm ) & the event you looking for starts at 5:30 pm .
+CONFIRM ( event_name = mariners vs angels ; number_of_tickets = 4 ; date = next monday ; city = seattle ) & you 'd like to buy 4 tickets to the mariners vs angels game in seattle happening next monday . can you confirm ?
+REQUEST ( category = ? ) & what kind of even ?
+REQ_MORE ( none = none ) & do you need more help ?
+REQ_MORE ( none = none ) & is there anything else ?
+OFFER ( date = march 6th ; event_name = mets vs pirates ; venue = citi field ) & mets vs pirates are playing at citi field on march 6th .
+OFFER ( date = march 1st ; event_name = jordan rakei ; venue = regent theater dtla ) @ INFORM_COUNT ( count = 9 ) & i found 9 options . on march 1st jordan rakei at regent theater dtla .
+OFFER ( date = march 14th ; event_name = bill callahan ; venue = lodge room ) @ INFORM_COUNT ( count = 1 ) & i have found a event which is on 1 day . the event is scheduled on march 14th at lodge room . the event name is bill callahan .
+OFFER ( date = march 6th ; event_name = prettymuch ; venue = cal coast credit union amphitheater ) @ INFORM_COUNT ( count = 3 ) & i 've found 3 dates ; prettymuch is playing at cal coast credit union amphitheater on march 6th .
+REQ_MORE ( none = none ) & anything else ?
+OFFER ( date = day after tomorrow ; event_name = beach boys ; venue = pne amphitheatre ) & the beach boys concert will be on the day after tomorrow at the pne amphitheatre .
+REQUEST ( category = music, sports ) & what category are you interested in specifically ? for example , music , sports , etc .
+CONFIRM ( event_name = blueface ; number_of_tickets = 3 ; date = today ; city = philadelphia ) & kindly ensure that , today 3 tickets have been booked for the event blueface will be at the fillmore philadelphia .
+INFORM ( time = 7:30 pm ) & it kicks off at 7:30 pm .
+REQUEST ( event_name = ? ; city = ? ; date = ? ) & can you tell me which event are you interested in ? is there a specific city where i should look for the event ? do you have a particular date in mind for when the event should happen ?
+OFFER ( date = march 6th ; event_name = tuxedo ; venue = the observatory north park ) @ INFORM_COUNT ( count = 4 ) & there are events on 4 days . how about tuxedo at the observatory north park on march 6th ?
+CONFIRM ( event_name = timbers vs earthquakes ; number_of_tickets = 4 ; date = march 11th ; city = portland ) & let me see if i got everything correctly : you 'd like 4 tickets for the timbers vs earthquakes event taking place on march 11th , in portland .
+INFORM ( address_of_location = 401 west van buren street ) @ NOTIFY_SUCCESS ( none = none ) & your reservation is confirmed . the venue is at 401 west van buren street . have fun !
+OFFER ( date = march 2nd ; event_name = cubs vs mariners ; venue = wrigley field ) @ INFORM_COUNT ( count = 5 ) & there are games on 5 days . there is the cubs vs mariners game at wrigley field on march 2nd .
+INFORM ( time = 6 pm ) & 6 pm .
+REQUEST ( number_of_tickets = ? ) & sure , how many ?
+CONFIRM ( event_name = roy ayers ; number_of_tickets = 1 ; date = march 2nd ; city = napa ) & let me confirm that you want 1 ticket for the roy ayers event at napa on march 2nd .
+REQUEST ( date = ? ) & and the date ?
+OFFER ( date = march 9th ; event_name = outlaw music festival ; venue = forest hills stadium ) & another date for the outlaw music festival is march 9th , and it happens at forest hills stadium .
+CONFIRM ( event_name = lafc vs atlanta united ; number_of_tickets = 1 ; date = march 9th ; city = los angeles ) & verify the following specifics : reserving 1 ticket for lafc vs atlanta united . the event is in los angeles on march 9th .
+REQUEST ( category = ? ) & is there any preferred category of events ?
+REQUEST ( category = ? ) & what 's your preference ?
+INFORM ( address_of_location = 1111 south figueroa street ) & the place is at 1111 south figueroa street .
+CONFIRM ( event_name = todd rundgren ; number_of_tickets = 2 ; date = march 7th ; city = yountville ) & book 2 tickets at event todd rundgren in yountville on march 7th.is that correct ?
+OFFER ( date = march 9th ; event_name = angels vs tigers ; venue = angel stadium of anaheim ) & there 's one on march 9th . angels vs tigers at the angel stadium of anaheim .
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQ_MORE ( none = none ) & need help with anything else ?
+OFFER ( date = march 2nd ; event_name = owls vs huskies ; venue = lincoln financial field ) @ INFORM_COUNT ( count = 7 ) & i searched the event on 7 days . one of them is owls vs huskies which taking place in lincoln financial field on march 2nd .
+INFORM ( venue = the foundry ) @ NOTIFY_SUCCESS ( none = none ) & the tickets are booked . the event is at the foundry .
+REQ_MORE ( none = none ) & anything else i can help with ?
+CONFIRM ( number_of_tickets = 1 ; city = phoenix ) & so that 's 1 ticket to the game in phoenix .
+INFORM ( address_of_location = 123-01 roosevelt avenue ) & citi field is located at 123-01 roosevelt avenue .
+CONFIRM ( event_name = madonna brooklyn ; number_of_tickets = 2 ; date = march 6th ; city = new york ) & i was able to locate that for you and i have the details as follows : 2 tickets to the madonna brooklyn show that takes place in new york on march 6th . is that correct ?
+CONFIRM ( event_name = vertical horizon ; number_of_tickets = 1 ; date = march 13th ; city = new york ) & please make sure this is correct , i 'll get you 1 ticket for vertical horizon in new york on march 13th .
+CONFIRM ( event_name = giants vs marlins ; number_of_tickets = 4 ; date = march 1st ; city = san francisco ) & you want 4 tickets to giants vs marlins in san francisco on march 1st . is that right ?
+INFORM ( time = 6 pm ) & the show starts at 6 pm .
+REQUEST ( city_of_event = ? ) & is there a specific location i should search for ?
+REQ_MORE ( none = none ) & do you require any further assistance ?
+OFFER ( date = march 1st ; event_name = jethro tull ; venue = forest hills stadium ) @ INFORM_COUNT ( count = 7 ) & march 1st is one of 7 days for the jethro tull event in forest hills stadium .
+REQUEST ( number_of_tickets = ? ) & how many tickets would you like to purchase ?
+REQ_MORE ( none = none ) & is there anything else i can help you with today ?
+REQ_MORE ( none = none ) & any thing else ?
+INFORM ( address_of_location = 3911 figueroa street ) & that 's at 3911 figueroa street .
+CONFIRM ( event_name = greensky bluegrass ; number_of_tickets = 1 ; date = march 4th ; city = phoenix ) & booking 1 ticket for greensky bluegrass on march 4th in phoenix .
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+INFORM ( address_of_location = 3911 figueroa street ) & sure , it is held at 3911 figueroa street .
+CONFIRM ( event_name = low ; number_of_tickets = 1 ; date = tomorrow ; city = new york ) & please confirm the following details : the event is low , the number of tickets is 1 , and the event takes place tomorrow . also , the event is in new york .
+REQUEST ( number_of_tickets = ? ) & what number of tickets do you want ?
+CONFIRM ( event_name = mets vs indians ; number_of_tickets = 3 ; date = march 3rd ; city = new york ) & okay , you would like me to reserve 3 tickets to the mets vs indians game playing in new york on march 3rd , correct ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+OFFER ( date = next wednesday ; event_name = jethro tull ; venue = forest hills stadium ) & jethro tull is playing at forest hills stadium next wednesday .
+OFFER ( date = march 8th ; event_name = guided by voices ; venue = the teragram ballroom ) & is the event guided by voices on march 8th is convenient to you at the teragram ballroom ?
+REQ_MORE ( none = none ) & would you like help with something else ?
+REQ_MORE ( none = none ) & is there anything else ?
+REQ_MORE ( none = none ) & is there anything else you need ?
+REQUEST ( number_of_tickets = ? ) & let me know the number tickets you need to purchase .
+CONFIRM ( event_name = berkeley world music festival ; number_of_tickets = 2 ; date = march 11th ; city = berkeley ) & please confirm you 're booking 2 tickets for berkeley world music festival on march 11th in berkeley .
+OFFER ( date = march 9th ; event_name = dodgers vs cubs ; venue = dodger stadium ) & we also have dodgers vs cubs at dodger stadium on march 9th .
+CONFIRM ( event_name = huichica music festival ; number_of_tickets = 4 ; date = march 10th ; city = santa rosa ) & i 'll get you 4 tickets to huichica music festival on march 10th in santa rosa , is that correct ?
+CONFIRM ( event_name = giants vs phillies ; number_of_tickets = 2 ; date = march 4th ; city = san francisco ) & you 'd like 2 tickets to see the giants vs phillies on march 4th in san francisco . is that correct ?
+REQ_MORE ( none = none ) & is there anything else ?
+REQ_MORE ( none = none ) & do you need something more ?
+INFORM ( address_of_location = 2891 university avenue ) @ NOTIFY_SUCCESS ( none = none ) & i have confirmed your reservation . enjoy it ! the location is 2891 university avenue .
+CONFIRM ( event_name = jordan rakei ; number_of_tickets = 1 ; date = march 5th ; city = los angeles ) & please confirm these details . you are booking 1 ticket for jordan rakei in los angeles on march 5th .
+INFORM ( subcategory = baseball ) & would it be a baseball event ?
+INFORM ( address_of_location = 1844 southwest morrison street ) & yes . the address is 1844 southwest morrison street .
+INFORM ( address_of_location = 29 east allen street ) @ NOTIFY_SUCCESS ( none = none ) & it 's located at 29 east allen street . i 've purchased you the tickets , have a fun time there !
+INFORM ( time = 6 pm ) & the event will start at 6 pm .
+OFFER ( date = tomorrow ; event_name = owls vs yellow jackets ; venue = lincoln financial field ) @ INFORM_COUNT ( count = 9 ) & there are 9 dates for the event owls vs yellow jackets , and one of the date is tomorrow , which will be held at lincoln financial field .
+REQUEST ( number_of_tickets = ? ) & how many tickets ?
+CONFIRM ( event_name = girl in red ; number_of_tickets = 3 ; date = march 1st ; city = philadelphia ) & please confirm you want 3 tickets for girl in red on march 1st in philadelphia .
+OFFER ( date = march 6th ; event_name = usc vs ucla ; venue = la memorial coliseum ) & on march 6th usc vs ucla will happen again on the la memorial coliseum .
+OFFER ( date = tomorrow ; event_name = celine dion ; venue = chase center experience ) & celine dion will also be performing at the chase center experience tomorrow .
+CONFIRM ( event_name = aftershock festival ; number_of_tickets = 4 ; date = march 14th ; city = sacramento ) & please confirm your reservation for 4 tickets for the aftershock festival in sacramento on march 14th .
+CONFIRM ( event_name = crystal lake ; number_of_tickets = 1 ; date = march 13th ; city = london ) & please confirm the following details : 1 tickets for crystal lake in london on march 13th
+CONFIRM ( event_name = timmy trumpet ; number_of_tickets = 2 ; date = march 1st ; city = chicago ) & confirming 2 tickets for timmy trumpet in chicago on march 1st .
+INFORM ( address_of_location = 2367 shattuck avenue ) & it 's over on 2367 shattuck avenue .
+REQUEST ( city_of_event = ? ; category = music, sports ) & sure , what city would you like me to search ? anything you like in particular ? you can say things like music , sports , or anything else you like .
+OFFER ( date = next monday ; event_name = carbon leaf ; venue = union stage ) & on next monday , the same event carbon leaf will takes place at union stage , hope this will convenient to you .
+REQUEST ( category = ? ) & would you prefer a certain category of event ?
+REQUEST ( number_of_tickets = ? ) & how many would you like ?
+REQUEST ( number_of_tickets = ? ) & how many tickets do you need ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQUEST ( category = music, sports ) & music ? sports ? museums ?
+REQ_MORE ( none = none ) & is there anything else ?
+INFORM ( address_of_location = 64 north 9th street, brooklyn ) & at 64 north 9th street , brooklyn .
+INFORM ( time = 6:30 pm ) & the event will start at 6:30 pm .
+OFFER ( date = march 4th ; event_name = the drums ; venue = the van buren ) & i found an event on march 4th with the drums and the van buren .
+INFORM ( subcategory = baseball ) & it 's baseball , a game .
+OFFER ( date = march 2nd ; event_name = remo drive ; venue = the chapel ) & yes , remo drive will be at the chapel again on march 2nd .
+OFFER ( date = next wednesday ; event_name = lights ; venue = the teragram ballroom ) & the event lights will takes place on next wednesday at the teragram ballroom
+OFFER ( date = march 1st ; event_name = giants vs marlins ; venue = oracle park ) @ INFORM_COUNT ( count = 6 ) & i 've found the game happening on 6 different dates . there 's one happening on march 1st . it 's giants vs marlins at oracle park .
+REQ_MORE ( none = none ) & are there any more tasks available to me ?
+REQ_MORE ( none = none ) & do you require anything else ?
+CONFIRM ( event_name = lafc vs atlanta united ; number_of_tickets = 4 ; date = march 3rd ; city = los angeles ) & please confirm the following details : purchasing 4 tickets for lafc vs atlanta united in los angeles on march 3rd .
+CONFIRM ( event_name = greensky bluegrass ; number_of_tickets = 4 ; date = march 13th ; city = phoenix ) & can you confirm that you want to attend the greensky bluegrass event on march 13th at phoenix and you will be needing 4 tickets ?
+CONFIRM ( event_name = aly and aj ; number_of_tickets = 2 ; date = march 4th ; city = san diego ) & please confirm the following : booking 2 tickets for aly and aj on march 4th in san diego .
+CONFIRM ( event_name = blueface ; number_of_tickets = 3 ) & please confirm the following details : the event is blueface , 3 tickets .
+REQ_MORE ( none = none ) & anything else ?
+REQUEST ( date = ? ) & what date are you interested in ?
+REQUEST ( category = music, sports ; city_of_event = ? ) & what kind of events music , sports or something else . also in which city ?
+INFORM ( time = 5:30 pm ; category = baseball ) & it is a baseball game and it starts at 5:30 pm .
+INFORM ( time = 6 pm ) @ NOTIFY_SUCCESS ( none = none ) & i confirmed the reservation for you . enjoy ! it should start at 6 pm .
+OFFER ( date = march 1st ; event_name = angels vs white sox ; venue = angel stadium of anaheim ) @ INFORM_COUNT ( count = 5 ) & i have found 5 dates related to your search . there is an angels vs white sox game at the angel stadium of anaheim on march 1st .
+CONFIRM ( number_of_tickets = 3 ; city = san francisco ) & please confirm that you need 3 tickets and that the event is happening in san francisco .
+REQUEST ( category = music, sports ; city_of_event = ? ) & sure . are you interested in music or sports or anything else in particular ?
+CONFIRM ( event_name = kishi bashi ; number_of_tickets = 2 ; date = march 5th ; city = los angeles ) & sure , but let 's just confirm . you want to get 2 tickets for kishi bashi on march 5th . the show is in los angeles .
+INFORM ( time = 6 pm ) & it starts at 6 pm .
+REQUEST ( number_of_tickets = ? ) & how many are in your party ?
+OFFER ( date = next tuesday ; event_name = eagles vs cowboys ; venue = lincoln financial field ) & the eagles vs cowboys at lincoln financial field also play next tuesday .
+CONFIRM ( event_name = vivian green ; number_of_tickets = 1 ; date = march 10th ; city = new york ) & please confirm : 1 ticket to vivian green in new york on march 10th .
+REQ_MORE ( none = none ) & is there anything else i can help you with today ?
+INFORM ( address_of_location = 64 north 9th street, brooklyn ) @ NOTIFY_SUCCESS ( none = none ) & your booking is confirmed ; have fun at the event ! the event is at 64 north 9th street , brooklyn .
+CONFIRM ( event_name = falcons vs jaguars ; number_of_tickets = 4 ; date = march 14th ; city = atlanta ) & please confirm your purchase of 4 tickets for falcons vs jaguars in atlanta on march 14th
+REQ_MORE ( none = none ) & may i help with something else ?
+CONFIRM ( event_name = billy currington ; number_of_tickets = 2 ; date = tomorrow ; city = chicago ) & please , confirm the following details : the event is billy currington , and it takes place tomorrow . it 's in chicago and you want 2 tickets .
+INFORM ( address_of_location = 1 amb drive northwest ) @ NOTIFY_SUCCESS ( none = none ) & the reservation was successful . the address is 1 amb drive northwest .
+OFFER ( date = today ; event_name = gloryhammer ; venue = 1720(tm) ) & gloryhammer is today at 1720 ( tm ) .
+CONFIRM ( event_name = long beach jazz festival ; number_of_tickets = 4 ; date = march 10th ; city = long beach ) & please confirm 4 tickets to the long beach jazz festival on march 10th at long beach .
+OFFER ( date = march 10th ; event_name = vivian green ; venue = sony hall ) & sony hall will host vivian green event on march 10th . is it convenient to you ?
+INFORM ( time = 6:30 pm ) & the activity begins at 6:30 pm .
+REQ_MORE ( none = none ) & is there any other help you want from me ?
+OFFER ( date = next tuesday ; event_name = dodgers vs giants ; venue = dodger stadium ) & the event is on next tuesday and it is dodgers vs giants at dodger stadium
+INFORM ( venue = rainbow lagoon park ; venue_address = 400 east shoreline drive ) & this event is held at rainbow lagoon park , which is located at 400 east shoreline drive .
+REQUEST ( number_of_tickets = ? ) & how many tickets do you need ?
+REQ_MORE ( none = none ) & you are welcome , shall i help you with anything else ?
+REQ_MORE ( none = none ) & could i assist you with something else ?
+CONFIRM ( event_name = falcons vs jaguars ; number_of_tickets = 3 ; date = march 12th ; city = atlanta ) & you would like 3 tickets to falcons vs jaguars at the mercedes-benz stadium on march 12th in atlanta . is that correct ?
+INFORM ( time = 5 pm ) @ NOTIFY_SUCCESS ( none = none ) & your reservation has been made . have fun ! the event will start at 5 pm .
+INFORM ( address_of_location = 200 south 3rd street ) & the address of the venue is 200 south 3rd street .
+INFORM ( time = 7:30 pm ; category = international ) & it 's an international event . it begins at 7:30 pm .
+CONFIRM ( event_name = alejandro sanz ; number_of_tickets = 4 ; date = march 8th ; city = san diego ) & sure , you would like 4 tickets to see alejandro sanz on march 8th in san diego , is this correct ?
+REQ_MORE ( none = none ) & anything else i can help with ?
+OFFER ( date = march 2nd ; event_name = yankees vs indians ; venue = yankee stadium ) @ INFORM_COUNT ( count = 4 ) & yankees vs indians is on 4 days . there 's one on march 2nd at yankee stadium .
+REQ_MORE ( none = none ) & need help with anything else ?
+OFFER ( date = next friday ; event_name = bill callahan ; venue = lodge room ) & bill callahan will be at the lodge room next friday .
+OFFER ( date = march 12th ; event_name = the lemonheads ; venue = the foundry ) & another event is the lemonheads which happens on march 12th at the foundry .
+REQUEST ( event_name = ? ; date = ? ) & what event did you have in mind ? and for what date .
+REQ_MORE ( none = none ) & can i help you in anything else ?
+CONFIRM ( number_of_tickets = 4 ; date = march 10th ) & how about 4 tickets on march 10th ?
+CONFIRM ( event_name = diamondbacks vs brewers ; number_of_tickets = 3 ; date = next tuesday ; city = phoenix ) & okay great , please confirm that you 'd like 3 tickets to the diamondbacks vs brewers game next tuesday in phoenix .
+INFORM ( time = 7 pm ) & it starts at 7 pm .
+REQUEST ( city_of_event = ? ) & what city do you want to look in ?
+REQ_MORE ( none = none ) & is there anything else i can assist you with today ?
+REQUEST ( number_of_tickets = ? ) & how many tickets do you want ?
+REQ_MORE ( none = none ) & you 're welcome ! do you need help with anything else ?
+REQUEST ( city_of_event = ? ) & what city should i search ?
+INFORM ( time = 7 pm ; category = funk ) & this is a funk event at 7 pm .
+CONFIRM ( event_name = sparks vs mystics ; number_of_tickets = 2 ; date = next tuesday ; city = los angeles ) & next tuesday you want 2 tickets to the sparks vs mystics game in los angeles , correct ?
+REQ_MORE ( none = none ) & is there anything else i can assist you with ?
+REQUEST ( city_of_event = ? ) & what city should i look in ?
+INFORM ( venue = banc of california stadium ) @ NOTIFY_SUCCESS ( none = none ) & the game is at banc of california stadium .
+REQUEST ( city_of_event = ? ) & what city ?
+OFFER ( date = march 1st ; event_name = cher ; venue = chase center experience ) @ INFORM_COUNT ( count = 5 ) & there are 5 events , one of which is an event on march 1st by cher at the chase center experience .
+REQUEST ( number_of_tickets = ? ) & how many tickets do you need to buy ?
+REQ_MORE ( none = none ) & are you need any other help ?
+OFFER ( date = day after tomorrow ; event_name = dodgers vs diamondbacks ; venue = dodger stadium ) & on the day after tomorrow , we also have dodgers vs diamondbacks at dodger stadium .
+REQUEST ( city_of_event = ? ) & in which city would that be ?
+INFORM ( time = 5:30 pm ) & the music festival will start at 5:30 pm .
+INFORM ( time = 7 pm ) & 7 pm .
+CONFIRM ( event_name = phutureprimitive ; number_of_tickets = 1 ; date = march 14th ; city = berkeley ) & just to confirm you would like 1 ticket to see phutureprimitive in berkeley on march 14th .
+REQUEST ( date = march 2nd ) & would march 2nd work for your event ?
+INFORM ( address_of_location = 24 willie mays plaza ) & 24 willie mays plaza .
+REQUEST ( city_of_event = ? ) & what city would you like me to search in ?
+REQUEST ( number_of_tickets = ? ) & how many tickets ?
+CONFIRM ( event_name = mets vs braves ; number_of_tickets = 2 ; date = march 4th ; city = new york ) & please confirm : 2 tickets for the mets vs braves game on march 4th in new york
+OFFER ( date = march 7th ; event_name = laura osnes ; venue = sony hall ) @ INFORM_COUNT ( count = 5 ) & i found the event taking place on 5 days . there is a laura osnes event happening on march 7th at sony hall .
+REQ_MORE ( none = none ) & is there anything else i can do for you today ?
+REQUEST ( city_of_event = ? ; category = music, sports ) & do you have a particular event type your looking for like music or sports ? what city should i search ?
+INFORM ( time = 8 pm ) & the expected start time is 8 pm .
+CONFIRM ( event_name = okkervil river ; number_of_tickets = 2 ; date = march 12th ; city = san francisco ) & to confirm : that 's 2 tickets for okkervil river in san francisco on march 12th .
+REQ_MORE ( none = none ) & do you need me for anything else ?
+REQUEST ( category = music, sports ) & anything in particular ? you can say music , sports , or anthing else .
+CONFIRM ( event_name = united vs red bulls ; number_of_tickets = 4 ; date = march 9th ; city = atlanta ) & let 's go over what you 've decided : you would like 4 tickets to the united vs red bulls game in atlanta on march 9th ?
+INFORM ( address_of_location = 261 driggs avenue, brooklyn ) & they are located at 261 driggs avenue , brooklyn .
+OFFER ( date = march 2nd ; event_name = whitecaps vs earthquakes ; venue = bc place ) @ INFORM_COUNT ( count = 6 ) & sure - i 've found 6 whitecaps vs earthquakes games coming up . there 's one on march 2nd at bc place .
+REQ_MORE ( none = none ) & can i do anything else for you ?
+CONFIRM ( event_name = kishi bashi ; number_of_tickets = 2 ; date = march 6th ; city = new york ) & please confirm to book 2 tickets to kishi bashi on march 6th in new york .
+INFORM ( time = 5:30 pm ; category = blues ) & the event is at 5:30 pm and is a blues event .
+REQUEST ( number_of_seats = ? ; event_name = ? ) & do you have a specific event in mind and how many tickets would you like ?
+REQ_MORE ( none = none ) & did you need help with anything else today ?
+CONFIRM ( event_name = giants vs nationals ; number_of_tickets = 1 ; date = march 11th ; city = san francisco ) & you need 1 ticket for giants vs nationals in san francisco on march 11th.is that okay for you ?
+REQ_MORE ( none = none ) & is there anything else you need assistance with ?
+INFORM ( address_of_location = 2891 university avenue ) & it 's 2891 university avenue .
+INFORM ( time = 5:30 pm ) & it starts at 5:30 pm .
+REQUEST ( number_of_tickets = ? ) & how many tickets do you want
+REQ_MORE ( none = none ) & do you need more ?
+CONFIRM ( event_name = blue jays vs astros ; number_of_tickets = 3 ; date = march 9th ; city = toronto ) & absolutely ! can you confirm the following details , please ? you are purchasing 3 tickets to the blue jays vs astros on march 9th in toronto .
+OFFER ( date = march 3rd ; event_name = dodgers vs diamondbacks ; venue = dodger stadium ) & there is the dodgers vs diamondbacks game at dodger stadium on march 3rd .
+REQUEST ( date = march 10th ) & want to find an event for march 10th ?
+INFORM ( time = 6 pm ) @ NOTIFY_SUCCESS ( none = none ) & your tickets have been ordered and your event begins at 6 pm .
+OFFER ( date = tomorrow ; event_name = amber run brooklyn ; venue = warsaw ) & this event is tomorrow at warsaw and is called amber run brooklyn .
+INFORM ( subcategory = football ) & this is a football event .
+CONFIRM ( event_name = electric feels ; number_of_tickets = 3 ; date = march 9th ; city = san francisco ) & okay , please confirm that you 'd like 3 tickets for electric feels in san francisco on march 9th .
+REQUEST ( category = music, sports ) & do you like any particular category like music or sports
+CONFIRM ( number_of_tickets = 1 ; date = march 12th ) & can you confirm the details ? 1 event for the ticket , but for march 12th .
+REQUEST ( category = music, sports ) & which category do you prefer ? it may be music or sports or anything else .
+CONFIRM ( event_name = tuxedo ; number_of_tickets = 1 ; date = march 3rd ; city = philadelphia ) & please confirm to book 1 ticket to the event tuxedo on march 3rd in philadelphia .
+INFORM ( subcategory = baseball ; address_of_location = 123-01 roosevelt avenue ) & this is a baseball game . the address is 123-01 roosevelt avenue
+REQUEST ( date = ? ) & is there a particular date you are searching for ?
+REQUEST ( city_of_event = ? ; event_name = ? ) & ok , what city and what kind of event ?
+REQ_MORE ( none = none ) & is there anything else you need assistance with ?
+INFORM ( subcategory = pop ; address_of_location = 261 driggs avenue, brooklyn ) & it is a pop type event and the address where it will take place is 261 driggs avenue , brooklyn .
+OFFER ( date = march 2nd ; event_name = seattle vs atlanta ; venue = alaska airlines arena ) @ INFORM_COUNT ( count = 4 ) & i 've found this one on 4 different days . one happens on march 2nd and the location is alaska airlines arena . the title is seattle vs atlanta
+INFORM ( time = 7 pm ) @ NOTIFY_SUCCESS ( none = none ) & your booking has been confirmed . i hope you enjoy the event . it starts at 7 pm .
+REQUEST ( category = music, sports ) & are you interested in music , sports , or anything else ?
+CONFIRM ( event_name = the paper kites ; number_of_tickets = 4 ; date = march 4th ; city = new york ) & sure , so to confirm : you would like 4 tickets to the paper kites on march 4th in new york .
+OFFER ( date = next friday ; event_name = bill callahan ; venue = lodge room ) @ INFORM_COUNT ( count = 3 ) & the event is on 3 days . what about bill callahan at the lodge room next friday ?
+REQ_MORE ( none = none ) & will there be anything else i can help you with today ?
+REQ_MORE ( none = none ) & can i do anything else for you ?
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+CONFIRM ( event_name = aly and aj ; number_of_tickets = 2 ; date = march 3rd ; city = san diego ) & please confirm your purchase for 2 tickets for the aly and aj event in san diego on the march 3rd .
+REQ_MORE ( none = none ) & what may i fetch now ?
+INFORM ( time = 5:30 pm ) & at 5:30 pm .
+INFORM ( address_of_location = 3911 figueroa street ) & the street address is 3911 figueroa street .
+CONFIRM ( event_name = spose ; number_of_tickets = 3 ; date = march 4th ; city = los angeles ) & please confirm , 3 tickets for spose in los angeles on march 4th .
+OFFER ( date = tomorrow ; event_name = amber run brooklyn ; venue = warsaw ) & amber run brooklyn will perform at warsaw tomorrow .
+OFFER ( date = march 7th ; event_name = yellow jackets vs wolfpack ; venue = bobby dodd stadium at historic grant field ) & there is another event on march 7th - yellow jackets vs wolfpack at bobby dodd stadium at historic grant field .
+REQUEST ( category = ? ) & what type of events do you like ?
+REQUEST ( city_of_event = ? ) & what city do you want to be ?
+OFFER ( date = march 3rd ; event_name = eagles vs cowboys ; venue = lincoln financial field ) & eagles vs cowboys is on march 3rd at lincoln financial field .
+OFFER ( date = march 8th ; event_name = nationals vs brewers ; venue = nationals park ) & i also have a nationals vs brewers event on march 8th at nationals park .
+CONFIRM ( event_name = blue jays vs rangers ; number_of_tickets = 3 ; date = march 3rd ; city = toronto ) & you want 3 tickets to see blue jays vs rangers in toronto on march 3rd . is this right ?
+REQ_MORE ( none = none ) & is there anything else i can assist you with ?
+REQ_MORE ( none = none ) & is there anything else today ?
+INFORM ( subcategory = american football ) & it 's an american football event .
+INFORM ( time = 5:30 pm ) @ NOTIFY_SUCCESS ( none = none ) & the reservation was made.will start at 5:30 pm.have fun !
+OFFER ( date = march 1st ; event_name = gloryhammer ; venue = 1720(tm) ) & there is a gloryhammer event at 1720 ( tm ) on march 1st .
+REQUEST ( city_of_event = ? ) & which city would you like me to search in ?
+CONFIRM ( number_of_tickets = 2 ; city = chicago ) & so 2 tickets for the chicago event .
+INFORM ( time = 5 pm ) & the event kicks off at 5 pm .
+REQ_MORE ( none = none ) & do you need me to do anything else ?
+CONFIRM ( event_name = friends ; number_of_tickets = 4 ; date = tomorrow ; city = portland ) & please confirm the following : you want 4 tickets for friends tomorrow , playing at portland .
+OFFER ( date = next monday ; event_name = billy idol ; venue = pne amphitheatre ) & billy idol is also playing next monday at the pne amphitheatre .
+REQUEST ( city_of_event = ? ) & in which city i should search for ?
+CONFIRM ( number_of_tickets = 3 ; date = today ) & so 3 tickets to the event today ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQUEST ( number_of_tickets = ? ) & how many do you need ?
+CONFIRM ( event_name = dc united vs revolution ; number_of_tickets = 3 ; date = march 14th ; city = washington d.c. ) & please confirm 3 tickets for dc united vs revolution on march 14th in washington d.c .
+OFFER ( date = march 2nd ; event_name = seattle vs la angels ; venue = t-mobile park ) & there 's a seattle vs la angels game at t-mobile park on march 2nd .
+OFFER ( date = next thursday ; event_name = the buttertones ; venue = chop shop ) & next thursday is available for the buttertones at the chop shop .
+REQUEST ( date = ? ) & which date would you like me to check ?
+REQUEST ( event_name = ? ; date = ? ) & what genre and dates would you like ?
+INFORM ( time = 5:30 pm ) & it starts at 5:30 pm .
+INFORM ( venue_address = 100 potomac avenue southwest ; category = soccer ) & it 's a soccer game . audi field is at 100 potomac avenue southwest .
+OFFER ( date = march 2nd ; event_name = owls vs yellow jackets ; venue = lincoln financial field ) @ INFORM_COUNT ( count = 9 ) & there are 9 options . the owls vs yellow jackets will be at lincoln financial field on march 2nd .
+CONFIRM ( event_name = timbers vs rsl ; number_of_tickets = 2 ; date = march 14th ; city = portland ) & please confirm you would like to buy 2 tickets to the timbers vs rsl in portland , or on march 14th .
+CONFIRM ( event_name = giants vs dodgers ; number_of_tickets = 3 ; date = next friday ; city = san francisco ) & yes , i am reserving 3 tickets for you to attend the giants vs dodgers game next friday . the event will take place in san francisco . please confirm
+REQUEST ( city_of_event = ? ) & sure ! which city do you want to watch this ?
+CONFIRM ( event_name = falcons vs buccaneers ; number_of_tickets = 1 ; date = march 11th ; city = atlanta ) & proceeding to buy 1 ticket for the falcons vs buccaneers match scheduled for march 11th in atlanta . please confirm .
+REQ_MORE ( none = none ) & anything else i can help you with ?
+REQUEST ( city_of_event = ? ; category = music, sports ) & which city you want me to look in and what is your preferred category like music , sports etc ?
+REQUEST ( category = music, sports ) & what category of event should i look for ? for example , music or sports .
+REQUEST ( number_of_tickets = ? ) & how many should i purchase for you ?
+INFORM ( time = 7 pm ) & it begins at 7 pm .
+REQ_MORE ( none = none ) & sure , do you require further assistance/
+OFFER ( date = march 3rd ; event_name = psychedelic furs ; venue = the observatory north park ) & there is a psychedelic furs concert on march 3rd at the observatory north park .
+REQ_MORE ( none = none ) & anything else i can help you with ?
+OFFER ( date = march 12th ; event_name = billy currington ; venue = somo village event center ) & billy currington is on march 12th . like i said before , he 's at somo village event center .
+INFORM ( time = 7:30 pm ) & it starts at 7:30 pm .
+REQUEST ( city_of_event = ? ; number_of_seats = ? ) & in what city shall i search and for how many tickets ?
+INFORM ( address_of_location = 1030 main street ) & 1030 main street .
+REQUEST ( event_name = ? ; date = march 9th ) & any preference ? on march 9th ?
+CONFIRM ( event_name = pup ; number_of_tickets = 4 ; date = march 8th ; city = san diego ) & i 'll book you 4 tickets for pup in san diego on march 8th , is everything correct ?
+INFORM ( address_of_location = 123-01 roosevelt avenue ) @ NOTIFY_SUCCESS ( none = none ) & your reservation is confirmed . enjoy the event @ the venue is 123-01 roosevelt avenue .
+INFORM ( subcategory = baseball ) & it is a baseball game .
+REQ_MORE ( none = none ) & do you need anything else ?
+REQ_MORE ( none = none ) & do you need help with anything else ?
+INFORM ( address_of_location = 7000 coliseum way ) & the venue is located at 7000 coliseum way .
+INFORM ( address_of_location = 235 west 46th street ) & can be found at 235 west 46th street .
+REQ_MORE ( none = none ) & do you need any other help ?
+INFORM ( time = 6:30 pm ) & at 6:30 pm
+REQUEST ( number_of_tickets = ? ) & how many tickets should i buy ?
+CONFIRM ( event_name = pup ; number_of_tickets = 2 ; date = march 8th ; city = san diego ) & you would like to purchase 2 tickets for pup in san diego on march 8th , is that correct ?
+INFORM ( subcategory = baseball ) & it is a baseball game .
+REQUEST ( category = music, sports ; city_of_event = ? ) & do you have a genre like music or sports ?
+REQUEST ( city_of_event = ? ) & is there any particular city i should search in ?
+REQUEST ( category = music, sports ) & sure , are you looking for music or sports or something else ?
+INFORM ( time = 7 pm ) & the game starts at 7 pm .
+REQUEST ( number_of_tickets = ? ) & how many tickets do you want ?
+REQ_MORE ( none = none ) & could i assist with something else ?
+CONFIRM ( event_name = raiders vs bengals ; number_of_tickets = 4 ; date = march 5th ; city = oakland ) & okay , so you 'd like to book 4 tickets to raiders vs bengals on march 5th in oakland .
+INFORM ( venue = petco park ) & it is at petco park .
+OFFER ( date = march 4th ; event_name = thee oh sees ; venue = the chapel ) & yes , thee oh sees at the chapel is also happening on march 4th .
+INFORM ( address_of_location = 5500 campanile drive ) & the address is 5500 campanile drive .
+OFFER ( date = next monday ; event_name = timbers vs rsl ; venue = providence park ) & i 've found a timbers vs rsl event next monday at providence park .
+CONFIRM ( event_name = bill callahan ; number_of_tickets = 3 ; date = next friday ; city = los angeles ) & please confirm : 3 tickets for the event bill callahan on next friday in los angeles .
+REQUEST ( category = music, sports ) & what do you have in mind ? music ? sports ?
+OFFER ( date = march 7th ; event_name = the buttertones ; venue = chop shop ) & you could see the buttertones at chop shop on march 7th .
+REQUEST ( category = music, sports ) & did you have a particular category in mind ? you can say music , sports , or anything else .
+OFFER ( date = march 2nd ; event_name = squeeze ; venue = pier 17 ) & squeeze is playing on march 2nd at pier 17 .
+CONFIRM ( event_name = sparks vs mystics ; number_of_tickets = 4 ; date = march 5th ; city = los angeles ) & okay . i found 4 tickets to the sparks vs mystics game on march 5th in los angeles . does this work for you ?
+OFFER ( date = march 6th ; event_name = spose ; venue = 1720(tm) ) & on march 6th there is a spose event at 1720 ( tm ) .
+INFORM ( subcategory = hip hop ) & allan rayman is a hip hop artist .
+REQ_MORE ( none = none ) & do you need anything else ?
+CONFIRM ( event_name = bryan adams ; number_of_tickets = 4 ; date = march 9th ; city = portland ) & confirming 4 bryan adams tickets in portland on march 9th .
+CONFIRM ( event_name = hozier ; number_of_tickets = 2 ; date = march 7th ; city = portland ) & sure . to confirm , you want to buy 2 tickets to hozier on march 7th in portland . is that right ?
+OFFER ( date = march 2nd ; event_name = roy ayers ; venue = blue note napa ) & roy ayers at blue note napa is also on march 2nd .
+REQUEST ( category = ? ) & is there a preference in category ?
+INFORM ( time = 7 pm ) @ NOTIFY_SUCCESS ( none = none ) & it starts at 7 pm
+CONFIRM ( number_of_tickets = 3 ; date = march 5th ) & ok , confirming your update . you are buying 3 tickets for the event on march 5th .
+REQUEST ( category = ? ; city_of_event = ? ) & where are thinking of doing that ?
+REQUEST ( city_of_event = ? ) & is there a specific city you would like me to search ?
+CONFIRM ( event_name = sparks vs mystics ; number_of_tickets = 1 ; date = march 6th ; city = los angeles ) & so i 'll book 1 ticket for the sparks vs mystics game happening on march 6th in los angeles , okay ?
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+REQUEST ( city_of_event = ? ) & what city should i look in ?
+OFFER ( date = march 1st ; event_name = jon b ; venue = blue note napa ) @ INFORM_COUNT ( count = 5 ) & the concert has 5 dates . there is jon b show at blue note napa on march 1st .
+REQ_MORE ( none = none ) & anything else i can help with ?
+CONFIRM ( event_name = cubs vs brewers ; number_of_tickets = 2 ; date = next friday ; city = chicago ) & please confirm you want 2 tickets to the cubs vs brewers game in chicago on next friday .
+INFORM ( address_of_location = 89 south street ) & at 89 south street .
+REQ_MORE ( none = none ) & do you need any other type of help ?
+REQUEST ( city_of_event = ? ; number_of_seats = ? ) & which city would you like and how many tickets ?
+INFORM ( category = football ; venue_address = 1 amb drive northwest ) & it 's a football game and is located at 1 amb drive northwest .
+REQ_MORE ( none = none ) & anything else i can help you with ?
+CONFIRM ( event_name = zz top ; number_of_tickets = 4 ; date = march 7th ; city = vancouver ) & 4 seats for zz top on march 7th in vancouver ?
+CONFIRM ( event_name = psychedelic furs ; number_of_tickets = 1 ; date = march 3rd ; city = san diego ) & confirming 1 ticket for psychedelic furs on march 3rd in san diego .
+REQUEST ( category = music, sports ; city_of_event = ? ) & do you like music , sports , or any other genre and what city do you want ?
+OFFER ( date = today ; event_name = todd rundgren ; venue = napa valley performing arts center ) @ INFORM_COUNT ( count = 6 ) & sure ... the event , todd rundgren start by today and will last for 6 days at napa valley performing arts center .
+REQUEST ( number_of_tickets = ? ) & how many tickets do you want ?
+CONFIRM ( event_name = bastille ; number_of_tickets = 2 ; date = march 14th ; city = san diego ) & please confirm to book 2 tickets to the event bastille in san diego on march 14th .
+OFFER ( date = march 1st ; event_name = crooked colours ; venue = rough trade nyc ) & i found an event for crooked colours at rough trade nyc on march 1st .
+REQUEST ( number_of_tickets = ? ) & which is the number of tickets you need ?
+REQUEST ( date = ? ) & ok , nice . which date are you looking at ?
+REQ_MORE ( none = none ) & is there anything else ?
+REQUEST ( category = music, sports ) & are you looking for a certain type of event ? either music , sports or another type ?
+OFFER ( date = march 3rd ; event_name = toe ; venue = masonic lodge at hollywood forever ) & toe is at masonic lodge at hollywood forever march 3rd .
+INFORM ( venue = august hall ) @ NOTIFY_SUCCESS ( none = none ) & the tickets have been bought . have a great time ! and the event is at august hall .
+INFORM ( address_of_location = 401 east jefferson street ) @ NOTIFY_SUCCESS ( none = none ) & it has been confirmed . the stadium is at 401 east jefferson street .
+CONFIRM ( event_name = huskies vs warriors ; number_of_tickets = 1 ; date = march 4th ; city = seattle ) & to verify : you want 1 ticket for the huskies vs warriors on march 4th in seattle .
+CONFIRM ( event_name = the struts ; number_of_tickets = 4 ; date = march 5th ; city = san diego ) & book 4 tickets for the struts on march 5th in san diego.do you confirm ?
+CONFIRM ( number_of_tickets = 4 ; date = march 13th ) & okay so you 'd like to purchase 4 tickets to the event on march 13th .
+REQ_MORE ( none = none ) & do you need anything else ?
+CONFIRM ( event_name = greensky bluegrass ; number_of_tickets = 2 ; date = today ; city = seattle ) & so you 'd like to see greensky bluegrass and would like 2 tickets ? the event is happening today in seattle .
+CONFIRM ( event_name = huskies vs cougars ; number_of_tickets = 3 ; date = march 14th ; city = seattle ) & okay , you want the event huskies vs cougars for 3 on march 14th at seattle . please confirm .
+OFFER ( date = march 2nd ; event_name = whitecaps vs earthquakes ; venue = bc place ) @ INFORM_COUNT ( count = 6 ) & there 's 6 whitecaps vs earthquakes games coming up , there 's one on march 2nd at bc place .
+CONFIRM ( event_name = huskies vs warriors ; number_of_tickets = 4 ; date = march 3rd ; city = seattle ) & okay , let 's confirm the details : you 're getting 4 tickets for the huskies vs warriors game on march 3rd in seattle .
+REQUEST ( date = ? ) & when would you like to go .
+CONFIRM ( event_name = blue jays vs braves ; number_of_tickets = 3 ; date = march 8th ; city = toronto ) & please confirm : 3 tickets to blue jays vs braves march 8th in toronto .
+INFORM ( time = 7 pm ) & the event begins at 7 pm .
+REQ_MORE ( none = none ) & anything else for you ?
+CONFIRM ( event_name = giants vs diamondbacks ; number_of_tickets = 1 ; date = march 8th ; city = san francisco ) & can you please confirm that you want to buy 1 ticket for the match of giants vs diamondbacks in san francisco on march 8th ?
+OFFER ( date = march 4th ; event_name = dodgers vs rockies ; venue = dodger stadium ) & there is an event on march 4th for dodgers vs rockies at dodger stadium
+REQUEST ( category = music, sports ) & what category ? music or sports ?
+INFORM ( address_of_location = 2367 shattuck avenue ) & sure , the venue is located at 2367 shattuck avenue .
+OFFER ( date = march 3rd ; event_name = beach boys ; venue = pne amphitheatre ) @ INFORM_COUNT ( count = 4 ) & ok , i 've found 4 days this event takes place . how about a beach boys concert on march 3rd at pne amphitheatre .
+INFORM ( time = 5 pm ) & the event will commence at 5 pm .
+REQUEST ( category = music, sports ) & yes , in which category should i look for , whether you need music or sports or any other events ?
+OFFER ( date = march 7th ; event_name = usc vs oregon ; venue = la memorial coliseum ) @ INFORM_COUNT ( count = 4 ) & i found 4 dates . usc vs oregon will be at la memorial coliseum march 7th .
+OFFER ( date = next monday ; event_name = nationals vs indians ; venue = nationals park ) & the game is next monday for the nationals vs indians and it is at nationals park .
+REQUEST ( category = ? ; city_of_event = ? ) & do you have any preference for a type of event ? and what city will you be visiting ?
+INFORM ( time = 7 pm ; venue = california memorial stadium ) @ NOTIFY_SUCCESS ( none = none ) & i will give you the details you are looking for . your reservation is successful . the event is going to held at california memorial stadium and it will start at 7 pm .
+REQ_MORE ( none = none ) & do you need help with something else ?
+OFFER ( date = march 9th ; event_name = dodgers vs cubs ; venue = dodger stadium ) & another dodgers vs cubs game will take place at dodger stadium on march 9th as well .
+CONFIRM ( event_name = life is beautiful festival ; number_of_tickets = 4 ; date = march 14th ; city = las vegas ) & to ocnfirm : you wish to book 4 tickets to life is beautiful festival happening on march 14th in las vegas . is this correct ?
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+REQUEST ( date = ? ) & any specific date ?
+CONFIRM ( event_name = giants vs brewers ; number_of_tickets = 3 ; date = march 13th ; city = san francisco ) & please confirm the following : booking 3 tickets for the giants vs brewers on march 13th in san francisco .
+INFORM ( address_of_location = 5500 phinney avenue north ; event_location = flamingo lot ) @ NOTIFY_SUCCESS ( none = none ) & yes . the venue is 5500 phinney avenue north at flamingo lot . your tickets are booked . have fun !
+CONFIRM ( event_name = giants vs brewers ; number_of_tickets = 3 ; date = march 13th ; city = san francisco ) & you want a tickets for 3 for the giants vs brewers in san francisco on march 13th .
+REQUEST ( date = ? ) & do you have a date in mind ?
+REQ_MORE ( none = none ) & is there anything else i can assist you today ?
+OFFER ( date = today ; event_name = blowout music festival ; venue = knockdown center ) @ INFORM_COUNT ( count = 1 ) & i found 1 today at blowout music festival at knockdown center .
+REQUEST ( number_of_tickets = ? ) & how many tickets you need ?
+REQUEST ( category = ? ) & do you have any event preferences ?
+CONFIRM ( event_name = blue jays vs rays ; number_of_tickets = 1 ; date = march 13th ; city = toronto ) & please tell me if blue jays vs rays on march 13th in toronto for 1 ticket is okay .
+CONFIRM ( event_name = crystal lake ; number_of_tickets = 2 ; date = march 12th ; city = seattle ) & in seattle on march 12th for event crystal lake would be 2 tickets is that correct ?
+CONFIRM ( event_name = allan rayman ; number_of_tickets = 3 ; date = march 13th ; city = san francisco ) & okay , confirm you 'd like 3 tickets to the allan rayman show on march 13th in san francisco please .
+REQUEST ( date = ? ) & what date do you prefer ?
+REQ_MORE ( none = none ) & do you need me for anything else ?
+INFORM ( address_of_location = 261 driggs avenue, brooklyn ) & its 261 driggs avenue , brooklyn
+REQUEST ( category = music, sports ; city_of_event = ? ) & would you prefer music or sports or anything else ? do you have any particular category on your mind ? or city i should search in ?
+REQ_MORE ( none = none ) & any other help ?
+INFORM ( subcategory = american football ) & it is american football sports .
+INFORM ( category = football ; venue_address = 1 lincoln financial field way ) & it 's a football event at 1 lincoln financial field way .
+OFFER ( date = today ; event_name = dodgers vs cubs ; venue = dodger stadium ) & dodgers vs cubs is at dodger stadium today . you 're in luck !
+REQ_MORE ( none = none ) & need help with something else ?
+REQ_MORE ( none = none ) & can i assist you with anything else ?
+OFFER ( date = march 1st ; event_name = imperial daze ; venue = the victoria dalston ) @ INFORM_COUNT ( count = 6 ) & found 6 dates for your selected event imperial daze and the one is on march 1st at the victoria dalston . is that date is convenient to you ? or shall i search further ?
+INFORM ( time = 7 pm ) & it begins at 7 pm .
+CONFIRM ( event_name = raiders vs bengals ; number_of_tickets = 2 ; date = march 5th ; city = oakland ) & please confirm : you want to watch the raiders vs bengals on march 5th in oakland , and you need 2 tickets .
+REQUEST ( city_of_event = ? ) & do you know which city they 're playing in ?
+REQUEST ( number_of_tickets = ? ) & how many seats do you want ?
+CONFIRM ( event_name = bill callahan ; number_of_tickets = 1 ; date = march 8th ; city = los angeles ) & please confirm you want me to book 1 ticket for the bill callahan event on march 8th in los angeles .
+REQUEST ( number_of_tickets = ? ) & great , how many tickets do you need ?
+REQ_MORE ( none = none ) & what would you like ?
+CONFIRM ( event_name = blue jays vs yankees ; number_of_tickets = 3 ; date = tomorrow ; city = toronto ) & confirming 3 tickets tomorrow in toronto for the blue jays vs yankees
+OFFER ( date = march 3rd ; event_name = portland thorns vs houston ; venue = providence park ) @ INFORM_COUNT ( count = 3 ) & there are 3 dates for portland thorns vs houston one , one is on march 3rd at providence park .
+REQUEST ( number_of_tickets = ? ) & how many tickets would you like ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+INFORM ( time = 5:30 pm ) & 5:30 pm .
+OFFER ( date = tomorrow ; event_name = padres vs brewers ; venue = petco park ) @ INFORM_COUNT ( count = 1 ) & the padres vs brewers at petco park is tomorrow . it 's only on 1 day .
+REQUEST ( category = ? ) & what category of events do you want ?
+REQ_MORE ( none = none ) & what else can i do for you
+CONFIRM ( event_name = fidlar ; number_of_tickets = 3 ; date = next thursday ; city = berkeley ) & great , please confirm : 3 tickets to see fidlar next thursday in berkeley .
+OFFER ( date = march 8th ; event_name = bill callahan ; venue = lodge room ) & there is an event on march 8th for bill callahan at lodge room .
+REQUEST ( city_of_event = ? ) & any specific city i should look in ?
+REQUEST ( number_of_tickets = ? ) & how many tickets do you want ?
+REQ_MORE ( none = none ) & could i assist with something else ?
+REQ_MORE ( none = none ) & do you need more ?
+CONFIRM ( event_name = dodgers vs giants ; number_of_tickets = 1 ; date = march 5th ; city = los angeles ) & i will purchase 1 seat for the dodgers vs giants game march 5th in los angeles with your permission .
+CONFIRM ( event_name = jonathan mcreynolds ; number_of_tickets = 4 ; date = next friday ; city = berkeley ) & just to make sure , you want 4 tickets to see jonathan mcreynolds next friday in berkeley .
+REQUEST ( city_of_event = ? ) & do you have any city preference ?
+REQ_MORE ( none = none ) & what else may i help you with today ?
+REQ_MORE ( none = none ) & can i help you with anything else now ?
+CONFIRM ( event_name = jonathan mcreynolds ; number_of_tickets = 3 ; date = next monday ; city = berkeley ) & confirm the event ticket details : 3 tickets to jonathan mcreynolds next monday in berkeley .
+REQ_MORE ( none = none ) & can i help you with anything else ?
+INFORM ( venue_address = 3800 montlake boulevard northeast ; category = basketball ) & it 's found at 3800 montlake boulevard northeast , it 's basketball .
+INFORM ( time = 5:30 pm ) & the game is scheduled at 5:30 pm .
+REQ_MORE ( none = none ) & anything else today ?
+CONFIRM ( event_name = angels vs red sox ; number_of_tickets = 4 ; date = march 11th ; city = anaheim ) & please confirm : you would like 4 tickets for the angels vs red sox game on march 11th taking place in anaheim .
+CONFIRM ( event_name = revolution vs nycfc ; number_of_tickets = 1 ; date = march 14th ; city = new york ) & can you please confirm that you want to buy 1 ticket for the match of revolution vs nycfc which happens on march 14th in new york ?
+INFORM ( subcategory = international ) & of course . the berkeley world music festival is an international event , with artist from all around the world .
+CONFIRM ( event_name = mets vs pirates ; number_of_tickets = 4 ; date = march 5th ; city = new york ) & please let me know if you 'd like to book mets vs pirates for 4 tickets march 5th in new york .
+REQUEST ( city_of_event = ? ) & what city would you like me to search in ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+REQ_MORE ( none = none ) & do you need something more ?
+REQUEST ( date = ? ; event_name = ? ) & do you know which event you 're interested in and what the date is for it ?
+REQUEST ( category = music, sports ) & any category in mind , like sports or music ?
+REQ_MORE ( none = none ) & may i help you with something else ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+OFFER ( date = march 5th ; event_name = jordan rakei ; venue = masonic lodge at hollywood forever ) & there is a jordan rakei event at the masonic lodge at hollywood forever on march 5th .
+CONFIRM ( event_name = blueface ; number_of_tickets = 1 ; date = march 10th ; city = philadelphia ) & kindly ensure that , on march 10th , 1 ticket has been booked for the event blueface at philadelphia .
+CONFIRM ( event_name = blue jays vs braves ; number_of_tickets = 1 ; date = march 7th ; city = toronto ) & you wish to buy 1 ticket for the blue jays vs braves . this event takes place on march 7th in toronto . are these details correct ?
+INFORM ( address_of_location = 5500 campanile drive ) @ NOTIFY_SUCCESS ( none = none ) & your reservation has been booked successfully . the address of the venue is 5500 campanile drive .
+REQUEST ( city_of_event = ? ) & sure , in which city ?
+REQUEST ( city_of_event = ? ) & do you have any city in mind ?
+REQUEST ( date = ? ) & any date you have in mind ?
+CONFIRM ( event_name = el salvador vs haiti ; number_of_tickets = 1 ; date = march 12th ; city = washington d.c. ) & okay , please confirm that you 'd like to book 1 ticket to el salvador vs haiti on march 12th in washington d.c .
+REQ_MORE ( none = none ) & anything else you need help with today ?
+INFORM ( time = 5 pm ) @ NOTIFY_SUCCESS ( none = none ) & good news , i was able to confirm your tickets . the show starts at 5 pm . i hope you enjoy yourself !
+OFFER ( date = march 8th ; event_name = giants vs dodgers ; venue = oracle park ) & on march 8th the event is giants vs dodgers at oracle park
+OFFER ( date = next tuesday ; event_name = dodgers vs giants ; venue = dodger stadium ) & there is the dodgers vs giants at dodger stadium next tuesday .
+OFFER ( date = march 7th ; event_name = blue jays vs mariners ; venue = rogers centre ) & i also have blue jays vs mariners at rogers centre on march 7th .
+CONFIRM ( event_name = raiders vs titans ; number_of_tickets = 4 ; date = march 14th ; city = oakland ) & can you please confirm that you want to buy 4 tickets for the match of raiders vs titans on march 14th in oakland ?
+CONFIRM ( event_name = raiders vs bengals ; number_of_tickets = 3 ; date = march 1st ; city = oakland ) & 3 tickets for raiders vs bengals in oakland on march 1st : do you confirm ?
+INFORM ( address_of_location = 625 nelson road ) @ NOTIFY_SUCCESS ( none = none ) & it 's been booked , have fun ! the venue is on 625 nelson road .
+REQUEST ( number_of_tickets = ? ) & how many tickets ?
+REQ_MORE ( none = none ) & can i help you in any other way ?
+OFFER ( date = next friday ; event_name = mets vs cubs ; venue = citi field ) & the mets vs cubs will also be playing at citi field next friday .
+OFFER ( date = next tuesday ; event_name = raiders vs jaguars ; venue = oakland-alameda county coliseum ) & the oakland-alameda county coliseum event raiders vs jaguars is coming up next tuesday .
+INFORM ( time = 5:30 pm ) @ NOTIFY_SUCCESS ( none = none ) & i 've made your reservation . it starts at 5:30 pm .
+OFFER ( date = march 6th ; event_name = angels vs tigers ; venue = angel stadium of anaheim ) @ INFORM_COUNT ( count = 3 ) & that even has 3 dates . there 's angels vs tigers at angel stadium of anaheim on march 6th .
+REQ_MORE ( none = none ) & what can i do now ?
+OFFER ( date = march 10th ; event_name = chemical brothers ; venue = forest hills stadium ) & chemical brothers at forest hills stadium will also take place march 10th .
+INFORM ( time = 7:30 pm ; venue = chase center experience ) @ NOTIFY_SUCCESS ( none = none ) & i 've made the reservation for 7:30 pm at the chase center experience .
+REQUEST ( event_name = ? ; city_of_event = ? ) & what city would you like me to search in ? is there a specific event you would like to attend ?
+OFFER ( date = march 3rd ; event_name = mariners vs rays ; venue = t-mobile park ) & i found an event for mariners vs rays on march 3rd at t-mobile park .
+OFFER ( date = next wednesday ; event_name = mets vs cubs ; venue = citi field ) & a mets vs cubs game will also be taking place next wednesday at citi field .
+REQ_MORE ( none = none ) & do you need something more ?

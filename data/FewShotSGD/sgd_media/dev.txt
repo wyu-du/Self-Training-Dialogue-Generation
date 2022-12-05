@@ -1,0 +1,568 @@
+CONFIRM ( title = pillow talk ; subtitles = true ) & alright , please confirm playing movie pillow talk with subtitles on .
+NOTIFY_SUCCESS ( none = none ) & movie is now playing .
+CONFIRM ( title = high life ; subtitles = false ) & you want to see high life without subtitles , correct ?
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) & what about auntie mame , a madea family funeral , or dr. strangelove ?
+OFFER ( title = fighting with my family ) @ INFORM_COUNT ( count = 1 ) & ok , i 've found 1 . how about fighting with my family ?
+REQUEST ( genre = ? ) & sure , but first , let me know what kind of movies you like to watch .
+OFFER ( title = the man who knew too much ) & do you like the man who knew too much ?
+NOTIFY_SUCCESS ( none = none ) & the movie has now started to play .
+OFFER ( title = a madea family funeral ) & a madea family funeral .
+CONFIRM ( title = hotel mumbai ; subtitles = false ) & okay , please confirm these details : play the movie hotel mumbai but do n't include the subtitles .
+GOODBYE ( none = none ) & have yourself a wonderful day .
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) & there is a madea family funeral , auntie mame and dr. strangelove .
+INFORM ( directed_by = tyler perry ) @ NOTIFY_SUCCESS ( none = none ) & i started playing the movie directed by tyler perry .
+OFFER_INTENT ( intent = playmovie ) & should i start this movie now ?
+GOODBYE ( none = none ) & ok , bye .
+CONFIRM ( title = little woods ; subtitles = false ) & this movie does n't have any subtitles is that fine ? please confirm the following details : play little woods without subtitles .
+REQUEST ( genre = ? ) & what sort of movies do you like ?
+OFFER ( title = dogman ) @ INFORM_COUNT ( count = 1 ) & i think that have just 1 movie for you . what do you think of dogman ?
+OFFER ( title = supa modo ) @ INFORM_COUNT ( count = 1 ) & there is 1 movie like that that i 've found . does supa modo sound good ?
+REQUEST ( title = ? ) & which movie would you like me to play ?
+GOODBYE ( none = none ) & have a nice day
+GOODBYE ( none = none ) & have a great day .
+REQUEST ( genre = ? ) & what do you fancy ?
+OFFER ( title = the aftermath ) @ INFORM_COUNT ( count = 1 ) & i found 1 movie you might like to watch . how about seeing the aftermath ?
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) & what about a madea family funeral , auntie mame or dr. strangelove
+OFFER ( title = dogman, hackers, high life ) @ INFORM_COUNT ( count = 10 ) & search yieleded 10 results . dogman , hackers and high life are available .
+CONFIRM ( title = missing link ; subtitles = false ) & you would like to see missing link without subtitles ?
+OFFER_INTENT ( intent = playmovie ) & would you like to play it ?
+OFFER ( title = after, pillow talk, say anything ) @ INFORM_COUNT ( count = 5 ) & there are 5 movies that fit that criteria . how about pillow talk , say anything or after ?
+OFFER_INTENT ( intent = playmovie ) & wan na play it ?
+GOODBYE ( none = none ) & have a wonderful time !
+CONFIRM ( title = dogman ; subtitles = false ) & you 'd like to view dogman without subtitles . is this correct ?
+NOTIFY_SUCCESS ( none = none ) & the movie has been started playing .
+OFFER ( title = auntie mame ) & what is your opinion about auntie mame ?
+OFFER ( title = dogman, hackers, high life ) & three possible matches include dogman , hackers or high life . do any of these sound good ?
+GOODBYE ( none = none ) & enjoy your day .
+REQUEST ( genre = ? ) & what genre do you like ?
+OFFER ( title = after ) & would you like to watch after ?
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) @ INFORM_COUNT ( count = 10 ) & i found 10 matches . try a madea family funeral , auntie mame , or dr. strangelove .
+REQUEST ( genre = ? ) & what genre of movies do you want me to search for ?
+REQUEST ( genre = ? ) & sure , what genre of movie are you interested in ?
+REQ_MORE ( none = none ) & anything else you need ?
+REQUEST ( genre = ? ) & sure , what genre ?
+OFFER ( title = dogman, hackers, high life ) & i found dogman , hackers , or high life ?
+REQUEST ( genre = ? ) & do you have a certain type of movie you enjoy ?
+INFORM ( directed_by = matteo garrone ) & it 's directed by matteo garrone .
+OFFER_INTENT ( intent = playmovie ) & would you like me to play the movie for you then ?
+OFFER ( title = family, gloria bell, green book ) & okay , i also have family , gloria bell , or green book ? how about those choices ?
+NOTIFY_SUCCESS ( none = none ) & the movie has started .
+REQUEST ( genre = ? ) & what sort of movies you want to watch ?
+OFFER_INTENT ( intent = playmovie ) & do you want me to play movie ?
+CONFIRM ( title = the poseidon adventure ; subtitles = true ) & please confirm , playing the poseidon adventure with subtitles .
+OFFER ( title = josie and the pussycats, little, long shot ) & so what about josie and the pussycats ? little and long shot are other two movies worth consideriation .
+REQ_MORE ( none = none ) & do you want help with anything else ?
+REQ_MORE ( none = none ) & i 'm ready for the next task .
+OFFER_INTENT ( intent = playmovie ) & would you like to play the movie ?
+GOODBYE ( none = none ) & enjoy the movie !
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) & i 've got a madea family funeral , auntie mame or dr. strangelove ?
+OFFER ( title = viva las vegas ) & how about the movie viva las vegas ?
+OFFER ( title = supa modo ) @ INFORM_COUNT ( count = 1 ) & 1 movie about supa modo
+GOODBYE ( none = none ) & enjoy your day ?
+OFFER ( title = hotel mumbai, pet sematary ) @ INFORM_COUNT ( count = 2 ) & there are 2 options . would you prefer pet sematary or hotel mumbai ?
+CONFIRM ( title = pet sematary ; subtitles = true ) & sure , so just confirm that you want me to play pet sematary with subtitles ?
+OFFER ( title = ash is purest white, blackmail - cinemix par chloe ) @ INFORM_COUNT ( count = 2 ) & there are 2 movies you like : ash is purest white or blackmail - cinemix par chloe .
+REQUEST ( genre = ? ) & which sort of movies do you enjoy ?
+REQUEST ( genre = ? ) & do you have a movie preference .
+GOODBYE ( none = none ) & have a nice rest of the day .
+OFFER ( title = wild nights with emily ) @ INFORM_COUNT ( count = 1 ) & i have 1 for you . wild nights with emily .
+CONFIRM ( title = dr. strangelove ; subtitles = true ) & you want to watch the movie dr. strangelove with subtitles , correct ?
+CONFIRM ( title = sunset ; subtitles = false ) & okay , you 'll watch sunset without subtitles ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & sorry , i was n't able to find any other movies that you prefer . would you like my help with anything else ?
+CONFIRM ( title = after ; subtitles = true ) & please confirm ; playing after with subtitles .
+GOODBYE ( none = none ) & take care
+OFFER ( title = captain marvel, shazam!, the poseidon adventure ) & how about captain marvel , shazam ! or the poseidon adventure ?
+INFORM ( directed_by = michael gordon ) @ NOTIFY_SUCCESS ( none = none ) & your movie has started playing . it is directed by michael gordon .
+GOODBYE ( none = none ) & enjoy your day .
+OFFER ( title = dumbo, hellboy, mad max: fury road ) @ INFORM_COUNT ( count = 4 ) & okay , i found 4 movies you may like . would you rather watch dumbo , hellboy or mad max : fury road ?
+REQ_MORE ( none = none ) & is there anything else i can help with ?
+OFFER ( title = family, gloria bell, green book ) & how about green book , family or gloria bell ?
+GOODBYE ( none = none ) & have a nice day .
+NOTIFY_SUCCESS ( none = none ) & your movie has started .
+REQUEST ( genre = ? ) & what genre of movie ?
+NOTIFY_SUCCESS ( none = none ) & ok the movie has started
+OFFER ( title = jt leroy ) & what do you say about jt leroy ?
+OFFER ( title = shine a light ) & shine a light ?
+OFFER_INTENT ( intent = playmovie ) & do you want to play the movie ?
+OFFER ( title = stockholm ) & what about the movie stockholm ?
+GOODBYE ( none = none ) & i am glad i could help . have a nice day !
+REQ_MORE ( none = none ) & you good to go ?
+REQUEST ( genre = ? ) & what type of movies do you like ?
+REQ_MORE ( none = none ) & do you need anything else ?
+CONFIRM ( title = auntie mame ; subtitles = false ) & so auntie mame without subtitles ?
+INFORM ( directed_by = morton dacosta ) & it was directed by morton dacosta .
+REQUEST ( genre = ? ) & what sort of movies are you into ?
+INFORM ( directed_by = peter farrelly ) @ NOTIFY_SUCCESS ( none = none ) & the movie is on now . it is directed by peter farrelly .
+CONFIRM ( title = dumbo ; subtitles = false ) & can you please confirm that you want to play dumbo without subtitles ?
+OFFER ( title = mary magdalene ) @ INFORM_COUNT ( count = 1 ) & mary magdalene is 1 movie you may like .
+GOODBYE ( none = none ) & have a great day .
+OFFER ( title = auntie mame ) & would you like to see auntie mame ?
+OFFER ( title = little woods, mary magdalene, ramen shop ) & what about little woods , mary magdalene or ramen shop ?
+OFFER_INTENT ( intent = playmovie ) & you need to play the movie now ?
+NOTIFY_SUCCESS ( none = none ) & playback has begun .
+OFFER_INTENT ( intent = playmovie ) & do you want to watch this movie ? y
+REQUEST ( genre = ? ) & what genre do you like ?
+NOTIFY_SUCCESS ( none = none ) & the movie has started .
+OFFER ( title = captain marvel, shazam!, the poseidon adventure ) @ INFORM_COUNT ( count = 4 ) & there are 4 movies : captain marvel , shazam ! or the poseidon adventure ?
+REQUEST ( genre = ? ) & what are the types of movies that you like ?
+REQ_MORE ( none = none ) & do you need something more ?
+NOTIFY_SUCCESS ( none = none ) & the movie has started .
+NOTIFY_SUCCESS ( none = none ) & begun playing the motion picture .
+OFFER ( title = mikey and nicky ) & based on your preference i have found the movie mikey and nicky .
+NOTIFY_SUCCESS ( none = none ) & playing now .
+NOTIFY_SUCCESS ( none = none ) & great , movie has started playing . enjoy !
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) & i found a madea family funeral , auntie mame , and dr. strangelove . do any of these sound good ?
+CONFIRM ( title = fighting with my family ; subtitles = false ) & sure . to confirm , i 'm playing fighting with my family without subtitles . is that fine ?
+REQ_MORE ( none = none ) & is there anything else i can find or do for you ?
+GOODBYE ( none = none ) & enjoy your movie !
+OFFER ( title = after, pillow talk, say anything ) @ INFORM_COUNT ( count = 5 ) & i 've found 5 movies . what about after , pillow talk , or say anything ?
+OFFER ( title = little woods, mary magdalene, ramen shop ) & little woods ? mary magdalene ? perhaps ramen shop ?
+CONFIRM ( title = citizen kane ; subtitles = false ) & play citizen kane without subtitle is okay ?
+CONFIRM ( title = how to train your dragon: the hidden world ; subtitles = false ) & please confirm that you want to watch how to train your dragon : the hidden world without subtitles .
+REQUEST ( genre = ? ) & genre ?
+REQUEST ( genre = ? ) & ok , which genre would you prefer ?
+REQUEST ( genre = ? ) & what genre do you prefer ?
+REQ_MORE ( none = none ) & is there anything else i can help you with today ?
+INFORM ( directed_by = justin kelly ) @ NOTIFY_SUCCESS ( none = none ) & started playing . enjoy ! the movie is directed by justin kelly .
+CONFIRM ( title = fighting with my family ; subtitles = true ) & okay . so shall i play fighting with my family with subtitles ?
+OFFER ( title = supa modo ) & do you like supa modo
+NOTIFY_SUCCESS ( none = none ) & your requested movie has started playing .
+CONFIRM ( title = dr. strangelove ; subtitles = false ) & confirm dr. strangelove no subtitles .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+OFFER ( title = dogman, hackers, high life ) & i can suggest dogman , hackers , or high life ?
+CONFIRM ( title = missing link ; subtitles = true ) & please confirm you want me to play the movie missing link with subtitles .
+OFFER_INTENT ( intent = playmovie ) & would you like me to play the movie ?
+INFORM ( directed_by = claire denis ) @ NOTIFY_SUCCESS ( none = none ) & name of the director is claire denis .
+INFORM ( genre = drama ; directed_by = robin bissell ) @ NOTIFY_SUCCESS ( none = none ) & it is a drama by robin bissell . your movie has started .
+OFFER_INTENT ( intent = playmovie ) & wan na play the movie ?
+CONFIRM ( title = body double ; subtitles = true ) & ok check and review the details . play body double with subtitles .
+CONFIRM ( title = captain marvel ; subtitles = false ) & can you please confirm that you want me to play captain marvel without subtitles ?
+REQUEST ( title = ? ) & do you know what movie you want to see ?
+REQUEST ( genre = ? ) & what kind of movie would you like to see ?
+CONFIRM ( title = hotel mumbai ; subtitles = true ) & can you please confirm that you want me to play hotel mumbai with subtitles ?
+OFFER_INTENT ( intent = playmovie ) & do you want to put it on ?
+REQ_MORE ( none = none ) & is there anything else ?
+NOTIFY_SUCCESS ( none = none ) & i started playing the movie .
+OFFER ( title = stockholm ) @ INFORM_COUNT ( count = 1 ) & you like 1 movie about stockholm
+CONFIRM ( title = suburban birds ; subtitles = false ) & just confirm that you want me to play suburban birds without subtitles ?
+OFFER ( title = true grit ) & there is a film called true grit .
+GOODBYE ( none = none ) & have a great day .
+REQUEST ( genre = ? ) & what type of movies do you prefer ?
+OFFER_INTENT ( intent = playmovie ) & do you want me to go ahead and play this movie ?
+REQUEST ( genre = ? ) & what kind of movies do you like ?
+NOTIFY_SUCCESS ( none = none ) & the movie is now playing .
+GOODBYE ( none = none ) & have a wonderful day .
+OFFER ( title = viva las vegas ) & perhaps viva las vegas ?
+OFFER_INTENT ( intent = playmovie ) & would you like me to play the movie ?
+OFFER_INTENT ( intent = playmovie ) & would you like me to start the movie ?
+OFFER_INTENT ( intent = playmovie ) & are you interested to play the movie ?
+REQ_MORE ( none = none ) & can i assist with anything more ?
+OFFER ( title = long shot ) & how about long shot ?
+NOTIFY_SUCCESS ( none = none ) & your movie will start momentarily
+REQ_MORE ( none = none ) & can i help you in some other way ?
+NOTIFY_SUCCESS ( none = none ) & penguin highway with subtitles has started playing .
+CONFIRM ( title = penguin highway ; subtitles = false ) & i 'll play penguin highway without subtitles , is this correct ?
+OFFER_INTENT ( intent = playmovie ) & should i start playing the movie for you then ?
+CONFIRM ( title = the mustang ; subtitles = false ) & so you want to watch the mustang without subtitles ?
+NOTIFY_SUCCESS ( none = none ) & movie playback has started .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & sorry , i could n't able to find a movies for your desired preference . is there something else that i help you with ?
+OFFER ( title = after, pillow talk, say anything ) @ INFORM_COUNT ( count = 5 ) & i 've found 5 movies you may like . how about after , pillow talk or say anything ?
+GOODBYE ( none = none ) & have a wonderful day .
+OFFER ( title = wild nights with emily ) & what about the movie wild nights with emily ?
+OFFER ( title = the upside ) @ INFORM_COUNT ( count = 1 ) & i think there 's 1 movie you might enjoy , have you seen the upside ?
+OFFER ( title = high life ) @ INFORM_COUNT ( count = 1 ) & given that , there 's only 1 movie i can think of . have you seen high life ?
+REQUEST ( genre = ? ) & which genre do you prefer ?
+OFFER_INTENT ( intent = playmovie ) & shall i play it now ?
+OFFER_INTENT ( intent = playmovie ) & do you want to play it now ?
+GOODBYE ( none = none ) & have a fantastic day ahead !
+GOODBYE ( none = none ) & have a pleasant day !
+REQUEST ( genre = ? ) & what genre ?
+REQ_MORE ( none = none ) & how can i help you further ?
+REQ_MORE ( none = none ) & is there anything else i can help out with ?
+REQ_MORE ( none = none ) & how else can i assist you ?
+INFORM ( directed_by = stanley kubrick ) @ NOTIFY_SUCCESS ( none = none ) & i will start the movie , which is directed by stanley kubrick .
+REQ_MORE ( none = none ) & is there anything else i can do ?
+GOODBYE ( none = none ) & no problem , enjoy the movie !
+OFFER_INTENT ( intent = playmovie ) & would you like me to start the movie ?
+GOODBYE ( none = none ) & enjoy your flick
+REQUEST ( title = ? ) & which movie would you like to watch out of the options available ?
+CONFIRM ( title = knock down the house ; subtitles = false ) & can you please confirm that you want to watch the movie knock down the house without subtitles ?
+OFFER ( title = wild nights with emily ) @ INFORM_COUNT ( count = 1 ) & i found 1 movie you might enjoy named wild nights with emily .
+OFFER_INTENT ( intent = playmovie ) & shall i start the movie now ?
+REQ_MORE ( none = none ) & anything else i can do to help ?
+REQ_MORE ( none = none ) & do you need help with anything else ?
+GOODBYE ( none = none ) & no worries , have a great day ahead !
+CONFIRM ( title = how to train your dragon: the hidden world ; subtitles = false ) & i 'll play how to train your dragon : the hidden world without subtitles , is that correct ?
+OFFER ( title = dumbo, hellboy, mad max: fury road ) & would you like to watch dumbo , hellboy or mad max : fury road ?
+CONFIRM ( title = dogman ; subtitles = false ) & please confirm your selection of dogman without subtitles .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & unfortunately , it looks like i am unable to play this movie . can i help you with something else .
+OFFER_INTENT ( intent = playmovie ) & do you want to play the movie ?
+REQ_MORE ( none = none ) & can i help with anything else ?
+GOODBYE ( none = none ) & have a great day .
+GOODBYE ( none = none ) & okay , see you .
+REQ_MORE ( none = none ) & is there something else i can do to help you ?
+CONFIRM ( title = ramen shop ; subtitles = false ) & let me see if i got everything correctly : you 'd like to start playing ramen shop without subtitles .
+CONFIRM ( title = the curse of la llorona ; subtitles = true ) & you want to watch the curse of la llorona with subtitles ?
+GOODBYE ( none = none ) & enjoy your movie !
+OFFER ( title = little woods, mary magdalene, ramen shop ) & how about little woods , mary magdalene or ramen shop ?
+NOTIFY_SUCCESS ( none = none ) & you movie is playing .
+OFFER ( title = fighting with my family ) & i found fighting with my family .
+NOTIFY_SUCCESS ( none = none ) & your requested movie has started playing .
+NOTIFY_SUCCESS ( none = none ) & all right . the movie is starting !
+OFFER ( title = fighting with my family ) @ INFORM_COUNT ( count = 1 ) & i have 1 option for you . how about fighting with my family ?
+OFFER ( title = the visitor, viva las vegas ) & the visitor or viva las vegas ?
+REQUEST ( title = ? ) & do you have a movie in mind ?
+CONFIRM ( title = ash is purest white ; subtitles = false ) & please confirm the following : play ash is purest white without subtitles .
+OFFER_INTENT ( intent = playmovie ) & should i play it
+CONFIRM ( title = green book ; subtitles = false ) & please confirm that you want to watch green book , no subtitles .
+REQUEST ( genre = ? ) & any specific type of movie ?
+OFFER ( title = after, pillow talk, say anything ) & okay . i found 3 movies for you . would you like to watch after , pillow talk or say anything ?
+OFFER ( title = dumbo, hellboy, mad max: fury road ) @ INFORM_COUNT ( count = 4 ) & sure , there are 4 movies available . would you like to watch dumbo , hellboy or mad max : fury road ?
+REQ_MORE ( none = none ) & what else can i do for you ?
+CONFIRM ( title = a madea family funeral ; subtitles = true ) & please confirm : play a madea family funeral with subtitles .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & no there is not . would you need additional assistance ?
+CONFIRM ( title = auntie mame ; subtitles = false ) & please confirm the following : play auntie mame without subtitles .
+REQ_MORE ( none = none ) & anything else for now ?
+OFFER ( title = breakthrough, jt leroy, searching for sugar man ) & do breakthrough , jt leroy or searching for sugar man sound good ?
+CONFIRM ( title = high life ; subtitles = false ) & please confirm your request to play high life without subtitles .
+CONFIRM ( title = mikey and nicky ; subtitles = false ) & i will play mikey and nicky with no subtitles . please confirm .
+CONFIRM ( title = after ; subtitles = false ) & okay - you 'd like me to play the movie after without subtitles . is that correct ?
+GOODBYE ( none = none ) & have a super day !
+GOODBYE ( none = none ) & have a great day !
+OFFER ( title = after, pillow talk, say anything ) & are after , pillow talk , say anything good ?
+OFFER ( title = captain marvel ) @ INFORM_COUNT ( count = 1 ) & there is 1 movie with your criteria . there is captain marvel
+GOODBYE ( none = none ) & have a good day .
+REQ_MORE ( none = none ) & anything else i can help you with today ?
+GOODBYE ( none = none ) & have a nice day .
+CONFIRM ( title = hotel mumbai ; subtitles = false ) & please confirm that you want to watch hotel mumbai without subtitles .
+NOTIFY_SUCCESS ( none = none ) & okay , i 'll play the movie now .
+GOODBYE ( none = none ) & enjoy your movie
+GOODBYE ( none = none ) & please enjoy the rest of your day .
+REQUEST ( genre = ? ) & what movies are you a fan of ?
+REQ_MORE ( none = none ) & what else can i help with ?
+GOODBYE ( none = none ) & see you soon !
+REQ_MORE ( none = none ) & anything else i could do for you ?
+GOODBYE ( none = none ) & have a great day .
+OFFER ( title = hotel mumbai ) & hotel mumbai is a good one
+OFFER ( title = true grit ) @ INFORM_COUNT ( count = 1 ) & there 's 1 . true grit .
+OFFER ( title = the upside ) @ INFORM_COUNT ( count = 1 ) & i 'm showing 1 film available now , titled the upside . do you think you would like that movie ?
+CONFIRM ( title = the last dragon ; subtitles = true ) & please confirm : play the last dragon with subtitles
+GOODBYE ( none = none ) & have a great day .
+CONFIRM ( title = stockholm ; subtitles = false ) & please confirm the following : play movie stockholm without subtitles .
+NOTIFY_SUCCESS ( none = none ) & started playing the movie with subtitles . enjoy the same .
+GOODBYE ( none = none ) & enjoy your day .
+OFFER ( title = after, pillow talk, say anything ) @ INFORM_COUNT ( count = 5 ) & there 's 5 that you might like . how about after , pillow talk or say anything ?
+NOTIFY_SUCCESS ( none = none ) & movie is playing . enjoy the movie .
+OFFER_INTENT ( intent = playmovie ) & would you like to play the movie ?
+OFFER ( title = fighting with my family ) & how about fighting with my family ?
+REQ_MORE ( none = none ) & can i help with anything else ?
+NOTIFY_SUCCESS ( none = none ) & your movie has started playing .
+REQ_MORE ( none = none ) & anything else i can do .
+NOTIFY_SUCCESS ( none = none ) & started the movie
+GOODBYE ( none = none ) & of course . have a wonderful day .
+REQUEST ( genre = ? ) & sure , what kind of movie ?
+OFFER ( title = family, gloria bell, green book ) & how about family , or maybe gloria bell ? i 've heard good things about green book .
+NOTIFY_SUCCESS ( none = none ) & movie is played .
+CONFIRM ( title = stockholm ; subtitles = false ) & you want me to cast the movie stockholm without subtitles , correct ?
+REQUEST ( genre = ? ) & what kind of movies should i be looking for ?
+CONFIRM ( title = fighting with my family ; subtitles = false ) & please confirm , playing fighting with my family without subtitles .
+CONFIRM ( title = shine a light ; subtitles = false ) & please confirm ? play shine a light without subtitles .
+REQUEST ( genre = ? ) & what kind of movie would you like to watch ?
+INFORM ( directed_by = roxann dawson ) @ NOTIFY_SUCCESS ( none = none ) & movie is now playing ! roxann dawson is the director .
+OFFER ( title = body double, citizen kane ) @ INFORM_COUNT ( count = 2 ) & i have found 2 movies . would you like to watch body double or citizen kane ?
+INFORM ( genre = drama ; directed_by = eric khoo ) @ NOTIFY_SUCCESS ( none = none ) & the movie has started playing . it 's a drama movie directed by eric khoo
+OFFER_INTENT ( intent = playmovie ) & shall i play it ?
+CONFIRM ( title = the aftermath ; subtitles = false ) & okay ! please can you confirm me that you wish to play the movie the aftermath without any subtitles .
+OFFER ( title = after, pillow talk, say anything ) & how about after , pillow talk or say anything ?
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) & can you select your best option among the 3 movies found which are a madea family funeral , auntie mame or dr. strangelove ?
+CONFIRM ( title = true grit ; subtitles = false ) & can you please confirm that you want to watch true grit without subtitles ?
+GOODBYE ( none = none ) & have a good one !
+REQUEST ( genre = ? ) & is there a type of movie you prefer ?
+REQUEST ( title = ? ) & which movie was that ?
+REQUEST ( genre = ? ) & what genre would you prefer ?
+REQUEST ( genre = ? ) & sure , what type of movies do you like ?
+NOTIFY_SUCCESS ( none = none ) & the movie has started playing .
+REQUEST ( genre = ? ) & what type you thinking of ?
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) @ INFORM_COUNT ( count = 10 ) & i have 10 options you may be interested in . would you like to watch a madea family funeral , auntie mame or dr. strangelove ?
+REQUEST ( genre = ? ) & sure what kind of movie would you like to see ?
+REQ_MORE ( none = none ) & can i assist with anything else ?
+INFORM ( directed_by = cameron crowe ) @ NOTIFY_SUCCESS ( none = none ) & cameron crowe . its playing .
+OFFER ( title = dogman, hackers, high life ) @ INFORM_COUNT ( count = 10 ) & there are 10 movies . do you like dogman , hackers or high life ?
+OFFER ( title = viva las vegas ) & how does viva las vegas sound ?
+INFORM ( directed_by = george miller ) @ NOTIFY_SUCCESS ( none = none ) & your movie has started playing . it is directed by george miller .
+GOODBYE ( none = none ) & have a great day !
+REQ_MORE ( none = none ) & what else can i help with ?
+NOTIFY_SUCCESS ( none = none ) & started playing the movie .
+NOTIFY_SUCCESS ( none = none ) & i have begun your movie
+CONFIRM ( title = the visitor ; subtitles = true ) & please confirm to play the visitor with subtitles
+CONFIRM ( title = true grit ; subtitles = true ) & you want to play true grit with subtitles , correct ?
+OFFER ( title = breakthrough, jt leroy, searching for sugar man ) & what about breakthrough , jt leroy or searching for sugar man
+OFFER ( title = citizen kane ) @ INFORM_COUNT ( count = 1 ) & i found 1 that matches your request . its citizen kane .
+GOODBYE ( none = none ) & okay , have a nice day .
+GOODBYE ( none = none ) & have a lovely day .
+CONFIRM ( title = teen spirit ; subtitles = true ) & need your confirmation to play the movie teen spirit with subtitles .
+REQUEST ( genre = ? ) & what genre of movies do you like the most ?
+NOTIFY_SUCCESS ( none = none ) & the comedy film will begin in five minutes .
+NOTIFY_SUCCESS ( none = none ) & please start playing the movie .
+CONFIRM ( title = josie and the pussycats ; subtitles = false ) & playing josie and the pussycats without subtitles
+CONFIRM ( title = pillow talk ; subtitles = true ) & okay , please confirm : we 're playing pillow talk with the subtitles turned on .
+INFORM ( directed_by = ronald neame ) @ NOTIFY_SUCCESS ( none = none ) & playing now . directed by ronald neame .
+GOODBYE ( none = none ) & have a good time !
+CONFIRM ( title = pillow talk ; subtitles = false ) & please play pillow talk without subtitles
+OFFER ( title = little woods, mary magdalene, ramen shop ) & how about little woods , mary magdalene or ramen shop ?
+REQUEST ( genre = ? ) & what kind of movies do you prefer ?
+GOODBYE ( none = none ) & have a great day .
+NOTIFY_SUCCESS ( none = none ) & started playing the movie .
+OFFER ( title = the best of enemies ) @ INFORM_COUNT ( count = 1 ) & i 've found 1 movie you might just like . what about watching the best of enemies ?
+NOTIFY_SUCCESS ( none = none ) & your movie has started playing .
+GOODBYE ( none = none ) & have a wonderful day !
+REQUEST ( genre = ? ) & do you have any particular kind of movies in your mind ?
+CONFIRM ( title = the man who knew too much ; subtitles = false ) & you would like to see the man who knew too much without subtitles ?
+NOTIFY_SUCCESS ( none = none ) & movie started .
+INFORM ( directed_by = michael gordon ) & michael gordon directed it .
+NOTIFY_SUCCESS ( none = none ) & playing movie
+OFFER ( title = breakthrough, jt leroy, searching for sugar man ) & may i suggest breakthrough , jt leroy or searching for sugar man ?
+INFORM ( directed_by = morton dacosta ) @ NOTIFY_SUCCESS ( none = none ) & the movie has started playing . the director is morton dacosta .
+NOTIFY_SUCCESS ( none = none ) & your movie will begin playing now .
+GOODBYE ( none = none ) & have a nice day
+OFFER_INTENT ( intent = playmovie ) & would you like to watch the movie ?
+REQ_MORE ( none = none ) & do you need any other help ?
+REQUEST ( genre = ? ) & what kind of movies would you like to see ?
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & the movie has failed playing . i think the uploader has deleted it . do you need help with anything else ?
+OFFER ( title = long shot ) & have you heard of long shot ?
+REQ_MORE ( none = none ) & you need help with anything else ?
+GOODBYE ( none = none ) & enjoy your movie , goodbye .
+OFFER_INTENT ( intent = playmovie ) & shall i play it for you now ?
+REQUEST ( genre = ? ) & what genres are you interested in ?
+OFFER ( title = josie and the pussycats ) @ INFORM_COUNT ( count = 1 ) & there is 1 movie : josie and the pussycats . you would like to see it ?
+GOODBYE ( none = none ) & okay , have a good day .
+OFFER_INTENT ( intent = playmovie ) & would you like to watch the movie ?
+REQ_MORE ( none = none ) & can i help you with anything else ?
+REQUEST ( genre = ? ) & what genre do you like ?
+NOTIFY_SUCCESS ( none = none ) & the movie is playing .
+OFFER ( title = body double, citizen kane ) @ INFORM_COUNT ( count = 2 ) & i have 2 movies you may like . how about body double or citizen kane ?
+CONFIRM ( title = viva las vegas ; subtitles = true ) & do you confirm viva las vegas with subtitles ?
+OFFER ( title = dumbo, hellboy, mad max: fury road ) & have you seen dumbo , hellboy or mad max : fury road . you may find these enjoyable .
+REQUEST ( genre = ? ) & what type of movie would you like ?
+REQ_MORE ( none = none ) & anything else ?
+CONFIRM ( title = dogman ; subtitles = false ) & please verify the following information : cast dogman with no subtitles .
+GOODBYE ( none = none ) & have a good day .
+REQUEST ( genre = ? ) & what category of movies do you want me search ?
+OFFER ( title = dogman, hackers, high life ) & there 's dogman , hackers , and high life .
+OFFER ( title = captain marvel ) & what about captain marvel .
+OFFER_INTENT ( intent = playmovie ) & do you want to play it ?
+REQ_MORE ( none = none ) & do you need something more ?
+NOTIFY_SUCCESS ( none = none ) & playing the movie now .
+NOTIFY_SUCCESS ( none = none ) & started playing the movie .
+REQ_MORE ( none = none ) & anything else i can do for you today ?
+NOTIFY_SUCCESS ( none = none ) & the movie is starting to play , enjoy !
+CONFIRM ( title = after ; subtitles = false ) & please confirm : play after without subtitles .
+NOTIFY_SUCCESS ( none = none ) & your favorite movie started playing . enjoy it !
+CONFIRM ( title = supa modo ; subtitles = true ) & supa modo with subtitles
+GOODBYE ( none = none ) & enjoy teen spirit .
+REQUEST ( genre = ? ) & what types of movies do you enjoy ?
+OFFER_INTENT ( intent = playmovie ) & do you want to watch the movie now ?
+CONFIRM ( title = dr. strangelove ; subtitles = true ) & you 'd like to watch dr. strangelove with subtitles .
+OFFER_INTENT ( intent = playmovie ) & would you like to play the movie ?
+NOTIFY_SUCCESS ( none = none ) & movie started playing .
+INFORM ( directed_by = anthony maras ) & anthony maras .
+NOTIFY_SUCCESS ( none = none ) & movie has now started .
+OFFER ( title = the last dragon ) @ INFORM_COUNT ( count = 1 ) & what about the last dragon , from 1 movie recommendation ?
+OFFER ( title = ash is purest white, blackmail - cinemix par chloe ) @ INFORM_COUNT ( count = 2 ) & there are 2 movies which you may like , how about ash is purest white or blackmail - cinemix par chloe ?
+OFFER ( title = hotel mumbai ) @ INFORM_COUNT ( count = 1 ) & there is 1 movie called hotel mumbai
+NOTIFY_SUCCESS ( none = none ) & the movie has started playing .
+REQUEST ( genre = ? ) & what kind of movies do you enjoy ?
+NOTIFY_SUCCESS ( none = none ) & the movie has started .
+OFFER_INTENT ( intent = playmovie ) & shall i start the movie ?
+REQUEST ( genre = ? ) & sure . what kind of movie would you like to watch ?
+NOTIFY_SUCCESS ( none = none ) & your movie is currently playing .
+GOODBYE ( none = none ) & great , have a lovely day
+REQ_MORE ( none = none ) & what else can i assist with ?
+OFFER ( title = long shot ) @ INFORM_COUNT ( count = 1 ) & there are 1 movies of your interest . what is your opinion about long shot ?
+REQUEST ( genre = ? ) & genre ?
+OFFER ( title = hotel mumbai, pet sematary ) & okay . maybe hotel mumbai or pet sematary ?
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+NOTIFY_SUCCESS ( none = none ) & the movie is starting .
+NOTIFY_SUCCESS ( none = none ) & i 've started the movie .
+OFFER ( title = breakthrough, jt leroy, searching for sugar man ) @ INFORM_COUNT ( count = 4 ) & there are 4 movies which you may like . would you like to see breakthrough , jt leroy or searching for sugar man ?
+OFFER ( title = long shot ) & how about long shot ?
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) @ INFORM_COUNT ( count = 10 ) & i 've found 10 movies you might be interested in . would you be interested in a madea family funeral ? or maybe you would like auntie mame or dr. strangelove ?
+GOODBYE ( none = none ) & have a wonderful day
+REQUEST ( genre = ? ) & do you know what kind of movie you would like to watch ?
+CONFIRM ( title = mary magdalene ; subtitles = true ) & just to confirm : you want to see mary magdalene with subtitles .
+GOODBYE ( none = none ) & enjoy your movies
+REQUEST ( genre = ? ) & what movie would you like ?
+OFFER ( title = suburban birds ) & how about suburban birds ?
+GOODBYE ( none = none ) & have a fantastic day .
+OFFER_INTENT ( intent = playmovie ) & would you like to play the movie ?
+CONFIRM ( title = dr. strangelove ; subtitles = true ) & please confirm : play dr. strangelove with subtitles .
+NOTIFY_SUCCESS ( none = none ) & your movie has started playing .
+REQ_MORE ( none = none ) & what else can i help ?
+OFFER ( title = the innocent ) & can be the innocent ?
+OFFER_INTENT ( intent = playmovie ) & would you like for the movie to start playing now ?
+CONFIRM ( title = mikey and nicky ; subtitles = false ) & mikey and nicky
+NOTIFY_SUCCESS ( none = none ) & the movie is now playing .
+REQUEST ( genre = ? ) & sure , what kind of movie ?
+GOODBYE ( none = none ) & have a great day .
+OFFER_INTENT ( intent = playmovie ) & would you like to to play this movie
+OFFER_INTENT ( intent = playmovie ) & are you like me to play the movie ?
+INFORM ( directed_by = max minghella ) @ NOTIFY_SUCCESS ( none = none ) & teen spirit , directed by max minghella , is now playing .
+CONFIRM ( title = high life ; subtitles = false ) & can you please confirm that you want to start watching the movie high life without subtitles ?
+NOTIFY_SUCCESS ( none = none ) & the movie has started playing .
+GOODBYE ( none = none ) & have a great day .
+NOTIFY_FAILURE ( none = none ) @ REQ_MORE ( none = none ) & i could n't find any other movies matching your search . what else can i help you with ?
+CONFIRM ( title = the upside ; subtitles = false ) & to watch the movie just confirm this : play the upside with no subtitles .
+OFFER ( title = after, pillow talk, say anything ) & how about after , pillow talk , or say anything ?
+OFFER ( title = after, pillow talk, say anything ) @ INFORM_COUNT ( count = 5 ) & i found 5 movies you may like . would you like after , pillow talk , or say anything ?
+OFFER ( title = the aftermath ) & what do you think of the aftermath ?
+OFFER ( title = stockholm ) & how about stockholm ?
+CONFIRM ( title = ramen shop ; subtitles = true ) & please confirm the following details : ramen shop with subtitles
+REQ_MORE ( none = none ) & any thing else ?
+GOODBYE ( none = none ) & have a great day .
+REQUEST ( genre = ? ) & what type of movie ?
+INFORM ( directed_by = neil marshall ) @ NOTIFY_SUCCESS ( none = none ) & the movie will play momentarily . neil marshall is the director .
+NOTIFY_SUCCESS ( none = none ) & the movie has started .
+REQUEST ( genre = ? ) & any specific preferences ?
+REQUEST ( genre = ? ) & what kind of movie do you prefer ?
+CONFIRM ( title = high life ; subtitles = true ) & you want to watch high life with subtitles , is that correct ?
+REQUEST ( genre = ? ) & what kind of movies are you in the mood for today ?
+CONFIRM ( title = the last dragon ; subtitles = false ) & plaiyng the last dragon without subtitles : do you confirm ?
+REQUEST ( genre = ? ) & sure , what kinds of movies do you like ?
+CONFIRM ( title = long shot ; subtitles = true ) & ok playing long shot with subtitles
+NOTIFY_SUCCESS ( none = none ) & the movie has began playing .
+OFFER ( title = after ) @ INFORM_COUNT ( count = 1 ) & there is 1 movie you may like it is called after
+REQ_MORE ( none = none ) & is there something else i can help you with ?
+REQ_MORE ( none = none ) & is there anything else i can do ?
+NOTIFY_SUCCESS ( none = none ) & the movie starts !
+CONFIRM ( title = dogman ; subtitles = false ) & okay , playing dogman , without subtitles . is this correct ?
+INFORM ( directed_by = garth davis ) @ NOTIFY_SUCCESS ( none = none ) & garth davis .
+INFORM ( directed_by = neil marshall ) @ NOTIFY_SUCCESS ( none = none ) & your movie is now playing . hellboy is directed by neil marshall .
+NOTIFY_SUCCESS ( none = none ) & the movie is starting now .
+NOTIFY_SUCCESS ( none = none ) & i 've started playing the movie you asked for .
+REQUEST ( title = ? ) & what movie ?
+OFFER ( title = after, pillow talk, say anything ) @ INFORM_COUNT ( count = 5 ) & i found 5 movies you may like . would you like to watch after , pillow talk , or say anything ?
+CONFIRM ( title = ash is purest white ; subtitles = false ) & please confirm ash is purest white without subtitles .
+REQ_MORE ( none = none ) & what can i help with ?
+OFFER ( title = missing link ) @ INFORM_COUNT ( count = 1 ) & i have 1 movie to suggest . how about missing link ?
+INFORM ( directed_by = jenny gage ) @ NOTIFY_SUCCESS ( none = none ) & playing now . jenny gage directed .
+NOTIFY_SUCCESS ( none = none ) & movie started playing now and enjoy the same .
+OFFER ( title = how to train your dragon: the hidden world ) & there 's how to train your dragon : the hidden world .
+OFFER ( title = hackers ) & how does hackers sound ?
+INFORM ( genre = comedy ; directed_by = robert budreau ) @ NOTIFY_SUCCESS ( none = none ) & okay , i 'll start the movie . it 's a comedy , directed by robert budreau .
+CONFIRM ( title = ash is purest white ; subtitles = true ) & please confirm : playing ash is purest white with subtitles .
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) & some options would be a madea family funeral , auntie mame , or dr. strangelove .
+REQ_MORE ( none = none ) & is there anything else you need ?
+CONFIRM ( title = true grit ; subtitles = false ) & can you confirm you 'd like me to play true grit without subtitles ?
+REQUEST ( genre = ? ) & what type of movie do you want to see ?
+CONFIRM ( title = josie and the pussycats ; subtitles = true ) & confirming playback with subtitles of josie and the pussycats .
+REQUEST ( genre = ? ) & what movies then ?
+OFFER ( title = family ) @ INFORM_COUNT ( count = 1 ) & i found 1 movie , family .
+OFFER_INTENT ( intent = playmovie ) & do you want to watch the movie now ?
+OFFER ( title = say anything ) & how about the movie say anything ?
+OFFER ( title = stockholm ) @ INFORM_COUNT ( count = 1 ) & there is 1 movie directed by rovert budreau called stockholm
+CONFIRM ( title = high life ; subtitles = true ) & please confirm the details : playing of high life with subtitles .
+OFFER_INTENT ( intent = playmovie ) & do you want to start the movie
+CONFIRM ( title = dr. strangelove ; subtitles = false ) & please confirm that you would like to see dr. strangelove without subtitles .
+OFFER_INTENT ( intent = playmovie ) & shall i start it for you ?
+GOODBYE ( none = none ) & have yourself a wonderful day .
+REQ_MORE ( none = none ) & is there anything else i can do for you ?
+GOODBYE ( none = none ) & have a good day .
+INFORM ( directed_by = claire denis ) @ NOTIFY_SUCCESS ( none = none ) & i have started playing high life with subtitles , and it was directed by claire denis .
+OFFER ( title = the curse of la llorona ) @ INFORM_COUNT ( count = 1 ) & i found 1 movie for you , it is the curse of la llorona .
+CONFIRM ( title = supa modo ; subtitles = false ) & supa modo is fine
+REQUEST ( genre = ? ) & genre .
+INFORM ( directed_by = michael schultz ) & michael schultz is the director .
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) & how about a madea family funeral , auntie mame , or dr. strangelove .
+OFFER ( title = little woods, mary magdalene, ramen shop ) & i found little woods , mary magdalene and ramen shop .
+REQUEST ( genre = ? ) & well , first , do you know what movie genre you want ?
+CONFIRM ( title = dr. strangelove ; subtitles = true ) & just double checking , you 'd like me to play dr. strangelove with subtitles ?
+GOODBYE ( none = none ) & enjoy the movie !
+REQ_MORE ( none = none ) & is there anything else that you would like me to help you with ?
+CONFIRM ( title = dr. strangelove ; subtitles = false ) & you want to play dr. strangelove with the subtitles turned off . is that right ?
+GOODBYE ( none = none ) & you 're welcome . enjoy the movie .
+CONFIRM ( title = breakthrough ; subtitles = true ) & so you 'd like to watch breakthrough with subtitles ?
+OFFER ( title = ramen shop ) @ INFORM_COUNT ( count = 1 ) & there is only 1 . it 's ramen shop .
+OFFER ( title = little woods ) & do you like little woods ?
+CONFIRM ( title = josie and the pussycats ; subtitles = false ) & please confirm playing josie and the pussycats without subtitles .
+REQUEST ( genre = ? ) & what movies do you prefer ?
+NOTIFY_SUCCESS ( none = none ) & ok movie is playing now
+NOTIFY_SUCCESS ( none = none ) & the movie has begun .
+GOODBYE ( none = none ) & have a nice day .
+CONFIRM ( title = suburban birds ; subtitles = true ) & confirming , playing suburban birds with subtitles .
+REQUEST ( genre = ? ) & what kind would you like ?
+INFORM ( directed_by = garth davis ) & yes , the director is garth davis . is that enough .
+REQ_MORE ( none = none ) & how else can i help ?
+GOODBYE ( none = none ) & okay , enjoy the movie .
+OFFER_INTENT ( intent = playmovie ) & play the movie ?
+REQUEST ( genre = ? ) & what type of movie you want ?
+GOODBYE ( none = none ) & thank you very much .
+REQ_MORE ( none = none ) & is there anything else i can help you with ?
+CONFIRM ( title = supa modo ; subtitles = false ) & supa modo with no subtitles
+REQUEST ( genre = ? ) & what movies do you love ?
+NOTIFY_SUCCESS ( none = none ) & no problem , i 've put it on for you
+REQUEST ( title = ? ) & what movie would you like to watch ?
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) @ INFORM_COUNT ( count = 10 ) & i have found 10 , there is a madea family funeral or auntie mame or dr. strangelove ?
+REQUEST ( genre = ? ) & which genre ?
+CONFIRM ( title = blackmail - cinemix par chloe ; subtitles = false ) & alright , you 'd like to play blackmail - cinemix par chloe without subtitles ?
+REQUEST ( genre = ? ) & what genre movie ?
+CONFIRM ( title = fighting with my family ; subtitles = true ) & ok , i 'll put on fighting with my family with subtitles .
+GOODBYE ( none = none ) & my pleasure . have a good day .
+OFFER ( title = dogman, hackers, high life ) @ INFORM_COUNT ( count = 10 ) & from 10 movie recommendations , are you interested in watching dogman , hackers , or high life ?
+REQUEST ( title = ? ) & could you tell me which movie you want to see ?
+GOODBYE ( none = none ) & enjoy your day .
+GOODBYE ( none = none ) & no worries , have a great day ahead !
+CONFIRM ( title = little ; subtitles = true ) & play little with subtitles . is it correct ?
+GOODBYE ( none = none ) & you 're welcome . have a nice night .
+INFORM ( directed_by = claire denis ) & certainly , claire denis is the director of the movie high life .
+GOODBYE ( none = none ) & alright , have a great day !
+REQ_MORE ( none = none ) & anything else you 'd like me to do ?
+REQUEST ( genre = ? ) & what genre shall i search ?
+REQUEST ( title = ? ) & what film do you wish to watch ?
+GOODBYE ( none = none ) & enjoy the day .
+OFFER_INTENT ( intent = playmovie ) & you would like to view the movie ?
+INFORM ( directed_by = anthony maras ) & the movie was directed by anthony maras .
+REQUEST ( title = ? ) & what movie would you like to see ?
+OFFER ( title = hotel mumbai ) & are you interested in hotel mumbai ?
+REQ_MORE ( none = none ) & is there anything else to help with ?
+NOTIFY_SUCCESS ( none = none ) & movie will start shortly
+REQUEST ( genre = ? ) & what genre would you like ?
+OFFER_INTENT ( intent = playmovie ) & shall i play it ?
+NOTIFY_SUCCESS ( none = none ) & they already started playing the movie .
+REQUEST ( genre = ? ) & what genre ?
+OFFER ( title = auntie mame ) @ INFORM_COUNT ( count = 1 ) & search revealed 1 movie . do you like auntie mame ?
+REQUEST ( genre = ? ) & what genre are you looking for ?
+GOODBYE ( none = none ) & have a great day .
+OFFER ( title = captain marvel, shazam!, the poseidon adventure ) & may i suggest captain marvel , shazam ! , or the poseidon adventure ?
+INFORM ( directed_by = george sidney ; genre = romance ) @ NOTIFY_SUCCESS ( none = none ) & the movie has started . it 's considered a romance movie and george sidney was the director .
+OFFER ( title = dumbo, hellboy, mad max: fury road ) @ INFORM_COUNT ( count = 4 ) & i 've found 4 movies that might interest you . what do you think about dumbo , hellboy , or mad max : fury road ?
+OFFER ( title = dumbo, hellboy, mad max: fury road ) @ INFORM_COUNT ( count = 4 ) & search yielded 4 results . dumbo , hellboy and mad max : fury road are available for viewing .
+CONFIRM ( title = the curse of la llorona ; subtitles = false ) & okay , you want to play the curse of la llorona without subtitles , right ?
+OFFER ( title = the upside ) @ INFORM_COUNT ( count = 1 ) & i found 1 nice movie . what do you think of the upside ?
+CONFIRM ( title = dogman ; subtitles = true ) & please confirm : play dogman with subtitles .
+OFFER ( title = dogman, hackers, high life ) @ INFORM_COUNT ( count = 10 ) & there are 10 movies you might like . do you want to watch dogman , hackers or high life ?
+CONFIRM ( title = wild nights with emily ; subtitles = false ) & please confirm to play wild nights with emily movie without subtitles .
+OFFER_INTENT ( intent = playmovie ) & do you want to start playing the movie now ?
+GOODBYE ( none = none ) & have a great day .
+OFFER ( title = little woods, mary magdalene, ramen shop ) & maybe you can watch little woods , mary magdalene or ramen shop ?
+OFFER ( title = dogman, hackers, high life ) & would you be interested in watching dogman , hackers or high life ?
+REQUEST ( genre = ? ) & is there a genre you prefer ?
+OFFER ( title = body double ) & would you like body double ?
+NOTIFY_SUCCESS ( none = none ) & you movie is playing . enjoy the movie .
+OFFER_INTENT ( intent = playmovie ) & should i play the movie ?
+OFFER ( title = dumbo ) & do you want to watch dumbo ?
+CONFIRM ( title = shine a light ; subtitles = false ) & you want to watch shine a light without subtitles ?
+NOTIFY_SUCCESS ( none = none ) & your movie starts now .
+REQUEST ( genre = ? ) & sure , what kind ?
+OFFER ( title = little ) @ INFORM_COUNT ( count = 1 ) & there is 1 film you may enjoy ; what do you think about little ?
+REQ_MORE ( none = none ) & is there anything else i do for you ?
+OFFER ( title = a madea family funeral, auntie mame, dr. strangelove ) & do you like any of the following : a madea family funeral , auntie mame or dr. strangelove ?
+GOODBYE ( none = none ) & have a wonderful day !
+GOODBYE ( none = none ) & take care have a great day
+CONFIRM ( title = transit ; subtitles = false ) & please confirm : you want me to play the movie transit without subtitles ?
+CONFIRM ( title = josie and the pussycats ; subtitles = true ) & please confirm that you want to watch josie and the pussycats with subtitles .
+NOTIFY_SUCCESS ( none = none ) & i started the movie .
+CONFIRM ( title = a madea family funeral ; subtitles = false ) & do you confirm that you want a madea family funeral to begin now with no subtitles ?
+NOTIFY_SUCCESS ( none = none ) & movie starting . enjoy !
+OFFER_INTENT ( intent = playmovie ) & do you want me to put it on ?
+CONFIRM ( title = little ; subtitles = false ) & shall i proceed to play little without subtitles sir ?
+CONFIRM ( title = blackmail - cinemix par chloe ; subtitles = false ) & okay , you want to play blackmail - cinemix par chloe without subtitles , correct ?
