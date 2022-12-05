@@ -5,7 +5,7 @@ This repository contains the data and code for the paper:
 > Findings of EMNLP 2022
 
 ![framework](img/framework.png)
-![data](img/data.png)
+<img src="img/data.png" alt="data" width="70%" align="center"/>
 
 ## Environment Setup
 1. Install and setup the environment:
